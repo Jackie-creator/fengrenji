@@ -22,7 +22,7 @@
 
 - ✅ **Milestone 1**：几何引擎核心（`geometry/core.py`）+ `CardHolder` 模板 + SVG 导出 + CLI + 单元测试
 - ✅ **Milestone 2**：`BifoldWallet` / `ZipperPouch` 模板 + DXF 导出（毫米单位，分图层）
-- ⬜ Milestone 3：Claude 视觉分析层
+- ✅ **Milestone 3**：视觉分析层（可插拔 `VisionAnalyzer` 接口 + Claude 适配器 + few-shot + 评测脚本）
 - ⬜ Milestone 4：FastAPI 端点 + React 前端
 - ⬜ Milestone 5：PDF 打印导出与打磨
 
@@ -43,6 +43,12 @@ python -m app.cli card_holder --slots 2 --leather 1.0 --seam 4 --stagger 14 \
 
 # 运行测试
 python -m pytest
+
+# 视觉分析（需要 ANTHROPIC_API_KEY，见 .env.example）
+python scripts/analyze_example.py photos/front.jpg photos/inside.jpg
+
+# 评测 prompt 效果（标注格式见 app/vision/examples/README.md）
+python scripts/evaluate.py path/to/labelled_dataset
 ```
 
 生成的 SVG 以 1mm = 1 SVG 单位绘制，含 10mm 网格背景与 50mm 比例尺；打印后请用尺校验比例尺长度。
@@ -73,8 +79,11 @@ backend/
 │   ├── cli.py                   # 命令行出图
 │   ├── geometry/core.py         # 通用几何：偏移、皮厚补偿、折边切角、打孔线
 │   ├── geometry/templates/      # card_holder / bifold_wallet / zipper_pouch / slot_stack(共用卡位组)
+│   ├── vision/                  # 视觉分析：schemas(Pydantic) / base(可插拔接口) / analyzer(Claude)
+│   │   └── examples/            # few-shot 示例目录（格式见其 README，兼作微调数据格式）
 │   ├── export/svg_export.py     # SVG 导出（网格 + 比例尺 + 标注）
 │   └── export/dxf_export.py     # DXF 导出（mm 单位，CUT/STITCH/MARK/TEXT 图层）
+├── scripts/                     # analyze_example.py(真实调用) / evaluate.py(评测)
 └── tests/                       # pytest，含手算对照注释
 ```
 
