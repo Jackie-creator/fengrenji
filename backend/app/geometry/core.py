@@ -61,6 +61,15 @@ BIFOLD_FOLD_COMPENSATION_FACTOR = 3.0
 #: margin; the slot is a stadium shape (rounded ends) of the width below.
 ZIPPER_SLOT_EXTRA_LENGTH_MM = 6.0
 ZIPPER_SLOT_WIDTH_MM = 4.0
+#: Distance between a zipper window's edge and the stitch line around it.
+ZIPPER_STITCH_MARGIN_MM = 2.5
+
+#: Default banknote reference (confirmed: euro; a 50 EUR note is 140x77 mm).
+#: Used to size the bifold bill compartment; configurable per pattern.
+DEFAULT_BILL_LENGTH_MM = 140.0
+DEFAULT_BILL_HEIGHT_MM = 77.0
+#: Clearance between the bill's top edge and the compartment mouth.
+BILL_TOP_CLEARANCE_MM = 5.0
 
 
 class EdgeFinish(str, Enum):
@@ -141,6 +150,20 @@ def rect_edge_line(outline: Polygon, edge: Edge) -> LineString:
     return lines[edge]
 
 
+def stadium_polygon(length_mm: float, width_mm: float,
+                    center: tuple[float, float] = (0.0, 0.0)) -> Polygon:
+    """Horizontal stadium (rectangle with semicircular ends), used for
+    zipper window slots. `length_mm` is the overall end-to-end length.
+    """
+    if length_mm <= width_mm:
+        raise ValueError("stadium length must exceed its width")
+    cx, cy = center
+    half_seg = (length_mm - width_mm) / 2.0
+    spine = LineString([(cx - half_seg, cy), (cx + half_seg, cy)])
+    # quad_segs=16 keeps the semicircular ends smooth enough for cutting.
+    return spine.buffer(width_mm / 2.0, quad_segs=16)
+
+
 def fold_corner_marks(cut_outline: Polygon, folded_edges: list[Edge],
                       fold_allowance_mm: float = FOLD_ALLOWANCE_MM) -> list[LineString]:
     """45-degree chamfer marks at corners of the folded zone.
@@ -208,6 +231,10 @@ class Piece:
     stitch_lines: list[LineString] = field(default_factory=list)
     punch_refs: list[PunchReference] = field(default_factory=list)
     fold_marks: list[LineString] = field(default_factory=list)
+    #: Interior holes to cut out (e.g. a zipper window).
+    cutouts: list[Polygon] = field(default_factory=list)
+    #: Non-cut reference lines (e.g. bifold fold lines), drawn dash-dot.
+    guide_lines: list[LineString] = field(default_factory=list)
     #: Grain (stretch) direction arrow, degrees CCW from +x. Leather should
     #: be cut so its stretch direction matches this arrow.
     grain_angle_deg: float = 90.0

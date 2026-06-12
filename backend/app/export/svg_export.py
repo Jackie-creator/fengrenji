@@ -22,6 +22,7 @@ FONT_MM = 3.2
 CUT_STYLE = 'fill="none" stroke="#111" stroke-width="0.4"'
 STITCH_STYLE = 'fill="none" stroke="#1565c0" stroke-width="0.3" stroke-dasharray="2.5 1.5"'
 FOLD_STYLE = 'fill="none" stroke="#e65100" stroke-width="0.3"'
+GUIDE_STYLE = 'fill="none" stroke="#9e9e9e" stroke-width="0.3" stroke-dasharray="5 2 1 2"'
 PUNCH_STYLE = 'fill="#1565c0"'
 GRAIN_STYLE = 'stroke="#2e7d32" stroke-width="0.35" fill="none"'
 
@@ -56,6 +57,10 @@ def _piece_svg(piece: Piece, ox: float, oy_bottom: float) -> list[str]:
     ty = oy_bottom - (-miny)  # local y=miny maps to svg oy_bottom
 
     out = [f'<polygon points="{_poly_points(piece.cut_outline, tx, ty)}" {CUT_STYLE}/>']
+    for cutout in piece.cutouts:
+        out.append(f'<polygon points="{_poly_points(cutout, tx, ty)}" {CUT_STYLE}/>')
+    for guide in piece.guide_lines:
+        out.append(f'<polyline points="{_line_points(guide, tx, ty)}" {GUIDE_STYLE}/>')
     for line in piece.stitch_lines:
         out.append(f'<polyline points="{_line_points(line, tx, ty)}" {STITCH_STYLE}/>')
     for ref in piece.punch_refs:
