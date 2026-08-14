@@ -1,0 +1,465 @@
+# Verbs: aspect pairs and motion verbs.
+#
+# Aspect and motion pairs are the two structural features of Russian that a
+# French/German/Spanish dictionary has no slot for, so they are modelled as
+# first-class fields rather than notes.
+
+- lemma: читать
+  stress: чита́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: прочитать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 312
+  senses:
+    - zh: 读，阅读
+      en: to read
+      government: что
+      collocations: [чита́ть кни́гу, чита́ть вслух, чита́ть про себя́]
+      examples:
+        - ru: Я чита́ю кни́гу.
+          zh: 我在读书。
+        - ru: Он ка́ждый день чита́ет газе́ты.
+          zh: 他每天读报。
+    - zh: 讲授，宣读
+      en: to deliver (a lecture)
+      collocations: [чита́ть ле́кцию, чита́ть докла́д]
+      examples:
+        - ru: Преподава́тель чита́ет ле́кцию.
+          zh: 老师在讲课。
+  aspect_note: |
+    未完成体，强调阅读这个过程或反复的行为，不含"读完"的意思。
+    «Я чита́л э́ту кни́гу» = 我读过这本书（不一定读完）。
+  word_family: [чита́тель, чте́ние, чита́льня]
+
+- lemma: прочитать
+  stress: прочита́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: читать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 读完，读一遍
+      en: to read through
+      examples:
+        - ru: Я прочита́л всю кни́гу за два дня.
+          zh: 我两天就把整本书读完了。
+  aspect_note: |
+    完成体，强调"读完"这个结果。前缀 про- 在这里表示动作贯穿到底。
+    对比：«чита́л кни́гу»（在读）→ «прочита́л кни́гу»（读完了）。
+
+- lemma: писать
+  stress: писа́ть
+  pos: verb
+  zaliznyak: нсв 6c
+  aspect: impf
+  aspect_pair: написать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 写
+      en: to write
+      collocations: [писа́ть письмо́, писа́ть ру́чкой, писа́ть на доске́]
+      examples:
+        - ru: Я пишу́ письмо́.
+          zh: 我在写信。
+        - ru: Он пи́шет о́чень краси́во.
+          zh: 他字写得很漂亮。
+    - zh: 画（油画）
+      en: to paint
+      collocations: [писа́ть карти́ну, писа́ть портре́т]
+      examples:
+        - ru: Худо́жник пи́шет портре́т.
+          zh: 画家在画肖像。
+  common_errors: |
+    变位时词干 с → ш，且重音在第一人称之后前移：
+    пишу́ / пи́шешь / пи́шет / пи́шем / пи́шете / пи́шут。
+    中国学生常把重音全程放在词尾，读成 пиши́шь，这是错的。
+  word_family: [писа́тель, письмо́, за́пись]
+
+- lemma: написать
+  stress: написа́ть
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  aspect_pair: писать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 写完，写好
+      en: to write (完成体)
+      examples:
+        - ru: Я написа́л ему́ письмо́.
+          zh: 我给他写了封信。
+
+- lemma: делать
+  stress: де́лать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: сделать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 88
+  senses:
+    - zh: 做，干
+      en: to do
+      collocations: [де́лать уро́ки, де́лать оши́бки, де́лать вы́вод]
+      examples:
+        - ru: Что ты де́лаешь?
+          zh: 你在做什么？
+        - ru: Он де́лает дома́шнее зада́ние.
+          zh: 他在做作业。
+    - zh: 制作，制造
+      en: to make
+      examples:
+        - ru: Э́ту ме́бель де́лают из де́рева.
+          zh: 这种家具是用木头做的。
+  common_errors: |
+    «Что ты де́лаешь?» 是问"你在做什么"，用未完成体。
+    如果用完成体问 «Что ты сде́лаешь?» 意思变成"你将要做完什么"，语感完全不同。
+
+- lemma: сделать
+  stress: сде́лать
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: делать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 做完，做成
+      en: to do (完成体)
+      examples:
+        - ru: Я сде́лал всё, что мог.
+          zh: 我尽了全力。
+
+- lemma: говорить
+  stress: говори́ть
+  pos: verb
+  zaliznyak: нсв 4b
+  aspect: impf
+  aspect_pair: сказать
+  transitivity: trans
+  government: что / кому / о чём
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 41
+  senses:
+    - zh: 说，讲，谈
+      en: to speak, to talk
+      collocations: [говори́ть пра́вду, говори́ть о поли́тике, говори́ть с дру́гом]
+      examples:
+        - ru: Не говори́ так гро́мко.
+          zh: 别说这么大声。
+        - ru: Мы до́лго говори́ли о рабо́те.
+          zh: 我们聊了很久工作的事。
+    - zh: 会说（某种语言）
+      en: to speak (a language)
+      collocations: [говори́ть по-ру́сски, говори́ть по-кита́йски]
+      examples:
+        - ru: Он хорошо́ говори́т по-ру́сски.
+          zh: 他俄语说得很好。
+  common_errors: |
+    表示"会说某种语言"必须用副词形式 говори́ть по-ру́сски，
+    不能说 говори́ть ру́сский язы́к。这是中国学生最高频的错误之一。
+    但"学俄语"要用名词：изуча́ть ру́сский язы́к。
+  aspect_note: |
+    говори́ть 的体对关系不对称：
+    表"说出某内容"时对应 сказа́ть；表"谈一会儿"时对应 поговори́ть。
+  word_family: [разгово́р, го́вор, говорли́вый]
+
+- lemma: сказать
+  stress: сказа́ть
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  aspect_pair: говорить
+  transitivity: trans
+  government: что / кому
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 33
+  senses:
+    - zh: 说（出某句话）
+      en: to say
+      examples:
+        - ru: Скажи́те, пожа́луйста, где метро́?
+          zh: 请问，地铁在哪儿？
+        - ru: Он сказа́л, что придёт за́втра.
+          zh: 他说他明天来。
+  aspect_note: |
+    сказа́ть 关注说出的具体内容，говори́ть 关注说话这个行为本身。
+    «Он говори́л о рабо́те» 他谈了工作（过程）；
+    «Он сказа́л, что уста́л» 他说他累了（内容）。
+  common_errors: |
+    变位是 скажу́ / ска́жешь（з → ж，且重音前移），不是 сказа́ю。
+
+- lemma: брать
+  stress: брать
+  pos: verb
+  zaliznyak: нсв 6°b
+  aspect: impf
+  aspect_pair: взять
+  transitivity: trans
+  government: кого-что
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 拿，取
+      en: to take
+      collocations: [брать кни́гу, брать такси́, брать в рука́х]
+      examples:
+        - ru: Он ка́ждый день берёт кни́ги в библиоте́ке.
+          zh: 他每天从图书馆借书。
+    - zh: 借（进来）
+      en: to borrow
+      examples:
+        - ru: Я беру́ э́ту кни́гу на неде́лю.
+          zh: 我把这本书借一周。
+  common_errors: |
+    现在时词干变成 бер-：беру́ / берёшь / берёт / берём / берёте / беру́т。
+    过去时阴性重音移到词尾：брал / брала́ / бра́ло / бра́ли。
+    这类"阴性过去时重音后移"的动词还有 взять, ждать, жить, пить, нача́ть，是重音难点。
+  verify: [zaliznyak]
+
+- lemma: взять
+  stress: взять
+  pos: verb
+  aspect: perf
+  aspect_pair: брать
+  transitivity: trans
+  government: кого-что
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: возьму́
+    futr,2per,sing: возьмёшь
+    futr,3per,sing: возьмёт
+    futr,1per,plur: возьмём
+    futr,2per,plur: возьмёте
+    futr,3per,plur: возьму́т
+    past,masc: взял
+    past,femn: взяла́
+    past,neut: взя́ло
+    past,plur: взя́ли
+    impr,sing: возьми́
+    impr,plur: возьми́те
+  senses:
+    - zh: 拿，取（完成体）
+      en: to take
+      examples:
+        - ru: Возьми́те, пожа́луйста, э́ту кни́гу.
+          zh: 请把这本书拿去。
+        - ru: Он взял меня́ за́ руку.
+          zh: 他拉住了我的手。
+  common_errors: |
+    взять 的将来时词干完全变了：возьм-。взять → возьму́，没有任何规律可推，必须硬记。
+    过去时阴性 взяла́ 重音在词尾，其余 взял / взя́ло / взя́ли 在词干。
+  notes: |
+    «взять за́ руку» 里前置词 за 把重音吸走，рука 读作无重音。
+    这类重音转移的固定搭配还有 за́ руку, за́ ногу, на́ пол, по́ два。
+
+- lemma: покупать
+  stress: покупа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: купить
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 买（经常、反复）
+      en: to buy
+      examples:
+        - ru: Я обы́чно покупа́ю хлеб в э́том магази́не.
+          zh: 我通常在这家店买面包。
+
+- lemma: купить
+  stress: купи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: покупать
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 买（买到了）
+      en: to buy
+      examples:
+        - ru: Я купи́л но́вый телефо́н.
+          zh: 我买了个新手机。
+  common_errors: |
+    第一人称单数有 л 插入音：куплю́，不是 купю́。
+    同类唇音结尾动词都要加 л：люби́ть → люблю́，гото́вить → гото́влю，спать → сплю。
+    其余人称没有 л：ку́пишь / ку́пит / ку́пим / ку́пите / ку́пят。
+
+# --- Motion verbs -----------------------------------------------------------
+# Chinese has one verb "去" where Russian forces three distinctions at once:
+# direction (uni/multi), aspect, and mode of transport (on foot / by vehicle).
+
+- lemma: идти
+  stress: идти́
+  pos: verb
+  aspect: impf
+  transitivity: intrans
+  motion_group: uni
+  motion_partner: ходить
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 60
+  form_overrides:
+    past,masc: шёл
+    past,femn: шла
+    past,neut: шло
+    past,plur: шли
+  senses:
+    - zh: 走，去（步行，此刻朝一个方向）
+      en: to go (on foot, one direction)
+      examples:
+        - ru: Я иду́ в шко́лу.
+          zh: 我正在去学校（路上）。
+    - zh: （雨、雪）下
+      en: to fall (of rain or snow)
+      collocations: [идёт дождь, идёт снег]
+      examples:
+        - ru: Идёт дождь.
+          zh: 在下雨。
+    - zh: （时间）流逝
+      en: to pass (of time)
+      examples:
+        - ru: Вре́мя идёт бы́стро.
+          zh: 时间过得很快。
+    - zh: 适合，合适
+      en: to suit
+      government: кому
+      examples:
+        - ru: Э́то пла́тье вам идёт.
+          zh: 这条裙子很适合您。
+    - zh: （电影、戏）上演
+      en: to be showing
+      examples:
+        - ru: В кинотеа́тре идёт но́вый фильм.
+          zh: 电影院在放一部新片。
+  common_errors: |
+    过去时是补充形式 шёл / шла / шло / шли，与不定式 идти́ 毫无相似之处，必须单独记。
+    阳性 шёл 带 ё，阴性 шла 没有元音可标重音。
+  notes: |
+    идти́ 只用于步行。乘车、坐火车、坐飞机要用 е́хать / лете́ть。
+    汉语一个"去"字对应俄语一整套区分，这是运动动词难学的根本原因。
+
+- lemma: ходить
+  stress: ходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  motion_group: multi
+  motion_partner: идти
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: （经常地、来回地）走，去
+      en: to go (on foot, repeatedly)
+      examples:
+        - ru: Я хожу́ в шко́лу ка́ждый день.
+          zh: 我每天上学。
+    - zh: 会走路
+      en: to be able to walk
+      examples:
+        - ru: Ребёнок уже́ хо́дит.
+          zh: 孩子已经会走路了。
+    - zh: （车）行驶，运行
+      en: to run (of transport)
+      examples:
+        - ru: Э́тот авто́бус хо́дит ка́ждые де́сять мину́т.
+          zh: 这路公交车每十分钟一班。
+  common_errors: |
+    第一人称单数 д → ж：хожу́，不是 ходю́。其余人称保持 д：хо́дишь / хо́дит / хо́дят。
+  notes: |
+    идти́ 与ходи́ть 的分工是运动动词的核心：
+    «Я иду́ в кино́» = 我此刻正在去电影院的路上；
+    «Я хожу́ в кино́» = 我（经常）去看电影。
+    另外"去过一趟并回来了"用 ходи́ть 的过去时：«Вчера́ я ходи́л в кино́» 我昨天去看了场电影（并且回来了）。
+
+- lemma: пойти
+  stress: пойти́
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  motion_group: prefixed
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    past,masc: пошёл
+    past,femn: пошла́
+    past,neut: пошло́
+    past,plur: пошли́
+  senses:
+    - zh: 出发去，动身走（步行）
+      en: to set off (on foot)
+      examples:
+        - ru: По́сле уро́ка он пошёл домо́й.
+          zh: 下课后他回家了。
+    - zh: 咱们走吧（第一人称复数用法）
+      en: let's go
+      collocations: [пойдём, пойдёмте]
+      examples:
+        - ru: Пойдём в кино́!
+          zh: 咱们去看电影吧！
+  notes: |
+    пойти́ 是 идти́ 加前缀 по- 的完成体，强调"动身、出发"这个起点。
+    «пойдём / пойдёмте» 是日常最常用的"走吧"，形式上是将来时，功能上是祈使。
+
+- lemma: ехать
+  stress: е́хать
+  pos: verb
+  aspect: impf
+  transitivity: intrans
+  motion_group: uni
+  motion_partner: ездить
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: е́ду
+    pres,2per,sing: е́дешь
+    pres,3per,sing: е́дет
+    pres,1per,plur: е́дем
+    pres,2per,plur: е́дете
+    pres,3per,plur: е́дут
+    impr,sing: поезжа́й
+    impr,plur: поезжа́йте
+  senses:
+    - zh: （乘交通工具）去，行驶（此刻朝一个方向）
+      en: to go (by vehicle, one direction)
+      examples:
+        - ru: Мы е́дем в Москву́.
+          zh: 我们正去莫斯科。
+        - ru: По́езд е́дет о́чень бы́стро.
+          zh: 火车开得很快。
+  common_errors: |
+    命令式不是 «е́хай»，而是补充形式 поезжа́й / поезжа́йте。
+    这是俄语里极少见的命令式补充形式，考试常考，口语也常错。
+
+- lemma: ездить
+  stress: е́здить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: intrans
+  motion_group: multi
+  motion_partner: ехать
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: （经常地、来回地）乘车去
+      en: to go (by vehicle, repeatedly)
+      examples:
+        - ru: Ка́ждое ле́то мы е́здим на мо́ре.
+          zh: 每年夏天我们都去海边。
+  common_errors: |
+    第一人称单数 д → зж：е́зжу，不是 е́здю。
+  verify: [zaliznyak]

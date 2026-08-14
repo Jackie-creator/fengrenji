@@ -1,0 +1,175 @@
+# Homonyms and lemmatisation ambiguity.
+#
+# These entries exist to pin down the hardest case in Russian lookup: a surface
+# form that legitimately resolves to more than one lemma. The UI must show all
+# candidates rather than silently picking one, so the data has to distinguish
+# them (homonym_id) even when the spelling is identical.
+
+- lemma: язык
+  stress: язы́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 语言
+      en: language
+      collocations: [ру́сский язы́к, родно́й язы́к, иностра́нный язы́к]
+      examples:
+        - ru: Он зна́ет три языка́.
+          zh: 他会三种语言。
+    - zh: 舌头
+      en: tongue
+      examples:
+        - ru: Покажи́те язы́к.
+          zh: 把舌头伸出来（看一下）。
+    - zh: 语言风格，文笔
+      en: style
+      labels: [книжн.]
+      examples:
+        - ru: У э́того писа́теля прекра́сный язы́к.
+          zh: 这位作家文笔极好。
+  common_errors: |
+    数词后的形式是高频考点：
+    2–4 之后用单数第二格 языка́（три языка́）；
+    5 及以上用复数第二格 языко́в（пять языко́в）。
+  notes: |
+    "语言"和"舌头"在俄语里是同一个词，这一点与汉语一致（汉语"舌"也可指语言），
+    但与英语 language / tongue 的分工不同。
+
+- lemma: мир
+  stress: мир
+  pos: noun
+  homonym_id: 1
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 世界
+      en: world
+      collocations: [весь мир, во всём ми́ре, живо́тный мир]
+      examples:
+        - ru: Э́то са́мый большо́й го́род в ми́ре.
+          zh: 这是世界上最大的城市。
+  notes: |
+    "世界"义有复数 миры́（星球、世界们），"和平"义没有复数。
+  common_errors: |
+    与 мир² （和平）同形，查词时必须同时给出两个候选。
+    革命前的正字法里两者写法不同：міръ（世界）／ миръ（和平）。
+    托尔斯泰《Война́ и мир》书名里的 мир 指的是"和平"。
+
+- lemma: мир
+  stress: мир
+  pos: noun
+  homonym_id: 2
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 和平
+      en: peace
+      collocations: [борьба́ за мир, жить в ми́ре]
+      examples:
+        - ru: Все лю́ди хотя́т ми́ра.
+          zh: 所有人都想要和平。
+  antonyms: [война]
+
+- lemma: свет
+  stress: свет
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    sing,loc2: свету́
+  senses:
+    - zh: 光，光线；灯光
+      en: light
+      collocations: [со́лнечный свет, включи́ть свет, при све́те]
+      examples:
+        - ru: Включи́те, пожа́луйста, свет.
+          zh: 请把灯打开。
+    - zh: 世界，天下
+      en: world
+      labels: [устар.]
+      collocations: [путеше́ствие вокру́г све́та]
+      examples:
+        - ru: Он объе́хал весь свет.
+          zh: 他走遍了全世界。
+  notes: |
+    有第二前置格（处所格）на свету́ / при свету́，与常规前置格 о све́те 并存，
+    重音也不同。这类词还有 лес（в лесу́）、сад（в саду́）、год（в году́）、
+    бе́рег（на берегу́）。
+    规律：表示"在……里／上"这种地点意义时用处所格，重音在词尾；
+    表示"关于……"时用常规前置格，重音在词干。
+  verify: [form_overrides]
+
+- lemma: стать
+  stress: стать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: кем-чем
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: ста́ну
+    futr,2per,sing: ста́нешь
+    futr,3per,sing: ста́нет
+    futr,1per,plur: ста́нем
+    futr,2per,plur: ста́нете
+    futr,3per,plur: ста́нут
+    past,masc: стал
+    past,femn: ста́ла
+    past,neut: ста́ло
+    past,plur: ста́ли
+  senses:
+    - zh: 成为（后接第五格）
+      en: to become
+      government: кем-чем
+      examples:
+        - ru: Он стал врачо́м.
+          zh: 他当了医生。
+        - ru: Ста́ло хо́лодно.
+          zh: 天冷起来了。
+    - zh: 开始（后接未完成体不定式）
+      en: to begin
+      examples:
+        - ru: Он стал изуча́ть ру́сский язы́к.
+          zh: 他开始学俄语了。
+    - zh: 站住，停下
+      en: to stop, to come to a stand
+      examples:
+        - ru: Часы́ ста́ли.
+          zh: 表停了。
+  common_errors: |
+    "成为……"后面必须接第五格：стал врачо́м，不能说 стал врач。
+    这是汉语学习者的高频错误，因为汉语"成为医生"没有格标记。
+    同样支配第五格的还有 быть（过去／将来时）、рабо́тать、явля́ться。
+  notes: |
+    过去时复数 ста́ли 与名词 сталь（钢）的单数第二格 ста́ли 完全同形。
+    词形还原必须同时返回两个候选，这是俄语查词歧义的教科书例子：
+    «Ста́ли твёрдые» 可以理解成"（那些）钢很硬"，
+    «Они́ ста́ли рабо́тать» 则是"他们开始工作了"。
+
+- lemma: сталь
+  stress: сталь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 钢，钢材
+      en: steel
+      collocations: [нержаве́ющая сталь, лить сталь]
+      examples:
+        - ru: Э́тот нож сде́лан из ста́ли.
+          zh: 这把刀是钢做的。
+  notes: |
+    单数第二格／第三格／第六格都是 ста́ли，与动词 стать 的过去时复数 ста́ли 同形。
+    参见 стать 的说明。

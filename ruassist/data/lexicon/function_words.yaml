@@ -1,0 +1,282 @@
+# Closed classes: pronouns, numerals, prepositions.
+#
+# These have small, fully suppletive paradigms, so every form is listed by hand
+# -- there is no productive pattern for a generator to apply. They are also
+# where the highest-frequency learner errors live, so the notes carry more
+# weight here than the glosses do.
+
+- lemma: я
+  stress: я
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 4
+  form_overrides:
+    sing,nomn: я
+    sing,gent: меня́
+    sing,datv: мне
+    sing,accs: меня́
+    sing,ablt: мной
+    sing,loct: мне
+  senses:
+    - zh: 我
+      en: I
+      examples:
+        - ru: Я студе́нт.
+          zh: 我是学生。
+        - ru: У меня́ есть вопро́с.
+          zh: 我有个问题。
+  common_errors: |
+    第二格和第四格同形，都是 меня́。
+    表示"我有"用 «У меня́ есть…»（前置词 у + 第二格），
+    不能照汉语语序说 «Я име́ю…»，那是生硬的书面说法。
+    第六格必须与前置词连用，且加 о 变成 обо мне́（不是 о мне́）。
+  notes: |
+    第五格有两个形式：мной（常用）和 мно́ю（书面、诗歌）。
+
+- lemma: он
+  stress: он
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 3
+  form_overrides:
+    sing,nomn: он
+    sing,gent: его́
+    sing,datv: ему́
+    sing,accs: его́
+    sing,ablt: им
+    sing,loct: нём
+  senses:
+    - zh: 他；它（指阳性名词）
+      en: he, it
+      examples:
+        - ru: Я его́ хорошо́ зна́ю.
+          zh: 我很了解他。
+        - ru: У него́ есть маши́на.
+          zh: 他有辆车。
+  common_errors: |
+    与前置词连用时前面要加 н-：
+    у него́ / к нему́ / с ним / о нём / для него́。
+    说 «у его́» 是初学者最高频的错误之一。
+    注意 его́ 作物主代词"他的"时不加 н-：«его́ маши́на» 他的车，
+    «у его́ бра́та» 在他哥哥那里（这里 его́ 是"他的"，所以不加 н-）。
+  notes: |
+    俄语第三人称代词按名词的语法性选择，不按生物性别：
+    стол（桌子，阳性）要用 он 指代，кни́га（书，阴性）要用 она́。
+    汉语的"它"没有性的区分，这是需要专门适应的地方。
+
+- lemma: кто
+  stress: кто
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: кто
+    sing,gent: кого́
+    sing,datv: кому́
+    sing,accs: кого́
+    sing,ablt: кем
+    sing,loct: ком
+  senses:
+    - zh: 谁
+      en: who
+      examples:
+        - ru: Кто э́то?
+          zh: 这是谁？
+        - ru: С кем ты говори́л?
+          zh: 你跟谁说话了？
+  common_errors: |
+    кто 作主语时谓语一律用阳性单数，即使明知说的是女性：
+    «Кто пришёл?»（谁来了）不能说 «Кто пришла́?»。
+  notes: |
+    кого́ / кому́ 里的 г 读作 [в]：[каво́] / [каму́]。
+    这个"г 读 в"的规则适用于所有 -ого / -его 结尾的形式，
+    包括形容词第二格 но́вого [но́вава]。
+
+- lemma: что
+  stress: что
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 6
+  form_overrides:
+    sing,nomn: что
+    sing,gent: чего́
+    sing,datv: чему́
+    sing,accs: что
+    sing,ablt: чем
+    sing,loct: чём
+  senses:
+    - zh: 什么
+      en: what
+      examples:
+        - ru: Что ты де́лаешь?
+          zh: 你在做什么？
+    - zh: 引导从句的连接词
+      en: that
+      examples:
+        - ru: Он сказа́л, что придёт.
+          zh: 他说他会来。
+  common_errors: |
+    что 是非动物名词性代词，第一格和第四格同形（都是 что）。
+    这与 кто（кто / кого́ 不同形）形成对照，正是动物性影响第四格的体现。
+  notes: |
+    что 本身读作 [што]，чего́ 读作 [чиво́]，都是不规则读音，必须单独记。
+
+- lemma: один
+  stress: оди́н
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: оди́н
+    sing,femn,nomn: одна́
+    sing,neut,nomn: одно́
+    plur,nomn: одни́
+    sing,masc,gent: одного́
+    sing,masc,datv: одному́
+    sing,masc,ablt: одни́м
+    sing,masc,loct: одно́м
+  senses:
+    - zh: 一，一个
+      en: one
+      examples:
+        - ru: У меня́ то́лько оди́н вопро́с.
+          zh: 我只有一个问题。
+    - zh: 单独的，唯一的
+      en: alone, only
+      examples:
+        - ru: Он живёт оди́н.
+          zh: 他一个人住。
+  common_errors: |
+    "一"要和名词在性、数、格上一致，像形容词一样变化：
+    оди́н стол / одна́ кни́га / одно́ окно́。
+    这一点与 2 以上的数词完全不同，不能类推。
+  notes: |
+    复数 одни́ 表示"仅有、只有"：«В ко́мнате бы́ли одни́ де́ти» 屋里只有孩子。
+
+- lemma: два
+  stress: два
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: два
+    plur,femn,nomn: две
+    plur,gent: двух
+    plur,datv: двум
+    plur,ablt: двумя́
+    plur,loct: двух
+  senses:
+    - zh: 二，两个
+      en: two
+      examples:
+        - ru: У меня́ два бра́та.
+          zh: 我有两个哥哥。
+        - ru: Я купи́л две кни́ги.
+          zh: 我买了两本书。
+  common_errors: |
+    这是俄语数词最重要的规则，也是中国学生最容易错的地方：
+    2、3、4 之后，名词用单数第二格——два стола́ / две кни́ги / три окна́；
+    5 及以上，名词用复数第二格——пять столо́в / де́сять книг。
+    另外 2 要区分性：阳性和中性用 два，阴性用 две。3 和 4 不区分性。
+  notes: |
+    数词本身也要变格：«с двумя́ друзья́ми» 和两个朋友一起。
+    以 1 结尾的数词（21、31…）后面用单数第一格：два́дцать оди́н стол。
+    以 2、3、4 结尾的用单数第二格：два́дцать два стола́。
+
+- lemma: в
+  stress: в
+  pos: prep
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 1
+  senses:
+    - zh: 到……里（接第四格，表方向）
+      en: into, to
+      government: что
+      examples:
+        - ru: Я иду́ в шко́лу.
+          zh: 我去学校。
+    - zh: 在……里（接第六格，表地点）
+      en: in, at
+      government: чём
+      examples:
+        - ru: Я учу́сь в шко́ле.
+          zh: 我在学校上学。
+  common_errors: |
+    в + 第四格 = 朝里去（回答 куда́ 去哪儿）；
+    в + 第六格 = 在里面（回答 где 在哪儿）。
+    «иду́ в шко́лу» 去学校 / «учу́сь в шко́ле» 在学校学习——
+    这一组对立是俄语格系统的核心，必须成对记忆。
+    汉语"在学校"和"去学校"靠动词区分，俄语靠格区分。
+  notes: |
+    在辅音丛前变成 во：во Фра́нции, во вто́рник, во мне。
+
+- lemma: на
+  stress: на
+  pos: prep
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 到……上（接第四格，表方向）
+      en: onto, to
+      government: что
+      examples:
+        - ru: Положи́ кни́гу на стол.
+          zh: 把书放到桌上。
+    - zh: 在……上（接第六格，表地点）
+      en: on, at
+      government: чём
+      examples:
+        - ru: Кни́га лежи́т на столе́.
+          zh: 书在桌上。
+  common_errors: |
+    在"去哪儿／在哪儿"这组意义上，на 和 в 的分工需要逐词记忆，没有完全可推导的规则：
+    в шко́ле / в теа́тре / в магази́не，但 на заво́де / на по́чте / на уро́ке /
+    на вокза́ле / на Украи́не。
+    大致倾向是：封闭空间用 в，表面、开放空间、活动场所用 на。
+    但 на по́чте（在邮局）这类只能硬记。
+  notes: |
+    与 в 完全平行的第四格／第六格对立：
+    «на стол»（放到桌上）／«на столе́»（在桌上）。
+
+- lemma: с
+  stress: с
+  pos: prep
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 和……一起（接第五格）
+      en: with
+      government: кем-чем
+      examples:
+        - ru: Я иду́ с дру́гом.
+          zh: 我和朋友一起去。
+    - zh: 从……（表面）下来，自……起（接第二格）
+      en: from, off
+      government: чего
+      examples:
+        - ru: Возьми́ кни́гу со стола́.
+          zh: 把书从桌上拿走。
+  common_errors: |
+    同一个前置词支配不同的格，意思完全不同：
+    с + 第五格 = 和……一起（с дру́гом）；
+    с + 第二格 = 从……上离开（со стола́）。
+    判断依据是后面名词的格，不是前置词本身，所以格必须先掌握。
+  notes: |
+    在辅音丛前变成 со：со мной, со стола́, со все́ми。
+    表"从……来"时，与 в 对应的是 из（в шко́лу → из шко́лы），
+    与 на 对应的才是 с（на по́чту → с по́чты）。这组对应关系要配套记。
+
+- lemma: по
+  stress: по
+  pos: prep
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 沿着；按照；通过（接第三格）
+      en: along, according to, by
+      government: чему
+      collocations: [по у́лице, по телефо́ну, по-мо́ему]
+      examples:
+        - ru: Мы гуля́ем по у́лице.
+          zh: 我们在街上散步。
+        - ru: Я говори́л с ним по телефо́ну.
+          zh: 我跟他通了电话。
+  common_errors: |
+    "打电话"是 по телефо́ну（第三格），"看电视"是 по телеви́зору。
+    这类"通过某种媒介"的表达固定用 по + 第三格。
+  notes: |
+    по 也能吸走后面词的重音，构成 по́ два、по́ два дня 这类固定组合。

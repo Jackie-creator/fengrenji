@@ -1,0 +1,462 @@
+# Nouns: mobile stress, fleeting vowels, and the genuinely irregular paradigms.
+#
+# Zaliznyak stress classes a-f are what make Russian nouns hard: the stress
+# moves through the paradigm and is never written in ordinary text. Any form
+# whose stress the paradigm cannot derive is listed in form_overrides and
+# flagged for cross-checking against OpenCorpora before shipping.
+
+- lemma: рука
+  stress: рука́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3d
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 96
+  form_overrides:
+    sing,accs: ру́ку
+  senses:
+    - zh: 手；胳膊，手臂
+      en: hand, arm
+      collocations: [пра́вая рука́, взять за́ руку, идти́ по́д руку]
+      examples:
+        - ru: У меня́ боли́т рука́.
+          zh: 我的手（胳膊）疼。
+        - ru: Он взял меня́ за́ руку.
+          zh: 他拉住了我的手。
+  notes: |
+    俄语 рука́ 同时指"手"和"整条胳膊"，不像汉语分得那么清。
+    需要精确表达"手掌那部分"时用 кисть。这是俄汉词汇不对应的典型例子，
+    翻译时要看上下文决定译成"手"还是"胳膊"。
+  common_errors: |
+    重音型 d：单数重音在词尾（рука́, руки́, руке́, руко́й），
+    但第四格单数是例外，重音回到词干：ру́ку。
+    复数整体回到词干：ру́ки, рук, но 与格以下又移到词尾 рука́м, рука́ми, рука́х。
+  verify: [zaliznyak, form_overrides]
+
+- lemma: нога
+  stress: нога́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: но́гу
+  senses:
+    - zh: 脚；腿
+      en: foot, leg
+      collocations: [идти́ пешко́м, встать на́ ноги]
+      examples:
+        - ru: У неё боля́т но́ги.
+          zh: 她的腿疼。
+  notes: |
+    与 рука́ 同理，нога́ 兼指"脚"和"腿"。变格和重音模式也与 рука́ 完全平行。
+  verify: [zaliznyak, form_overrides]
+
+- lemma: голова
+  stress: голова́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: го́лову
+    plur,gent: голо́в
+  senses:
+    - zh: 头
+      en: head
+      examples:
+        - ru: У меня́ боли́т голова́.
+          zh: 我头疼。
+    - zh: 头脑，智力
+      en: mind, brains
+      labels: [перен.]
+      collocations: [све́тлая голова́]
+      examples:
+        - ru: У него́ све́тлая голова́.
+          zh: 他脑子好使。
+  verify: [zaliznyak, form_overrides]
+
+- lemma: вода
+  stress: вода́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: во́ду
+  senses:
+    - zh: 水
+      en: water
+      collocations: [холо́дная вода́, стака́н воды́, минера́льная вода́]
+      examples:
+        - ru: Да́йте, пожа́луйста, стака́н воды́.
+          zh: 请给我一杯水。
+  common_errors: |
+    表示"一定量的水"要用第二格：стака́н воды́、мно́го воды́、немно́го воды́。
+    说 «стака́н вода́» 是错的。汉语没有这个格变化，需要专门练。
+  verify: [zaliznyak]
+
+- lemma: город
+  stress: го́род
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 城市
+      en: city, town
+      collocations: [большо́й го́род, родно́й го́род, центр го́рода]
+      examples:
+        - ru: Москва́ — краси́вый го́род.
+          zh: 莫斯科是座漂亮的城市。
+        - ru: В на́шем го́роде мно́го музе́ев.
+          zh: 我们城里有很多博物馆。
+  common_errors: |
+    复数第一格是 города́，用 -а́ 结尾而且重音移到词尾，不是 го́роды。
+    同类词还有 дом → дома́、лес → леса́、по́езд → поезда́、учи́тель → учителя́、
+    глаз → глаза́、ве́чер → вечера́。这批词是复数形式和重音的双重难点。
+  verify: [zaliznyak]
+
+- lemma: дом
+  stress: дом
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 118
+  senses:
+    - zh: 房子，楼房
+      en: house, building
+      examples:
+        - ru: Э́то мой дом.
+          zh: 这是我家（我的房子）。
+    - zh: 家
+      en: home
+      examples:
+        - ru: В до́ме бы́ло ти́хо.
+          zh: 屋里很安静。
+  notes: |
+    必须分清三个形式，这是初学者最容易混的一组：
+    до́ма = 在家（副词，回答"在哪儿"）——«Я до́ма» 我在家；
+    домо́й = 回家（副词，回答"去哪儿"）——«Я иду́ домо́й» 我回家；
+    в до́ме = 在这栋房子里（前置格，指建筑物本身）。
+    до́ма 和 домо́й 都是古代格形式的残留，不能按现代变格规则推导。
+  common_errors: |
+    复数是 дома́（重音在词尾），与 до́ма（在家）只差重音位置，写出来完全一样。
+    «дома́» 楼房们 / «до́ма» 在家——这正是重音必须标注的理由。
+
+- lemma: окно
+  stress: окно́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: о́кон
+  senses:
+    - zh: 窗户
+      en: window
+      collocations: [откры́ть окно́, смотре́ть в окно́]
+      examples:
+        - ru: Откро́йте окно́, пожа́луйста.
+          zh: 请把窗户打开。
+        - ru: В ко́мнате три окна́.
+          zh: 房间里有三扇窗。
+  common_errors: |
+    复数第二格有插入元音（逃逸元音）：о́кон，不是 окн。
+    索引里的星号 * 就是标记这个逃逸元音的。同类：сестра́ → сестёр、де́вушка → де́вушек。
+  verify: [zaliznyak]
+
+- lemma: стол
+  stress: стол
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 桌子
+      en: table, desk
+      collocations: [на столе́, за столо́м, пи́сьменный стол]
+      examples:
+        - ru: Кни́га лежи́т на столе́.
+          zh: 书在桌上。
+    - zh: 伙食，饭菜
+      en: food, board
+      collocations: [шве́дский стол]
+      examples:
+        - ru: В гости́нице шве́дский стол.
+          zh: 旅馆是自助餐。
+  common_errors: |
+    重音型 b：重音始终在词尾。单数第一格 стол 只有一个音节看不出来，
+    一变格就显现：стола́ / столу́ / столо́м / столе́ / столы́ / столо́в。
+
+- lemma: сестра
+  stress: сестра́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1*d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: сёстры
+    plur,gent: сестёр
+    plur,accs: сестёр
+    plur,datv: сёстрам
+    plur,ablt: сёстрами
+    plur,loct: сёстрах
+  senses:
+    - zh: 姐姐，妹妹
+      en: sister
+      collocations: [ста́ршая сестра́, мла́дшая сестра́]
+      examples:
+        - ru: У меня́ есть ста́ршая сестра́.
+          zh: 我有个姐姐。
+  notes: |
+    俄语 сестра́ 不分姐妹，要说清楚得加 ста́ршая（姐）/ мла́дшая（妹）。
+    брат（哥哥/弟弟）同理。这是汉语亲属称谓比俄语细的地方。
+  common_errors: |
+    两个难点叠在一起：复数出现 ё（сёстры），第二格又有逃逸元音（сестёр）。
+    另外 сестра́ 是动物名词，复数第四格与第二格同形（ви́жу сестёр），
+    不与第一格同形。动物性影响第四格，这是俄语区别于其他欧洲语言的地方。
+  verify: [zaliznyak]
+
+- lemma: слово
+  stress: сло́во
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1c
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 词，单词
+      en: word
+      collocations: [но́вое сло́во, други́ми слова́ми]
+      examples:
+        - ru: Как бу́дет э́то сло́во по-ру́сски?
+          zh: 这个词用俄语怎么说？
+        - ru: Я не по́нял после́днее сло́во.
+          zh: 最后一个词我没听懂。
+  common_errors: |
+    复数重音移到词尾：слова́ / слов / слова́м。单数则在词干：сло́во / сло́ва。
+
+# --- Irregular paradigms ----------------------------------------------------
+
+- lemma: мать
+  stress: мать
+  pos: noun
+  gender: femn
+  animacy: anim
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: мать
+    sing,gent: ма́тери
+    sing,datv: ма́тери
+    sing,accs: мать
+    sing,ablt: ма́терью
+    sing,loct: ма́тери
+    plur,nomn: ма́тери
+    plur,gent: матере́й
+    plur,datv: матеря́м
+    plur,accs: матере́й
+    plur,ablt: матеря́ми
+    plur,loct: матеря́х
+  senses:
+    - zh: 母亲
+      en: mother
+      examples:
+        - ru: Моя́ мать рабо́тает врачо́м.
+          zh: 我母亲是医生。
+  common_errors: |
+    只有单数第一格和第四格是 мать，其余全部插入 -ер-：ма́тери, ма́терью…
+    全俄语只有 мать 和 дочь 两个词这样变，必须整体背下来。
+  notes: |
+    口语里"妈妈"更常说 ма́ма；мать 偏中性或书面，有时略显生硬。
+
+- lemma: дочь
+  stress: дочь
+  pos: noun
+  gender: femn
+  animacy: anim
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    sing,nomn: дочь
+    sing,gent: до́чери
+    sing,datv: до́чери
+    sing,accs: дочь
+    sing,ablt: до́черью
+    sing,loct: до́чери
+    plur,nomn: до́чери
+    plur,gent: дочере́й
+    plur,datv: дочеря́м
+    plur,accs: дочере́й
+    plur,ablt: дочерьми́
+    plur,loct: дочеря́х
+  senses:
+    - zh: 女儿
+      en: daughter
+      examples:
+        - ru: У них две до́чери.
+          zh: 他们有两个女儿。
+  common_errors: |
+    与 мать 同一套 -ер- 变化，但复数第五格是 дочерьми́（不是 дочеря́ми），
+    这个形式要单独记。同样带 -ьми́ 的还有 людьми́、детьми́。
+
+- lemma: имя
+  stress: и́мя
+  pos: noun
+  gender: neut
+  animacy: inan
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: и́мя
+    sing,gent: и́мени
+    sing,datv: и́мени
+    sing,accs: и́мя
+    sing,ablt: и́менем
+    sing,loct: и́мени
+    plur,nomn: имена́
+    plur,gent: имён
+    plur,datv: имена́м
+    plur,accs: имена́
+    plur,ablt: имена́ми
+    plur,loct: имена́х
+  senses:
+    - zh: 名字
+      en: name, first name
+      examples:
+        - ru: Как ва́ше и́мя?
+          zh: 您叫什么名字？
+  notes: |
+    -мя 类中性名词共十个：и́мя, вре́мя, пле́мя, зна́мя, пла́мя, се́мя, стре́мя,
+    те́мя, бре́мя, вы́мя。除第一格和第四格外都插入 -ен-。数量固定，值得整组记忆。
+
+- lemma: время
+  stress: вре́мя
+  pos: noun
+  gender: neut
+  animacy: inan
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 27
+  form_overrides:
+    sing,nomn: вре́мя
+    sing,gent: вре́мени
+    sing,datv: вре́мени
+    sing,accs: вре́мя
+    sing,ablt: вре́менем
+    sing,loct: вре́мени
+    plur,nomn: времена́
+    plur,gent: времён
+    plur,datv: времена́м
+    plur,accs: времена́
+    plur,ablt: времена́ми
+    plur,loct: времена́х
+  senses:
+    - zh: 时间
+      en: time
+      collocations: [свобо́дное вре́мя, во вре́мя уро́ка, в то же вре́мя]
+      examples:
+        - ru: У меня́ нет вре́мени.
+          zh: 我没时间。
+        - ru: Ско́лько вре́мени?
+          zh: 几点了？
+  common_errors: |
+    «Ско́лько вре́мени?»（几点了）用第二格 вре́мени，不是 вре́мя。
+    «У меня́ нет вре́мени» 否定存在也要用第二格。这两句是最常用的固定表达。
+
+- lemma: путь
+  stress: путь
+  pos: noun
+  gender: masc
+  animacy: inan
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: путь
+    sing,gent: пути́
+    sing,datv: пути́
+    sing,accs: путь
+    sing,ablt: путём
+    sing,loct: пути́
+    plur,nomn: пути́
+    plur,gent: путе́й
+    plur,datv: путя́м
+    plur,accs: пути́
+    plur,ablt: путя́ми
+    plur,loct: путя́х
+  senses:
+    - zh: 路，道路；途径
+      en: way, path
+      collocations: [по пути́, на пути́, други́м путём]
+      examples:
+        - ru: Мы встре́тились по пути́ домо́й.
+          zh: 我们在回家路上碰见了。
+  notes: |
+    путь 是全俄语唯一一个按阴性第三变格法变化的阳性名词，
+    只有第五格 путём 保留了阳性词尾。形容词仍按阳性一致：до́лгий путь。
+
+- lemma: человек
+  stress: челове́к
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  plural_lemma: люди
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 21
+  form_overrides:
+    plur,nomn: лю́ди
+    plur,gent: люде́й
+    plur,datv: лю́дям
+    plur,accs: люде́й
+    plur,ablt: людьми́
+    plur,loct: лю́дях
+  senses:
+    - zh: 人
+      en: person, man
+      collocations: [молодо́й челове́к, хоро́ший челове́к]
+      examples:
+        - ru: Он о́чень до́брый челове́к.
+          zh: 他是个很善良的人。
+  common_errors: |
+    复数用补充形式 лю́ди，但和数词连用时规则特殊，考试必考：
+    2–4 之后用 челове́ка（单数第二格）：два челове́ка、три челове́ка；
+    5 及以上用 челове́к（形式上与单数第一格相同）：пять челове́к、мно́го челове́к。
+    说 «пять люде́й» 是错的。只有在 «мно́го хоро́ших люде́й» 这类带形容词的
+    表达里才用 люде́й。
+  verify: [zaliznyak]
+
+- lemma: ребёнок
+  stress: ребёнок
+  pos: noun
+  gender: masc
+  animacy: anim
+  plural_lemma: дети
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: де́ти
+    plur,gent: дете́й
+    plur,datv: де́тям
+    plur,accs: дете́й
+    plur,ablt: детьми́
+    plur,loct: де́тях
+  senses:
+    - zh: 孩子，儿童
+      en: child
+      examples:
+        - ru: У них тро́е дете́й.
+          zh: 他们有三个孩子。
+  common_errors: |
+    复数是补充形式 де́ти，不是 ребёнки。第五格 детьми́ 带 -ьми́。
+    数"孩子"通常用集合数词：тро́е дете́й（三个孩子）比 три ребёнка 更自然。
+  notes: |
+    ребёнок 里的 ё 本身就带重音，所以不需要额外标重音符号，变格中 ё 也始终保留：
+    ребёнка / ребёнку / ребёнком。
+    真正变化的是词尾的 о，它是逃逸元音，一变格就脱落：ребёнок → ребёнка。
+  verify: [form_overrides]
