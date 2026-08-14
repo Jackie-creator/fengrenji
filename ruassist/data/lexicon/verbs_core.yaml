@@ -1,0 +1,956 @@
+# Core A1 verbs.
+#
+# Authoring standard for bulk entries: grammar fields are mandatory,
+# common_errors only where there is a real trap. The 55-entry sample deliberately
+# maxed out the notes; at scale that would bury the content.
+
+- lemma: быть
+  stress: быть
+  pos: verb
+  aspect: impf
+  transitivity: intrans
+  government: кем-чем
+  level: [A1, 高考, ТРКИ-1]
+  freq_rank: 2
+  form_overrides:
+    pres,3per,sing: есть
+    futr,1per,sing: бу́ду
+    futr,2per,sing: бу́дешь
+    futr,3per,sing: бу́дет
+    futr,1per,plur: бу́дем
+    futr,2per,plur: бу́дете
+    futr,3per,plur: бу́дут
+    past,masc: был
+    past,femn: была́
+    past,neut: бы́ло
+    past,plur: бы́ли
+    impr,sing: будь
+    impr,plur: бу́дьте
+  senses:
+    - zh: 是，在，存在
+      en: to be
+      examples:
+        - ru: Он был до́ма.
+          zh: 他当时在家。
+        - ru: За́втра я бу́ду свобо́ден.
+          zh: 我明天有空。
+  common_errors: |
+    现在时一般不用系动词：«Я студе́нт» 我是学生，不能说 «Я есть студе́нт»。
+    есть 只在表示"有／存在"时出现：«У меня́ есть кни́га»。
+    过去时阴性重音在词尾：была́，而 был / бы́ло / бы́ли 在词干。
+    否定过去时重音移到 не：«не́ был», «не́ было», «не́ были»，但阴性是 «не была́»。
+
+- lemma: знать
+  stress: знать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого-что / о ком-чём
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 知道；认识
+      en: to know
+      examples:
+        - ru: Я его́ хорошо́ зна́ю.
+          zh: 我很了解他。
+        - ru: Вы зна́ете, где метро́?
+          zh: 您知道地铁在哪儿吗？
+
+- lemma: жить
+  stress: жить
+  pos: verb
+  zaliznyak: нсв 16b
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    past,masc: жил
+    past,femn: жила́
+    past,neut: жи́ло
+    past,plur: жи́ли
+  senses:
+    - zh: 住，居住；生活
+      en: to live
+      examples:
+        - ru: Я живу́ в Пеки́не.
+          zh: 我住在北京。
+  common_errors: |
+    现在时词干变成 жив-：живу́ / живёшь / живёт / живём / живёте / живу́т。
+    过去时阴性 жила́ 重音在词尾。
+  verify: [zaliznyak]
+
+- lemma: работать
+  stress: рабо́тать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: кем / где
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 工作
+      en: to work
+      collocations: [рабо́тать врачо́м, рабо́тать на заво́де]
+      examples:
+        - ru: Она́ рабо́тает врачо́м.
+          zh: 她当医生。
+  common_errors: |
+    "当／做某职业"后面接第五格：рабо́тать врачо́м，不是 рабо́тать врач。
+
+- lemma: учиться
+  stress: учи́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: где / чему
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 学习，上学（不带宾语）
+      en: to study
+      examples:
+        - ru: Я учу́сь в университе́те.
+          zh: 我在上大学。
+  common_errors: |
+    учи́ться 不能带第四格宾语。"学俄语"要用 изуча́ть ру́сский язы́к
+    或 учи́ть ру́сский язы́к，不能说 учи́ться ру́сский язы́к。
+
+- lemma: изучать
+  stress: изуча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 学习，研究（某门学科）
+      en: to study (a subject)
+      examples:
+        - ru: Я изуча́ю ру́сский язы́к.
+          zh: 我学俄语。
+
+- lemma: понимать
+  stress: понима́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: понять
+  transitivity: trans
+  government: кого-что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 懂，理解
+      en: to understand
+      examples:
+        - ru: Я вас не понима́ю.
+          zh: 我听不懂您说的。
+
+- lemma: понять
+  stress: поня́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: понимать
+  transitivity: trans
+  government: кого-что
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: пойму́
+    futr,2per,sing: поймёшь
+    futr,3per,sing: поймёт
+    futr,1per,plur: поймём
+    futr,2per,plur: поймёте
+    futr,3per,plur: пойму́т
+    past,masc: по́нял
+    past,femn: поняла́
+    past,neut: по́няло
+    past,plur: по́няли
+  senses:
+    - zh: 明白了，听懂了
+      en: to understand (完成体)
+      examples:
+        - ru: Тепе́рь я по́нял.
+          zh: 现在我明白了。
+  common_errors: |
+    将来时词干完全变了：пойму́ / поймёшь，与不定式 поня́ть 看不出关系。
+    过去时重音是考点：по́нял / поняла́ / по́няло / по́няли——只有阴性在词尾。
+
+- lemma: любить
+  stress: люби́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: кого-что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 爱；喜欢
+      en: to love, to like
+      examples:
+        - ru: Я люблю́ ру́сскую му́зыку.
+          zh: 我喜欢俄罗斯音乐。
+  common_errors: |
+    第一人称单数有 л 插入音：люблю́，不是 любю́。其余人称没有：лю́бишь / лю́бит / лю́бят。
+
+- lemma: хотеть
+  stress: хоте́ть
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  government: чего / что / инф.
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: хочу́
+    pres,2per,sing: хо́чешь
+    pres,3per,sing: хо́чет
+    pres,1per,plur: хоти́м
+    pres,2per,plur: хоти́те
+    pres,3per,plur: хотя́т
+    past,masc: хоте́л
+    past,femn: хоте́ла
+    past,neut: хоте́ло
+    past,plur: хоте́ли
+  senses:
+    - zh: 想，想要
+      en: to want
+      examples:
+        - ru: Я хочу́ пить.
+          zh: 我渴了（想喝水）。
+        - ru: Что вы хоти́те?
+          zh: 您要什么？
+  common_errors: |
+    хоте́ть 是俄语里唯一的"混合变位"动词：单数按第一变位法（хочу́ / хо́чешь / хо́чет），
+    复数按第二变位法（хоти́м / хоти́те / хотя́т），而且单复数重音位置不同。必须整组背。
+
+- lemma: мочь
+  stress: мочь
+  pos: verb
+  zaliznyak: нсв 8c
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: могу́
+    pres,2per,sing: мо́жешь
+    pres,3per,sing: мо́жет
+    pres,1per,plur: мо́жем
+    pres,2per,plur: мо́жете
+    pres,3per,plur: мо́гут
+    past,masc: мог
+    past,femn: могла́
+    past,neut: могло́
+    past,plur: могли́
+  senses:
+    - zh: 能，可以（体力、条件上做得到）
+      en: can, to be able to
+      examples:
+        - ru: Я не могу́ прийти́ за́втра.
+          zh: 我明天来不了。
+  common_errors: |
+    第一人称和第三人称复数保留 г（могу́ / мо́гут），中间几个变成 ж（мо́жешь / мо́жет）。
+    与 уме́ть 区分：мочь 是"条件允许做得到"，уме́ть 是"学会了这项技能"。
+
+- lemma: давать
+  stress: дава́ть
+  pos: verb
+  aspect: impf
+  aspect_pair: дать
+  transitivity: trans
+  government: что кому
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: даю́
+    pres,2per,sing: даёшь
+    pres,3per,sing: даёт
+    pres,1per,plur: даём
+    pres,2per,plur: даёте
+    pres,3per,plur: даю́т
+    impr,sing: дава́й
+    impr,plur: дава́йте
+  senses:
+    - zh: 给
+      en: to give
+      examples:
+        - ru: Он ча́сто даёт мне сове́ты.
+          zh: 他常给我出主意。
+  notes: |
+    命令式 дава́й / дава́йте 是日常最常用的"来吧、咱们……吧"：
+    «Дава́йте начнём» 咱们开始吧。
+
+- lemma: дать
+  stress: дать
+  pos: verb
+  aspect: perf
+  aspect_pair: давать
+  transitivity: trans
+  government: что кому
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: дам
+    futr,2per,sing: дашь
+    futr,3per,sing: даст
+    futr,1per,plur: дади́м
+    futr,2per,plur: дади́те
+    futr,3per,plur: даду́т
+    past,masc: дал
+    past,femn: дала́
+    past,neut: да́ло
+    past,plur: да́ли
+    impr,sing: дай
+    impr,plur: да́йте
+  senses:
+    - zh: 给（完成体）
+      en: to give
+      examples:
+        - ru: Да́йте, пожа́луйста, меню́.
+          zh: 请给我菜单。
+  common_errors: |
+    将来时是全俄语最不规则的一组：дам / дашь / даст / дади́м / дади́те / даду́т，
+    单数三个形式完全不带常规人称词尾。只有 дать、есть 和它们的派生词这样变。
+
+- lemma: видеть
+  stress: ви́деть
+  pos: verb
+  zaliznyak: нсв 5a
+  aspect: impf
+  aspect_pair: увидеть
+  transitivity: trans
+  government: кого-что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 看见，看到
+      en: to see
+      examples:
+        - ru: Я ви́жу свой дом.
+          zh: 我看见我家了。
+  common_errors: |
+    第一人称单数 д → ж：ви́жу，不是 ви́дю。
+    与 смотре́ть 区分：ви́деть 是"看见"（结果），смотре́ть 是"看"（动作）。
+
+- lemma: увидеть
+  stress: уви́деть
+  pos: verb
+  zaliznyak: св 5a
+  aspect: perf
+  aspect_pair: видеть
+  transitivity: trans
+  government: кого-что
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 看见（完成体）
+      en: to see, to catch sight of
+      examples:
+        - ru: Вдруг я уви́дел её в толпе́.
+          zh: 我忽然在人群里看见了她。
+
+- lemma: слышать
+  stress: слы́шать
+  pos: verb
+  zaliznyak: нсв 5a
+  aspect: impf
+  transitivity: trans
+  government: кого-что / о ком-чём
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 听见
+      en: to hear
+      examples:
+        - ru: Я вас пло́хо слы́шу.
+          zh: 我听不太清您说话。
+  common_errors: |
+    与 слу́шать 区分：слы́шать 是"听见"（被动接收），слу́шать 是"听"（主动动作）。
+    对应 ви́деть / смотре́ть 的同一组对立。
+
+- lemma: смотреть
+  stress: смотре́ть
+  pos: verb
+  zaliznyak: нсв 5c
+  aspect: impf
+  aspect_pair: посмотреть
+  transitivity: trans
+  government: что / на кого-что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 看，观看
+      en: to watch, to look
+      collocations: [смотре́ть телеви́зор, смотре́ть фильм, смотре́ть в окно́]
+      examples:
+        - ru: Ве́чером мы смо́трим телеви́зор.
+          zh: 晚上我们看电视。
+  common_errors: |
+    "看某人／某物"用 смотре́ть на кого́-что（第四格），
+    但"看电视／电影"直接接第四格：смотре́ть телеви́зор。两种搭配都要记。
+
+- lemma: посмотреть
+  stress: посмотре́ть
+  pos: verb
+  zaliznyak: св 5c
+  aspect: perf
+  aspect_pair: смотреть
+  transitivity: trans
+  government: что / на кого-что
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 看一下，看完
+      en: to have a look
+      examples:
+        - ru: Посмотри́те на э́ту карти́ну.
+          zh: 请看这幅画。
+
+- lemma: слушать
+  stress: слу́шать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого-что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 听（主动地）
+      en: to listen
+      collocations: [слу́шать му́зыку, слу́шать ра́дио]
+      examples:
+        - ru: Я люблю́ слу́шать му́зыку.
+          zh: 我喜欢听音乐。
+
+- lemma: спрашивать
+  stress: спра́шивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: спросить
+  transitivity: trans
+  government: кого о чём
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 问，询问
+      en: to ask
+      examples:
+        - ru: Он ча́сто спра́шивает меня́ о рабо́те.
+          zh: 他常问我工作的事。
+
+- lemma: спросить
+  stress: спроси́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: спрашивать
+  transitivity: trans
+  government: кого о чём
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 问（完成体）
+      en: to ask
+      examples:
+        - ru: Я хочу́ спроси́ть вас об одно́м де́ле.
+          zh: 我想问您一件事。
+  common_errors: |
+    "问某人"用第四格（спроси́ть кого́），不是第三格。这与汉语"问他"一致，
+    但与 «отве́тить кому́»（回答某人，第三格）正好相反，两个词要对照记。
+
+- lemma: отвечать
+  stress: отвеча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: ответить
+  transitivity: intrans
+  government: кому на что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 回答
+      en: to answer
+      examples:
+        - ru: Он всегда́ отвеча́ет на мои́ вопро́сы.
+          zh: 他总是回答我的问题。
+
+- lemma: ответить
+  stress: отве́тить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: отвечать
+  transitivity: intrans
+  government: кому на что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 回答（完成体）
+      en: to answer
+      examples:
+        - ru: Отве́тьте, пожа́луйста, на мой вопро́с.
+          zh: 请回答我的问题。
+  common_errors: |
+    "回答某人"用第三格（отве́тить кому́），"回答某个问题"用 на + 第四格
+    （отве́тить на вопро́с）。不能说 отве́тить вопро́с。
+
+- lemma: звонить
+  stress: звони́ть
+  pos: verb
+  zaliznyak: нсв 4b
+  aspect: impf
+  aspect_pair: позвонить
+  transitivity: intrans
+  government: кому
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 打电话；（铃）响
+      en: to call, to ring
+      examples:
+        - ru: Я звоню́ ма́ме ка́ждый день.
+          zh: 我每天给妈妈打电话。
+  common_errors: |
+    两个高频错误叠在一起：
+    一，重音在词尾——звони́шь / звони́т / звоня́т，读成 зво́нит 是俄语里最著名的错误读法；
+    二，"给某人打电话"用第三格：звони́ть дру́гу，不能用第四格。
+
+- lemma: позвонить
+  stress: позвони́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: звонить
+  transitivity: intrans
+  government: кому
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 打个电话（完成体）
+      en: to call
+      examples:
+        - ru: Позвони́ мне ве́чером.
+          zh: 你晚上给我打个电话。
+
+- lemma: встречать
+  stress: встреча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: встретить
+  transitivity: trans
+  government: кого-что
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 遇见；迎接
+      en: to meet
+      examples:
+        - ru: Я ча́сто встреча́ю его́ в метро́.
+          zh: 我常在地铁里碰见他。
+
+- lemma: встретить
+  stress: встре́тить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: встречать
+  transitivity: trans
+  government: кого-что
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 遇见（完成体）
+      en: to meet
+      examples:
+        - ru: Вчера́ я встре́тил ста́рого дру́га.
+          zh: 昨天我碰见了一位老朋友。
+
+- lemma: помогать
+  stress: помога́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: помочь
+  transitivity: intrans
+  government: кому
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 帮助
+      en: to help
+      examples:
+        - ru: Он всегда́ помога́ет мне.
+          zh: 他总是帮我。
+
+- lemma: помочь
+  stress: помо́чь
+  pos: verb
+  zaliznyak: св 8c
+  aspect: perf
+  aspect_pair: помогать
+  transitivity: intrans
+  government: кому
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    past,masc: помо́г
+    past,femn: помогла́
+    past,neut: помогло́
+    past,plur: помогли́
+  senses:
+    - zh: 帮助（完成体）
+      en: to help
+      examples:
+        - ru: Помоги́те мне, пожа́луйста.
+          zh: 请帮帮我。
+  common_errors: |
+    "帮助某人"用第三格：помо́чь дру́гу，不能用第四格。
+    汉语"帮他"没有格标记，所以这是高频错误。
+
+- lemma: есть
+  stress: есть
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: ем
+    pres,2per,sing: ешь
+    pres,3per,sing: ест
+    pres,1per,plur: еди́м
+    pres,2per,plur: еди́те
+    pres,3per,plur: едя́т
+    past,masc: ел
+    past,femn: е́ла
+    past,neut: е́ло
+    past,plur: е́ли
+    impr,sing: ешь
+    impr,plur: е́шьте
+  senses:
+    - zh: 吃
+      en: to eat
+      examples:
+        - ru: Что вы еди́те на за́втрак?
+          zh: 您早饭吃什么？
+  common_errors: |
+    与 дать 同属最不规则的一组变位：ем / ешь / ест / еди́м / еди́те / едя́т。
+    另外注意与 быть 的现在时 есть（有、是）同形，词形还原会给出两个候选。
+
+- lemma: пить
+  stress: пить
+  pos: verb
+  zaliznyak: нсв 11b
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    past,masc: пил
+    past,femn: пила́
+    past,neut: пи́ло
+    past,plur: пи́ли
+    impr,sing: пей
+    impr,plur: пе́йте
+  senses:
+    - zh: 喝
+      en: to drink
+      examples:
+        - ru: Я пью чай ка́ждое у́тро.
+          zh: 我每天早上喝茶。
+  common_errors: |
+    现在时词干变成 пь-：пью / пьёшь / пьёт / пьём / пьёте / пьют。
+    过去时阴性 пила́ 重音在词尾。
+  verify: [zaliznyak]
+
+- lemma: спать
+  stress: спать
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: сплю
+    past,masc: спал
+    past,femn: спала́
+    past,neut: спа́ло
+    past,plur: спа́ли
+  senses:
+    - zh: 睡觉
+      en: to sleep
+      examples:
+        - ru: Ребёнок ещё спит.
+          zh: 孩子还在睡。
+  common_errors: |
+    第一人称单数有 л 插入音：сплю。过去时阴性 спала́ 重音在词尾。
+  verify: [zaliznyak]
+
+- lemma: отдыхать
+  stress: отдыха́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 休息；度假
+      en: to rest
+      examples:
+        - ru: Ле́том мы отдыха́ем на мо́ре.
+          zh: 夏天我们在海边度假。
+
+- lemma: гулять
+  stress: гуля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 散步，闲逛
+      en: to take a walk
+      examples:
+        - ru: Мы гуля́ли в па́рке.
+          zh: 我们在公园散步来着。
+
+- lemma: завтракать
+  stress: за́втракать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 吃早饭
+      en: to have breakfast
+      examples:
+        - ru: Я за́втракаю в семь часо́в.
+          zh: 我七点吃早饭。
+
+- lemma: обедать
+  stress: обе́дать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 吃午饭
+      en: to have lunch
+      examples:
+        - ru: Где вы обы́чно обе́даете?
+          zh: 您平时在哪儿吃午饭？
+
+- lemma: ужинать
+  stress: у́жинать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 吃晚饭
+      en: to have dinner
+      examples:
+        - ru: Мы у́жинаем в во́семь.
+          zh: 我们八点吃晚饭。
+
+- lemma: начинать
+  stress: начина́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: начать
+  transitivity: trans
+  government: что / инф.
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 开始
+      en: to begin
+      examples:
+        - ru: Мы начина́ем уро́к в де́вять.
+          zh: 我们九点开始上课。
+  common_errors: |
+    начина́ть 后面接不定式时只能接未完成体：начина́ть чита́ть，不能说 начина́ть прочита́ть。
+    表示"开始"的动词（начина́ть, продолжа́ть, конча́ть）一律只接未完成体不定式。
+
+- lemma: начать
+  stress: нача́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: начинать
+  transitivity: trans
+  government: что / инф.
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: начну́
+    futr,2per,sing: начнёшь
+    futr,3per,sing: начнёт
+    futr,1per,plur: начнём
+    futr,2per,plur: начнёте
+    futr,3per,plur: начну́т
+    past,masc: на́чал
+    past,femn: начала́
+    past,neut: на́чало
+    past,plur: на́чали
+  senses:
+    - zh: 开始（完成体）
+      en: to begin
+      examples:
+        - ru: Он на́чал изуча́ть ру́сский язы́к.
+          zh: 他开始学俄语了。
+  common_errors: |
+    过去时重音是重点考点：на́чал / начала́ / на́чало / на́чали——只有阴性重音在词尾。
+    与 по́нял / поняла́ 完全同一模式。
+
+- lemma: кончать
+  stress: конча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: кончить
+  transitivity: trans
+  government: что / инф.
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 结束，完成
+      en: to finish
+      examples:
+        - ru: Мы конча́ем рабо́ту в шесть.
+          zh: 我们六点下班。
+
+- lemma: кончить
+  stress: ко́нчить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: кончать
+  transitivity: trans
+  government: что / инф.
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 结束（完成体）
+      en: to finish
+      examples:
+        - ru: Я ко́нчил рабо́ту и пошёл домо́й.
+          zh: 我干完活就回家了。
+
+- lemma: стоять
+  stress: стоя́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 站着；（物体竖着）放着
+      en: to stand
+      examples:
+        - ru: На столе́ стои́т ла́мпа.
+          zh: 桌上放着一盏灯。
+  common_errors: |
+    俄语用三个动词区分物体的放置状态，汉语一个"在"字全包：
+    стоя́ть 竖着放（杯子、灯），лежа́ть 平着放（书、纸），висе́ть 挂着（画、衣服）。
+    说 «на столе́ есть ла́мпа» 语法没错但很不地道。
+
+- lemma: сидеть
+  stress: сиде́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: сижу́
+  senses:
+    - zh: 坐着
+      en: to sit
+      examples:
+        - ru: Он сиди́т у окна́.
+          zh: 他坐在窗边。
+  common_errors: |
+    第一人称单数 д → ж：сижу́。
+
+- lemma: лежать
+  stress: лежа́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 躺着；（物体平放）放着
+      en: to lie
+      examples:
+        - ru: Кни́га лежи́т на столе́.
+          zh: 书放在桌上。
+
+- lemma: приходить
+  stress: приходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: прийти
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: （步行）来到，来
+      en: to come (on foot)
+      examples:
+        - ru: Он ча́сто прихо́дит к нам.
+          zh: 他常来我们这儿。
+
+- lemma: прийти
+  stress: прийти́
+  pos: verb
+  aspect: perf
+  aspect_pair: приходить
+  transitivity: intrans
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: приду́
+    futr,2per,sing: придёшь
+    futr,3per,sing: придёт
+    futr,1per,plur: придём
+    futr,2per,plur: придёте
+    futr,3per,plur: приду́т
+    past,masc: пришёл
+    past,femn: пришла́
+    past,neut: пришло́
+    past,plur: пришли́
+  senses:
+    - zh: 来了（完成体）
+      en: to arrive, to come
+      examples:
+        - ru: Он пришёл в семь часо́в.
+          zh: 他七点来的。
+  common_errors: |
+    不定式写作 прийти́（带 й），但将来时是 приду́（不带 й）。
+    这个拼写差异是常见笔误。过去时沿用 идти́ 的补充词干：пришёл / пришла́。
+
+- lemma: уходить
+  stress: уходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: уйти
+  transitivity: intrans
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: （步行）离开，走
+      en: to leave (on foot)
+      examples:
+        - ru: Я ухожу́ в во́семь часо́в.
+          zh: 我八点走。
+
+- lemma: уйти
+  stress: уйти́
+  pos: verb
+  aspect: perf
+  aspect_pair: уходить
+  transitivity: intrans
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: уйду́
+    futr,2per,sing: уйдёшь
+    futr,3per,sing: уйдёт
+    futr,1per,plur: уйдём
+    futr,2per,plur: уйдёте
+    futr,3per,plur: уйду́т
+    past,masc: ушёл
+    past,femn: ушла́
+    past,neut: ушло́
+    past,plur: ушли́
+  senses:
+    - zh: 走了，离开了（完成体）
+      en: to leave
+      examples:
+        - ru: Он уже́ ушёл.
+          zh: 他已经走了。

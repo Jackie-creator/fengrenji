@@ -68,10 +68,29 @@ def test_perfective_verbs_have_no_present_tense(lexicon):
 
 
 def test_imperfective_overrides_use_present_not_future(lexicon):
+    """Imperfectives build the future analytically (бу́ду + infinitive).
+
+    быть is the single exception in Russian: it is imperfective yet has a real
+    simple future (бу́ду / бу́дешь / …), which is precisely what every other
+    imperfective borrows to form its own future.
+    """
     for entry in lexicon.entries:
         if entry.pos is POS.VERB and entry.aspect is Aspect.IMPF:
+            if entry.lemma == "быть":
+                continue
             future = [t for t in entry.form_overrides if "futr" in t]
             assert not future, f"{entry.lemma}: imperfective with simple future forms"
+
+
+def test_only_byt_has_an_irregular_simple_future(lexicon):
+    """Pin the exception above: if another verb claims one, it needs review."""
+    claimants = {
+        e.lemma
+        for e in lexicon.entries
+        if e.aspect is Aspect.IMPF
+        and any("futr" in t for t in e.form_overrides)
+    }
+    assert claimants == {"быть"}
 
 
 def test_animate_nouns_are_marked(lexicon):
@@ -99,3 +118,30 @@ def test_pending_cross_checks_are_declared(lexicon):
     unverified = {e.lemma for e in lexicon.entries if e.verify}
     # These are the mobile-stress paradigms flagged for OpenCorpora comparison.
     assert {"рука", "нога", "голова"} <= unverified
+
+
+def test_sample_covers_the_a1_core(lexicon):
+    """After the batch-1 push the lexicon is well past the 55-entry sample."""
+    assert len(lexicon) >= 200
+
+
+def test_indeclinable_nouns_have_no_paradigm(lexicon):
+    """метро/кофе never inflect, so they must not carry a Zaliznyak index."""
+    for entry in lexicon.entries:
+        if entry.indeclinable:
+            assert entry.zaliznyak is None, f"{entry.lemma}: indeclinable with a paradigm"
+
+
+def test_pluralia_tantum_have_no_singular_forms(lexicon):
+    """деньги has no singular, so no singular form may be declared."""
+    for entry in lexicon.entries:
+        if entry.number_only == "plur":
+            singular = [t for t in entry.form_overrides if "sing" in t]
+            assert not singular, f"{entry.lemma}: plural-only noun with singular forms"
+
+
+def test_english_glosses_are_strings(lexicon):
+    """Guards the YAML 'Norway problem': `en: no` parsing as a boolean."""
+    for entry in lexicon.entries:
+        for sense in entry.senses:
+            assert sense.en is None or isinstance(sense.en, str)

@@ -1,0 +1,134 @@
+# Numerals.
+#
+# The noun case a numeral governs is the single most-tested point in Chinese
+# Russian exams, so every entry restates the rule from its own side.
+
+- lemma: три
+  stress: три
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: три
+    plur,gent: трёх
+    plur,datv: трём
+    plur,ablt: тремя́
+    plur,loct: трёх
+  senses:
+    - zh: 三
+      en: three
+      examples:
+        - ru: У меня́ три бра́та.
+          zh: 我有三个哥哥。
+  common_errors: |
+    3 之后名词用单数第二格：три бра́та / три кни́ги / три окна́。
+    与 два 不同，три 和 четы́ре 不区分性。
+
+- lemma: четыре
+  stress: четы́ре
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: четы́ре
+    plur,gent: четырёх
+    plur,datv: четырём
+    plur,ablt: четырьмя́
+    plur,loct: четырёх
+  senses:
+    - zh: 四
+      en: four
+      examples:
+        - ru: В ко́мнате четы́ре окна́.
+          zh: 房间里有四扇窗。
+  common_errors: |
+    4 是"单数第二格"规则的最后一个数：четы́ре окна́。
+    从 5 开始改用复数第二格：пять о́кон。
+
+- lemma: пять
+  stress: пять
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: пять
+    plur,gent: пяти́
+    plur,datv: пяти́
+    plur,ablt: пятью́
+    plur,loct: пяти́
+  senses:
+    - zh: 五
+      en: five
+      examples:
+        - ru: Я купи́л пять книг.
+          zh: 我买了五本书。
+  common_errors: |
+    5 及以上的数词后面用**复数第二格**：пять книг / пять столо́в / пять о́кон。
+    这是与 2–4 的分界线，考试必考。
+    注意 5–20 和 30 结尾的数词按阴性第三变格法变格（пяти́, пятью́）。
+
+- lemma: десять
+  stress: де́сять
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: де́сять
+    plur,gent: десяти́
+    plur,datv: десяти́
+    plur,ablt: десятью́
+    plur,loct: десяти́
+  senses:
+    - zh: 十
+      en: ten
+      examples:
+        - ru: Уро́к дли́тся со́рок пять мину́т.
+          zh: 一节课四十五分钟。
+  notes: |
+    11–19 由"个位 + на + дцать"构成：оди́ннадцать, двена́дцать…，
+    重音一律在中间：двена́дцать。
+
+- lemma: сто
+  stress: сто
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: сто
+    plur,gent: ста
+    plur,datv: ста
+    plur,ablt: ста
+    plur,loct: ста
+  senses:
+    - zh: 一百
+      en: hundred
+      examples:
+        - ru: Э́то сто рубле́й.
+          zh: 这是一百卢布。
+  notes: |
+    сто 变格极简：除第一格／第四格外一律是 ста。
+
+- lemma: первый
+  stress: пе́рвый
+  pos: num
+  zaliznyak: п 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 第一（的）
+      en: first
+      examples:
+        - ru: Он у́чится на пе́рвом ку́рсе.
+          zh: 他上大一。
+  common_errors: |
+    顺序数词像形容词一样变化，与名词性数格一致：
+    пе́рвый уро́к / пе́рвая кни́га / пе́рвое окно́。
+    这与数量数词（два, пять）完全不同——顺序数词后面的名词是正常的格，不用第二格。
+
+- lemma: второй
+  stress: второ́й
+  pos: num
+  zaliznyak: п 1b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 第二（的）
+      en: second
+      examples:
+        - ru: Я живу́ на второ́м этаже́.
+          zh: 我住二楼。
+  notes: |
+    "在几楼"用 на + 第六格：на второ́м этаже́。

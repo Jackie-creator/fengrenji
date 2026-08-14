@@ -1,0 +1,947 @@
+# Core A1 nouns: time, family, home, study, city, food.
+
+# --- Time -------------------------------------------------------------------
+
+- lemma: день
+  stress: день
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 天，白天
+      en: day
+      collocations: [ка́ждый день, до́брый день, весь день]
+      examples:
+        - ru: До́брый день!
+          zh: 您好（白天问候）！
+        - ru: Он рабо́тает це́лый день.
+          zh: 他干了一整天。
+  common_errors: |
+    逃逸元音 е 一变格就脱落：день → дня / дню / днём / дне，复数 дни / дней。
+  verify: [zaliznyak]
+
+- lemma: ночь
+  stress: ночь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 夜，夜里
+      en: night
+      collocations: [споко́йной но́чи, всю ночь]
+      examples:
+        - ru: Споко́йной но́чи!
+          zh: 晚安！
+  common_errors: |
+    "晚安"是 «Споко́йной но́чи»，用第二格（省略了"祝您……"）。
+    同类还有 «До́брого пути́» 一路平安。
+  verify: [zaliznyak]
+
+- lemma: утро
+  stress: у́тро
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 早晨，上午
+      en: morning
+      collocations: [до́брое у́тро, у́тром]
+      examples:
+        - ru: До́брое у́тро!
+          zh: 早上好！
+  notes: |
+    "在早上"用第五格 у́тром（副词化）。同组：днём 白天、ве́чером 晚上、но́чью 夜里。
+    这套时间副词都是第五格固化来的，不带前置词。
+  verify: [zaliznyak]
+
+- lemma: вечер
+  stress: ве́чер
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 傍晚，晚上；晚会
+      en: evening
+      collocations: [до́брый ве́чер, ве́чером]
+      examples:
+        - ru: До́брый ве́чер!
+          zh: 晚上好！
+  common_errors: |
+    复数是 вечера́（重音在词尾），与 го́род → города́ 同型。
+
+- lemma: год
+  stress: год
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: лет
+    sing,loc2: году́
+  senses:
+    - zh: 年
+      en: year
+      collocations: [в э́том году́, ка́ждый год, Но́вый год]
+      examples:
+        - ru: В э́том году́ я начала́ изуча́ть ру́сский язы́к.
+          zh: 今年我开始学俄语了。
+        - ru: Ему́ два́дцать лет.
+          zh: 他二十岁。
+  common_errors: |
+    复数第二格是补充形式 лет（来自 ле́то），不是 годо́в：
+    два го́да（2–4 用单数第二格）／ пять лет（5 以上用 лет）。
+    说年龄一律用这套：«Ему́ два́дцать лет»，而且人用第三格。
+    另外"在今年"用处所格 в году́，不是 в го́де。
+
+- lemma: месяц
+  stress: ме́сяц
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 月，月份
+      en: month
+      examples:
+        - ru: Я живу́ здесь три ме́сяца.
+          zh: 我在这儿住了三个月。
+
+- lemma: неделя
+  stress: неде́ля
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期，周
+      en: week
+      collocations: [на про́шлой неде́ле, на э́той неде́ле]
+      examples:
+        - ru: На э́той неде́ле я о́чень за́нят.
+          zh: 这周我很忙。
+  common_errors: |
+    "在某周"用 на + 第六格（на э́той неде́ле），不是 в。
+    但"在某月／某年"用 в：в ма́е, в э́том году́。前置词要分开记。
+
+- lemma: час
+  stress: час
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,loc2: часу́
+  senses:
+    - zh: 小时；点钟
+      en: hour, o'clock
+      collocations: [кото́рый час, че́рез час]
+      examples:
+        - ru: Уро́к начина́ется в два часа́.
+          zh: 两点开始上课。
+        - ru: Я ждал вас пять часо́в.
+          zh: 我等了您五个小时。
+  common_errors: |
+    数词后形式是高频考点，而且 2–4 之后的 часа́ 重音在词尾：
+    оди́н час / два часа́ / пять часо́в。
+    问时间说 «Кото́рый час?» 或口语 «Ско́лько вре́мени?»。
+  verify: [zaliznyak]
+
+- lemma: минута
+  stress: мину́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 分钟
+      en: minute
+      examples:
+        - ru: Подожди́те мину́ту, пожа́луйста.
+          zh: 请等一分钟。
+
+# --- Family and people ------------------------------------------------------
+
+- lemma: семья
+  stress: семья́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*b
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: се́мьи
+    plur,gent: семе́й
+    plur,datv: се́мьям
+  senses:
+    - zh: 家庭，一家人
+      en: family
+      examples:
+        - ru: У нас больша́я семья́.
+          zh: 我们家人多。
+  verify: [zaliznyak]
+
+- lemma: отец
+  stress: оте́ц
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 父亲
+      en: father
+      examples:
+        - ru: Мой оте́ц рабо́тает инжене́ром.
+          zh: 我父亲是工程师。
+  common_errors: |
+    逃逸元音 е 脱落：оте́ц → отца́ / отцу́ / отцо́м / отце́，重音也移到词尾。
+    口语里"爸爸"更常说 па́па（虽然是阳性，但按阴性变格法变化）。
+
+- lemma: сын
+  stress: сын
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: сыновья́
+    plur,gent: сынове́й
+    plur,datv: сыновья́м
+    plur,accs: сынове́й
+    plur,ablt: сыновья́ми
+    plur,loct: сыновья́х
+  senses:
+    - zh: 儿子
+      en: son
+      examples:
+        - ru: У них два сы́на.
+          zh: 他们有两个儿子。
+  common_errors: |
+    复数是特殊形式 сыновья́ / сынове́й，不是 сы́ны（那是"祖国的儿子"这类修辞用法）。
+
+- lemma: брат
+  stress: брат
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: бра́тья
+    plur,gent: бра́тьев
+    plur,datv: бра́тьям
+    plur,accs: бра́тьев
+    plur,ablt: бра́тьями
+    plur,loct: бра́тьях
+  senses:
+    - zh: 哥哥，弟弟
+      en: brother
+      examples:
+        - ru: Мой ста́рший брат живёт в Москве́.
+          zh: 我哥哥住在莫斯科。
+  notes: |
+    与 сестра́ 一样不分长幼，要说清楚得加 ста́рший（哥）／ мла́дший（弟）。
+  common_errors: |
+    复数 бра́тья / бра́тьев 是 -ья 型特殊复数。同型的还有 стул → сту́лья、
+    друг → друзья́、сын → сыновья́。这一组要整批记。
+
+- lemma: муж
+  stress: муж
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 4a
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: мужья́
+    plur,gent: муже́й
+    plur,datv: мужья́м
+  senses:
+    - zh: 丈夫
+      en: husband
+      examples:
+        - ru: Её муж — врач.
+          zh: 她丈夫是医生。
+  verify: [zaliznyak]
+
+- lemma: жена
+  stress: жена́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1d
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: жёны
+    plur,gent: жён
+    plur,datv: жёнам
+  senses:
+    - zh: 妻子
+      en: wife
+      examples:
+        - ru: Его́ жена́ рабо́тает в шко́ле.
+          zh: 他妻子在学校工作。
+  common_errors: |
+    复数出现 ё：жёны / жён，与 сестра́ → сёстры 同型。
+
+- lemma: друг
+  stress: друг
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: друзья́
+    plur,gent: друзе́й
+    plur,datv: друзья́м
+    plur,accs: друзе́й
+    plur,ablt: друзья́ми
+    plur,loct: друзья́х
+  senses:
+    - zh: 朋友
+      en: friend
+      examples:
+        - ru: Он мой лу́чший друг.
+          zh: 他是我最好的朋友。
+        - ru: Я иду́ в кино́ с друзья́ми.
+          zh: 我和朋友们去看电影。
+  common_errors: |
+    复数完全变形：друзья́ / друзе́й / друзья́м，г 变成 з。
+    女性朋友用 подру́га，复数正常：подру́ги。
+
+- lemma: студент
+  stress: студе́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 大学生
+      en: student
+      examples:
+        - ru: Я студе́нт второ́го ку́рса.
+          zh: 我是二年级学生。
+  notes: |
+    只指大学生。中小学生是 шко́льник / учени́к。汉语"学生"覆盖面更宽。
+    女生用 студе́нтка。
+
+- lemma: преподаватель
+  stress: преподава́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: （大学）教师
+      en: teacher, lecturer
+      examples:
+        - ru: Наш преподава́тель говори́т о́чень бы́стро.
+          zh: 我们老师说话很快。
+
+- lemma: учитель
+  stress: учи́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: учителя́
+    plur,gent: учителе́й
+    plur,datv: учителя́м
+  senses:
+    - zh: （中小学）教师
+      en: teacher
+      examples:
+        - ru: Она́ рабо́тает учи́телем.
+          zh: 她当老师。
+  common_errors: |
+    复数 учителя́ 重音在词尾。与 преподава́тель（大学教师，复数规则 преподава́тели）分工不同。
+
+# --- Home -------------------------------------------------------------------
+
+- lemma: квартира
+  stress: кварти́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 住宅，公寓
+      en: flat, apartment
+      examples:
+        - ru: Мы купи́ли но́вую кварти́ру.
+          zh: 我们买了套新房子。
+
+- lemma: комната
+  stress: ко́мната
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 房间，屋子
+      en: room
+      examples:
+        - ru: В кварти́ре три ко́мнаты.
+          zh: 房子里有三个房间。
+
+- lemma: кухня
+  stress: ку́хня
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*a
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 厨房；菜系
+      en: kitchen, cuisine
+      collocations: [кита́йская ку́хня]
+      examples:
+        - ru: Ма́ма гото́вит на ку́хне.
+          zh: 妈妈在厨房做饭。
+  verify: [zaliznyak]
+
+- lemma: дверь
+  stress: дверь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 门
+      en: door
+      examples:
+        - ru: Закро́йте, пожа́луйста, дверь.
+          zh: 请把门关上。
+  verify: [zaliznyak]
+
+- lemma: стул
+  stress: стул
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: сту́лья
+    plur,gent: сту́льев
+    plur,datv: сту́льям
+  senses:
+    - zh: 椅子（有靠背的）
+      en: chair
+      examples:
+        - ru: В ко́мнате четы́ре сту́ла.
+          zh: 房间里有四把椅子。
+  notes: |
+    有靠背的是 стул，没靠背的凳子是 табуре́т，扶手椅是 кре́сло。汉语"椅子"覆盖三者。
+
+- lemma: кровать
+  stress: крова́ть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 床
+      en: bed
+      examples:
+        - ru: Кни́га лежи́т на крова́ти.
+          zh: 书在床上。
+
+# --- Study ------------------------------------------------------------------
+
+- lemma: школа
+  stress: шко́ла
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 学校（中小学）
+      en: school
+      examples:
+        - ru: Мой брат ещё у́чится в шко́ле.
+          zh: 我弟弟还在上中学。
+
+- lemma: университет
+  stress: университе́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 大学
+      en: university
+      examples:
+        - ru: Она́ у́чится в университе́те.
+          zh: 她在上大学。
+
+- lemma: класс
+  stress: класс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 年级；教室；班级
+      en: class, classroom
+      examples:
+        - ru: Он у́чится в тре́тьем кла́ссе.
+          zh: 他上三年级。
+
+- lemma: урок
+  stress: уро́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 课，功课
+      en: lesson
+      collocations: [на уро́ке, де́лать уро́ки]
+      examples:
+        - ru: На уро́ке мы чита́ли текст.
+          zh: 课上我们读了课文。
+  common_errors: |
+    "在课上"用 на уро́ке，不是 в уро́ке。这是 на 支配活动场所的典型用法。
+
+- lemma: книга
+  stress: кни́га
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 书
+      en: book
+      examples:
+        - ru: Э́то интере́сная кни́га.
+          zh: 这是本有意思的书。
+
+- lemma: тетрадь
+  stress: тетра́дь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 本子，练习本
+      en: notebook
+      examples:
+        - ru: Откро́йте тетра́ди.
+          zh: 请打开本子。
+
+- lemma: ручка
+  stress: ру́чка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 笔，圆珠笔
+      en: pen
+      examples:
+        - ru: Да́йте, пожа́луйста, ру́чку.
+          zh: 请给我支笔。
+  notes: |
+    也是 рука́ 的指小形式（小手）和"把手"的意思，一词多义。
+
+- lemma: карандаш
+  stress: каранда́ш
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 铅笔
+      en: pencil
+      examples:
+        - ru: Я пишу́ карандашо́м.
+          zh: 我用铅笔写。
+  common_errors: |
+    "用某物写"用第五格：карандашо́м / ру́чкой。这是工具格的典型用法，不用前置词。
+
+- lemma: вопрос
+  stress: вопро́с
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 问题
+      en: question
+      collocations: [зада́ть вопро́с, отве́тить на вопро́с]
+      examples:
+        - ru: У меня́ есть вопро́с.
+          zh: 我有个问题。
+  common_errors: |
+    "提问"是 зада́ть вопро́с，不是 спроси́ть вопро́с。
+
+- lemma: ответ
+  stress: отве́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 回答，答案
+      en: answer
+      examples:
+        - ru: Э́то пра́вильный отве́т.
+          zh: 这是正确答案。
+
+- lemma: работа
+  stress: рабо́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 工作
+      en: work, job
+      collocations: [на рабо́ту, на рабо́те]
+      examples:
+        - ru: Я иду́ на рабо́ту.
+          zh: 我去上班。
+  common_errors: |
+    "去上班／在单位"用 на рабо́ту / на рабо́те，不用 в。
+
+# --- City and travel --------------------------------------------------------
+
+- lemma: улица
+  stress: у́лица
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 街，马路
+      en: street
+      examples:
+        - ru: Я живу́ на э́той у́лице.
+          zh: 我住在这条街上。
+  notes: |
+    "在外面"也说 на у́лице：«На у́лице хо́лодно» 外面冷。
+
+- lemma: площадь
+  stress: пло́щадь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 广场；面积
+      en: square, area
+      examples:
+        - ru: Кра́сная пло́щадь нахо́дится в це́нтре Москвы́.
+          zh: 红场在莫斯科市中心。
+  verify: [zaliznyak]
+
+- lemma: магазин
+  stress: магази́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 商店
+      en: shop, store
+      examples:
+        - ru: Я иду́ в магази́н.
+          zh: 我去商店。
+
+- lemma: машина
+  stress: маши́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 汽车；机器
+      en: car, machine
+      examples:
+        - ru: У него́ но́вая маши́на.
+          zh: 他有辆新车。
+
+- lemma: автобус
+  stress: авто́бус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 公共汽车
+      en: bus
+      examples:
+        - ru: Я е́ду на авто́бусе.
+          zh: 我坐公交车。
+  common_errors: |
+    "乘坐某种交通工具"用 на + 第六格：на авто́бусе / на по́езде / на метро́。
+
+- lemma: поезд
+  stress: по́езд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 火车
+      en: train
+      examples:
+        - ru: По́езд идёт в Москву́.
+          zh: 这趟车开往莫斯科。
+  common_errors: |
+    复数 поезда́ 重音在词尾。另外火车"开"用 идти́ 或 е́хать，不用 лете́ть。
+
+- lemma: самолёт
+  stress: самолёт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 飞机
+      en: aeroplane
+      examples:
+        - ru: Мы лети́м на самолёте.
+          zh: 我们坐飞机。
+
+- lemma: метро
+  stress: метро́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 地铁
+      en: metro, underground
+      examples:
+        - ru: Ста́нция метро́ ря́дом с до́мом.
+          zh: 地铁站就在家旁边。
+  common_errors: |
+    метро́ 不变格，所有格都是 метро́：в метро́ / на метро́ / о метро́。
+    同类外来不变格名词还有 кино́、ра́дио、пальто́、такси́、кафе́，全是中性。
+
+- lemma: страна
+  stress: страна́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: стра́ны
+    plur,gent: стран
+  senses:
+    - zh: 国家
+      en: country
+      examples:
+        - ru: Кита́й — больша́я страна́.
+          zh: 中国是个大国。
+
+# --- Food -------------------------------------------------------------------
+
+- lemma: хлеб
+  stress: хлеб
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 面包
+      en: bread
+      examples:
+        - ru: Купи́, пожа́луйста, хлеб.
+          zh: 请买点面包。
+
+- lemma: чай
+  stress: чай
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,gen2: ча́ю
+  senses:
+    - zh: 茶
+      en: tea
+      examples:
+        - ru: Хоти́те ча́ю?
+          zh: 要喝茶吗？
+  notes: |
+    有部分格（第二属格）ча́ю，表示"一些茶"：«вы́пить ча́ю»。
+    常规第二格 ча́я 表示茶这个事物本身。同类还有 са́хару、су́пу。
+  verify: [zaliznyak]
+
+- lemma: кофе
+  stress: ко́фе
+  pos: noun
+  gender: masc
+  animacy: inan
+  indeclinable: true
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 咖啡
+      en: coffee
+      examples:
+        - ru: Я пью чёрный ко́фе.
+          zh: 我喝黑咖啡。
+  common_errors: |
+    ко́фе 是**阳性**不变格名词，这是俄语最著名的例外之一：
+    «чёрный ко́фе» 而不是 «чёрное ко́фе»。
+    口语中中性用法已被词典收作可接受变体，但考试和正式场合一律按阳性。
+
+- lemma: молоко
+  stress: молоко́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1b
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 牛奶
+      en: milk
+      examples:
+        - ru: Де́ти пьют молоко́.
+          zh: 孩子们喝牛奶。
+  verify: [zaliznyak]
+
+- lemma: мясо
+  stress: мя́со
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 肉
+      en: meat
+      examples:
+        - ru: Я не ем мя́со.
+          zh: 我不吃肉。
+
+- lemma: суп
+  stress: суп
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 汤
+      en: soup
+      examples:
+        - ru: На обе́д был вку́сный суп.
+          zh: 午饭有好喝的汤。
+  verify: [zaliznyak]
+
+- lemma: яблоко
+  stress: я́блоко
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 3a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: я́блоки
+    plur,gent: я́блок
+  senses:
+    - zh: 苹果
+      en: apple
+      examples:
+        - ru: Я купи́л два я́блока.
+          zh: 我买了两个苹果。
+
+# --- Body and money ---------------------------------------------------------
+
+- lemma: глаз
+  stress: глаз
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: глаза́
+    plur,gent: глаз
+    sing,loc2: глазу́
+  senses:
+    - zh: 眼睛
+      en: eye
+      examples:
+        - ru: У неё краси́вые глаза́.
+          zh: 她眼睛很好看。
+  common_errors: |
+    复数第二格是零词尾 глаз，与单数第一格同形：«пять глаз»。
+    复数第一格 глаза́ 重音在词尾。
+
+- lemma: деньги
+  stress: де́ньги
+  pos: noun
+  gender: femn
+  animacy: inan
+  number_only: plur
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: де́ньги
+    plur,gent: де́нег
+    plur,datv: деньга́м
+    plur,accs: де́ньги
+    plur,ablt: деньга́ми
+    plur,loct: деньга́х
+  senses:
+    - zh: 钱
+      en: money
+      examples:
+        - ru: У меня́ нет де́нег.
+          zh: 我没钱。
+  common_errors: |
+    деньги 只有复数（复数形式名词），没有单数，谓语一律用复数：
+    «Де́ньги лежа́т на столе́»。
+    同类只有复数的词还有 часы́（表）、очки́（眼镜）、но́жницы（剪刀）、брю́ки（裤子）。
+    另外第三格以下重音移到词尾：деньга́м / деньга́ми / деньга́х。

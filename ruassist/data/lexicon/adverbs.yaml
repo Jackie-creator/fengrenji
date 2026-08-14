@@ -1,0 +1,399 @@
+# Adverbs, particles and numerals.
+#
+# Adverbs need no paradigm, so the value here is entirely in the usage notes --
+# these are small words with high error rates for Chinese speakers.
+
+- lemma: хорошо
+  stress: хорошо́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 好，很好地
+      en: well
+      examples:
+        - ru: Он хорошо́ говори́т по-ру́сски.
+          zh: 他俄语说得好。
+  notes: |
+    比较级是补充形式 лу́чше，与形容词 хоро́ший 共用。
+    也可作无人称谓语："Здесь хорошо́" 这儿挺好。
+
+- lemma: плохо
+  stress: пло́хо
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 差，不好地
+      en: badly
+      examples:
+        - ru: Я пло́хо себя́ чу́вствую.
+          zh: 我不舒服。
+  notes: |
+    比较级 ху́же。«Я пло́хо себя́ чу́вствую» 是"我不舒服"的标准说法。
+
+- lemma: быстро
+  stress: бы́стро
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 快，迅速地
+      en: quickly
+      examples:
+        - ru: Не говори́те так бы́стро.
+          zh: 别说这么快。
+  antonyms: [медленно]
+
+- lemma: медленно
+  stress: ме́дленно
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 慢，缓慢地
+      en: slowly
+      examples:
+        - ru: Говори́те, пожа́луйста, ме́дленнее.
+          zh: 请说慢一点。
+  antonyms: [быстро]
+
+- lemma: много
+  stress: мно́го
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 多，许多
+      en: much, many
+      examples:
+        - ru: В го́роде мно́го музе́ев.
+          zh: 城里有很多博物馆。
+  common_errors: |
+    мно́го 后面的名词一律用第二格：мно́го книг（复数第二格）、
+    мно́го воды́（不可数用单数第二格）。
+    比较级是 бо́льше，与 большо́й 共用。
+  antonyms: [мало]
+
+- lemma: мало
+  stress: ма́ло
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 少
+      en: few, little
+      examples:
+        - ru: У меня́ ма́ло вре́мени.
+          zh: 我时间不多。
+  common_errors: |
+    与 мно́го 一样支配第二格。比较级 ме́ньше。
+  antonyms: [много]
+
+- lemma: очень
+  stress: о́чень
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 很，非常
+      en: very
+      examples:
+        - ru: Э́то о́чень интере́сно.
+          zh: 这很有意思。
+  common_errors: |
+    о́чень 只修饰形容词、副词和表示状态的动词，**不能修饰名词或数量**。
+    "很多书"是 мно́го книг 或 о́чень мно́го книг，不能说 о́чень книг。
+    另外不能修饰动词的动作量：说"我很喜欢"是 «Мне о́чень нра́вится»，
+    但"我学得很多"要用 мно́го，不用 о́чень。
+
+- lemma: тоже
+  stress: то́же
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 也（另一个主体做同样的事）
+      en: also, too
+      examples:
+        - ru: Он студе́нт. Я то́же студе́нт.
+          zh: 他是学生。我也是学生。
+  common_errors: |
+    то́же 和 та́кже 的分工是高频考点：
+    то́же 用于**换了主体、做同一件事**——«Он идёт. Я то́же иду́»；
+    та́кже 用于**同一主体、再做一件别的事**——«Он у́чится, а та́кже рабо́тает»。
+    汉语都是"也"，必须靠句子结构判断。
+
+- lemma: также
+  stress: та́кже
+  pos: adv
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 也，还（同一主体另做一事）
+      en: as well, in addition
+      examples:
+        - ru: Он изуча́ет ру́сский, а та́кже англи́йский.
+          zh: 他学俄语，还学英语。
+  common_errors: |
+    参见 то́же 的辨析。另外注意与 так же（分写，"同样地"）区别：
+    «Он де́лает так же, как я» 他做得和我一样——分写时是"如此地"。
+
+- lemma: здесь
+  stress: здесь
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 这里，在这儿
+      en: here
+      examples:
+        - ru: Здесь мо́жно кури́ть?
+          zh: 这儿可以抽烟吗？
+  notes: |
+    здесь 表示"在这儿"（静止）；"到这儿来"用 сюда́。
+    这是俄语地点副词的普遍对立：здесь/сюда́、там/туда́、до́ма/домо́й。
+
+- lemma: там
+  stress: там
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 那里，在那儿
+      en: there
+      examples:
+        - ru: Он рабо́тает там.
+          zh: 他在那儿工作。
+  common_errors: |
+    "在那儿"是 там，"到那儿去"是 туда́。
+    «Я иду́ там» 是错的，应该说 «Я иду́ туда́»。
+
+- lemma: сейчас
+  stress: сейча́с
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 现在；马上
+      en: now, right away
+      examples:
+        - ru: Сейча́с я за́нят.
+          zh: 我现在忙。
+  notes: |
+    既指"此刻"，也指"马上就来"：«Сейча́с!» 单说一句就是"来了／稍等"。
+
+- lemma: сегодня
+  stress: сего́дня
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 今天
+      en: today
+      examples:
+        - ru: Сего́дня хоро́шая пого́да.
+          zh: 今天天气好。
+  common_errors: |
+    读作 [сево́дня]，г 读作 [в]，与 его́ [ево́] 同一规则。
+
+- lemma: завтра
+  stress: за́втра
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 明天
+      en: tomorrow
+      examples:
+        - ru: За́втра я е́ду в Москву́.
+          zh: 我明天去莫斯科。
+  notes: |
+    俄语常用现在时表示已定的将来："За́втра я е́ду" 明天我去，和汉语用法一致。
+
+- lemma: вчера
+  stress: вчера́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 昨天
+      en: yesterday
+      examples:
+        - ru: Вчера́ мы бы́ли в теа́тре.
+          zh: 昨天我们去了剧院。
+
+- lemma: всегда
+  stress: всегда́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 总是，永远
+      en: always
+      examples:
+        - ru: Он всегда́ опа́здывает.
+          zh: 他总是迟到。
+  common_errors: |
+    表示反复发生，所以谓语一般用未完成体。
+  antonyms: [никогда]
+
+- lemma: никогда
+  stress: никогда́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 从不，永不
+      en: never
+      examples:
+        - ru: Я никогда́ там не́ был.
+          zh: 我从没去过那儿。
+  common_errors: |
+    俄语**必须用双重否定**：никогда́ 一定要和 не 连用——
+    «Я никогда́ не́ был» 而不是 «Я никогда́ был»。
+    这与汉语和英语都不同，是中国学生的高频错误。
+    同类还有 никто́ не、ничего́ не、нигде́ не。
+  antonyms: [всегда]
+
+- lemma: часто
+  stress: ча́сто
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 经常，常常
+      en: often
+      examples:
+        - ru: Мы ча́сто хо́дим в кино́.
+          zh: 我们常去看电影。
+  antonyms: [редко]
+
+- lemma: редко
+  stress: ре́дко
+  pos: adv
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 很少，难得
+      en: rarely
+      examples:
+        - ru: Он ре́дко звони́т домо́й.
+          zh: 他很少往家里打电话。
+  antonyms: [часто]
+
+- lemma: уже
+  stress: уже́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 已经
+      en: already
+      examples:
+        - ru: Он уже́ ушёл.
+          zh: 他已经走了。
+  common_errors: |
+    否定式"还没"是 ещё не，不是 уже́ не。
+    «Он ещё не пришёл» 他还没来；«Он уже́ не рабо́тает» 他已经不工作了（不再）。
+
+- lemma: ещё
+  stress: ещё
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 还，再
+      en: still, more
+      examples:
+        - ru: Да́йте, пожа́луйста, ещё оди́н.
+          zh: 请再给一个。
+        - ru: Он ещё спит.
+          zh: 他还在睡。
+
+- lemma: конечно
+  stress: коне́чно
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 当然
+      en: of course
+      examples:
+        - ru: Коне́чно, я помогу́ вам.
+          zh: 当然，我会帮您。
+  common_errors: |
+    чн 读作 [шн]：[коне́шно]。同类还有 ску́чно [ску́шно]、
+    что́бы [што́бы]。这批词的读音必须单独记。
+
+- lemma: пожалуйста
+  stress: пожа́луйста
+  pos: part
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 请；不客气
+      en: please, you're welcome
+      examples:
+        - ru: Скажи́те, пожа́луйста, кото́рый час?
+          zh: 请问几点了？
+  notes: |
+    读作 [пожа́луста]，中间的 й 通常不发音。
+    既是"请"，也是对 спаси́бо 的回应"不客气"。
+
+- lemma: спасибо
+  stress: спаси́бо
+  pos: part
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 谢谢
+      en: thank you
+      examples:
+        - ru: Большо́е спаси́бо!
+          zh: 太感谢了！
+  common_errors: |
+    "非常感谢"是 большо́е спаси́бо（形容词中性），不是 о́чень спаси́бо。
+    谢某人用第三格：«Спаси́бо вам»。
+
+- lemma: не
+  stress: не
+  pos: part
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 不，没（否定语气词）
+      en: not
+      examples:
+        - ru: Я не зна́ю.
+          zh: 我不知道。
+  common_errors: |
+    не 要紧贴被否定的成分：«Я не чита́л кни́гу» 我没读那本书 ／
+    «Не я чита́л кни́гу» 不是我读的那本书。位置变了意思就变了。
+    另外 не 与 ни 分工不同：ни 用于加强否定和无条件让步。
+
+- lemma: только
+  stress: то́лько
+  pos: part
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 只，仅仅
+      en: only
+      examples:
+        - ru: У меня́ то́лько оди́н вопро́с.
+          zh: 我只有一个问题。
+    - zh: 刚刚
+      en: just now
+      examples:
+        - ru: Он то́лько что пришёл.
+          zh: 他刚来。
+
+- lemma: да
+  stress: да
+  pos: part
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 是，对
+      en: "yes"
+      examples:
+        - ru: Да, коне́чно.
+          zh: 是的，当然。
+  common_errors: |
+    回答否定疑问句时与汉语相反：
+    «Вы не рабо́таете?»（您不工作吗）——如果确实不工作，俄语答 «Нет, не рабо́таю»，
+    汉语却说"对，我不工作"。俄语的 да／нет 跟随事实本身，不跟随提问的语气。
+
+- lemma: нет
+  stress: нет
+  pos: part
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 不，不是
+      en: "no"
+      examples:
+        - ru: Нет, спаси́бо.
+          zh: 不用了，谢谢。
+    - zh: 没有（表示不存在，后接第二格）
+      en: there is no
+      examples:
+        - ru: У меня́ нет вре́мени.
+          zh: 我没时间。
+  common_errors: |
+    表示"没有"时后面必须接第二格：«У меня́ нет кни́ги»，不是 нет кни́га。
+    这是否定存在句的固定结构，与肯定的 «У меня́ есть кни́га»（第一格）正好相对。
+    过去时用 не́ было，将来时用 не бу́дет，都同样接第二格。
