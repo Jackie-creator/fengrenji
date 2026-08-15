@@ -1,0 +1,487 @@
+# Adverbs: frequency, time, place and direction, manner, degree.
+#
+# Direction vs. location is the systematic trap for a Chinese speaker, because
+# Chinese uses one word where Russian has a pair (там/туда, здесь/сюда,
+# наверху/наверх). The pairs are noted on the entries themselves.
+#
+# Adverbs have no paradigm, so no Zaliznyak index; the engine leaves them as
+# single-form entries.
+
+- lemma: иногда
+  stress: иногда́
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 有时，偶尔
+      en: sometimes
+      examples:
+        - ru: Иногда́ я хожу́ в теа́тр.
+          zh: 我有时去看戏。
+  synonyms: [редко]
+
+- lemma: обычно
+  stress: обы́чно
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 通常，一般
+      en: usually
+      examples:
+        - ru: Обы́чно я встаю́ в семь.
+          zh: 我一般七点起床。
+
+- lemma: вдруг
+  stress: вдруг
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 突然
+      en: suddenly
+      examples:
+        - ru: Вдруг пошёл дождь.
+          zh: 突然下起雨来。
+  notes: |
+    讲故事时 вдруг 常常带出转折，后面跟完成体过去时。
+    口语里还有"万一"的用法：А вдруг он не придёт?
+
+- lemma: недавно
+  stress: неда́вно
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 不久前，最近
+      en: recently, not long ago
+      examples:
+        - ru: Он неда́вно прие́хал.
+          zh: 他不久前来的。
+  antonyms: [давно]
+
+- lemma: давно
+  stress: давно́
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 很久以前；很久了
+      en: long ago; for a long time
+      examples:
+        - ru: Я давно́ здесь живу́.
+          zh: 我在这儿住很久了。
+  antonyms: [недавно]
+  common_errors: |
+    давно́ + 现在时 = "已经……很久了"（动作还在继续）：Я давно́ жду。
+    давно́ + 过去时才是"很久以前发生过"：Э́то бы́ло давно́。时态一换意思就变。
+
+- lemma: вовремя
+  stress: во́время
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 按时，及时
+      en: on time, in time
+      examples:
+        - ru: По́езд пришёл во́время.
+          zh: 火车准点到了。
+  notes: |
+    重音在第一个音节 во́время，和前置词短语 во вре́мя（在……期间）不是一回事。
+
+- lemma: опять
+  stress: опя́ть
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 又，再次
+      en: again
+      examples:
+        - ru: Ты опя́ть опозда́л.
+          zh: 你又迟到了。
+  synonyms: [снова]
+  notes: |
+    опя́ть 常带一点不耐烦的味道，сно́ва 中性一点。
+
+- lemma: снова
+  stress: сно́ва
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 重新，再一次
+      en: again, anew
+      examples:
+        - ru: Начнём сно́ва.
+          zh: 我们重新开始。
+  synonyms: [опять]
+
+- lemma: везде
+  stress: везде́
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 到处，处处
+      en: everywhere
+      examples:
+        - ru: Везде́ бы́ли лю́ди.
+          zh: 到处都是人。
+  antonyms: [нигде]
+
+- lemma: нигде
+  stress: нигде́
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 哪里都不
+      en: nowhere
+      examples:
+        - ru: Я нигде́ его́ не ви́дел.
+          zh: 我哪儿都没见过他。
+  antonyms: [везде]
+  common_errors: |
+    俄语用双重否定：нигде́ 后面动词还要加 не。
+    «Я нигде́ ви́дел» 是错的，必须 «Я нигде́ не ви́дел»。
+
+- lemma: домой
+  stress: домо́й
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 回家（表方向）
+      en: home(wards)
+      examples:
+        - ru: Я иду́ домо́й.
+          zh: 我回家。
+  common_errors: |
+    домо́й 是"往家去"（方向），до́ма 是"在家"（地点）。
+    Я до́ма = 我在家；Я иду́ домо́й = 我回家。汉语都说"家"，俄语必须分。
+
+- lemma: назад
+  stress: наза́д
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 向后，往回
+      en: back, backwards
+      examples:
+        - ru: Сде́лайте шаг наза́д.
+          zh: 往后退一步。
+    - zh: ……以前（放在时间词后）
+      en: ago
+      examples:
+        - ru: Он ушёл час наза́д.
+          zh: 他一小时前走的。
+  antonyms: [вперёд]
+  notes: |
+    表示"多久以前"时 наза́д 放在时间短语**后面**：две неде́ли наза́д。
+
+- lemma: вперёд
+  stress: вперёд
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 向前
+      en: forward
+      examples:
+        - ru: Иди́те вперёд.
+          zh: 往前走。
+  antonyms: [назад]
+
+- lemma: прямо
+  stress: пря́мо
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 一直（往前），笔直地
+      en: straight ahead
+      examples:
+        - ru: Иди́те пря́мо, пото́м напра́во.
+          zh: 一直走，然后右转。
+    - zh: 直接地，简直
+      en: directly, right
+      examples:
+        - ru: Он сказа́л э́то пря́мо.
+          zh: 他直截了当地说了。
+
+- lemma: налево
+  stress: нале́во
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 向左
+      en: to the left
+      examples:
+        - ru: Поверни́те нале́во.
+          zh: 请左转。
+  antonyms: [направо]
+
+- lemma: направо
+  stress: напра́во
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 向右
+      en: to the right
+      examples:
+        - ru: Апте́ка бу́дет напра́во.
+          zh: 药店在右边。
+  antonyms: [налево]
+
+- lemma: слева
+  stress: сле́ва
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在左边
+      en: on the left
+      examples:
+        - ru: Сле́ва от вхо́да стои́т ла́мпа.
+          zh: 入口左边立着一盏灯。
+  antonyms: [справа]
+  common_errors: |
+    нале́во 是"往左"（方向），сле́ва 是"在左边"（位置）。
+    问路时说 нале́во，描述位置时说 сле́ва от чего。
+
+- lemma: справа
+  stress: спра́ва
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在右边
+      en: on the right
+      examples:
+        - ru: Спра́ва стои́т шкаф.
+          zh: 右边立着一个柜子。
+  antonyms: [слева]
+
+- lemma: далеко
+  stress: далеко́
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 远
+      en: far
+      examples:
+        - ru: До це́нтра далеко́.
+          zh: 到市中心很远。
+  antonyms: [близко]
+
+- lemma: близко
+  stress: бли́зко
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 近
+      en: near, close
+      examples:
+        - ru: Шко́ла совсе́м бли́зко.
+          zh: 学校很近。
+  antonyms: [далеко]
+
+- lemma: рядом
+  stress: ря́дом
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 在旁边，紧挨着
+      en: next to, nearby
+      collocations: [ря́дом с до́мом]
+      examples:
+        - ru: Он сиди́т ря́дом со мно́й.
+          zh: 他坐在我旁边。
+  notes: |
+    带宾语时是 ря́дом с + 第五格；单用就是"就在旁边"。
+
+- lemma: наверху
+  stress: наверху́
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在上面，在楼上
+      en: above, upstairs
+      examples:
+        - ru: Он живёт наверху́.
+          zh: 他住在楼上。
+  antonyms: [внизу]
+
+- lemma: внизу
+  stress: внизу́
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在下面，在楼下
+      en: below, downstairs
+      examples:
+        - ru: Внизу́ нахо́дится кафе́.
+          zh: 楼下有家咖啡馆。
+  antonyms: [наверху]
+
+- lemma: внутри
+  stress: внутри́
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 在里面
+      en: inside
+      government: чего
+      examples:
+        - ru: Внутри́ до́ма бы́ло темно́.
+          zh: 房子里面很黑。
+
+- lemma: вокруг
+  stress: вокру́г
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 周围，四周
+      en: around
+      government: чего
+      examples:
+        - ru: Вокру́г бы́ло ти́хо.
+          zh: 四周静悄悄的。
+        - ru: Мы се́ли вокру́г стола́.
+          zh: 我们围着桌子坐下。
+  notes: |
+    带宾语时是前置词，管第二格：вокру́г го́рода。
+
+- lemma: достаточно
+  stress: доста́точно
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 足够，够了
+      en: enough, sufficiently
+      government: чего
+      examples:
+        - ru: У нас доста́точно вре́мени.
+          zh: 我们时间够。
+  notes: |
+    "够什么"用第二格：доста́точно де́нег、доста́точно ме́ста。
+
+- lemma: особенно
+  stress: осо́бенно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 特别，尤其
+      en: especially, particularly
+      examples:
+        - ru: Мне нра́вится му́зыка, осо́бенно джаз.
+          zh: 我喜欢音乐，尤其是爵士。
+
+- lemma: действительно
+  stress: действи́тельно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 确实，的确
+      en: indeed, really
+      examples:
+        - ru: Он действи́тельно прав.
+          zh: 他确实有道理。
+
+- lemma: случайно
+  stress: случа́йно
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 偶然地，碰巧
+      en: by chance, accidentally
+      examples:
+        - ru: Мы встре́тились случа́йно.
+          zh: 我们是碰巧遇上的。
+    - zh: 顺便问一句（软化提问）
+      en: by any chance
+      examples:
+        - ru: Вы случа́йно не зна́ете, где вокза́л?
+          zh: 请问您知道火车站在哪儿吗？
+  antonyms: [специально]
+
+- lemma: специально
+  stress: специа́льно
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 专门地，故意地
+      en: on purpose, specially
+      examples:
+        - ru: Я специа́льно прие́хал к тебе́.
+          zh: 我是专程来找你的。
+  antonyms: [случайно]
+
+- lemma: наоборот
+  stress: наоборо́т
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 相反，反过来
+      en: on the contrary, the other way round
+      examples:
+        - ru: Он не уста́л, наоборо́т, он ве́сел.
+          zh: 他不累，正相反，他很开心。
+
+- lemma: навсегда
+  stress: навсегда́
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 永远地，一辈子
+      en: forever, for good
+      examples:
+        - ru: Он уе́хал навсегда́.
+          zh: 他一去不回了。
+
+- lemma: пешком
+  stress: пешко́м
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 步行，走着
+      en: on foot
+      examples:
+        - ru: Мы пошли́ пешко́м.
+          zh: 我们走着去了。
+  common_errors: |
+    "走着去"是 идти́ пешко́м；只说 идти́ 已经含"走"的意思，
+    加 пешко́м 是为了跟坐车对比。
+
+- lemma: вслух
+  stress: вслух
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 出声地，大声（朗读）
+      en: aloud
+      examples:
+        - ru: Чита́йте текст вслух.
+          zh: 请把课文朗读出来。
+
+- lemma: молча
+  stress: мо́лча
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 默默地，一声不吭地
+      en: silently, without a word
+      examples:
+        - ru: Он мо́лча вы́шел.
+          zh: 他一声不吭地走了出去。
+
+- lemma: громко
+  stress: гро́мко
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 大声地
+      en: loudly
+      examples:
+        - ru: Не говори́ так гро́мко.
+          zh: 别这么大声说话。
+  antonyms: [тихо]
+
+- lemma: тихо
+  stress: ти́хо
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 小声地，安静地
+      en: quietly
+      examples:
+        - ru: В библиоте́ке ти́хо.
+          zh: 图书馆里很安静。
+  antonyms: [громко]

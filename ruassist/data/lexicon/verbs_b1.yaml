@@ -363,6 +363,7 @@
   stress: найти́
   pos: verb
   aspect: perf
+  aspect_pair: находить
   transitivity: trans
   government: кого-что
   level: [A2, 高考, ТРКИ-1]

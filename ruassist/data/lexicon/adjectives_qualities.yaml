@@ -1,0 +1,769 @@
+# Qualities: physical properties, tastes, colours, character, evaluation.
+#
+# Long-form stress comes from the lemma's spelling, not from the Zaliznyak
+# letter (see morphology/adjectives.py) -- the letter here describes the short
+# forms, which the engine does not generate. Comparatives are irregular often
+# enough that they are recorded by hand wherever the word has a common one.
+#
+# Soft-stem adjectives (сре́дний, по́здний) are typed «п 2», the Zaliznyak type
+# for a genuinely soft stem; -ий after a velar or hushing consonant is types
+# 3 and 4 and declines hard.
+
+- lemma: необходимый
+  stress: необходи́мый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 必需的，不可缺少的
+      en: necessary, indispensable
+      examples:
+        - ru: Э́то необходи́мое усло́вие.
+          zh: 这是必要条件。
+  synonyms: [нужный]
+
+- lemma: полезный
+  stress: поле́зный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: поле́знее
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 有益的，有用的
+      en: useful, beneficial
+      examples:
+        - ru: О́вощи о́чень поле́зны.
+          zh: 蔬菜非常有益健康。
+  antonyms: [вредный]
+
+- lemma: вредный
+  stress: вре́дный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: вредне́е
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 有害的
+      en: harmful
+      examples:
+        - ru: Кури́ть вре́дно для здоро́вья.
+          zh: 吸烟有害健康。
+  antonyms: [полезный]
+
+- lemma: опасный
+  stress: опа́сный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: опа́снее
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 危险的
+      en: dangerous
+      examples:
+        - ru: Э́то опа́сная доро́га.
+          zh: 这条路很危险。
+  antonyms: [безопасный]
+
+- lemma: безопасный
+  stress: безопа́сный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 安全的
+      en: safe
+      examples:
+        - ru: Здесь безопа́сно.
+          zh: 这里很安全。
+  antonyms: [опасный]
+
+- lemma: смелый
+  stress: сме́лый
+  pos: adj
+  zaliznyak: п 1a
+  comparative: смеле́е
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 勇敢的，大胆的
+      en: brave, bold
+      examples:
+        - ru: Он сме́лый челове́к.
+          zh: 他是个勇敢的人。
+
+- lemma: честный
+  stress: че́стный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: честне́е
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 诚实的，正直的
+      en: honest
+      examples:
+        - ru: Он че́стный рабо́тник.
+          zh: 他是个正派的员工。
+  notes: |
+    读音里 т 不发音：[че́сный]。同根的 че́стно 也一样。
+
+- lemma: злой
+  stress: злой
+  pos: adj
+  zaliznyak: п 1*b
+  comparative: зле́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 凶的，恶的，生气的
+      en: angry, wicked
+      examples:
+        - ru: Не будь злым.
+          zh: 别那么凶。
+  antonyms: [добрый]
+  common_errors: |
+    злой 既指"性格恶"也指"此刻很生气"。
+    "生某人的气"用 злой на кого：Он зол на меня́。
+
+- lemma: ленивый
+  stress: лени́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 懒的
+      en: lazy
+      examples:
+        - ru: Он лени́вый, но у́мный.
+          zh: 他很懒，但脑子好使。
+
+- lemma: способный
+  stress: спосо́бный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 有能力的，有天分的
+      en: capable, able
+      examples:
+        - ru: Он спосо́бный студе́нт.
+          zh: 他是个有能力的学生。
+  notes: |
+    "有能力做某事"用 спосо́бен на что 或 спосо́бен + 不定式。
+
+- lemma: живой
+  stress: живо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 活的，活着的
+      en: alive, living
+      examples:
+        - ru: Он ещё жив.
+          zh: 他还活着。
+    - zh: 活泼的，生动的
+      en: lively, vivid
+      examples:
+        - ru: У неё живо́й хара́ктер.
+          zh: 她性格活泼。
+
+- lemma: мягкий
+  stress: мя́гкий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: мя́гче
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 软的
+      en: soft
+      examples:
+        - ru: Э́то мя́гкий дива́н.
+          zh: 这沙发很软。
+    - zh: 温和的（性格、气候）
+      en: mild, gentle
+      examples:
+        - ru: У них мя́гкий кли́мат.
+          zh: 他们那儿气候温和。
+  antonyms: [твёрдый]
+  notes: |
+    读音是 [мя́хкий]，比较级 мя́гче 读 [мя́хче]。ь 在这里是语法拼写，不是软化。
+
+- lemma: твёрдый
+  stress: твёрдый
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: твёрже
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 硬的
+      en: hard, firm
+      examples:
+        - ru: Хлеб стал твёрдым.
+          zh: 面包变硬了。
+    - zh: 坚定的
+      en: firm, resolute
+      examples:
+        - ru: Э́то моё твёрдое реше́ние.
+          zh: 这是我坚定的决定。
+  antonyms: [мягкий]
+
+- lemma: острый
+  stress: о́стрый
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: остре́е
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 锋利的，尖的
+      en: sharp
+      examples:
+        - ru: Э́то о́стрый нож.
+          zh: 这把刀很快。
+    - zh: 辣的
+      en: spicy
+      examples:
+        - ru: Я не ем о́строе.
+          zh: 我不吃辣。
+
+- lemma: круглый
+  stress: кру́глый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 圆的
+      en: round
+      examples:
+        - ru: В ко́мнате кру́глый стол.
+          zh: 房间里有张圆桌。
+
+- lemma: прямой
+  stress: прямо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 直的
+      en: straight
+      examples:
+        - ru: Иди́те по прямо́й доро́ге.
+          zh: 沿着直路走。
+    - zh: 直接的，直率的
+      en: direct, straightforward
+      examples:
+        - ru: Э́то прямо́й отве́т.
+          zh: 这是个直截了当的回答。
+
+- lemma: глубокий
+  stress: глубо́кий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: глу́бже
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 深的
+      en: deep
+      examples:
+        - ru: Здесь глубо́кая река́.
+          zh: 这里的河很深。
+  notes: |
+    比较级重音跳到词首：глубо́кий → глу́бже，不是 *глубо́че。
+
+- lemma: толстый
+  stress: то́лстый
+  pos: adj
+  zaliznyak: п 1a
+  comparative: то́лще
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 厚的；胖的
+      en: thick; fat
+      examples:
+        - ru: Э́то то́лстая кни́га.
+          zh: 这本书很厚。
+  antonyms: [тонкий]
+
+- lemma: тонкий
+  stress: то́нкий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: то́ньше
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 薄的，细的
+      en: thin, fine
+      examples:
+        - ru: На ней то́нкое пла́тье.
+          zh: 她穿着一件薄裙子。
+  antonyms: [толстый]
+
+- lemma: сухой
+  stress: сухо́й
+  pos: adj
+  zaliznyak: п 3b
+  comparative: су́ше
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 干的
+      en: dry
+      examples:
+        - ru: Пого́да суха́я и жа́ркая.
+          zh: 天气又干又热。
+  antonyms: [мокрый]
+
+- lemma: мокрый
+  stress: мо́крый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 湿的
+      en: wet
+      examples:
+        - ru: У меня́ мо́крые во́лосы.
+          zh: 我头发是湿的。
+  antonyms: [сухой]
+
+- lemma: горячий
+  stress: горя́чий
+  pos: adj
+  zaliznyak: п 4a
+  comparative: горяче́е
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 烫的，热的（摸得到的热）
+      en: hot (to the touch)
+      examples:
+        - ru: Осторо́жно, чай горя́чий.
+          zh: 小心，茶很烫。
+  antonyms: [холодный]
+  common_errors: |
+    горя́чий 是"物体烫手"，жа́ркий 是"天气热"。
+    "今天很热"要说 Сего́дня жа́рко，不能用 горячо́。
+
+- lemma: сладкий
+  stress: сла́дкий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: сла́ще
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 甜的
+      en: sweet
+      examples:
+        - ru: Э́тот чай сли́шком сла́дкий.
+          zh: 这茶太甜了。
+
+- lemma: кислый
+  stress: ки́слый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 酸的
+      en: sour
+      examples:
+        - ru: Лимо́н о́чень ки́слый.
+          zh: 柠檬很酸。
+
+- lemma: горький
+  stress: го́рький
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: го́рче
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 苦的
+      en: bitter
+      examples:
+        - ru: Ко́фе без са́хара го́рький.
+          zh: 不加糖的咖啡是苦的。
+
+- lemma: солёный
+  stress: солёный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 咸的
+      en: salty
+      examples:
+        - ru: Суп сли́шком солёный.
+          zh: 汤太咸了。
+
+- lemma: голубой
+  stress: голубо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 浅蓝色的，天蓝色的
+      en: light blue
+      examples:
+        - ru: У неё голубы́е глаза́.
+          zh: 她有一双浅蓝色的眼睛。
+  common_errors: |
+    俄语把蓝色分成两个基本颜色词：си́ний 是深蓝，голубо́й 是浅蓝。
+    汉语一个"蓝"对应两个词，说眼睛、天空一般用 голубо́й。
+
+- lemma: жёлтый
+  stress: жёлтый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 黄色的
+      en: yellow
+      examples:
+        - ru: О́сенью ли́стья жёлтые.
+          zh: 秋天树叶是黄的。
+
+- lemma: серый
+  stress: се́рый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 灰色的
+      en: grey
+      examples:
+        - ru: Сего́дня се́рое не́бо.
+          zh: 今天天色灰蒙蒙的。
+
+- lemma: коричневый
+  stress: кори́чневый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 棕色的，褐色的
+      en: brown
+      examples:
+        - ru: Он купи́л кори́чневые ту́фли.
+          zh: 他买了双棕色皮鞋。
+
+- lemma: розовый
+  stress: ро́зовый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 粉红色的
+      en: pink
+      examples:
+        - ru: Она́ лю́бит ро́зовый цвет.
+          zh: 她喜欢粉色。
+
+- lemma: яркий
+  stress: я́ркий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: я́рче
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 明亮的，鲜艳的
+      en: bright, vivid
+      examples:
+        - ru: Э́то сли́шком я́ркий свет.
+          zh: 这光太刺眼了。
+
+- lemma: чужой
+  stress: чужо́й
+  pos: adj
+  zaliznyak: п 4b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 别人的，外人的，陌生的
+      en: someone else's, foreign
+      examples:
+        - ru: Не бери́ чужи́е ве́щи.
+          zh: 别拿别人的东西。
+  antonyms: [свой]
+  common_errors: |
+    чужо́й 强调"不属于我／我们的"，иностра́нный 才是"外国的"。
+    "外语"是 иностра́нный язы́к，不是 *чужо́й язы́к。
+
+- lemma: родной
+  stress: родно́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 亲的，本族的，故乡的
+      en: native, one's own (kin)
+      collocations: [родно́й язы́к, родно́й го́род]
+      examples:
+        - ru: Ру́сский — мой родно́й язы́к.
+          zh: 俄语是我的母语。
+
+- lemma: знакомый
+  stress: знако́мый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 熟悉的，认识的
+      en: familiar, acquainted
+      examples:
+        - ru: Э́то знако́мое лицо́.
+          zh: 这张脸挺眼熟。
+    - zh: 熟人（名词化）
+      en: an acquaintance
+      examples:
+        - ru: Он мой ста́рый знако́мый.
+          zh: 他是我的老熟人。
+  notes: |
+    形容词直接当名词用（знако́мый / знако́мая），变格照形容词走，这是俄语的常见做法。
+
+- lemma: скучный
+  stress: ску́чный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: скучне́е
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 无聊的，乏味的
+      en: boring
+      examples:
+        - ru: Э́то был ску́чный фильм.
+          zh: 那是部无聊的电影。
+  antonyms: [интересный]
+  notes: |
+    чн 在这个词里读 [шн]：[ску́шный]、[ску́шно]。同类的还有 коне́чно。
+
+- lemma: приятный
+  stress: прия́тный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: прия́тнее
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 愉快的，令人舒服的
+      en: pleasant
+      collocations: [прия́тно познако́миться]
+      examples:
+        - ru: Óчень прия́тно!
+          zh: 很高兴认识您！
+
+- lemma: ужасный
+  stress: ужа́сный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可怕的，糟糕透顶的
+      en: terrible, awful
+      examples:
+        - ru: Была́ ужа́сная пого́да.
+          zh: 天气糟透了。
+
+- lemma: прекрасный
+  stress: прекра́сный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 美好的，极好的
+      en: wonderful, beautiful
+      examples:
+        - ru: Э́то прекра́сная иде́я.
+          zh: 这主意好极了。
+
+- lemma: отличный
+  stress: отли́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 极好的，优秀的
+      en: excellent
+      examples:
+        - ru: Отли́чная рабо́та!
+          zh: 干得漂亮！
+
+- lemma: замечательный
+  stress: замеча́тельный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 出色的，了不起的
+      en: remarkable, splendid
+      examples:
+        - ru: Он замеча́тельный учи́тель.
+          zh: 他是位了不起的老师。
+
+- lemma: удивительный
+  stress: удиви́тельный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 令人惊奇的
+      en: surprising, amazing
+      examples:
+        - ru: Э́то удиви́тельная исто́рия.
+          zh: 这是个令人惊奇的故事。
+
+- lemma: редкий
+  stress: ре́дкий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: ре́же
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 稀有的，罕见的
+      en: rare
+      examples:
+        - ru: Э́то ре́дкая кни́га.
+          zh: 这是本罕见的书。
+
+- lemma: единственный
+  stress: еди́нственный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 唯一的
+      en: only, sole
+      examples:
+        - ru: Э́то еди́нственный вы́ход.
+          zh: 这是唯一的出路。
+
+- lemma: целый
+  stress: це́лый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 整个的，完整的
+      en: whole, entire
+      examples:
+        - ru: Я ждал це́лый час.
+          zh: 我整整等了一个小时。
+
+- lemma: полный
+  stress: по́лный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: полне́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 满的
+      en: full
+      government: чего
+      examples:
+        - ru: Стака́н по́лон воды́.
+          zh: 杯子里装满了水。
+    - zh: 完全的，全部的
+      en: complete
+      examples:
+        - ru: Ну́жен по́лный спи́сок.
+          zh: 需要一份完整的清单。
+  antonyms: [пустой]
+
+- lemma: пустой
+  stress: пусто́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 空的
+      en: empty
+      examples:
+        - ru: В за́ле пусто́.
+          zh: 大厅里空荡荡的。
+  antonyms: [полный]
+
+- lemma: открытый
+  stress: откры́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 开着的，开放的
+      en: open
+      examples:
+        - ru: Магази́н откры́т до девяти́.
+          zh: 商店开到九点。
+  antonyms: [закрытый]
+
+- lemma: закрытый
+  stress: закры́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 关着的，封闭的
+      en: closed
+      examples:
+        - ru: Дверь была́ закры́та.
+          zh: 门是关着的。
+  antonyms: [открытый]
+
+- lemma: средний
+  stress: сре́дний
+  pos: adj
+  zaliznyak: п 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 中间的，平均的，中等的
+      en: middle, average
+      collocations: [сре́дняя шко́ла, в сре́днем]
+      examples:
+        - ru: Э́то сре́дний результа́т.
+          zh: 这是个中等的成绩。
+
+- lemma: внимательный
+  stress: внима́тельный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: внима́тельнее
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 专心的，细心的；体贴的
+      en: attentive, considerate
+      examples:
+        - ru: Бу́дьте внима́тельны на доро́ге.
+          zh: 路上小心。
+
+- lemma: поздний
+  stress: по́здний
+  pos: adj
+  zaliznyak: п 2a
+  comparative: по́зже
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 晚的，迟的
+      en: late
+      examples:
+        - ru: Мы се́ли на по́здний по́езд.
+          zh: 我们坐了晚班车。
+  antonyms: [ранний]
+  notes: |
+    д 不发音：[по́зний]，但比较级 по́зже 读 [по́жже]。
+
+- lemma: ранний
+  stress: ра́нний
+  pos: adj
+  zaliznyak: п 2a
+  comparative: ра́ньше
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 早的
+      en: early
+      examples:
+        - ru: Э́то ра́нняя весна́.
+          zh: 这是早春。
+  antonyms: [поздний]
+
+- lemma: древний
+  stress: дре́вний
+  pos: adj
+  zaliznyak: п 2*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 古代的，远古的
+      en: ancient
+      examples:
+        - ru: Э́то дре́вний го́род.
+          zh: 这是座古城。
+  antonyms: [современный]

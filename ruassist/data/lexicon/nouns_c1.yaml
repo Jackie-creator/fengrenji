@@ -1,0 +1,388 @@
+# Remaining nouns: places, media, quantities, family, study.
+
+- lemma: столица
+  stress: столи́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 首都
+      en: capital
+      examples:
+        - ru: Москва́ — столи́ца Росси́и.
+          zh: 莫斯科是俄罗斯的首都。
+
+- lemma: житель
+  stress: жи́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 居民
+      en: inhabitant
+      examples:
+        - ru: В го́роде миллио́н жи́телей.
+          zh: 城里有一百万居民。
+
+- lemma: ребята
+  stress: ребя́та
+  pos: noun
+  gender: masc
+  animacy: anim
+  number_only: plur
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: ребя́та
+    plur,gent: ребя́т
+    plur,datv: ребя́там
+    plur,accs: ребя́т
+    plur,ablt: ребя́тами
+    plur,loct: ребя́тах
+  senses:
+    - zh: 伙计们，小伙子们（口语称呼）
+      en: guys, lads
+      examples:
+        - ru: Ребя́та, пойдём!
+          zh: 伙计们，走吧！
+  notes: |
+    只用复数，是招呼同龄人的高频口语词，男女都可以用。
+
+- lemma: молодёжь
+  stress: молодёжь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 青年（集合）
+      en: young people
+      examples:
+        - ru: Совреме́нная молодёжь мно́го чита́ет.
+          zh: 现在的年轻人读书不少。
+  common_errors: |
+    集合名词，只有单数，谓语用单数：«Молодёжь лю́бит…»。
+    汉语"年轻人们"是复数概念，俄语这里必须用单数。
+
+- lemma: телевизор
+  stress: телеви́зор
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 电视机
+      en: television set
+      examples:
+        - ru: Он смо́трит телеви́зор.
+          zh: 他在看电视。
+  common_errors: |
+    "在电视上（播）"用 по телеви́зору（第三格），与 по телефо́ну 同型。
+
+- lemma: радио
+  stress: ра́дио
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 收音机；广播
+      en: radio
+      examples:
+        - ru: Я слу́шаю ра́дио.
+          zh: 我在听广播。
+
+- lemma: компьютер
+  stress: компью́тер
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 电脑
+      en: computer
+      examples:
+        - ru: Он рабо́тает за компью́тером.
+          zh: 他在电脑前工作。
+  common_errors: |
+    "在电脑前工作"用 за + 第五格：за компью́тером，与 за столо́м 同型。
+
+- lemma: интернет
+  stress: интерне́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 互联网
+      en: internet
+      examples:
+        - ru: Я нашёл э́то в интерне́те.
+          zh: 我在网上找到的。
+
+- lemma: число
+  stress: число́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*d
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: чи́сла
+    plur,gent: чи́сел
+  senses:
+    - zh: 数字；日期
+      en: number, date
+      examples:
+        - ru: Како́е сего́дня число́?
+          zh: 今天几号？
+  notes: |
+    «Како́е сего́дня число́?» 是问日期的标准说法。
+
+- lemma: половина
+  stress: полови́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 一半
+      en: half
+      examples:
+        - ru: Полови́на студе́нтов уже́ пришла́.
+          zh: 一半学生已经到了。
+  notes: |
+    报时间用 полови́на + 顺序数词第二格：полови́на восьмо́го = 七点半
+    （字面"第八个小时的一半"），这与汉语的数法完全相反，是理解难点。
+
+- lemma: раз
+  stress: раз
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: раз
+  senses:
+    - zh: 次，回
+      en: time, occasion
+      collocations: [оди́н раз, ещё раз, ка́ждый раз]
+      examples:
+        - ru: Повтори́те ещё раз.
+          zh: 请再说一遍。
+  common_errors: |
+    复数第二格是零词尾 раз，与单数第一格同形：«мно́го раз», «пять раз»。
+    与 челове́к、глаз 同型。
+
+- lemma: причёска
+  stress: причёска
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: причёсок
+  senses:
+    - zh: 发型
+      en: hairstyle
+      examples:
+        - ru: У неё но́вая причёска.
+          zh: 她换了个发型。
+
+- lemma: улыбка
+  stress: улы́бка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: улы́бок
+  senses:
+    - zh: 微笑
+      en: smile
+      examples:
+        - ru: У неё прия́тная улы́бка.
+          zh: 她笑得好看。
+
+- lemma: голос
+  stress: го́лос
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 声音，嗓音；选票
+      en: voice, vote
+      examples:
+        - ru: У него́ прия́тный го́лос.
+          zh: 他嗓音好听。
+  common_errors: |
+    复数 голоса́（重音在词尾），与 го́род → города́ 同型。
+
+- lemma: шум
+  stress: шум
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 噪音，喧闹
+      en: noise
+      examples:
+        - ru: На у́лице большо́й шум.
+          zh: 街上很吵。
+
+- lemma: запах
+  stress: за́пах
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 气味
+      en: smell
+      examples:
+        - ru: Здесь прия́тный за́пах.
+          zh: 这儿味道很好闻。
+
+- lemma: цвет
+  stress: цвет
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 颜色
+      en: colour
+      examples:
+        - ru: Како́го цве́та э́та су́мка?
+          zh: 这包什么颜色？
+  common_errors: |
+    "什么颜色"用第二格：како́го цве́та。
+    复数 цвета́（颜色们）与 цветы́（花，来自 цвето́к）只差一个字母，是经典易混对。
+
+- lemma: размер
+  stress: разме́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 尺寸，号码
+      en: size
+      examples:
+        - ru: Како́й у вас разме́р?
+          zh: 您穿多大号？
+
+- lemma: очередь
+  stress: о́чередь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 队，排队；轮次
+      en: queue, turn
+      examples:
+        - ru: Здесь больша́я о́чередь.
+          zh: 这儿排着长队。
+  notes: |
+    «В пе́рвую о́чередь» = 首先，是高频固定搭配。
+  verify: [zaliznyak]
+
+- lemma: середина
+  stress: середи́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 中间，中央
+      en: middle
+      examples:
+        - ru: В середи́не ме́сяца бу́дет экза́мен.
+          zh: 月中有考试。
+
+- lemma: правило
+  stress: пра́вило
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 规则
+      en: rule
+      examples:
+        - ru: Э́то ва́жное пра́вило.
+          zh: 这是条重要规则。
+  notes: |
+    «Как пра́вило» = 通常，作插入语。
+
+- lemma: успех
+  stress: успе́х
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 成功；成绩
+      en: success
+      examples:
+        - ru: Жела́ю вам успе́хов!
+          zh: 祝您成功！
+  notes: |
+    祝福语用复数第二格：«Успе́хов!»，与 жела́ть 接第二格一致。
+
+- lemma: совет
+  stress: сове́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 建议，忠告
+      en: advice
+      examples:
+        - ru: Спаси́бо за сове́т.
+          zh: 谢谢你的建议。
+
+- lemma: встреча
+  stress: встре́ча
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 会面，见面
+      en: meeting
+      examples:
+        - ru: До встре́чи!
+          zh: 回见！
+  notes: |
+    «До встре́чи!» 是"回头见"的常用告别语，用第二格。
+

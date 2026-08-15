@@ -1,0 +1,1650 @@
+# High-frequency verbs of the abstract/discourse layer: sending, leaving,
+# proposing, noticing, changing, demanding, permitting, comparing.
+#
+# These are the verbs that carry B1-B2 written Russian. Almost all of them are
+# in productive classes (1, 2, 4, 6), so the engine expands them in full; the
+# handful of т -> щ first-person singulars are the only hand-written cells.
+
+- lemma: отправить
+  stress: отпра́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: отправлять
+  transitivity: trans
+  government: что кому/куда
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 寄出，发送，派遣
+      en: to send, to dispatch
+      examples:
+        - ru: Я отпра́вил письмо́ вчера́.
+          zh: 我昨天把信寄出去了。
+
+- lemma: отправлять
+  stress: отправля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: отправить
+  transitivity: trans
+  government: что кому/куда
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 寄，发送，派遣
+      en: to send
+      examples:
+        - ru: Он ка́ждый день отправля́ет отчёты.
+          zh: 他每天发报告。
+
+- lemma: оставить
+  stress: оста́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: оставлять
+  transitivity: trans
+  government: кого-что где
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 留下，遗留，丢下
+      en: to leave (behind)
+      examples:
+        - ru: Я оста́вил ключи́ до́ма.
+          zh: 我把钥匙落在家里了。
+    - zh: 保留，让……保持原样
+      en: to keep, to leave as is
+      collocations: [оста́вить в поко́е]
+      examples:
+        - ru: Оста́вьте меня́ в поко́е.
+          zh: 别管我。
+  common_errors: |
+    汉语"留"既能说人也能说物，俄语要分：оста́вить 是"把东西留下"，
+    人自己留下来用 оста́ться。«Я оста́вил до́ма» 是错的，应说 «Я оста́лся до́ма»。
+
+- lemma: оставлять
+  stress: оставля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: оставить
+  transitivity: trans
+  government: кого-что где
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 留下，遗留
+      en: to leave (behind)
+      examples:
+        - ru: Он всегда́ оставля́ет свет в ку́хне.
+          zh: 他总是让厨房的灯亮着。
+
+- lemma: предложить
+  stress: предложи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: предлагать
+  transitivity: trans
+  government: что кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 提议，建议，提供
+      en: to offer, to propose
+      examples:
+        - ru: Он предложи́л нам помо́чь.
+          zh: 他提出要帮我们。
+  notes: |
+    1 单是 предложу́，其余重音回到词干：предло́жишь、предло́жит。
+
+- lemma: предлагать
+  stress: предлага́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: предложить
+  transitivity: trans
+  government: что кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 提议，提供
+      en: to offer, to propose
+      examples:
+        - ru: Что вы предлага́ете?
+          zh: 您有什么建议？
+
+- lemma: заметить
+  stress: заме́тить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: замечать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 注意到，发现
+      en: to notice
+      examples:
+        - ru: Я не заме́тил оши́бку.
+          zh: 我没注意到这个错误。
+    - zh: 说一句，评论
+      en: to remark
+      examples:
+        - ru: «Уже́ по́здно», — заме́тил он.
+          zh: "“已经晚了，”他说了一句。"
+  notes: |
+    1 单有 т → ч 交替：заме́чу。
+
+- lemma: замечать
+  stress: замеча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: заметить
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 注意到，察觉
+      en: to notice
+      examples:
+        - ru: Он не замеча́ет никого́ вокру́г.
+          zh: 他看不见周围的任何人。
+
+- lemma: появиться
+  stress: появи́ться
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: появляться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 出现，露面
+      en: to appear
+      examples:
+        - ru: На не́бе появи́лись звёзды.
+          zh: 天上出现了星星。
+
+- lemma: появляться
+  stress: появля́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: появиться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 出现
+      en: to appear
+      examples:
+        - ru: Он ре́дко появля́ется на рабо́те.
+          zh: 他很少露面上班。
+
+- lemma: изменить
+  stress: измени́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: изменять
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 改变，更改
+      en: to change (something)
+      examples:
+        - ru: Мы измени́ли план.
+          zh: 我们改了计划。
+  common_errors: |
+    измени́ть что 是"改变某物"（及物）；измени́ть кому 是"背叛某人"。
+    格不同意思就变了，写作里容易出事故。
+
+- lemma: изменять
+  stress: изменя́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: изменить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 改变，更改
+      en: to change (something)
+      examples:
+        - ru: Он ча́сто изменя́ет свои́ пла́ны.
+          zh: 他经常改变计划。
+
+- lemma: измениться
+  stress: измени́ться
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: изменяться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 变化，起变化
+      en: to change (intransitive)
+      examples:
+        - ru: Го́род си́льно измени́лся.
+          zh: 这座城市变化很大。
+
+- lemma: изменяться
+  stress: изменя́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: измениться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 变化
+      en: to change (intransitive)
+      examples:
+        - ru: Пого́да изменя́ется ка́ждый день.
+          zh: 天气天天变。
+
+- lemma: добавить
+  stress: доба́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: добавлять
+  transitivity: trans
+  government: что / чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 添加，补充
+      en: to add
+      examples:
+        - ru: Доба́вьте немно́го со́ли.
+          zh: 加一点儿盐。
+  notes: |
+    加"一部分"时用第二格：доба́вь са́хару；加"整个东西"用第四格：доба́вить главу́。
+
+- lemma: добавлять
+  stress: добавля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: добавить
+  transitivity: trans
+  government: что / чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 添加，补充
+      en: to add
+      examples:
+        - ru: Я не добавля́ю са́хар в чай.
+          zh: 我茶里不加糖。
+
+- lemma: требовать
+  stress: тре́бовать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  aspect_pair: потребовать
+  transitivity: trans
+  government: чего / что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 要求，需要
+      en: to demand, to require
+      examples:
+        - ru: Э́та рабо́та тре́бует вре́мени.
+          zh: 这项工作需要时间。
+  common_errors: |
+    抽象事物用第二格：тре́бовать внима́ния、тре́бовать отве́та；
+    具体可指的东西才用第四格。中国学生习惯一律用第四格，这里要留心。
+
+- lemma: потребовать
+  stress: потре́бовать
+  pos: verb
+  zaliznyak: св 2a
+  aspect: perf
+  aspect_pair: требовать
+  transitivity: trans
+  government: чего / что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 提出要求
+      en: to demand
+      examples:
+        - ru: Он потре́бовал объясне́ний.
+          zh: 他要求给个说法。
+
+- lemma: пытаться
+  stress: пыта́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: попытаться
+  transitivity: intrans
+  reflexive: true
+  government: + инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 试图，尝试
+      en: to try, to attempt
+      examples:
+        - ru: Он пыта́ется поня́ть пра́вило.
+          zh: 他在试着理解这条规则。
+  notes: |
+    пыта́ться 强调"努力去做但可能不成"，стара́ться 强调"用心去做"。
+    两个都接不定式，写作里可以换着用。
+
+- lemma: попытаться
+  stress: попыта́ться
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: пытаться
+  transitivity: intrans
+  reflexive: true
+  government: + инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 试一下，尝试
+      en: to try
+      examples:
+        - ru: Попыта́йтесь ещё раз.
+          zh: 您再试一次。
+
+- lemma: сомневаться
+  stress: сомнева́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: в ком-чём
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 怀疑，不确信
+      en: to doubt
+      examples:
+        - ru: Я не сомнева́юсь в тебе́.
+          zh: 我不怀疑你。
+
+- lemma: разрешить
+  stress: разреши́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: разрешать
+  transitivity: trans
+  government: кому + инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 允许，准许
+      en: to allow, to permit
+      examples:
+        - ru: Разреши́те войти́?
+          zh: 我可以进来吗？
+  common_errors: |
+    被允许的人用第三格：разреши́ть студе́нтам。
+    Разреши́те… 是进门、插话、请求时的标准礼貌句式，必背。
+
+- lemma: разрешать
+  stress: разреша́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: разрешить
+  transitivity: trans
+  government: кому + инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 允许
+      en: to allow
+      examples:
+        - ru: Здесь не разреша́ют кури́ть.
+          zh: 这里不许抽烟。
+
+- lemma: защитить
+  stress: защити́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: защищать
+  transitivity: trans
+  government: кого-что от кого-чего
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    futr,1per,sing: защищу́
+  senses:
+    - zh: 保护，捍卫
+      en: to protect, to defend
+      examples:
+        - ru: Он защити́л дру́га от кри́тики.
+          zh: 他护着朋友，不让人批评。
+    - zh: 答辩（论文）
+      en: to defend (a thesis)
+      examples:
+        - ru: Она́ защити́ла диссерта́цию.
+          zh: 她通过了论文答辩。
+  notes: |
+    1 单是 защищу́（т → щ），不是规则的 т → ч，这一格要单独记。
+
+- lemma: защищать
+  stress: защища́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: защитить
+  transitivity: trans
+  government: кого-что от кого-чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保护，捍卫
+      en: to protect, to defend
+      examples:
+        - ru: Ро́дина защища́ет свои́х гра́ждан.
+          zh: 祖国保护自己的公民。
+
+- lemma: предупредить
+  stress: предупреди́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: предупреждать
+  transitivity: trans
+  government: кого о чём
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 预先告知，警告
+      en: to warn, to give notice
+      examples:
+        - ru: Предупреди́ меня́ зара́нее.
+          zh: 你提前告诉我一声。
+
+- lemma: предупреждать
+  stress: предупрежда́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: предупредить
+  transitivity: trans
+  government: кого о чём
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 预先告知，警告
+      en: to warn
+      examples:
+        - ru: Врач предупрежда́ет о ри́ске.
+          zh: 医生提醒有风险。
+
+- lemma: участвовать
+  stress: уча́ствовать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  government: в чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 参加，参与
+      en: to take part, to participate
+      examples:
+        - ru: Я уча́ствую в ко́нкурсе.
+          zh: 我在参加比赛。
+  common_errors: |
+    只能说 уча́ствовать в чём（第六格），不能带第四格。
+    "参加会议"是 уча́ствовать в собра́нии，不是 *уча́ствовать собра́ние。
+
+- lemma: относиться
+  stress: относи́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: к кому-чему
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 对待，看待
+      en: to treat, to regard
+      examples:
+        - ru: Он хорошо́ отно́сится к де́тям.
+          zh: 他对孩子很好。
+    - zh: 属于，关系到
+      en: to belong to, to concern
+      examples:
+        - ru: Э́то не отно́сится к де́лу.
+          zh: 这和正事无关。
+  notes: |
+    "对某人怎么样"在俄语里是 относи́ться к кому как（第三格 + 副词），
+    不用形容词：отно́сится хорошо́，不说 *отно́сится хоро́ший。
+
+- lemma: вспомнить
+  stress: вспо́мнить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: вспоминать
+  transitivity: trans
+  government: кого-что / о ком-чём
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 想起来，回忆起
+      en: to recall, to remember (suddenly)
+      examples:
+        - ru: Я вспо́мнил его́ и́мя.
+          zh: 我想起他的名字了。
+  common_errors: |
+    по́мнить 是"一直记得"（状态），вспо́мнить 是"想起来"（瞬间）。
+    "我记得他"用 по́мню，"我终于想起来了"用 вспо́мнил，不能互换。
+
+- lemma: вспоминать
+  stress: вспомина́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: вспомнить
+  transitivity: trans
+  government: кого-что / о ком-чём
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 回忆，怀念
+      en: to recall, to reminisce
+      examples:
+        - ru: Она́ ча́сто вспомина́ет де́тство.
+          zh: 她常常回忆童年。
+
+- lemma: существовать
+  stress: существова́ть
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 存在
+      en: to exist
+      examples:
+        - ru: Таки́х слов не существу́ет.
+          zh: 没有这样的词。
+  notes: |
+    否定时主语用第二格：Тако́й пробле́мы не существу́ет。
+
+- lemma: обсудить
+  stress: обсуди́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: обсуждать
+  transitivity: trans
+  government: что с кем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 讨论完，商量好
+      en: to discuss
+      examples:
+        - ru: Мы обсуди́ли все дета́ли.
+          zh: 我们把细节都讨论过了。
+
+- lemma: обсуждать
+  stress: обсужда́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: обсудить
+  transitivity: trans
+  government: что с кем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 讨论，商量
+      en: to discuss
+      examples:
+        - ru: Они́ обсужда́ют но́вый прое́кт.
+          zh: 他们在讨论新项目。
+
+- lemma: отказаться
+  stress: отказа́ться
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  aspect_pair: отказываться
+  transitivity: intrans
+  reflexive: true
+  government: от чего / + инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 拒绝，放弃
+      en: to refuse, to give up
+      examples:
+        - ru: Он отказа́лся от по́мощи.
+          zh: 他谢绝了帮助。
+
+- lemma: отказываться
+  stress: отка́зываться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: отказаться
+  transitivity: intrans
+  reflexive: true
+  government: от чего / + инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 拒绝，不肯
+      en: to refuse
+      examples:
+        - ru: Она́ отка́зывается говори́ть.
+          zh: 她不肯说话。
+
+- lemma: зарабатывать
+  stress: зараба́тывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: заработать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 挣（钱）
+      en: to earn
+      examples:
+        - ru: Он зараба́тывает непло́хо.
+          zh: 他挣得不少。
+
+- lemma: заработать
+  stress: зарабо́тать
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: зарабатывать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 挣到，赚到
+      en: to earn
+      examples:
+        - ru: Я зарабо́тал на биле́т.
+          zh: 我挣够了买票的钱。
+
+- lemma: тратить
+  stress: тра́тить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: потратить
+  transitivity: trans
+  government: что на что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 花费（钱、时间）
+      en: to spend
+      examples:
+        - ru: Я тра́чу мно́го вре́мени на доро́гу.
+          zh: 我花很多时间在路上。
+  notes: |
+    1 单 тра́чу（т → ч）。花在什么上用 на + 第四格。
+
+- lemma: потратить
+  stress: потра́тить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: тратить
+  transitivity: trans
+  government: что на что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 花掉，用掉
+      en: to spend
+      examples:
+        - ru: Мы потра́тили все де́ньги.
+          zh: 我们把钱全花光了。
+
+- lemma: сохранить
+  stress: сохрани́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: сохранять
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保存，保住
+      en: to preserve, to save
+      examples:
+        - ru: Сохрани́те файл, пожа́луйста.
+          zh: 请把文件保存一下。
+
+- lemma: сохранять
+  stress: сохраня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: сохранить
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保持，保存
+      en: to preserve, to keep
+      examples:
+        - ru: Она́ сохраня́ет споко́йствие.
+          zh: 她一直保持镇定。
+
+- lemma: влиять
+  stress: влия́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: повлиять
+  transitivity: intrans
+  government: на кого-что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 影响
+      en: to influence, to affect
+      examples:
+        - ru: Пого́да влия́ет на настрое́ние.
+          zh: 天气影响心情。
+  common_errors: |
+    影响的对象一律用 на + 第四格，不能直接带第四格：
+    влия́ть на дете́й，不是 *влия́ть дете́й。
+
+- lemma: повлиять
+  stress: повлия́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: влиять
+  transitivity: intrans
+  government: на кого-что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 产生影响
+      en: to influence
+      examples:
+        - ru: Э́то повлия́ло на реше́ние.
+          zh: 这影响了决定。
+
+- lemma: отличаться
+  stress: отлича́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: от кого-чего чем
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不同于，有区别
+      en: to differ
+      examples:
+        - ru: Э́тот вариа́нт отлича́ется от пе́рвого.
+          zh: 这个方案和第一个不一样。
+
+- lemma: сравнить
+  stress: сравни́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: сравнивать
+  transitivity: trans
+  government: кого-что с кем-чем
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 比较
+      en: to compare
+      examples:
+        - ru: Сравни́те два те́кста.
+          zh: 请比较这两篇课文。
+
+- lemma: сравнивать
+  stress: сра́внивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: сравнить
+  transitivity: trans
+  government: кого-что с кем-чем
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 比较
+      en: to compare
+      examples:
+        - ru: Не сра́внивай себя́ с други́ми.
+          zh: 别拿自己和别人比。
+
+- lemma: описать
+  stress: описа́ть
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  aspect_pair: описывать
+  transitivity: trans
+  government: кого-что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 描写，描述
+      en: to describe
+      examples:
+        - ru: Опиши́те э́ту карти́ну.
+          zh: 请描述这幅画。
+
+- lemma: описывать
+  stress: опи́сывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: описать
+  transitivity: trans
+  government: кого-что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 描写，描述
+      en: to describe
+      examples:
+        - ru: А́втор опи́сывает жизнь дере́вни.
+          zh: 作者描写乡村生活。
+
+- lemma: находить
+  stress: находи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: найти
+  transitivity: trans
+  government: кого-что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 找到，发现
+      en: to find
+      examples:
+        - ru: Я всегда́ нахожу́ то, что ищу́.
+          zh: 我要找的东西总能找到。
+
+- lemma: переводить
+  stress: переводи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: что с чего на что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 翻译
+      en: to translate
+      examples:
+        - ru: Я перевожу́ текст на кита́йский.
+          zh: 我把课文译成汉语。
+    - zh: 转（钱），调（岗位）
+      en: to transfer
+      examples:
+        - ru: Он перевёл де́ньги на счёт.
+          zh: 他把钱转到账户上了。
+  common_errors: |
+    "从……译成……"是 с + 第二格 … на + 第四格：
+    с ру́сского на кита́йский。两个前置词都不能省。
+
+- lemma: поступить
+  stress: поступи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: поступать
+  transitivity: intrans
+  government: куда / как
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 考上，进入（学校、单位）
+      en: to enrol, to enter
+      examples:
+        - ru: Она́ поступи́ла в университе́т.
+          zh: 她考上大学了。
+    - zh: 行事，做（某种举动）
+      en: to act, to behave
+      examples:
+        - ru: Ты поступи́л пра́вильно.
+          zh: 你做得对。
+
+- lemma: поступать
+  stress: поступа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: поступить
+  transitivity: intrans
+  government: куда / как
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 报考；行事
+      en: to apply (to a school); to act
+      examples:
+        - ru: Он поступа́ет в институ́т.
+          zh: 他在考学院。
+
+- lemma: позволить
+  stress: позво́лить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: позволять
+  transitivity: trans
+  government: кому + инф.
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 允许，使得以
+      en: to allow, to permit
+      examples:
+        - ru: Позво́льте предста́вить дру́га.
+          zh: 请允许我介绍我的朋友。
+
+- lemma: позволять
+  stress: позволя́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: позволить
+  transitivity: trans
+  government: кому + инф.
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 允许，容许
+      en: to allow
+      examples:
+        - ru: Роди́тели позволя́ют ему́ всё.
+          zh: 父母什么都由着他。
+
+- lemma: простить
+  stress: прости́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: прощать
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 原谅，宽恕
+      en: to forgive
+      examples:
+        - ru: Прости́те за опозда́ние.
+          zh: 对不起，我迟到了。
+  common_errors: |
+    Прости́те 是道歉，Извини́те 也是道歉，但 Прости́те 语气更重、更正式一点。
+    被原谅的人用第四格：прости́ть его́。
+
+- lemma: прощать
+  stress: проща́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: простить
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 原谅
+      en: to forgive
+      examples:
+        - ru: Она́ всё ему́ проща́ет.
+          zh: 她什么都原谅他。
+
+- lemma: жалеть
+  stress: жале́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: пожалеть
+  transitivity: trans
+  government: кого / о чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可怜，疼惜
+      en: to pity, to feel sorry for
+      examples:
+        - ru: Она́ жале́ет бездо́мных живо́тных.
+          zh: 她心疼流浪动物。
+    - zh: 后悔，惋惜
+      en: to regret
+      government: о чём
+      examples:
+        - ru: Я не жале́ю ни о чём.
+          zh: 我什么都不后悔。
+
+- lemma: пожалеть
+  stress: пожале́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: жалеть
+  transitivity: trans
+  government: кого / о чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可怜一下；后悔
+      en: to pity; to regret
+      examples:
+        - ru: Ты ещё пожале́ешь об э́том.
+          zh: 你还会为这事后悔的。
+
+- lemma: гордиться
+  stress: горди́ться
+  pos: verb
+  zaliznyak: нсв 4b
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кем-чем
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 为……自豪
+      en: to be proud of
+      examples:
+        - ru: Роди́тели горди́лись сы́ном.
+          zh: 父母为儿子骄傲。
+  common_errors: |
+    只用第五格，不用前置词：горди́ться сы́ном，不是 *горди́ться о сы́не。
+
+- lemma: сердиться
+  stress: серди́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: на кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 生气，发火
+      en: to be angry
+      examples:
+        - ru: Не серди́сь на меня́.
+          zh: 别生我的气。
+
+- lemma: дружить
+  stress: дружи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  government: с кем
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 交朋友，来往
+      en: to be friends with
+      examples:
+        - ru: Мы дру́жим со шко́лы.
+          zh: 我们从上学时就是朋友。
+
+- lemma: договориться
+  stress: договори́ться
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: договариваться
+  transitivity: intrans
+  reflexive: true
+  government: с кем о чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 说定，约好
+      en: to agree, to arrange
+      examples:
+        - ru: Мы договори́лись встре́титься в семь.
+          zh: 我们约好七点见。
+  notes: |
+    Договори́лись! 单说是"就这么定了！"，口语里非常高频。
+
+- lemma: договариваться
+  stress: догова́риваться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: договориться
+  transitivity: intrans
+  reflexive: true
+  government: с кем о чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 商定，谈妥
+      en: to arrange, to negotiate
+      examples:
+        - ru: Они́ до́лго догова́ривались о цене́.
+          zh: 他们价钱谈了很久。
+
+- lemma: обманывать
+  stress: обма́нывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 欺骗，骗
+      en: to deceive
+      examples:
+        - ru: Он никого́ не обма́нывает.
+          zh: 他不骗任何人。
+
+- lemma: прятать
+  stress: пря́тать
+  pos: verb
+  zaliznyak: нсв 6a
+  aspect: impf
+  transitivity: trans
+  government: кого-что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 藏，把……藏起来
+      en: to hide (something)
+      examples:
+        - ru: Она́ пря́чет письмо́ в стол.
+          zh: 她把信藏进桌子里。
+  notes: |
+    1 单 пря́чу（т → ч），命令式 пря́чь。
+
+- lemma: варить
+  stress: вари́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: сварить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 煮，熬
+      en: to boil, to cook (in liquid)
+      examples:
+        - ru: Ма́ма ва́рит суп.
+          zh: 妈妈在煮汤。
+
+- lemma: сварить
+  stress: свари́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: варить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 煮好，熬好
+      en: to cook (in liquid)
+      examples:
+        - ru: Я свари́л ко́фе.
+          zh: 我煮好咖啡了。
+
+- lemma: жарить
+  stress: жа́рить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 煎，炒，炸
+      en: to fry, to roast
+      examples:
+        - ru: Он жа́рит ры́бу.
+          zh: 他在煎鱼。
+
+- lemma: резать
+  stress: ре́зать
+  pos: verb
+  zaliznyak: нсв 6a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 切，割
+      en: to cut, to slice
+      examples:
+        - ru: Ре́жьте хлеб то́нко.
+          zh: 面包切薄一点。
+  notes: |
+    1 单 ре́жу（з → ж），命令式 ре́жь。
+
+- lemma: называться
+  stress: называ́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: чем / как
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 叫做，名为（用于事物）
+      en: to be called (of things)
+      examples:
+        - ru: Как называ́ется э́та у́лица?
+          zh: 这条街叫什么？
+  common_errors: |
+    问人的名字用 Как вас зову́т?，问事物的名称才用 Как называ́ется…?。
+    两个句式对应汉语同一个"叫什么"，是高频混淆点。
+
+- lemma: запомнить
+  stress: запо́мнить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: запоминать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 记住
+      en: to memorise
+      examples:
+        - ru: Запо́мни э́то пра́вило.
+          zh: 把这条规则记住。
+
+- lemma: запоминать
+  stress: запомина́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: запомнить
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 记，背
+      en: to memorise
+      examples:
+        - ru: Я пло́хо запомина́ю имена́.
+          zh: 我记名字很费劲。
+
+- lemma: остановиться
+  stress: останови́ться
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: останавливаться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 停下，停住
+      en: to stop (oneself)
+      examples:
+        - ru: Авто́бус останови́лся у шко́лы.
+          zh: 公交车在学校旁边停了。
+    - zh: 住下（旅馆、别人家）
+      en: to stay (at a hotel)
+      examples:
+        - ru: Мы останови́лись в гости́нице.
+          zh: 我们住在旅馆里。
+
+- lemma: останавливаться
+  stress: остана́вливаться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: остановиться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 停，停留
+      en: to stop
+      examples:
+        - ru: По́езд не остана́вливается здесь.
+          zh: 火车在这儿不停。
+
+- lemma: путешествовать
+  stress: путеше́ствовать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  government: по чему
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 旅行
+      en: to travel
+      examples:
+        - ru: Мы путеше́ствуем по Росси́и.
+          zh: 我们在俄罗斯各地旅行。
+  notes: |
+    "在某地各处旅行"用 по + 第三格：по стране́、по Евро́пе。
+
+- lemma: содержать
+  stress: содержа́ть
+  pos: verb
+  zaliznyak: нсв 5c
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 含有，包含
+      en: to contain
+      examples:
+        - ru: Э́тот сок соде́ржит вита́мины.
+          zh: 这种果汁含维生素。
+
+- lemma: весить
+  stress: ве́сить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 重（多少）
+      en: to weigh
+      examples:
+        - ru: Чемода́н ве́сит два́дцать килогра́ммов.
+          zh: 箱子重二十公斤。
+
+- lemma: ломать
+  stress: лома́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: сломать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 弄坏，折断
+      en: to break
+      examples:
+        - ru: Не лома́й игру́шку.
+          zh: 别把玩具弄坏。
+
+- lemma: сломать
+  stress: слома́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: ломать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 弄坏了，折断了
+      en: to break
+      examples:
+        - ru: Он слома́л но́гу.
+          zh: 他把腿摔断了。
+
+- lemma: чинить
+  stress: чини́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: починить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 修理
+      en: to repair
+      examples:
+        - ru: Он чи́нит велосипе́д.
+          zh: 他在修自行车。
+
+- lemma: починить
+  stress: почини́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: чинить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 修好
+      en: to repair
+      examples:
+        - ru: Ма́стер почини́л часы́.
+          zh: 师傅把表修好了。
+
+- lemma: кормить
+  stress: корми́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: накормить
+  transitivity: trans
+  government: кого чем
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 喂，给……吃
+      en: to feed
+      examples:
+        - ru: Ба́бушка ко́рмит вну́ков.
+          zh: 奶奶给孙子们做饭吃。
+
+- lemma: накормить
+  stress: накорми́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: кормить
+  transitivity: trans
+  government: кого чем
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 喂饱，让……吃上
+      en: to feed
+      examples:
+        - ru: Она́ накорми́ла всех госте́й.
+          zh: 她把客人都招待吃上了。
+
+- lemma: будить
+  stress: буди́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: разбудить
+  transitivity: trans
+  government: кого
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 叫醒
+      en: to wake (someone)
+      examples:
+        - ru: Не буди́ ребёнка.
+          zh: 别把孩子叫醒。
+
+- lemma: разбудить
+  stress: разбуди́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: будить
+  transitivity: trans
+  government: кого
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 把……叫醒
+      en: to wake (someone)
+      examples:
+        - ru: Разбуди́ меня́ в семь.
+          zh: 七点叫醒我。
+
+- lemma: просыпаться
+  stress: просыпа́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 醒来
+      en: to wake up
+      examples:
+        - ru: Я просыпа́юсь в шесть утра́.
+          zh: 我早上六点醒。
+  common_errors: |
+    просыпа́ться 是自己醒（不及物、带 -ся），буди́ть 是叫别人醒（及物）。
+    汉语都说"醒"，俄语必须分开。
+
+- lemma: засыпать
+  stress: засыпа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 入睡，睡着
+      en: to fall asleep
+      examples:
+        - ru: Я до́лго не мог засыпа́ть.
+          zh: 我很久睡不着。
+
+- lemma: прыгать
+  stress: пры́гать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 跳，蹦
+      en: to jump
+      examples:
+        - ru: Де́ти пры́гают во дворе́.
+          zh: 孩子们在院子里蹦跳。
+
+- lemma: падать
+  stress: па́дать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 掉落，跌倒
+      en: to fall
+      examples:
+        - ru: Ли́стья па́дают на зе́млю.
+          zh: 树叶落到地上。
+
+- lemma: стирать
+  stress: стира́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: постирать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 洗（衣服）
+      en: to wash (laundry)
+      examples:
+        - ru: Она́ стира́ет руба́шки.
+          zh: 她在洗衬衫。
+  common_errors: |
+    洗衣服用 стира́ть，洗餐具、洗手、洗脸用 мыть。汉语一个"洗"，俄语两个词。
+
+- lemma: постирать
+  stress: постира́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: стирать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 洗好（衣服）
+      en: to wash (laundry)
+      examples:
+        - ru: Я постира́л всё бельё.
+          zh: 我把衣服都洗了。
+
+- lemma: целовать
+  stress: целова́ть
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  aspect_pair: поцеловать
+  transitivity: trans
+  government: кого
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 吻，亲
+      en: to kiss
+      examples:
+        - ru: Мать целу́ет дочь.
+          zh: 母亲亲吻女儿。
+
+- lemma: поцеловать
+  stress: поцелова́ть
+  pos: verb
+  zaliznyak: св 2a
+  aspect: perf
+  aspect_pair: целовать
+  transitivity: trans
+  government: кого
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 亲一下
+      en: to kiss
+      examples:
+        - ru: Он поцелова́л её в щёку.
+          zh: 他亲了亲她的脸颊。
+
+- lemma: обнимать
+  stress: обнима́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 拥抱
+      en: to embrace, to hug
+      examples:
+        - ru: Она́ обнима́ет сы́на.
+          zh: 她抱着儿子。
+
+- lemma: фотографировать
+  stress: фотографи́ровать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  aspect_pair: сфотографировать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 拍照
+      en: to photograph
+      examples:
+        - ru: Тури́сты фотографи́руют собо́р.
+          zh: 游客在拍大教堂。
+
+- lemma: сфотографировать
+  stress: сфотографи́ровать
+  pos: verb
+  zaliznyak: св 2a
+  aspect: perf
+  aspect_pair: фотографировать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 拍下一张照片
+      en: to photograph
+      examples:
+        - ru: Сфотографи́руй нас, пожа́луйста.
+          zh: 请给我们拍张照。
