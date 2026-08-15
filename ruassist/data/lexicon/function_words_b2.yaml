@@ -1,0 +1,1207 @@
+# Closed classes, completed: the rest of the cardinals and ordinals, collective
+# numerals, the remaining prepositions and conjunctions, particles, and the
+# indefinite/determinative pronouns.
+#
+# Closed sets are collected whole on purpose -- a learner cannot tell that
+# се́мьдесят is missing, they just fail to find it. 11-19 and 50-80 decline in
+# one piece (пятна́дцати, семи́десяти); 200-900 decline in both halves.
+
+- lemma: двенадцать
+  stress: двена́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: двена́дцать
+    plur,gent: двена́дцати
+    plur,datv: двена́дцати
+    plur,ablt: двена́дцатью
+    plur,loct: двена́дцати
+  senses:
+    - zh: 十二
+      en: twelve
+      examples:
+        - ru: Сейча́с двена́дцать часо́в.
+          zh: 现在十二点。
+
+- lemma: тринадцать
+  stress: трина́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: трина́дцать
+    plur,gent: трина́дцати
+    plur,datv: трина́дцати
+    plur,ablt: трина́дцатью
+    plur,loct: трина́дцати
+  senses:
+    - zh: 十三
+      en: thirteen
+      examples:
+        - ru: Ему́ трина́дцать лет.
+          zh: 他十三岁。
+
+- lemma: четырнадцать
+  stress: четы́рнадцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: четы́рнадцать
+    plur,gent: четы́рнадцати
+    plur,datv: четы́рнадцати
+    plur,ablt: четы́рнадцатью
+    plur,loct: четы́рнадцати
+  senses:
+    - zh: 十四
+      en: fourteen
+      examples:
+        - ru: В гру́ппе четы́рнадцать челове́к.
+          zh: 班里有十四个人。
+  notes: |
+    重音在 ты́，不在 на：четы́рнадцать。这是最常读错的数词。
+
+- lemma: пятнадцать
+  stress: пятна́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: пятна́дцать
+    plur,gent: пятна́дцати
+    plur,datv: пятна́дцати
+    plur,ablt: пятна́дцатью
+    plur,loct: пятна́дцати
+  senses:
+    - zh: 十五
+      en: fifteen
+      examples:
+        - ru: Ждём пятна́дцать мину́т.
+          zh: 我们等十五分钟。
+
+- lemma: шестнадцать
+  stress: шестна́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: шестна́дцать
+    plur,gent: шестна́дцати
+    plur,datv: шестна́дцати
+    plur,ablt: шестна́дцатью
+    plur,loct: шестна́дцати
+  senses:
+    - zh: 十六
+      en: sixteen
+      examples:
+        - ru: Ей шестна́дцать лет.
+          zh: 她十六岁。
+
+- lemma: семнадцать
+  stress: семна́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: семна́дцать
+    plur,gent: семна́дцати
+    plur,datv: семна́дцати
+    plur,ablt: семна́дцатью
+    plur,loct: семна́дцати
+  senses:
+    - zh: 十七
+      en: seventeen
+      examples:
+        - ru: По́езд в семна́дцать три́дцать.
+          zh: 火车十七点半的。
+
+- lemma: восемнадцать
+  stress: восемна́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: восемна́дцать
+    plur,gent: восемна́дцати
+    plur,datv: восемна́дцати
+    plur,ablt: восемна́дцатью
+    plur,loct: восемна́дцати
+  senses:
+    - zh: 十八
+      en: eighteen
+      examples:
+        - ru: С восемна́дцати лет мо́жно голосова́ть.
+          zh: 十八岁起可以投票。
+
+- lemma: девятнадцать
+  stress: девятна́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: девятна́дцать
+    plur,gent: девятна́дцати
+    plur,datv: девятна́дцати
+    plur,ablt: девятна́дцатью
+    plur,loct: девятна́дцати
+  senses:
+    - zh: 十九
+      en: nineteen
+      examples:
+        - ru: Ему́ девятна́дцать.
+          zh: 他十九。
+
+- lemma: шестьдесят
+  stress: шестьдеся́т
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: шестьдеся́т
+    plur,gent: шести́десяти
+    plur,datv: шести́десяти
+    plur,ablt: шестью́десятью
+    plur,loct: шести́десяти
+  senses:
+    - zh: 六十
+      en: sixty
+      examples:
+        - ru: В ча́се шестьдеся́т мину́т.
+          zh: 一小时六十分钟。
+  common_errors: |
+    50–80 变格时**两半都变**：шести́десяти、семью́десятью。
+    只变后半是常见错误。
+
+- lemma: семьдесят
+  stress: се́мьдесят
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: се́мьдесят
+    plur,gent: семи́десяти
+    plur,datv: семи́десяти
+    plur,ablt: семью́десятью
+    plur,loct: семи́десяти
+  senses:
+    - zh: 七十
+      en: seventy
+      examples:
+        - ru: Ба́бушке се́мьдесят лет.
+          zh: 奶奶七十岁。
+
+- lemma: восемьдесят
+  stress: во́семьдесят
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: во́семьдесят
+    plur,gent: восьми́десяти
+    plur,datv: восьми́десяти
+    plur,ablt: восемью́десятью
+    plur,loct: восьми́десяти
+  senses:
+    - zh: 八十
+      en: eighty
+      examples:
+        - ru: Он прошёл во́семьдесят киломе́тров.
+          zh: 他走了八十公里。
+
+- lemma: девяносто
+  stress: девяно́сто
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: девяно́сто
+    plur,gent: девяно́ста
+    plur,datv: девяно́ста
+    plur,ablt: девяно́ста
+    plur,loct: девяно́ста
+  senses:
+    - zh: 九十
+      en: ninety
+      examples:
+        - ru: До го́рода девяно́сто киломе́тров.
+          zh: 到城里九十公里。
+  notes: |
+    девяно́сто、со́рок、сто 只有两个形式：主格／宾格同形，其余一律 -а。
+
+- lemma: двести
+  stress: две́сти
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: две́сти
+    plur,gent: двухсо́т
+    plur,datv: двумста́м
+    plur,ablt: двумяста́ми
+    plur,loct: двухста́х
+  senses:
+    - zh: 二百
+      en: two hundred
+      examples:
+        - ru: Кни́га сто́ит две́сти рубле́й.
+          zh: 书两百卢布。
+
+- lemma: триста
+  stress: три́ста
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: три́ста
+    plur,gent: трёхсо́т
+    plur,datv: трёмста́м
+    plur,ablt: тремяста́ми
+    plur,loct: трёхста́х
+  senses:
+    - zh: 三百
+      en: three hundred
+      examples:
+        - ru: Здесь три́ста мест.
+          zh: 这里有三百个座位。
+
+- lemma: четыреста
+  stress: четы́реста
+  pos: num
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: четы́реста
+    plur,gent: четырёхсо́т
+    plur,datv: четырёмста́м
+    plur,ablt: четырьмяста́ми
+    plur,loct: четырёхста́х
+  senses:
+    - zh: 四百
+      en: four hundred
+      examples:
+        - ru: В за́ле четы́реста челове́к.
+          zh: 大厅里四百人。
+
+- lemma: пятьсот
+  stress: пятьсо́т
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: пятьсо́т
+    plur,gent: пятисо́т
+    plur,datv: пятиста́м
+    plur,ablt: пятьюста́ми
+    plur,loct: пятиста́х
+  senses:
+    - zh: 五百
+      en: five hundred
+      examples:
+        - ru: Он заплати́л пятьсо́т рубле́й.
+          zh: 他付了五百卢布。
+  common_errors: |
+    200–900 变格时**两半都变**：пятисо́т、пятиста́м。
+    这是俄语数词最难的一块，写作里错得最多。
+
+- lemma: шестьсот
+  stress: шестьсо́т
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: шестьсо́т
+    plur,gent: шестисо́т
+    plur,datv: шестиста́м
+    plur,ablt: шестьюста́ми
+    plur,loct: шестиста́х
+  senses:
+    - zh: 六百
+      en: six hundred
+      examples:
+        - ru: Тира́ж — шестьсо́т экземпля́ров.
+          zh: 印数六百册。
+
+- lemma: семьсот
+  stress: семьсо́т
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: семьсо́т
+    plur,gent: семисо́т
+    plur,datv: семиста́м
+    plur,ablt: семьюста́ми
+    plur,loct: семиста́х
+  senses:
+    - zh: 七百
+      en: seven hundred
+      examples:
+        - ru: До це́ли семьсо́т ме́тров.
+          zh: 离目标七百米。
+
+- lemma: восемьсот
+  stress: восемьсо́т
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: восемьсо́т
+    plur,gent: восьмисо́т
+    plur,datv: восьмиста́м
+    plur,ablt: восемьюста́ми
+    plur,loct: восьмиста́х
+  senses:
+    - zh: 八百
+      en: eight hundred
+      examples:
+        - ru: В го́роде восемьсо́т ты́сяч жи́телей.
+          zh: 城里有八十万居民。
+
+- lemma: девятьсот
+  stress: девятьсо́т
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: девятьсо́т
+    plur,gent: девятисо́т
+    plur,datv: девятиста́м
+    plur,ablt: девятьюста́ми
+    plur,loct: девятиста́х
+  senses:
+    - zh: 九百
+      en: nine hundred
+      examples:
+        - ru: Прошло́ девятьсо́т лет.
+          zh: 过去了九百年。
+
+- lemma: миллион
+  stress: миллио́н
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: миллио́н
+    sing,gent: миллио́на
+    sing,datv: миллио́ну
+    sing,accs: миллио́н
+    sing,ablt: миллио́ном
+    sing,loct: миллио́не
+    plur,nomn: миллио́ны
+    plur,gent: миллио́нов
+    plur,datv: миллио́нам
+    plur,accs: миллио́ны
+    plur,ablt: миллио́нами
+    plur,loct: миллио́нах
+  senses:
+    - zh: 一百万
+      en: million
+      examples:
+        - ru: В го́роде миллио́н жи́телей.
+          zh: 城里有一百万居民。
+  notes: |
+    миллио́н、миллиа́рд、ты́сяча 语法上是名词，后面接第二格复数：
+    миллио́н рубле́й。
+
+- lemma: миллиард
+  stress: миллиа́рд
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: миллиа́рд
+    sing,gent: миллиа́рда
+    sing,datv: миллиа́рду
+    sing,accs: миллиа́рд
+    sing,ablt: миллиа́рдом
+    sing,loct: миллиа́рде
+    plur,nomn: миллиа́рды
+    plur,gent: миллиа́рдов
+    plur,datv: миллиа́рдам
+    plur,accs: миллиа́рды
+    plur,ablt: миллиа́рдами
+    plur,loct: миллиа́рдах
+  senses:
+    - zh: 十亿
+      en: billion
+      examples:
+        - ru: На Земле́ во́семь миллиа́рдов люде́й.
+          zh: 地球上有八十亿人。
+
+- lemma: ноль
+  stress: ноль
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: ноль
+    sing,gent: ноля́
+    sing,datv: нолю́
+    sing,accs: ноль
+    sing,ablt: нолём
+    sing,loct: ноле́
+  senses:
+    - zh: 零
+      en: zero
+      examples:
+        - ru: Температу́ра ноль гра́дусов.
+          zh: 气温零度。
+  notes: |
+    ноль 与 нуль 通用，日常读数一般说 ноль。
+
+- lemma: шестой
+  stress: шесто́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第六
+      en: sixth
+      examples:
+        - ru: Он живёт на шесто́м этаже́.
+          zh: 他住六楼。
+
+- lemma: седьмой
+  stress: седьмо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第七
+      en: seventh
+      examples:
+        - ru: Э́то седьма́я попы́тка.
+          zh: 这是第七次尝试。
+
+- lemma: восьмой
+  stress: восьмо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第八
+      en: eighth
+      examples:
+        - ru: Восьмо́е ма́рта — пра́здник.
+          zh: 三月八日是节日。
+
+- lemma: девятый
+  stress: девя́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第九
+      en: ninth
+      examples:
+        - ru: Я в девя́том кла́ссе.
+          zh: 我上九年级。
+
+- lemma: десятый
+  stress: деся́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第十
+      en: tenth
+      examples:
+        - ru: Э́то деся́тый эта́ж.
+          zh: 这是十楼。
+
+- lemma: двадцатый
+  stress: двадца́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 第二十
+      en: twentieth
+      examples:
+        - ru: Э́то бы́ло в двадца́том ве́ке.
+          zh: 那是二十世纪的事。
+
+- lemma: сотый
+  stress: со́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第一百
+      en: hundredth
+      examples:
+        - ru: Э́то со́тый раз.
+          zh: 这是第一百次了。
+
+- lemma: двое
+  stress: дво́е
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: дво́е
+    plur,gent: двои́х
+    plur,datv: двои́м
+    plur,accs: двои́х
+    plur,ablt: двои́ми
+    plur,loct: двои́х
+  senses:
+    - zh: 两个（人）
+      en: two (collective)
+      examples:
+        - ru: У них дво́е дете́й.
+          zh: 他们有两个孩子。
+  common_errors: |
+    集合数词只用于人、幼崽和只有复数的名词：дво́е дете́й、тро́е су́ток。
+    说物品要用 два／две。
+
+- lemma: трое
+  stress: тро́е
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: тро́е
+    plur,gent: трои́х
+    plur,datv: трои́м
+    plur,accs: трои́х
+    plur,ablt: трои́ми
+    plur,loct: трои́х
+  senses:
+    - zh: 三个（人）
+      en: three (collective)
+      examples:
+        - ru: Нас бы́ло тро́е.
+          zh: 我们一共三个人。
+
+- lemma: четверо
+  stress: че́тверо
+  pos: num
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    plur,nomn: че́тверо
+    plur,gent: четверы́х
+    plur,datv: четверы́м
+    plur,accs: четверы́х
+    plur,ablt: четверы́ми
+    plur,loct: четверы́х
+  senses:
+    - zh: 四个（人）
+      en: four (collective)
+      examples:
+        - ru: В семье́ че́тверо дете́й.
+          zh: 家里有四个孩子。
+
+- lemma: оба
+  stress: о́ба
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: о́ба
+    plur,gent: обо́их
+    plur,datv: обо́им
+    plur,accs: обо́их
+    plur,ablt: обо́ими
+    plur,loct: обо́их
+  senses:
+    - zh: 两个都（阳性／中性）
+      en: both (masc/neut)
+      examples:
+        - ru: О́ба студе́нта сда́ли экза́мен.
+          zh: 两个学生都通过了考试。
+  common_errors: |
+    о́ба 用于阳性和中性，о́бе 用于阴性，词干也不同：обо́их／обе́их。
+    汉语只有一个"两个都"，这里必须按性选词。
+
+- lemma: обе
+  stress: о́бе
+  pos: num
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: о́бе
+    plur,gent: обе́их
+    plur,datv: обе́им
+    plur,accs: обе́их
+    plur,ablt: обе́ими
+    plur,loct: обе́их
+  senses:
+    - zh: 两个都（阴性）
+      en: both (feminine)
+      examples:
+        - ru: О́бе сестры́ живу́т в Москве́.
+          zh: 两姐妹都住在莫斯科。
+
+- lemma: треть
+  stress: треть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 三分之一
+      en: a third
+      examples:
+        - ru: Треть рабо́ты уже́ сде́лана.
+          zh: 三分之一的活儿已经干完了。
+
+- lemma: четверть
+  stress: че́тверть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 四分之一；一刻钟
+      en: a quarter
+      examples:
+        - ru: Сейча́с че́тверть восьмо́го.
+          zh: 现在七点一刻。
+  notes: |
+    俄语说钟点用"下一个小时的几分之几"：че́тверть восьмо́го = 七点一刻。
+
+- lemma: вместо
+  stress: вме́сто
+  pos: prep
+  government: чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 代替，而不是
+      en: instead of
+      examples:
+        - ru: Он пришёл вме́сто бра́та.
+          zh: 他代替哥哥来了。
+
+- lemma: кроме
+  stress: кро́ме
+  pos: prep
+  government: чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 除……之外
+      en: except, besides
+      collocations: [кро́ме того́]
+      examples:
+        - ru: Пришли́ все, кро́ме него́.
+          zh: 除了他，大家都来了。
+  common_errors: |
+    кро́ме того́ = 此外（补充），кро́ме э́того 才是"除这个以外"。
+    两个短语意思相反，写作里容易用混。
+
+- lemma: среди
+  stress: среди́
+  pos: prep
+  government: кого-чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 在……中间，在……当中
+      en: among
+      examples:
+        - ru: Среди́ госте́й был и он.
+          zh: 客人当中也有他。
+
+- lemma: напротив
+  stress: напро́тив
+  pos: prep
+  government: чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 在……对面
+      en: opposite
+      examples:
+        - ru: Апте́ка напро́тив шко́лы.
+          zh: 药店在学校对面。
+
+- lemma: вдоль
+  stress: вдоль
+  pos: prep
+  government: чего
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 沿着
+      en: along
+      examples:
+        - ru: Мы шли вдоль реки́.
+          zh: 我们沿着河走。
+
+- lemma: благодаря
+  stress: благодаря́
+  pos: prep
+  government: кому-чему
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 多亏，由于（好结果）
+      en: thanks to
+      examples:
+        - ru: Благодаря́ ему́ мы успе́ли.
+          zh: 多亏了他我们才赶上。
+  common_errors: |
+    带第三格，而且只用于**好**结果。坏结果用 из-за：
+    благодаря́ по́мощи（多亏帮助）／ из-за дождя́（因为下雨，糟了）。
+
+- lemma: ради
+  stress: ра́ди
+  pos: prep
+  government: кого-чего
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 为了……起见
+      en: for the sake of
+      collocations: [ра́ди бо́га]
+      examples:
+        - ru: Он сде́лал э́то ра́ди дете́й.
+          zh: 他这么做是为了孩子。
+
+- lemma: сквозь
+  stress: сквозь
+  pos: prep
+  government: что
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 穿过，透过
+      en: through
+      examples:
+        - ru: Свет проходи́л сквозь што́ры.
+          zh: 光透过窗帘照进来。
+
+- lemma: перед
+  stress: пе́ред
+  pos: prep
+  government: кем-чем
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 在……前面；在……之前
+      en: in front of; before
+      examples:
+        - ru: Он стои́т пе́ред до́мом.
+          zh: 他站在房子前面。
+  notes: |
+    辅音丛前用 пе́редо：пе́редо мно́й。
+
+- lemma: возле
+  stress: во́зле
+  pos: prep
+  government: чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 在……旁边
+      en: beside, near
+      examples:
+        - ru: Он сел во́зле окна́.
+          zh: 他坐在窗边。
+  synonyms: [около]
+
+- lemma: мимо
+  stress: ми́мо
+  pos: prep
+  government: кого-чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 从……旁边经过
+      en: past, by
+      examples:
+        - ru: Он прошёл ми́мо меня́.
+          zh: 他从我身边走过去了。
+
+- lemma: однако
+  stress: одна́ко
+  pos: conj
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 然而，不过
+      en: however
+      examples:
+        - ru: Он обеща́л, одна́ко не пришёл.
+          zh: 他答应了，可是没来。
+
+- lemma: зато
+  stress: зато́
+  pos: conj
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 但是（后面是好的一面）
+      en: but on the other hand
+      examples:
+        - ru: До́рого, зато́ ка́чественно.
+          zh: 贵是贵，但东西好。
+  notes: |
+    зато́ 后面一定是补偿性的好处，语气和 но 不同。
+
+- lemma: либо
+  stress: ли́бо
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 或者（书面）
+      en: either, or
+      examples:
+        - ru: Ли́бо сейча́с, ли́бо никогда́.
+          zh: 要么现在，要么永远别提。
+
+- lemma: будто
+  stress: бу́дто
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 好像，仿佛
+      en: as if
+      examples:
+        - ru: Он говори́т так, бу́дто всё зна́ет.
+          zh: 他说得好像什么都知道似的。
+
+- lemma: словно
+  stress: сло́вно
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 宛如，好像
+      en: like, as though
+      examples:
+        - ru: Она́ побледне́ла, сло́вно уви́дела привиде́ние.
+          zh: 她脸都白了，像见了鬼似的。
+
+- lemma: пока
+  stress: пока́
+  pos: conj
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 当……的时候；在……之前
+      en: while, until
+      examples:
+        - ru: Подожди́, пока́ я оде́нусь.
+          zh: 等我穿好衣服。
+    - zh: 再见（口语）
+      en: bye
+      labels: [разг.]
+      examples:
+        - ru: Ну ла́дно, пока́!
+          zh: 好，回见！
+  common_errors: |
+    пока́ + 肯定 = "当……时"；пока́ не + 完成体 = "直到……为止"。
+    «Жди, пока́ он не придёт» 里的 не 不表示否定，不能省。
+
+- lemma: поскольку
+  stress: поско́льку
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 既然，因为（书面）
+      en: since, inasmuch as
+      examples:
+        - ru: Поско́льку вре́мени ма́ло, начнём сра́зу.
+          zh: 既然时间不多，我们马上开始。
+
+- lemma: причём
+  stress: причём
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 而且，并且（追加）
+      en: moreover, and what is more
+      examples:
+        - ru: Он опозда́л, причём си́льно.
+          zh: 他迟到了，而且迟得厉害。
+
+- lemma: же
+  stress: же
+  pos: part
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 加强语气；表对比
+      en: emphatic particle
+      examples:
+        - ru: Ты же обеща́л!
+          zh: 你可是答应过的！
+  notes: |
+    紧跟被强调的词之后，本身不重读。口语里常缩成 ж：Ты ж зна́ешь。
+
+- lemma: бы
+  stress: бы
+  pos: part
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 构成虚拟语气
+      en: subjunctive particle
+      examples:
+        - ru: Я бы пошёл, но не могу́.
+          zh: 我倒想去，可是去不了。
+  common_errors: |
+    俄语虚拟式 = 过去时 + бы，没有时间区别：
+    «Е́сли бы я знал» 既可以指过去也可以指现在，靠上下文判断。
+
+- lemma: неужели
+  stress: неуже́ли
+  pos: part
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 难道，真的吗
+      en: really?, surely not
+      examples:
+        - ru: Неуже́ли ты не по́мнишь?
+          zh: 你难道不记得了？
+
+- lemma: именно
+  stress: и́менно
+  pos: part
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 正是，恰恰
+      en: exactly, precisely
+      examples:
+        - ru: И́менно э́то я и хоте́л сказа́ть.
+          zh: 我想说的正是这个。
+
+- lemma: любой
+  stress: любо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 任何一个
+      en: any
+      examples:
+        - ru: Приходи́ в любо́е вре́мя.
+          zh: 你什么时候来都行。
+
+- lemma: всякий
+  stress: вся́кий
+  pos: adj
+  zaliznyak: п 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 各种各样的；任何
+      en: every kind of, any
+      collocations: [на вся́кий слу́чай]
+      examples:
+        - ru: Возьми́ зонт на вся́кий слу́чай.
+          zh: 以防万一，带把伞。
+
+- lemma: некоторый
+  stress: не́который
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 某些，一些
+      en: some, certain
+      examples:
+        - ru: Не́которые студе́нты опозда́ли.
+          zh: 有些学生迟到了。
+
+- lemma: иной
+  stress: ино́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 另外的，别的（书面）
+      en: other, different
+      examples:
+        - ru: Э́то соверше́нно ино́й вопро́с.
+          zh: 这完全是另一个问题。
+
+- lemma: никакой
+  stress: никако́й
+  pos: adj
+  zaliznyak: п 3b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 任何……都不
+      en: no, none whatever
+      examples:
+        - ru: Никаки́х пробле́м нет.
+          zh: 没有任何问题。
+  common_errors: |
+    要跟句子的 не 一起用（双重否定）：«Я не ви́жу никако́й ра́зницы»。
+
+- lemma: вверх
+  stress: вверх
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 向上
+      en: up, upwards
+      examples:
+        - ru: Он посмотре́л вверх.
+          zh: 他往上看。
+  antonyms: [вниз]
+
+- lemma: вниз
+  stress: вниз
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 向下
+      en: down, downwards
+      examples:
+        - ru: Спусти́сь вниз.
+          zh: 下楼来。
+  antonyms: [вверх]
+
+- lemma: отсюда
+  stress: отсю́да
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 从这儿
+      en: from here
+      examples:
+        - ru: Уходи́ отсю́да.
+          zh: 从这儿走开。
+  antonyms: [оттуда]
+
+- lemma: оттуда
+  stress: отту́да
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 从那儿
+      en: from there
+      examples:
+        - ru: Он верну́лся отту́да вчера́.
+          zh: 他昨天从那儿回来的。
+  antonyms: [отсюда]
+
+- lemma: однажды
+  stress: одна́жды
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 有一次，从前
+      en: once, one day
+      examples:
+        - ru: Одна́жды он мне позвони́л.
+          zh: 有一次他给我打了电话。
+
+- lemma: постоянно
+  stress: постоя́нно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 经常，不断地
+      en: constantly
+      examples:
+        - ru: Он постоя́нно опа́здывает.
+          zh: 他老是迟到。
+
+- lemma: регулярно
+  stress: регуля́рно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 定期地
+      en: regularly
+      examples:
+        - ru: Он регуля́рно занима́ется спо́ртом.
+          zh: 他定期锻炼。
+
+- lemma: немедленно
+  stress: неме́дленно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 立刻，马上
+      en: immediately
+      examples:
+        - ru: Приходи́те неме́дленно.
+          zh: 请立刻过来。
+
+- lemma: срочно
+  stress: сро́чно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 紧急地，赶紧
+      en: urgently
+      examples:
+        - ru: Мне сро́чно ну́жен врач.
+          zh: 我急需医生。
+
+- lemma: наизусть
+  stress: наизу́сть
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 背诵地
+      en: by heart
+      examples:
+        - ru: Он зна́ет стихотворе́ние наизу́сть.
+          zh: 他能把诗背下来。
+
+- lemma: впервые
+  stress: впервы́е
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 第一次，首次
+      en: for the first time
+      examples:
+        - ru: Я впервы́е в Росси́и.
+          zh: 我第一次来俄罗斯。
+
+- lemma: дважды
+  stress: два́жды
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 两次；二乘
+      en: twice
+      examples:
+        - ru: Я звони́л ему́ два́жды.
+          zh: 我给他打过两次电话。
+
+- lemma: трижды
+  stress: три́жды
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 三次
+      en: three times
+      examples:
+        - ru: Он три́жды переде́лывал рабо́ту.
+          zh: 这活儿他返工了三次。
+
+- lemma: полностью
+  stress: по́лностью
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 完全地
+      en: completely
+      examples:
+        - ru: Я по́лностью согла́сен.
+          zh: 我完全同意。
+
+- lemma: абсолютно
+  stress: абсолю́тно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 绝对地，完全
+      en: absolutely
+      examples:
+        - ru: Э́то абсолю́тно невозмо́жно.
+          zh: 这绝对不可能。
+
+- lemma: примерно
+  stress: приме́рно
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 大约
+      en: approximately
+      examples:
+        - ru: Э́то заня́ло приме́рно час.
+          zh: 这花了大约一小时。
+  synonyms: [около]
+
+- lemma: ровно
+  stress: ро́вно
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 整，正好
+      en: exactly, sharp
+      examples:
+        - ru: Встре́тимся ро́вно в семь.
+          zh: 我们七点整见。
+
+- lemma: слегка
+  stress: слегка́
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 稍微，略微
+      en: slightly
+      examples:
+        - ru: Он слегка́ улыбну́лся.
+          zh: 他微微一笑。
+
+- lemma: вслед
+  stress: вслед
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 跟在后面，随后
+      en: after, behind
+      government: за кем-чем
+      examples:
+        - ru: Он посмотре́л ей вслед.
+          zh: 他目送她离开。

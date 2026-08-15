@@ -5,6 +5,7 @@ inconsistent state, the suite fails rather than the learner seeing a wrong
 declension.
 """
 
+import re
 from pathlib import Path
 
 import pytest
@@ -168,3 +169,40 @@ def test_days_and_months_are_complete(lexicon):
               "август", "сентябрь", "октябрь", "ноябрь", "декабрь"]
     for word in days + months:
         assert lexicon.by_lemma(word), f"{word} missing"
+
+
+def test_no_latin_letters_hide_inside_russian_words(lexicon):
+    """A Latin о or у inside a Cyrillic word is invisible on screen and fatal.
+
+    It survives the stress validator (the token stops being a "Cyrillic word"),
+    then silently fails to match anything the user types. Three of these got in
+    while the lexicon was being written -- ю́noша, сýток, Éсли -- so the check
+    is mechanical now.
+
+    A bare Latin token on its own is fine: the teaching notes cite Zaliznyak
+    scheme letters, and the glosses are in English.
+    """
+    cyrillic = re.compile(r"[а-яёА-ЯЁ]")
+    latin = re.compile(r"[a-zA-ZÀ-ÿ]")
+
+    def strings(node):
+        if isinstance(node, dict):
+            for value in node.values():
+                yield from strings(value)
+        elif isinstance(node, list):
+            for value in node:
+                yield from strings(value)
+        elif isinstance(node, str):
+            yield node
+
+    offenders = []
+    for entry in lexicon.entries:
+        for text in strings(entry.model_dump()):
+            for token in re.split(r"[\s,;:.!?()«»—…\"'/]+", text):
+                if cyrillic.search(token) and latin.search(token):
+                    offenders.append((entry.lemma, token))
+
+    # рука́'s note cites the scheme letter d against a Cyrillic form; that one
+    # mixed token is deliberate.
+    offenders = [o for o in offenders if o[0] != "рука"]
+    assert offenders == []

@@ -392,6 +392,17 @@ class TestDeclensionGender:
         entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
         assert cells(entry, ("plur", "accs")) == cells(entry, ("plur", "gent"))
 
+    def test_masculine_in_a_with_hushing_stem_takes_ej(self):
+        """ю́ноша -> ю́ношей, while the feminine зада́ча -> зада́ч takes zero.
+
+        Same split as дя́дя -> дя́дей: the -а declension is feminine but the
+        genitive plural follows the noun's grammatical gender.
+        """
+        masculine = noun("юноша", "ю́ноша", "м 4a", "masc", animacy="anim")
+        feminine = noun("задача", "зада́ча", "ж 4a", "femn")
+        assert cells(masculine, ("plur", "gent")) == ["ю́ношей"]
+        assert cells(feminine, ("plur", "gent")) == ["зада́ч"]
+
     def test_common_gender_declines_like_a_feminine(self):
         """колле́га agrees by referent (мой/моя́) but has one declension."""
         entry = noun("коллега", "колле́га", "м 3a", "common", animacy="anim")

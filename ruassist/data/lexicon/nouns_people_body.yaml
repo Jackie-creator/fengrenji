@@ -1,0 +1,1019 @@
+# People: family, ages, professions; the body; clothing.
+#
+# Kinship is where Chinese is far more specific than Russian (哥哥/弟弟 are both
+# брат), and profession names are where Russian is more specific than Chinese
+# (учи́тель / учи́тельница). Both directions are noted where they bite.
+
+- lemma: бабушка
+  stress: ба́бушка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 奶奶，外婆
+      en: grandmother
+      examples:
+        - ru: Ба́бушка живёт в дере́вне.
+          zh: 奶奶住在乡下。
+  common_errors: |
+    俄语不分父系母系：爷爷、外公都是 де́душка，奶奶、外婆都是 ба́бушка。
+    要说清楚得加 по отцу́／по ма́тери。
+
+- lemma: дедушка
+  stress: де́душка
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 爷爷，外公
+      en: grandfather
+      examples:
+        - ru: Мой де́душка был врачо́м.
+          zh: 我爷爷以前是医生。
+  notes: |
+    语法上是阳性（мой де́душка），但按 -а 阴性变格：де́душки、де́душке。
+
+- lemma: внук
+  stress: внук
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 孙子，外孙
+      en: grandson
+      examples:
+        - ru: У них тро́е вну́ков.
+          zh: 他们有三个孙子。
+
+- lemma: внучка
+  stress: вну́чка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 孙女，外孙女
+      en: granddaughter
+      examples:
+        - ru: Вну́чка пошла́ в шко́лу.
+          zh: 孙女上学去了。
+
+- lemma: племянник
+  stress: племя́нник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 侄子，外甥
+      en: nephew
+      examples:
+        - ru: Э́то мой племя́нник.
+          zh: 这是我侄子。
+
+- lemma: племянница
+  stress: племя́нница
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 侄女，外甥女
+      en: niece
+      examples:
+        - ru: Племя́нница у́чится в шко́ле.
+          zh: 侄女在上学。
+
+- lemma: родственник
+  stress: ро́дственник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 亲戚
+      en: relative
+      examples:
+        - ru: К нам прие́хали ро́дственники.
+          zh: 亲戚来我们家了。
+
+- lemma: жених
+  stress: жени́х
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 未婚夫，新郎
+      en: fiancé, groom
+      examples:
+        - ru: Жени́х ждал у це́ркви.
+          zh: 新郎在教堂旁等着。
+  antonyms: [невеста]
+
+- lemma: невеста
+  stress: неве́ста
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 未婚妻，新娘
+      en: fiancée, bride
+      examples:
+        - ru: Неве́ста была́ в бе́лом.
+          zh: 新娘穿着白色礼服。
+  antonyms: [жених]
+
+- lemma: парень
+  stress: па́рень
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 小伙子；男朋友（口语）
+      en: lad, guy; boyfriend
+      labels: [разг.]
+      examples:
+        - ru: Э́то её па́рень.
+          zh: 这是她男朋友。
+
+- lemma: подруга
+  stress: подру́га
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 女性朋友；女朋友
+      en: (female) friend, girlfriend
+      examples:
+        - ru: Она́ моя́ ста́рая подру́га.
+          zh: 她是我的老朋友。
+  common_errors: |
+    друг 和 подру́га 都是"朋友"，但 подру́га 只能指女性。
+    男生说"我朋友（女的）"要用 подру́га，用 друг 会被理解成男性。
+
+- lemma: приятель
+  stress: прия́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 熟人，一般朋友
+      en: acquaintance, pal
+      examples:
+        - ru: Он мой ста́рый прия́тель.
+          zh: 他是我的老相识。
+  notes: |
+    比 друг 疏远：друг 是交心的朋友，прия́тель 只是玩得来的人。
+
+- lemma: хозяин
+  stress: хозя́ин
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: хозя́ева
+    plur,gent: хозя́ев
+    plur,datv: хозя́евам
+    plur,accs: хозя́ев
+    plur,ablt: хозя́евами
+    plur,loct: хозя́евах
+  senses:
+    - zh: 主人，东家
+      en: owner, host
+      examples:
+        - ru: Хозя́ин до́ма нас встре́тил.
+          zh: 房主迎接了我们。
+  notes: |
+    复数换词干：хозя́ин → хозя́ева，和 брат → бра́тья 一类相似。
+
+- lemma: гость
+  stress: гость
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2e
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 客人
+      en: guest
+      collocations: [идти́ в го́сти, быть в гостя́х]
+      examples:
+        - ru: К нам пришли́ го́сти.
+          zh: 客人来了。
+  common_errors: |
+    "去做客"是 идти́ в го́сти（第四格复数），"在做客"是 быть в гостя́х（第六格）。
+    方向／位置又一次靠格区分。
+
+- lemma: старик
+  stress: стари́к
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 老头儿，老人
+      en: old man
+      examples:
+        - ru: На скаме́йке сиде́л стари́к.
+          zh: 长椅上坐着位老人。
+
+- lemma: старуха
+  stress: стару́ха
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 老太太
+      en: old woman
+      examples:
+        - ru: Стару́ха торгова́ла цвета́ми.
+          zh: 老太太在卖花。
+
+- lemma: подросток
+  stress: подро́сток
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 青少年
+      en: teenager
+      examples:
+        - ru: Подро́стки мно́го вре́мени в телефо́не.
+          zh: 青少年老在手机上。
+
+- lemma: малыш
+  stress: малы́ш
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 4b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 小孩儿，小家伙
+      en: little one, kid
+      examples:
+        - ru: Малы́ш засну́л.
+          zh: 小家伙睡着了。
+
+- lemma: девочка
+  stress: де́вочка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 小女孩
+      en: little girl
+      examples:
+        - ru: Де́вочка чита́ет кни́гу.
+          zh: 小女孩在看书。
+  common_errors: |
+    де́вочка 是小女孩，де́вушка 是姑娘（十几岁以上）。年龄段不同，不能互换。
+
+- lemma: юноша
+  stress: ю́ноша
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 4a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 青年男子
+      en: youth, young man
+      examples:
+        - ru: Ю́ноша помо́г ей.
+          zh: 那个年轻人帮了她。
+
+- lemma: толпа
+  stress: толпа́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 人群
+      en: crowd
+      examples:
+        - ru: На пло́щади собрала́сь толпа́.
+          zh: 广场上聚了一群人。
+
+- lemma: пара
+  stress: па́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 一双，一对
+      en: pair, couple
+      examples:
+        - ru: Он купи́л па́ру носко́в.
+          zh: 他买了双袜子。
+
+- lemma: личность
+  stress: ли́чность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 个性，人物
+      en: personality, individual
+      examples:
+        - ru: Он я́ркая ли́чность.
+          zh: 他是个很有个性的人。
+
+- lemma: товарищ
+  stress: това́рищ
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 4a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 同志，伙伴
+      en: comrade, companion
+      examples:
+        - ru: Он мой това́рищ по рабо́те.
+          zh: 他是我的工作伙伴。
+
+- lemma: программист
+  stress: программи́ст
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 程序员
+      en: programmer
+      examples:
+        - ru: Он рабо́тает программи́стом.
+          zh: 他做程序员。
+  notes: |
+    "做某个职业"用第五格：рабо́тать врачо́м、рабо́тать программи́стом。
+
+- lemma: юрист
+  stress: юри́ст
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 法律工作者
+      en: lawyer, jurist
+      examples:
+        - ru: Она́ у́чится на юри́ста.
+          zh: 她在学法律。
+
+- lemma: бухгалтер
+  stress: бухга́лтер
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 会计
+      en: accountant
+      examples:
+        - ru: Бухга́лтер прове́рил счета́.
+          zh: 会计核对了账目。
+
+- lemma: парикмахер
+  stress: парикма́хер
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 理发师
+      en: hairdresser
+      examples:
+        - ru: Я иду́ к парикма́херу.
+          zh: 我去理发。
+
+- lemma: механик
+  stress: меха́ник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 机械师，修理工
+      en: mechanic
+      examples:
+        - ru: Меха́ник посмотре́л маши́ну.
+          zh: 修理工看了看车。
+
+- lemma: строитель
+  stress: строи́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 建筑工人
+      en: builder
+      examples:
+        - ru: Строи́тели рабо́тают с утра́.
+          zh: 工人们一早就在干活。
+
+- lemma: переводчик
+  stress: перево́дчик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 翻译（人）
+      en: translator, interpreter
+      examples:
+        - ru: Нам ну́жен перево́дчик.
+          zh: 我们需要个翻译。
+
+- lemma: секретарь
+  stress: секрета́рь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 秘书
+      en: secretary
+      examples:
+        - ru: Спроси́те у секретаря́.
+          zh: 问一下秘书。
+
+- lemma: фермер
+  stress: фе́рмер
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 农场主
+      en: farmer
+      examples:
+        - ru: Фе́рмер продаёт молоко́.
+          zh: 农场主卖牛奶。
+
+- lemma: продавщица
+  stress: продавщи́ца
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 女售货员
+      en: shop assistant (female)
+      examples:
+        - ru: Продавщи́ца помогла́ вы́брать.
+          zh: 售货员帮着挑了挑。
+
+- lemma: шея
+  stress: ше́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 6a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 脖子
+      en: neck
+      examples:
+        - ru: У меня́ боли́т ше́я.
+          zh: 我脖子疼。
+
+- lemma: живот
+  stress: живо́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 肚子
+      en: stomach, belly
+      examples:
+        - ru: У ребёнка боли́т живо́т.
+          zh: 孩子肚子疼。
+
+- lemma: грудь
+  stress: грудь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 胸，胸口
+      en: chest, breast
+      examples:
+        - ru: Он прижа́л ру́ки к груди́.
+          zh: 他把手按在胸口。
+
+- lemma: кровь
+  stress: кровь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 血
+      en: blood
+      examples:
+        - ru: Ну́жно сдать кровь на ана́лиз.
+          zh: 需要抽血化验。
+
+- lemma: кожа
+  stress: ко́жа
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 皮肤；皮革
+      en: skin; leather
+      examples:
+        - ru: У неё су́хая ко́жа.
+          zh: 她皮肤干。
+
+- lemma: кость
+  stress: кость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 骨头
+      en: bone
+      examples:
+        - ru: Он слома́л кость.
+          zh: 他骨折了。
+
+- lemma: мозг
+  stress: мозг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 脑，大脑
+      en: brain
+      examples:
+        - ru: Мозг рабо́тает и во сне.
+          zh: 大脑睡觉时也在工作。
+
+- lemma: горло
+  stress: го́рло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 喉咙
+      en: throat
+      examples:
+        - ru: У меня́ боли́т го́рло.
+          zh: 我嗓子疼。
+
+- lemma: губа
+  stress: губа́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 嘴唇
+      en: lip
+      examples:
+        - ru: У неё поре́заны гу́бы.
+          zh: 她嘴唇裂了。
+
+- lemma: лоб
+  stress: лоб
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 额头
+      en: forehead
+      examples:
+        - ru: Он потро́гал лоб ребёнка.
+          zh: 他摸了摸孩子的额头。
+  notes: |
+    间接格里 о 脱落：лоб → лба、лбу、лбом。
+
+- lemma: бровь
+  stress: бровь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 眉毛
+      en: eyebrow
+      examples:
+        - ru: Он подня́л бро́ви.
+          zh: 他扬了扬眉。
+
+- lemma: ноготь
+  stress: но́готь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*e
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 指甲
+      en: nail (finger)
+      examples:
+        - ru: Она́ кра́сит но́гти.
+          zh: 她在涂指甲。
+
+- lemma: кулак
+  stress: кула́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 拳头
+      en: fist
+      examples:
+        - ru: Он сжал кулаки́.
+          zh: 他攥紧了拳头。
+
+- lemma: ладонь
+  stress: ладо́нь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 手掌
+      en: palm (of the hand)
+      examples:
+        - ru: Он положи́л моне́ту на ладо́нь.
+          zh: 他把硬币放在手心里。
+
+- lemma: подбородок
+  stress: подборо́док
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 下巴
+      en: chin
+      examples:
+        - ru: Он потёр подборо́док.
+          zh: 他搓了搓下巴。
+
+- lemma: куртка
+  stress: ку́ртка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 夹克，外套
+      en: jacket
+      examples:
+        - ru: Наде́нь ку́ртку, хо́лодно.
+          zh: 穿上外套，冷。
+
+- lemma: свитер
+  stress: сви́тер
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 毛衣
+      en: jumper, sweater
+      examples:
+        - ru: Он в тёплом сви́тере.
+          zh: 他穿着件暖和的毛衣。
+
+- lemma: джинсы
+  stress: джи́нсы
+  pos: noun
+  gender: masc
+  animacy: inan
+  number_only: plur
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: джи́нсы
+    plur,gent: джи́нсов
+    plur,datv: джи́нсам
+    plur,accs: джи́нсы
+    plur,ablt: джи́нсами
+    plur,loct: джи́нсах
+  senses:
+    - zh: 牛仔裤
+      en: jeans
+      examples:
+        - ru: Она́ но́сит джи́нсы.
+          zh: 她穿牛仔裤。
+  notes: |
+    和 брю́ки、очки́ 一样只有复数，"一条牛仔裤"是 одни́ джи́нсы。
+
+- lemma: обувь
+  stress: о́бувь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鞋（总称）
+      en: footwear
+      examples:
+        - ru: Здесь продаётся же́нская о́бувь.
+          zh: 这里卖女鞋。
+
+- lemma: шарф
+  stress: шарф
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 围巾
+      en: scarf
+      examples:
+        - ru: Он замота́л ше́ю ша́рфом.
+          zh: 他用围巾把脖子裹上了。
+
+- lemma: галстук
+  stress: га́лстук
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 领带
+      en: tie
+      examples:
+        - ru: Он наде́л га́лстук.
+          zh: 他系上了领带。
+
+- lemma: ремень
+  stress: реме́нь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 皮带，安全带
+      en: belt
+      examples:
+        - ru: Пристегни́те ремни́.
+          zh: 请系好安全带。
+
+- lemma: карман
+  stress: карма́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 口袋
+      en: pocket
+      examples:
+        - ru: Ключи́ в карма́не.
+          zh: 钥匙在口袋里。
+
+- lemma: пуговица
+  stress: пу́говица
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 扣子
+      en: button (on clothes)
+      examples:
+        - ru: Оторвала́сь пу́говица.
+          zh: 扣子掉了。
+
+- lemma: мода
+  stress: мо́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 时尚，流行
+      en: fashion
+      collocations: [в мо́де, вы́йти из мо́ды]
+      examples:
+        - ru: Э́то сно́ва в мо́де.
+          zh: 这又流行起来了。
+
+- lemma: врачиха
+  stress: врачи́ха
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3a
+  level: [C1]
+  senses:
+    - zh: 女医生（口语，略带随便）
+      en: woman doctor (colloquial)
+      labels: [разг.]
+      examples:
+        - ru: К нам пришла́ врачи́ха из поликли́ники.
+          zh: 门诊的女医生来了。
+  common_errors: |
+    -и́ха 后缀口气随便，正式场合一律用 врач（不分性别）：
+    «Она́ хоро́ший врач»，不说 *врачи́ха。
+
+- lemma: спортсмен
+  stress: спортсме́н
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 运动员
+      en: athlete
+      examples:
+        - ru: Он изве́стный спортсме́н.
+          zh: 他是有名的运动员。
+
+- lemma: зритель
+  stress: зри́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 观众
+      en: spectator, viewer
+      examples:
+        - ru: Зри́тели аплоди́ровали.
+          zh: 观众鼓起掌来。
+
+- lemma: читатель
+  stress: чита́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 读者
+      en: reader
+      examples:
+        - ru: Кни́га нашла́ свои́х чита́телей.
+          zh: 这本书找到了它的读者。
+
+- lemma: слушатель
+  stress: слу́шатель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 听众，进修学员
+      en: listener, course participant
+      examples:
+        - ru: Слу́шатели зада́ли вопро́сы.
+          zh: 听众提了问题。
+
+- lemma: покупатель
+  stress: покупа́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 买主，顾客
+      en: buyer, customer
+      examples:
+        - ru: Покупа́тель вы́брал друго́й това́р.
+          zh: 顾客选了别的商品。
+
+- lemma: рабочий
+  stress: рабо́чий
+  pos: noun
+  gender: masc
+  animacy: anim
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: рабо́чий
+    sing,gent: рабо́чего
+    sing,datv: рабо́чему
+    sing,accs: рабо́чего
+    sing,ablt: рабо́чим
+    sing,loct: рабо́чем
+    plur,nomn: рабо́чие
+    plur,gent: рабо́чих
+    plur,datv: рабо́чим
+    plur,accs: рабо́чих
+    plur,ablt: рабо́чими
+    plur,loct: рабо́чих
+  senses:
+    - zh: 工人
+      en: worker
+      examples:
+        - ru: На заво́де ты́сяча рабо́чих.
+          zh: 工厂里有一千名工人。
+  common_errors: |
+    形容词变来的名词，按形容词变格。动物名词，所以单数第四格 = 第二格 рабо́чего。
+
+- lemma: учёный
+  stress: учёный
+  pos: noun
+  gender: masc
+  animacy: anim
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    sing,nomn: учёный
+    sing,gent: учёного
+    sing,datv: учёному
+    sing,accs: учёного
+    sing,ablt: учёным
+    sing,loct: учёном
+    plur,nomn: учёные
+    plur,gent: учёных
+    plur,datv: учёным
+    plur,accs: учёных
+    plur,ablt: учёными
+    plur,loct: учёных
+  senses:
+    - zh: 学者，科学家
+      en: scholar, scientist
+      examples:
+        - ru: Учёные сде́лали откры́тие.
+          zh: 科学家们有了新发现。

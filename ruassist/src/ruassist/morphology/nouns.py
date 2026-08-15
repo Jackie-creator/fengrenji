@@ -202,11 +202,15 @@ def _ending(
 ) -> str | None:
     if number == "plur":
         if case == "gent":
-            # A masculine noun declining as a soft feminine keeps the masculine
-            # genitive plural: дя́дя -> дя́дей, not *дядь. The hard ones (мужчи́на
-            # -> мужчи́н) coincide with the feminine ending anyway.
-            if grammatical is Gender.MASC and gender is Gender.FEMN and _is_soft(
-                gender, index
+            # A masculine noun declining as a feminine keeps the masculine
+            # genitive plural after a soft or hushing stem: дя́дя -> дя́дей,
+            # ю́ноша -> ю́ношей, not *дядь / *юнош. The hard ones (мужчи́на ->
+            # мужчи́н, де́душка -> де́душек) coincide with the feminine ending
+            # anyway. A real feminine is unaffected: зада́ча -> зада́ч.
+            if (
+                grammatical is Gender.MASC
+                and gender is Gender.FEMN
+                and (_is_soft(gender, index) or index.type == 4)
             ):
                 return "ей"
             return _GEN_PL.get((gender, index.type))
