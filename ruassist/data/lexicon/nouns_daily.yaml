@@ -1,0 +1,581 @@
+# Everyday scenes: clothing, shopping, the city, communication, leisure.
+
+# --- Clothing ---------------------------------------------------------------
+
+- lemma: рубашка
+  stress: руба́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: руба́шек
+  senses:
+    - zh: 衬衫
+      en: shirt
+      examples:
+        - ru: На нём бе́лая руба́шка.
+          zh: 他穿着白衬衫。
+
+- lemma: пальто
+  stress: пальто́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 大衣
+      en: coat
+      examples:
+        - ru: Наде́нь пальто́, на у́лице хо́лодно.
+          zh: 穿上大衣，外面冷。
+  common_errors: |
+    不变格中性名词，与 метро́、кино́、такси́ 同类。
+
+- lemma: костюм
+  stress: костю́м
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 西装，套装
+      en: suit
+      examples:
+        - ru: Он был в чёрном костю́ме.
+          zh: 他穿着黑西装。
+
+- lemma: юбка
+  stress: ю́бка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: ю́бок
+  senses:
+    - zh: 裙子
+      en: skirt
+      examples:
+        - ru: Она́ купи́ла но́вую ю́бку.
+          zh: 她买了条新裙子。
+
+- lemma: брюки
+  stress: брю́ки
+  pos: noun
+  gender: femn
+  animacy: inan
+  number_only: plur
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: брю́ки
+    plur,gent: брюк
+    plur,datv: брю́кам
+    plur,accs: брю́ки
+    plur,ablt: брю́ками
+    plur,loct: брю́ках
+  senses:
+    - zh: 裤子
+      en: trousers
+      examples:
+        - ru: Э́ти брю́ки мне велики́.
+          zh: 这条裤子我穿大了。
+  common_errors: |
+    只有复数，与 очки́、часы́、но́жницы 同类。
+    "一条裤子"要说 па́ра брюк。
+
+- lemma: туфли
+  stress: ту́фли
+  pos: noun
+  gender: femn
+  animacy: inan
+  number_only: plur
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: ту́фли
+    plur,gent: ту́фель
+    plur,datv: ту́флям
+    plur,accs: ту́фли
+    plur,ablt: ту́флями
+    plur,loct: ту́флях
+  senses:
+    - zh: 皮鞋
+      en: shoes
+      examples:
+        - ru: Э́ти ту́фли мне малы́.
+          zh: 这双鞋我穿小了。
+
+- lemma: шапка
+  stress: ша́пка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: ша́пок
+  senses:
+    - zh: 帽子（无檐）
+      en: hat, cap
+      examples:
+        - ru: Зимо́й ну́жно носи́ть ша́пку.
+          zh: 冬天得戴帽子。
+
+- lemma: очки
+  stress: очки́
+  pos: noun
+  gender: masc
+  animacy: inan
+  number_only: plur
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: очки́
+    plur,gent: очко́в
+    plur,datv: очка́м
+    plur,accs: очки́
+    plur,ablt: очка́ми
+    plur,loct: очка́х
+  senses:
+    - zh: 眼镜
+      en: glasses
+      examples:
+        - ru: Она́ но́сит очки́.
+          zh: 她戴眼镜。
+
+- lemma: часы
+  stress: часы́
+  pos: noun
+  gender: masc
+  animacy: inan
+  number_only: plur
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: часы́
+    plur,gent: часо́в
+    plur,datv: часа́м
+    plur,accs: часы́
+    plur,ablt: часа́ми
+    plur,loct: часа́х
+  senses:
+    - zh: 表，钟
+      en: watch, clock
+      examples:
+        - ru: Мои́ часы́ спеша́т.
+          zh: 我的表快了。
+  common_errors: |
+    "表"这个意思只有复数，与 час（小时）的复数形式完全同形。
+    «Часы́ иду́т» 表在走 ／ «пять часо́в» 五点／五小时——靠上下文区分。
+
+# --- Shopping and money -----------------------------------------------------
+
+- lemma: покупка
+  stress: поку́пка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: поку́пок
+  senses:
+    - zh: 购买；买到的东西
+      en: purchase
+      examples:
+        - ru: Он несёт поку́пки домо́й.
+          zh: 他提着买的东西回家。
+
+- lemma: подарок
+  stress: пода́рок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 礼物
+      en: present, gift
+      examples:
+        - ru: Э́то пода́рок для тебя́.
+          zh: 这是给你的礼物。
+  common_errors: |
+    逃逸元音：пода́рок → пода́рка / пода́рки。
+
+- lemma: карта
+  stress: ка́рта
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 地图；卡片，银行卡
+      en: map, card
+      examples:
+        - ru: Мо́жно плати́ть ка́ртой?
+          zh: 可以刷卡吗？
+
+- lemma: сумка
+  stress: су́мка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: су́мок
+  senses:
+    - zh: 包，提包
+      en: bag
+      examples:
+        - ru: Моя́ су́мка о́чень тяжёлая.
+          zh: 我的包很沉。
+
+- lemma: кусок
+  stress: кусо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 块，片
+      en: piece
+      examples:
+        - ru: Дай мне кусо́к хле́ба.
+          zh: 给我块面包。
+  common_errors: |
+    后接第二格：кусо́к хле́ба / сы́ра。量词类名词都这样。
+
+- lemma: бутылка
+  stress: буты́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: буты́лок
+  senses:
+    - zh: 瓶子
+      en: bottle
+      examples:
+        - ru: Буты́лка воды́, пожа́луйста.
+          zh: 请给瓶水。
+
+- lemma: стакан
+  stress: стака́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 玻璃杯
+      en: glass
+      examples:
+        - ru: Он вы́пил стака́н молока́.
+          zh: 他喝了一杯牛奶。
+
+- lemma: чашка
+  stress: ча́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: ча́шек
+  senses:
+    - zh: 杯子（有把的）
+      en: cup
+      examples:
+        - ru: Ча́шка ко́фе, пожа́луйста.
+          zh: 请来杯咖啡。
+  notes: |
+    与 стака́н 分工：ча́шка 是带把的茶杯咖啡杯，стака́н 是直筒玻璃杯。
+
+- lemma: тарелка
+  stress: таре́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: таре́лок
+  senses:
+    - zh: 盘子
+      en: plate
+      examples:
+        - ru: Поста́вь таре́лки на стол.
+          zh: 把盘子摆到桌上。
+
+- lemma: нож
+  stress: нож
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 刀
+      en: knife
+      examples:
+        - ru: Э́тот нож о́чень о́стрый.
+          zh: 这把刀很快。
+
+- lemma: ложка
+  stress: ло́жка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: ло́жек
+  senses:
+    - zh: 勺子
+      en: spoon
+      examples:
+        - ru: Одну́ ло́жку са́хара, пожа́луйста.
+          zh: 请加一勺糖。
+
+# --- City -------------------------------------------------------------------
+
+- lemma: центр
+  stress: центр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 中心，市中心
+      en: centre
+      examples:
+        - ru: Мы живём в це́нтре.
+          zh: 我们住市中心。
+
+- lemma: мост
+  stress: мост
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    sing,loc2: мосту́
+  senses:
+    - zh: 桥
+      en: bridge
+      examples:
+        - ru: Мы перешли́ че́рез мост.
+          zh: 我们过了桥。
+
+- lemma: угол
+  stress: у́гол
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1*c
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    sing,loc2: углу́
+  senses:
+    - zh: 角，拐角
+      en: corner, angle
+      examples:
+        - ru: Магази́н на углу́.
+          zh: 商店在拐角。
+  common_errors: |
+    逃逸元音：у́гол → угла́ / углу́，而且重音移到词尾。
+    "在拐角"用处所格 на углу́。
+  verify: [zaliznyak]
+
+- lemma: библиотека
+  stress: библиоте́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 图书馆
+      en: library
+      examples:
+        - ru: Я беру́ кни́ги в библиоте́ке.
+          zh: 我在图书馆借书。
+
+- lemma: общежитие
+  stress: общежи́тие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 宿舍
+      en: dormitory
+      examples:
+        - ru: Он живёт в общежи́тии.
+          zh: 他住宿舍。
+
+- lemma: стадион
+  stress: стадио́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 体育场
+      en: stadium
+      examples:
+        - ru: Матч бу́дет на стадио́не.
+          zh: 比赛在体育场。
+
+- lemma: церковь
+  stress: це́рковь
+  pos: noun
+  gender: femn
+  animacy: inan
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: це́рковь
+    sing,gent: це́ркви
+    sing,datv: це́ркви
+    sing,accs: це́рковь
+    sing,ablt: це́рковью
+    sing,loct: це́ркви
+    plur,nomn: це́ркви
+    plur,gent: церкве́й
+    plur,datv: церква́м
+    plur,accs: це́ркви
+    plur,ablt: церква́ми
+    plur,loct: церква́х
+  senses:
+    - zh: 教堂
+      en: church
+      examples:
+        - ru: Э́то ста́рая ру́сская це́рковь.
+          zh: 这是座古老的俄罗斯教堂。
+  common_errors: |
+    与 любо́вь 同型：变格时 о 脱落（це́ркви），只有第五格保留（це́рковью）。
+
+# --- Communication and leisure ---------------------------------------------
+
+- lemma: спорт
+  stress: спорт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 体育，运动
+      en: sport
+      examples:
+        - ru: Он занима́ется спо́ртом.
+          zh: 他做运动。
+  common_errors: |
+    "做运动"固定说 занима́ться спо́ртом（第五格），不能用 де́лать спорт。
+
+- lemma: футбол
+  stress: футбо́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 足球
+      en: football
+      examples:
+        - ru: Они́ игра́ют в футбо́л.
+          zh: 他们在踢足球。
+
+- lemma: игра
+  stress: игра́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: и́гры
+    plur,gent: игр
+  senses:
+    - zh: 游戏；比赛
+      en: game
+      examples:
+        - ru: Э́то интере́сная игра́.
+          zh: 这游戏挺有意思。
+
+- lemma: концерт
+  stress: конце́рт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 音乐会
+      en: concert
+      examples:
+        - ru: Мы бы́ли на конце́рте.
+          zh: 我们去听了音乐会。
+  common_errors: |
+    "去／在音乐会"用 на：на конце́рт / на конце́рте。
+
+- lemma: выставка
+  stress: вы́ставка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: вы́ставок
+  senses:
+    - zh: 展览
+      en: exhibition
+      examples:
+        - ru: В музе́е но́вая вы́ставка.
+          zh: 博物馆有个新展览。
+
+- lemma: путешествие
+  stress: путеше́ствие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 旅行
+      en: journey, travel
+      examples:
+        - ru: Э́то бы́ло до́лгое путеше́ствие.
+          zh: 那是次漫长的旅行。
+
+- lemma: отпуск
+  stress: о́тпуск
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3c(1)
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 休假（成年人）
+      en: leave, vacation
+      examples:
+        - ru: Он в о́тпуске.
+          zh: 他在休假。
+  common_errors: |
+    与 кани́кулы 分工：学生放假是 кани́кулы，上班的人休假是 о́тпуск。
+  verify: [zaliznyak]

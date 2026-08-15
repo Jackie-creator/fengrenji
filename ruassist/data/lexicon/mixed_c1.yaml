@@ -1,0 +1,538 @@
+# Remaining high-frequency items across parts of speech.
+
+# --- Pronouns ---------------------------------------------------------------
+
+- lemma: она
+  stress: она́
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: она́
+    sing,gent: её
+    sing,datv: ей
+    sing,accs: её
+    sing,ablt: ей
+    sing,loct: ней
+  senses:
+    - zh: 她；它（指阴性名词）
+      en: she, it
+      examples:
+        - ru: Она́ рабо́тает в шко́ле.
+          zh: 她在学校工作。
+  common_errors: |
+    与前置词连用加 н-：у неё / к ней / с ней / о ней。
+    её 既是"她"的第二／第四格，也是物主代词"她的"——后者不加 н-。
+
+- lemma: оно
+  stress: оно́
+  pos: pron
+  level: [A1, ТРКИ-1]
+  form_overrides:
+    sing,nomn: оно́
+    sing,gent: его́
+    sing,datv: ему́
+    sing,accs: его́
+    sing,ablt: им
+    sing,loct: нём
+  senses:
+    - zh: 它（指中性名词）
+      en: it
+      examples:
+        - ru: Окно́ откры́то, оно́ большо́е.
+          zh: 窗户开着，它很大。
+
+- lemma: мы
+  stress: мы
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: мы
+    plur,gent: нас
+    plur,datv: нам
+    plur,accs: нас
+    plur,ablt: на́ми
+    plur,loct: нас
+  senses:
+    - zh: 我们
+      en: we
+      examples:
+        - ru: Мы живём в Пеки́не.
+          zh: 我们住在北京。
+
+- lemma: вы
+  stress: вы
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: вы
+    plur,gent: вас
+    plur,datv: вам
+    plur,accs: вас
+    plur,ablt: ва́ми
+    plur,loct: вас
+  senses:
+    - zh: 你们；您（敬称）
+      en: you
+      examples:
+        - ru: Как вас зову́т?
+          zh: 您叫什么名字？
+  common_errors: |
+    对一个人用 вы 是敬称，书信里常大写 Вы。
+    敬称的谓语用复数：«Вы пришли́»，但形容词短尾也用复数：«Вы пра́вы»。
+
+- lemma: они
+  stress: они́
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: они́
+    plur,gent: их
+    plur,datv: им
+    plur,accs: их
+    plur,ablt: и́ми
+    plur,loct: них
+  senses:
+    - zh: 他们，它们
+      en: they
+      examples:
+        - ru: Они́ живу́т ря́дом.
+          zh: 他们住在旁边。
+
+- lemma: ты
+  stress: ты
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: ты
+    sing,gent: тебя́
+    sing,datv: тебе́
+    sing,accs: тебя́
+    sing,ablt: тобо́й
+    sing,loct: тебе́
+  senses:
+    - zh: 你
+      en: you (informal)
+      examples:
+        - ru: Как тебя́ зову́т?
+          zh: 你叫什么名字？
+  common_errors: |
+    对陌生人、长辈、上级一律用 вы。用错 ты 会显得失礼。
+
+- lemma: мой
+  stress: мой
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: мой
+    sing,femn,nomn: моя́
+    sing,neut,nomn: моё
+    plur,nomn: мои́
+    sing,masc,gent: моего́
+    sing,masc,datv: моему́
+    sing,femn,accs: мою́
+  senses:
+    - zh: 我的
+      en: my
+      examples:
+        - ru: Э́то моя́ кни́га.
+          zh: 这是我的书。
+  common_errors: |
+    要与所修饰的名词一致，不看"我"的性别：
+    «мой брат»（阳）／«моя́ сестра́»（阴）／«моё окно́»（中）。
+
+- lemma: наш
+  stress: наш
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: наш
+    sing,femn,nomn: на́ша
+    sing,neut,nomn: на́ше
+    plur,nomn: на́ши
+    sing,masc,gent: на́шего
+    sing,femn,accs: на́шу
+  senses:
+    - zh: 我们的
+      en: our
+      examples:
+        - ru: Э́то наш дом.
+          zh: 这是我们的房子。
+
+- lemma: никто
+  stress: никто́
+  pos: pron
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: никто́
+    sing,gent: никого́
+    sing,datv: никому́
+    sing,accs: никого́
+    sing,ablt: нике́м
+    sing,loct: нико́м
+  senses:
+    - zh: 没有人
+      en: nobody
+      examples:
+        - ru: Никто́ не зна́ет.
+          zh: 没人知道。
+  common_errors: |
+    **必须与 не 连用**：никто́ не зна́ет。汉语"没人知道"只有一个否定，
+    俄语要两个。前置词插在中间：ни у кого́、ни с кем。
+
+- lemma: ничто
+  stress: ничто́
+  pos: pron
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,nomn: ничто́
+    sing,gent: ничего́
+    sing,datv: ничему́
+    sing,accs: ничего́
+    sing,ablt: ниче́м
+    sing,loct: ничём
+  senses:
+    - zh: 什么也没有
+      en: nothing
+      examples:
+        - ru: Я ничего́ не по́нял.
+          zh: 我什么都没听懂。
+  notes: |
+    日常最常用的是第二格 ничего́，它还单独作"没关系"用：«Ничего́!»
+
+- lemma: себя
+  stress: себя́
+  pos: pron
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    sing,gent: себя́
+    sing,datv: себе́
+    sing,accs: себя́
+    sing,ablt: собо́й
+    sing,loct: себе́
+  senses:
+    - zh: 自己
+      en: oneself
+      examples:
+        - ru: Он ду́мает то́лько о себе́.
+          zh: 他只想着自己。
+  common_errors: |
+    没有第一格——它永远不做主语。人称由句子的主语决定：
+    «Я купи́л себе́ кни́гу» 我给自己买了书。
+
+# --- Question words ---------------------------------------------------------
+
+- lemma: где
+  stress: где
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 在哪儿
+      en: where
+      examples:
+        - ru: Где вы живёте?
+          zh: 您住哪儿？
+  common_errors: |
+    问"在哪儿"用 где，问"去哪儿"用 куда́，问"从哪儿"用 отку́да。
+    汉语一个"哪儿"覆盖三者，必须按方向选词。
+
+- lemma: куда
+  stress: куда́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 往哪儿，去哪儿
+      en: where to
+      examples:
+        - ru: Куда́ ты идёшь?
+          zh: 你去哪儿？
+
+- lemma: откуда
+  stress: отку́да
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 从哪儿
+      en: where from
+      examples:
+        - ru: Отку́да вы прие́хали?
+          zh: 您从哪儿来？
+
+- lemma: почему
+  stress: почему́
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 为什么
+      en: why
+      examples:
+        - ru: Почему́ ты не пришёл?
+          zh: 你怎么没来？
+
+- lemma: зачем
+  stress: заче́м
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 为何，做什么用
+      en: what for
+      examples:
+        - ru: Заче́м тебе́ э́то?
+          zh: 你要这个干吗？
+  common_errors: |
+    与 почему́ 分工：почему́ 问原因（因为什么），заче́м 问目的（为了什么）。
+
+- lemma: как
+  stress: как
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 怎样，如何
+      en: how
+      examples:
+        - ru: Как дела́?
+          zh: 最近怎么样？
+
+- lemma: сколько
+  stress: ско́лько
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 多少
+      en: how many, how much
+      examples:
+        - ru: Ско́лько э́то сто́ит?
+          zh: 这个多少钱？
+  common_errors: |
+    后接名词用第二格：ско́лько книг / ско́лько вре́мени，与 мно́го 一致。
+
+- lemma: тут
+  stress: тут
+  pos: adv
+  level: [A1, ТРКИ-1]
+  senses:
+    - zh: 这儿（口语）
+      en: here
+      examples:
+        - ru: Тут о́чень краси́во.
+          zh: 这儿很漂亮。
+  notes: |
+    与 здесь 意思相同，тут 更口语化。
+
+- lemma: туда
+  stress: туда́
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 到那儿去
+      en: (to) there
+      examples:
+        - ru: Я иду́ туда́.
+          zh: 我去那儿。
+
+- lemma: сюда
+  stress: сюда́
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 到这儿来
+      en: (to) here
+      examples:
+        - ru: Иди́ сюда́!
+          zh: 过来！
+
+# --- Modal words ------------------------------------------------------------
+
+- lemma: можно
+  stress: мо́жно
+  pos: predic
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 可以，能够
+      en: may, it is possible
+      examples:
+        - ru: Мо́жно войти́?
+          zh: 可以进来吗？
+  common_errors: |
+    无人称谓语：人用第三格，后接不定式——«Мне мо́жно идти́?»
+    句子没有第一格主语，这与汉语和英语都不同。
+
+- lemma: нельзя
+  stress: нельзя́
+  pos: predic
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 不可以，不能
+      en: must not, it is impossible
+      examples:
+        - ru: Здесь нельзя́ кури́ть.
+          zh: 这儿不能抽烟。
+  common_errors: |
+    нельзя́ + 未完成体 = 禁止（不许做）；
+    нельзя́ + 完成体 = 不可能（做不到）。
+    «Нельзя́ входи́ть» 不许进 ／ «Нельзя́ войти́» 进不去。这个区别很实用。
+
+- lemma: надо
+  stress: на́до
+  pos: predic
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 需要，应该
+      en: it is necessary
+      examples:
+        - ru: Мне на́до идти́.
+          zh: 我该走了。
+  common_errors: |
+    人用第三格：«Мне на́до»，不是 «Я на́до»。
+    与 ну́жно 基本同义，на́до 更口语。
+
+- lemma: нужно
+  stress: ну́жно
+  pos: predic
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 需要
+      en: it is needed
+      examples:
+        - ru: Вам ну́жно отдохну́ть.
+          zh: 您需要休息。
+
+- lemma: должен
+  stress: до́лжен
+  pos: adj
+  short_form: true
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,adjs: до́лжен
+    sing,femn,adjs: должна́
+    sing,neut,adjs: должно́
+    plur,adjs: должны́
+  senses:
+    - zh: 应该，必须
+      en: must, ought to
+      examples:
+        - ru: Я до́лжен идти́.
+          zh: 我得走了。
+  common_errors: |
+    与 на́до 不同：до́лжен 是**短尾形容词**，主语用第一格并要一致——
+    «Я до́лжен / Она́ должна́ / Мы должны́»。
+    而 на́до 是无人称的，人用第三格：«Мне на́до»。两个句型不能混。
+
+- lemma: жаль
+  stress: жаль
+  pos: predic
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 可惜；心疼
+      en: it is a pity
+      examples:
+        - ru: Жаль, что ты не пришёл.
+          zh: 可惜你没来。
+
+# --- Particles and interjections --------------------------------------------
+
+- lemma: разве
+  stress: ра́зве
+  pos: part
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 难道
+      en: really?, surely not
+      examples:
+        - ru: Ра́зве ты не зна́ешь?
+          zh: 难道你不知道？
+
+- lemma: даже
+  stress: да́же
+  pos: part
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 甚至，连
+      en: even
+      examples:
+        - ru: Он да́же не позвони́л.
+          zh: 他连电话都没打。
+
+- lemma: ведь
+  stress: ведь
+  pos: part
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 要知道，毕竟
+      en: after all, you know
+      examples:
+        - ru: Ты ведь обеща́л!
+          zh: 你可是答应过的！
+  notes: |
+    口语高频，用来提示对方一个双方都知道的事实，语气偏提醒或埋怨。
+
+- lemma: ли
+  stress: ли
+  pos: part
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 是否（引导疑问）
+      en: whether
+      examples:
+        - ru: Я не зна́ю, придёт ли он.
+          zh: 我不知道他来不来。
+  common_errors: |
+    位置固定：紧跟在被提问的词之后，且不能放句首。
+    «Зна́ешь ли ты?» / «Не зна́ю, до́ма ли он»。
+
+- lemma: пусть
+  stress: пусть
+  pos: part
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 让（第三人称祈使）
+      en: let
+      examples:
+        - ru: Пусть он придёт за́втра.
+          zh: 让他明天来。
+  notes: |
+    第三人称的祈使只能用 пусть + 第三人称现在／将来时，没有专门的命令式形式。
+
+- lemma: здравствуйте
+  stress: здра́вствуйте
+  pos: interj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 您好
+      en: hello
+      examples:
+        - ru: Здра́вствуйте, как дела́?
+          zh: 您好，最近怎么样？
+  common_errors: |
+    第一个 в 不发音：[здра́ствуйте]。这是俄语里最长也最常被读错的问候语。
+    对熟人说 здра́вствуй 或 приве́т。
+
+- lemma: привет
+  stress: приве́т
+  pos: interj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 你好（非正式）
+      en: hi
+      examples:
+        - ru: Приве́т! Как ты?
+          zh: 嗨！你怎么样？
+  common_errors: |
+    只对熟人和同龄人用。对长辈、陌生人、正式场合要用 здра́вствуйте。
+
+- lemma: пока
+  stress: пока́
+  pos: interj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 再见（非正式）
+      en: bye
+      examples:
+        - ru: Пока́! Уви́димся за́втра.
+          zh: 拜拜，明天见。
+    - zh: 当……的时候；暂时
+      en: while, for now
+      examples:
+        - ru: Пока́ он спал, я рабо́тал.
+          zh: 他睡觉的时候我在干活。
+  notes: |
+    同一个词兼作告别语和连接词，靠位置区分。

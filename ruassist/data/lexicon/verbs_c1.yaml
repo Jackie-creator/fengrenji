@@ -1,0 +1,601 @@
+# Further verbs, aspect pairs kept together.
+
+- lemma: начинаться
+  stress: начина́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: начаться
+  transitivity: intrans
+  reflexive: true
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 开始（自动）
+      en: to begin (intransitive)
+      examples:
+        - ru: Уро́к начина́ется в де́вять.
+          zh: 九点开始上课。
+  common_errors: |
+    及物的"开始做某事"用 начина́ть，主语自己开始用 начина́ться：
+    «Я начина́ю уро́к» 我开始上课 ／ «Уро́к начина́ется» 课开始了。
+    带 -ся 的一批动词都是这个逻辑（конча́ться、открыва́ться、продолжа́ться）。
+
+- lemma: начаться
+  stress: нача́ться
+  pos: verb
+  aspect: perf
+  aspect_pair: начинаться
+  transitivity: intrans
+  reflexive: true
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,3per,sing: начнётся
+    futr,3per,plur: начну́тся
+    past,masc: начался́
+    past,femn: начала́сь
+    past,neut: начало́сь
+    past,plur: начали́сь
+  senses:
+    - zh: 开始了（完成体）
+      en: to begin
+      examples:
+        - ru: Фильм уже́ начался́.
+          zh: 电影已经开始了。
+
+- lemma: кончаться
+  stress: конча́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: кончиться
+  transitivity: intrans
+  reflexive: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 结束（自动）
+      en: to end
+      examples:
+        - ru: Уро́к конча́ется в час.
+          zh: 课一点结束。
+
+- lemma: кончиться
+  stress: ко́нчиться
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: кончаться
+  transitivity: intrans
+  reflexive: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 结束了（完成体）
+      en: to end
+      examples:
+        - ru: Всё хорошо́ ко́нчилось.
+          zh: 一切都圆满结束了。
+
+- lemma: одеваться
+  stress: одева́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: одеться
+  transitivity: intrans
+  reflexive: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 穿衣服
+      en: to get dressed
+      examples:
+        - ru: Она́ одева́ется о́чень краси́во.
+          zh: 她穿得很漂亮。
+
+- lemma: одеться
+  stress: оде́ться
+  pos: verb
+  aspect: perf
+  aspect_pair: одеваться
+  transitivity: intrans
+  reflexive: true
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: оде́нусь
+    futr,2per,sing: оде́нешься
+    futr,3per,sing: оде́нется
+    futr,1per,plur: оде́немся
+    futr,2per,plur: оде́нетесь
+    futr,3per,plur: оде́нутся
+    past,masc: оде́лся
+    past,femn: оде́лась
+    past,neut: оде́лось
+    past,plur: оде́лись
+    impr,sing: оде́нься
+    impr,plur: оде́ньтесь
+  senses:
+    - zh: 穿好衣服（完成体）
+      en: to get dressed
+      examples:
+        - ru: Оде́ньтесь потепле́е.
+          zh: 穿暖和点。
+
+- lemma: надевать
+  stress: надева́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: надеть
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 穿上，戴上（某件衣物）
+      en: to put on
+      examples:
+        - ru: Он надева́ет ку́ртку.
+          zh: 他穿上夹克。
+  common_errors: |
+    надева́ть **что**（穿某件衣服）／ одева́ть **кого́**（给某人穿衣）。
+    俄语人自己都常混，助记口诀是 «надева́ть оде́жду, одева́ть Наде́жду»。
+
+- lemma: надеть
+  stress: наде́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: надевать
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: наде́ну
+    futr,2per,sing: наде́нешь
+    futr,3per,sing: наде́нет
+    futr,1per,plur: наде́нем
+    futr,2per,plur: наде́нете
+    futr,3per,plur: наде́нут
+    past,masc: наде́л
+    past,femn: наде́ла
+    past,neut: наде́ло
+    past,plur: наде́ли
+    impr,sing: наде́нь
+    impr,plur: наде́ньте
+  senses:
+    - zh: 穿上了（完成体）
+      en: to put on
+      examples:
+        - ru: Наде́нь ша́пку!
+          zh: 把帽子戴上！
+
+- lemma: мыть
+  stress: мыть
+  pos: verb
+  aspect: impf
+  aspect_pair: помыть
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: мо́ю
+    pres,2per,sing: мо́ешь
+    pres,3per,sing: мо́ет
+    pres,1per,plur: мо́ем
+    pres,2per,plur: мо́ете
+    pres,3per,plur: мо́ют
+    past,masc: мыл
+    past,femn: мы́ла
+    past,neut: мы́ло
+    past,plur: мы́ли
+    impr,sing: мой
+    impr,plur: мо́йте
+  senses:
+    - zh: 洗
+      en: to wash
+      examples:
+        - ru: Он мо́ет посу́ду.
+          zh: 他在洗碗。
+  common_errors: |
+    过去时中性 мы́ло 与名词 мы́ло（肥皂）完全同形，是词形还原的经典歧义。
+
+- lemma: помыть
+  stress: помы́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: мыть
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: помо́ю
+    futr,2per,sing: помо́ешь
+    futr,3per,sing: помо́ет
+    futr,1per,plur: помо́ем
+    futr,2per,plur: помо́ете
+    futr,3per,plur: помо́ют
+    past,masc: помы́л
+    past,femn: помы́ла
+    past,neut: помы́ло
+    past,plur: помы́ли
+    impr,sing: помо́й
+    impr,plur: помо́йте
+  senses:
+    - zh: 洗好（完成体）
+      en: to wash
+      examples:
+        - ru: Помо́й ру́ки пе́ред едо́й.
+          zh: 饭前洗手。
+
+- lemma: убирать
+  stress: убира́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: убрать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 收拾，打扫
+      en: to tidy, to clean
+      examples:
+        - ru: Я убира́ю ко́мнату ка́ждый день.
+          zh: 我每天收拾房间。
+
+- lemma: убрать
+  stress: убра́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: убирать
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: уберу́
+    futr,2per,sing: уберёшь
+    futr,3per,sing: уберёт
+    futr,1per,plur: уберём
+    futr,2per,plur: уберёте
+    futr,3per,plur: уберу́т
+    past,masc: убра́л
+    past,femn: убрала́
+    past,neut: убра́ло
+    past,plur: убра́ли
+    impr,sing: убери́
+    impr,plur: убери́те
+  senses:
+    - zh: 收拾好（完成体）
+      en: to tidy up
+      examples:
+        - ru: Убери́ со стола́.
+          zh: 把桌子收拾一下。
+
+- lemma: включать
+  stress: включа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: включить
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 打开（电器）
+      en: to switch on
+      examples:
+        - ru: Он включа́ет телеви́зор.
+          zh: 他打开电视。
+  antonyms: [выключать]
+
+- lemma: включить
+  stress: включи́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: включать
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 打开了（完成体）
+      en: to switch on
+      examples:
+        - ru: Включи́те свет, пожа́луйста.
+          zh: 请把灯打开。
+
+- lemma: выключать
+  stress: выключа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: выключить
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 关（电器）
+      en: to switch off
+      examples:
+        - ru: Не забу́дь вы́ключить свет.
+          zh: 别忘了关灯。
+  antonyms: [включать]
+
+- lemma: выключить
+  stress: вы́ключить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: выключать
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 关掉（完成体）
+      en: to switch off
+      examples:
+        - ru: Вы́ключи телефо́н.
+          zh: 把手机关了。
+  notes: |
+    前缀 вы- 夺取重音，未完成体 выключа́ть 重音在词尾。
+
+- lemma: слушаться
+  stress: слу́шаться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кого
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 听话，服从
+      en: to obey
+      examples:
+        - ru: Де́ти должны́ слу́шаться роди́телей.
+          zh: 孩子应该听父母的话。
+
+- lemma: обещать
+  stress: обеща́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: both
+  transitivity: trans
+  government: что кому / инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 答应，许诺
+      en: to promise
+      examples:
+        - ru: Он обеща́л помо́чь.
+          zh: 他答应帮忙。
+  notes: |
+    双体动词：同一个形式既可以是未完成体也可以是完成体，靠上下文判断。
+    同类还有 испо́льзовать、жени́ться、веле́ть。
+
+- lemma: приглашать
+  stress: приглаша́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: пригласить
+  transitivity: trans
+  government: кого куда
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 邀请
+      en: to invite
+      examples:
+        - ru: Он приглаша́ет нас в го́сти.
+          zh: 他请我们去做客。
+
+- lemma: пригласить
+  stress: пригласи́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: приглашать
+  transitivity: trans
+  government: кого куда
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 邀请了（完成体）
+      en: to invite
+      examples:
+        - ru: Я хочу́ пригласи́ть вас на у́жин.
+          zh: 我想请您吃晚饭。
+
+- lemma: сообщать
+  stress: сообща́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: сообщить
+  transitivity: trans
+  government: что кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 通知，告知
+      en: to inform
+      examples:
+        - ru: Он сообщи́л нам но́вость.
+          zh: 他把消息告诉了我们。
+
+- lemma: сообщить
+  stress: сообщи́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: сообщать
+  transitivity: trans
+  government: что кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 通知了（完成体）
+      en: to inform
+      examples:
+        - ru: Сообщи́те мне о результа́те.
+          zh: 结果请告诉我。
+
+- lemma: соглашаться
+  stress: соглаша́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: согласиться
+  transitivity: intrans
+  reflexive: true
+  government: с кем-чем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 同意
+      en: to agree
+      examples:
+        - ru: Я с ва́ми соглаша́юсь.
+          zh: 我同意您的看法。
+
+- lemma: согласиться
+  stress: согласи́ться
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: соглашаться
+  transitivity: intrans
+  reflexive: true
+  government: с кем-чем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 同意了（完成体）
+      en: to agree
+      examples:
+        - ru: Он согласи́лся помо́чь.
+          zh: 他答应帮忙了。
+  common_errors: |
+    "同意某人"用 с + 第五格：согласи́ться с тобо́й。
+
+- lemma: спорить
+  stress: спо́рить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: intrans
+  government: с кем о чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 争论
+      en: to argue
+      examples:
+        - ru: Они́ спо́рят о поли́тике.
+          zh: 他们在争论政治。
+
+- lemma: шутить
+  stress: шути́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 开玩笑
+      en: to joke
+      examples:
+        - ru: Ты шу́тишь?
+          zh: 你开玩笑吧？
+
+- lemma: курить
+  stress: кури́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 抽烟
+      en: to smoke
+      examples:
+        - ru: Здесь нельзя́ кури́ть.
+          zh: 这儿不能抽烟。
+
+- lemma: готовиться
+  stress: гото́виться
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: к чему
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 准备（为某事）
+      en: to prepare
+      examples:
+        - ru: Он гото́вится к экза́мену.
+          zh: 他在准备考试。
+  common_errors: |
+    "为某事做准备"用 к + 第三格：гото́виться к экза́мену。
+
+- lemma: мечтать
+  stress: мечта́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: о чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 梦想，向往
+      en: to dream of
+      examples:
+        - ru: Она́ мечта́ет о путеше́ствии.
+          zh: 她向往旅行。
+  common_errors: |
+    "梦想某事"用 о + 第六格。睡觉做梦是 ви́деть сон，不是 мечта́ть。
+
+- lemma: беспокоиться
+  stress: беспоко́иться
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: о ком-чём
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 担心，操心
+      en: to worry
+      examples:
+        - ru: Не беспоко́йтесь обо мне́.
+          zh: 别为我担心。
+
+- lemma: извиняться
+  stress: извиня́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: извиниться
+  transitivity: intrans
+  reflexive: true
+  government: перед кем за что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 道歉
+      en: to apologise
+      examples:
+        - ru: Он извини́лся за опозда́ние.
+          zh: 他为迟到道了歉。
+
+- lemma: извиниться
+  stress: извини́ться
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: извиняться
+  transitivity: intrans
+  reflexive: true
+  government: перед кем за что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 道歉了（完成体）
+      en: to apologise
+      examples:
+        - ru: Извини́те, пожа́луйста.
+          zh: 对不起。
+  common_errors: |
+    «Извини́те» 是对"您"说的，«Извини́» 是对"你"说的，别用错。

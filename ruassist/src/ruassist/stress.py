@@ -38,6 +38,13 @@ STRESS_ATTRACTING_PREPOSITIONS = frozenset(
     {"за", "на", "по", "под", "из", "без", "до", "об", "о", "от", "из-за"}
 )
 
+#: Vocalised preposition variants, used before consonant clusters. They are
+#: proclitics with no stress of their own -- "обо мне́", "передо мно́й" -- so
+#: they are polysyllabic and legitimately unmarked wherever they appear.
+UNSTRESSED_PROCLITICS = frozenset(
+    {"во", "со", "ко", "обо", "изо", "надо", "подо", "передо", "ото", "безо"}
+)
+
 
 class StressError(ValueError):
     """Raised when a string violates the project's stress-marking rules."""
@@ -122,6 +129,8 @@ def validate(text: str, *, field: str = "form") -> str:
         if marks > 1:
             raise StressError(f"{field}: {marks} stress marks in one word {word!r}")
         if count_vowels(word) > 1 and stress_index(word) is None:
+            if word.lower() in UNSTRESSED_PROCLITICS:
+                continue
             if i > 0 and _is_marked_proclitic(words[i - 1]):
                 continue
             raise StressError(f"{field}: unstressed polysyllabic word {word!r}")
