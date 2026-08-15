@@ -1,0 +1,240 @@
+# The rest of the cardinal numerals plus ordinals.
+#
+# 5-20 and 30 all decline like a feminine third-declension noun (пяти́, пятью́),
+# so once пять is learned the whole block follows.
+
+- lemma: шесть
+  stress: шесть
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: шесть
+    plur,gent: шести́
+    plur,datv: шести́
+    plur,ablt: шестью́
+    plur,loct: шести́
+  senses:
+    - zh: 六
+      en: six
+      examples:
+        - ru: У нас шесть уро́ков.
+          zh: 我们有六节课。
+
+- lemma: семь
+  stress: семь
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: семь
+    plur,gent: семи́
+    plur,datv: семи́
+    plur,ablt: семью́
+    plur,loct: семи́
+  senses:
+    - zh: 七
+      en: seven
+      examples:
+        - ru: Он встаёт в семь часо́в.
+          zh: 他七点起床。
+
+- lemma: восемь
+  stress: во́семь
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: во́семь
+    plur,gent: восьми́
+    plur,datv: восьми́
+    plur,ablt: восемью́
+    plur,loct: восьми́
+  senses:
+    - zh: 八
+      en: eight
+      examples:
+        - ru: В гру́ппе во́семь студе́нтов.
+          zh: 班里有八个学生。
+  common_errors: |
+    变格时逃逸元音 е 脱落：во́семь → восьми́，与 день → дня 同一现象。
+
+- lemma: девять
+  stress: де́вять
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: де́вять
+    plur,gent: девяти́
+    plur,datv: девяти́
+    plur,ablt: девятью́
+    plur,loct: девяти́
+  senses:
+    - zh: 九
+      en: nine
+      examples:
+        - ru: Уро́к начина́ется в де́вять.
+          zh: 九点开始上课。
+
+- lemma: одиннадцать
+  stress: оди́ннадцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: оди́ннадцать
+    plur,gent: оди́ннадцати
+    plur,datv: оди́ннадцати
+    plur,ablt: оди́ннадцатью
+    plur,loct: оди́ннадцати
+  senses:
+    - zh: 十一
+      en: eleven
+      examples:
+        - ru: Я ложу́сь в оди́ннадцать.
+          zh: 我十一点睡。
+  common_errors: |
+    11–19 一律"个位 + -надцать"，**重音都在中间的词根上**：
+    оди́ннадцать, двена́дцать, трина́дцать, четы́рнадцать, пятна́дцать…
+    注意 оди́ннадцать 有两个 н，是最常见的拼写错误。
+
+- lemma: двадцать
+  stress: два́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: два́дцать
+    plur,gent: двадцати́
+    plur,datv: двадцати́
+    plur,ablt: двадцатью́
+    plur,loct: двадцати́
+  senses:
+    - zh: 二十
+      en: twenty
+      examples:
+        - ru: Ему́ два́дцать лет.
+          zh: 他二十岁。
+
+- lemma: тридцать
+  stress: три́дцать
+  pos: num
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: три́дцать
+    plur,gent: тридцати́
+    plur,datv: тридцати́
+    plur,ablt: тридцатью́
+    plur,loct: тридцати́
+  senses:
+    - zh: 三十
+      en: thirty
+      examples:
+        - ru: В ме́сяце три́дцать дней.
+          zh: 一个月三十天。
+
+- lemma: сорок
+  stress: со́рок
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: со́рок
+    plur,gent: сорока́
+    plur,datv: сорока́
+    plur,ablt: сорока́
+    plur,loct: сорока́
+  senses:
+    - zh: 四十
+      en: forty
+      examples:
+        - ru: Уро́к дли́тся со́рок мину́т.
+          zh: 一节课四十分钟。
+  common_errors: |
+    со́рок 变格极简：除第一格／第四格外一律 сорока́。
+    девяно́сто 和 сто 也是同一模式（девяно́ста、ста）。
+
+- lemma: пятьдесят
+  stress: пятьдеся́т
+  pos: num
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: пятьдеся́т
+    plur,gent: пяти́десяти
+    plur,datv: пяти́десяти
+    plur,ablt: пятью́десятью
+    plur,loct: пяти́десяти
+  senses:
+    - zh: 五十
+      en: fifty
+      examples:
+        - ru: Э́то сто́ит пятьдеся́т рубле́й.
+          zh: 这个五十卢布。
+  common_errors: |
+    50–80 变格时**两个部分都要变**：пяти́десяти、пятью́десятью。
+    这是俄语数词最麻烦的一组，口语里常被简化，但书面和考试要求全变。
+
+- lemma: тысяча
+  stress: ты́сяча
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: ты́сяча
+    sing,gent: ты́сячи
+    sing,datv: ты́сяче
+    sing,accs: ты́сячу
+    sing,ablt: ты́сячей
+    sing,loct: ты́сяче
+    plur,nomn: ты́сячи
+    plur,gent: ты́сяч
+  senses:
+    - zh: 一千
+      en: thousand
+      examples:
+        - ru: В кни́ге ты́сяча страни́ц.
+          zh: 书有一千页。
+  common_errors: |
+    形式上是阴性名词，按 ж 4a 变格，后面接**复数第二格**：ты́сяча рубле́й。
+
+- lemma: третий
+  stress: тре́тий
+  pos: num
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: тре́тий
+    sing,femn,nomn: тре́тья
+    sing,neut,nomn: тре́тье
+    plur,nomn: тре́тьи
+    sing,masc,gent: тре́тьего
+    sing,masc,datv: тре́тьему
+    sing,femn,accs: тре́тью
+  senses:
+    - zh: 第三（的）
+      en: third
+      examples:
+        - ru: Он у́чится на тре́тьем ку́рсе.
+          zh: 他上大三。
+  common_errors: |
+    唯一一个不按普通形容词变格的顺序数词：тре́тий / тре́тья / тре́тье / тре́тьи，
+    带软音符。其他顺序数词（пе́рвый, второ́й, четвёртый…）都是规则形容词变格。
+
+- lemma: четвёртый
+  stress: четвёртый
+  pos: num
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第四（的）
+      en: fourth
+      examples:
+        - ru: Мы живём на четвёртом этаже́.
+          zh: 我们住四楼。
+
+- lemma: пятый
+  stress: пя́тый
+  pos: num
+  zaliznyak: п 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 第五（的）
+      en: fifth
+      examples:
+        - ru: Сего́дня пя́тое ма́я.
+          zh: 今天是五月五日。
+  common_errors: |
+    日期用**中性顺序数词 + 月份第二格**：пя́тое ма́я。
+    "在几号"用第二格：пя́того ма́я。

@@ -1,0 +1,535 @@
+# The rest of the motion-verb system, plus emotion and everyday activity verbs.
+#
+# Russian has fourteen basic motion pairs. идти/ходить and ехать/ездить are only
+# the first two; the ones below complete the set a learner actually meets, and
+# each is a uni/multi pair on exactly the same principle.
+
+# --- Motion: carrying, leading, running, flying, swimming -------------------
+
+- lemma: нести
+  stress: нести́
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  motion_group: uni
+  motion_partner: носить
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: несу́
+    pres,2per,sing: несёшь
+    pres,3per,sing: несёт
+    pres,1per,plur: несём
+    pres,2per,plur: несёте
+    pres,3per,plur: несу́т
+    past,masc: нёс
+    past,femn: несла́
+    past,neut: несло́
+    past,plur: несли́
+    impr,sing: неси́
+    impr,plur: неси́те
+  senses:
+    - zh: 拿着走，携带（单向，手提）
+      en: to carry (one direction)
+      examples:
+        - ru: Он несёт тяжёлую су́мку.
+          zh: 他提着个沉包。
+  common_errors: |
+    过去时阳性 нёс 没有 -л，与 мог、вёз 同型。
+
+- lemma: носить
+  stress: носи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  motion_group: multi
+  motion_partner: нести
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: （经常）携带；穿（衣服）
+      en: to carry (repeatedly), to wear
+      examples:
+        - ru: Она́ но́сит очки́.
+          zh: 她戴眼镜。
+  common_errors: |
+    "穿／戴（习惯性）"就用这个不定向形式：носи́ть очки́ / ша́пку。
+    "此刻正穿着"用 быть в чём：«Она́ в кра́сном пла́тье»。
+
+- lemma: вести
+  stress: вести́
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  motion_group: uni
+  motion_partner: водить
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    pres,1per,sing: веду́
+    pres,2per,sing: ведёшь
+    pres,3per,sing: ведёт
+    pres,1per,plur: ведём
+    pres,2per,plur: ведёте
+    pres,3per,plur: веду́т
+    past,masc: вёл
+    past,femn: вела́
+    past,neut: вело́
+    past,plur: вели́
+    impr,sing: веди́
+    impr,plur: веди́те
+  senses:
+    - zh: 领着走（单向）；主持
+      en: to lead (one direction)
+      examples:
+        - ru: Мать ведёт ребёнка в шко́лу.
+          zh: 母亲领着孩子去学校。
+
+- lemma: водить
+  stress: води́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  motion_group: multi
+  motion_partner: вести
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: （经常）领着；开（车）
+      en: to lead (repeatedly), to drive
+      examples:
+        - ru: Он уме́ет води́ть маши́ну.
+          zh: 他会开车。
+  common_errors: |
+    "会开车"固定说 води́ть маши́ну（不定向），不能用 вести́。
+
+- lemma: везти
+  stress: везти́
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  motion_group: uni
+  motion_partner: возить
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    pres,1per,sing: везу́
+    pres,2per,sing: везёшь
+    pres,3per,sing: везёт
+    pres,1per,plur: везём
+    pres,2per,plur: везёте
+    pres,3per,plur: везу́т
+    past,masc: вёз
+    past,femn: везла́
+    past,neut: везло́
+    past,plur: везли́
+    impr,sing: вези́
+    impr,plur: вези́те
+  senses:
+    - zh: 用车运送（单向）
+      en: to transport (one direction)
+      examples:
+        - ru: Он везёт нас на вокза́л.
+          zh: 他开车送我们去火车站。
+  notes: |
+    与 нести́ 的分工：手提用 нести́，车载用 везти́。
+    无人称用法 «Мне везёт» 是"我走运"。
+
+- lemma: возить
+  stress: вози́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  motion_group: multi
+  motion_partner: везти
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: （经常）用车运送
+      en: to transport (repeatedly)
+      examples:
+        - ru: Он ка́ждый день во́зит дете́й в шко́лу.
+          zh: 他每天开车送孩子上学。
+
+- lemma: бежать
+  stress: бежа́ть
+  pos: verb
+  aspect: impf
+  transitivity: intrans
+  motion_group: uni
+  motion_partner: бегать
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: бегу́
+    pres,2per,sing: бежи́шь
+    pres,3per,sing: бежи́т
+    pres,1per,plur: бежи́м
+    pres,2per,plur: бежи́те
+    pres,3per,plur: бегу́т
+    past,masc: бежа́л
+    past,femn: бежа́ла
+    past,neut: бежа́ло
+    past,plur: бежа́ли
+    impr,sing: беги́
+    impr,plur: беги́те
+  senses:
+    - zh: 跑（单向）
+      en: to run (one direction)
+      examples:
+        - ru: Он бежи́т к авто́бусу.
+          zh: 他朝公交车跑去。
+  common_errors: |
+    与 хоте́ть 一样是混合变位：бегу́ / бежи́шь …… / бегу́т，
+    第一人称单数和第三人称复数保留 г，中间都是 ж。全俄语只有这两个动词这样。
+
+- lemma: бегать
+  stress: бе́гать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  motion_group: multi
+  motion_partner: бежать
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: （经常地、来回地）跑
+      en: to run (repeatedly)
+      examples:
+        - ru: Он бе́гает ка́ждое у́тро.
+          zh: 他每天早上跑步。
+
+- lemma: лететь
+  stress: лете́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  motion_group: uni
+  motion_partner: летать
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 飞（单向）；乘飞机去
+      en: to fly (one direction)
+      examples:
+        - ru: Мы лети́м в Москву́.
+          zh: 我们（坐飞机）去莫斯科。
+  common_errors: |
+    第一人称单数 т → ч：лечу́。与 лечи́ть（治疗）的 лечу́ 完全同形，靠上下文区分。
+
+- lemma: летать
+  stress: лета́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  motion_group: multi
+  motion_partner: лететь
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: （经常地）飞；坐飞机
+      en: to fly (repeatedly)
+      examples:
+        - ru: Он ча́сто лета́ет в Кита́й.
+          zh: 他常飞中国。
+
+- lemma: плавать
+  stress: пла́вать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  motion_group: multi
+  motion_partner: плыть
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 会游泳；（经常）游
+      en: to swim (repeatedly)
+      examples:
+        - ru: Он хорошо́ пла́вает.
+          zh: 他游泳游得好。
+  common_errors: |
+    "会游泳"用不定向的 пла́вать，不是 плыть。
+
+- lemma: плыть
+  stress: плыть
+  pos: verb
+  aspect: impf
+  transitivity: intrans
+  motion_group: uni
+  motion_partner: плавать
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    pres,1per,sing: плыву́
+    pres,2per,sing: плывёшь
+    pres,3per,sing: плывёт
+    pres,1per,plur: плывём
+    pres,2per,plur: плывёте
+    pres,3per,plur: плыву́т
+    past,masc: плыл
+    past,femn: плыла́
+    past,neut: плы́ло
+    past,plur: плы́ли
+    impr,sing: плыви́
+    impr,plur: плыви́те
+  senses:
+    - zh: 游（单向）；（船）航行
+      en: to swim, to sail (one direction)
+      examples:
+        - ru: Ло́дка плывёт по реке́.
+          zh: 小船顺河而行。
+
+# --- Everyday activity ------------------------------------------------------
+
+- lemma: играть
+  stress: игра́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: во что / на чём
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 玩；演奏；扮演
+      en: to play
+      collocations: [игра́ть в футбо́л, игра́ть на гита́ре]
+      examples:
+        - ru: Де́ти игра́ют во дворе́.
+          zh: 孩子们在院子里玩。
+  common_errors: |
+    **玩游戏／球类用 в + 第四格**：игра́ть в футбо́л / в ша́хматы；
+    **演奏乐器用 на + 第六格**：игра́ть на гита́ре / на пиани́но。
+    两个前置词不能混，这是考试高频点。
+
+- lemma: петь
+  stress: петь
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: пою́
+    pres,2per,sing: поёшь
+    pres,3per,sing: поёт
+    pres,1per,plur: поём
+    pres,2per,plur: поёте
+    pres,3per,plur: пою́т
+    past,masc: пел
+    past,femn: пе́ла
+    past,neut: пе́ло
+    past,plur: пе́ли
+    impr,sing: пой
+    impr,plur: по́йте
+  senses:
+    - zh: 唱歌
+      en: to sing
+      examples:
+        - ru: Она́ хорошо́ поёт.
+          zh: 她唱得好。
+  common_errors: |
+    现在时词干是 по-：пою́ / поёшь，与不定式 петь 对不上。
+
+- lemma: танцевать
+  stress: танцева́ть
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 跳舞
+      en: to dance
+      examples:
+        - ru: Они́ танцу́ют весь ве́чер.
+          zh: 他们跳了一晚上舞。
+  common_errors: |
+    -евать 型：танцу́ю / танцу́ешь，-ева- 变 -у-，与 сове́товать 同型。
+  verify: [zaliznyak]
+
+- lemma: рисовать
+  stress: рисова́ть
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 画（画）
+      en: to draw
+      examples:
+        - ru: Он рису́ет о́чень хорошо́.
+          zh: 他画得很好。
+  common_errors: |
+    与 писа́ть 分工：铅笔／钢笔画用 рисова́ть，油画用 писа́ть。
+  verify: [zaliznyak]
+
+- lemma: учить
+  stress: учи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: выучить
+  transitivity: trans
+  government: что / кого чему
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 学，背（记住）；教
+      en: to learn by heart, to teach
+      examples:
+        - ru: Я учу́ но́вые слова́.
+          zh: 我在背生词。
+  common_errors: |
+    三个"学"要分清：
+    учи́ть что（背下来）／ изуча́ть что（系统研究）／ учи́ться где（在某处上学）。
+    另外 учи́ть кого́ чему́ 是"教某人某事"，同一个词兼表"学"和"教"，靠支配关系区分。
+
+- lemma: выучить
+  stress: вы́учить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: учить
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 学会，背会（完成体）
+      en: to learn, to master
+      examples:
+        - ru: Я вы́учил все слова́.
+          zh: 单词我都背下来了。
+  notes: |
+    前缀 вы- 夺取重音：вы́учить / вы́учу，与 вы́йти、вы́брать 同型。
+
+# --- Emotion and mental state -----------------------------------------------
+
+- lemma: верить
+  stress: ве́рить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: поверить
+  transitivity: intrans
+  government: кому-чему / в кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 相信
+      en: to believe
+      examples:
+        - ru: Я тебе́ ве́рю.
+          zh: 我信你。
+  common_errors: |
+    两种支配意思不同：
+    ве́рить **кому́**（第三格）= 相信某人说的话；
+    ве́рить **в кого́-что**（в + 第四格）= 信仰、相信……的存在。
+    «Я ве́рю тебе́» 我信你 ／ «Я ве́рю в тебя́» 我看好你。
+
+- lemma: поверить
+  stress: пове́рить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: верить
+  transitivity: intrans
+  government: кому-чему / в кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 相信了（完成体）
+      en: to believe
+      examples:
+        - ru: Он мне не пове́рил.
+          zh: 他没信我。
+
+- lemma: надеяться
+  stress: наде́яться
+  pos: verb
+  zaliznyak: нсв 6a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: на кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 希望，指望
+      en: to hope
+      examples:
+        - ru: Я наде́юсь, что всё бу́дет хорошо́.
+          zh: 我希望一切都好。
+  common_errors: |
+    "指望某人"用 на + 第四格：наде́яться на тебя́。
+  verify: [zaliznyak]
+
+- lemma: волноваться
+  stress: волнова́ться
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: за кого / о ком
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 担心，激动
+      en: to worry, to be excited
+      examples:
+        - ru: Не волну́йтесь, всё в поря́дке.
+          zh: 别担心，都好着呢。
+  verify: [zaliznyak]
+
+- lemma: скучать
+  stress: скуча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: по кому-чему
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 想念；无聊
+      en: to miss, to be bored
+      examples:
+        - ru: Я скуча́ю по до́му.
+          zh: 我想家。
+  common_errors: |
+    "想念某人"用 по + 第三格：скуча́ю по тебе́。
+    这是 по 支配第三格的典型用法，不能用第四格。
+
+- lemma: удивляться
+  stress: удивля́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кому-чему
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 感到惊讶
+      en: to be surprised
+      examples:
+        - ru: Я удивля́юсь его́ спосо́бностям.
+          zh: 我对他的能力感到惊讶。
+  common_errors: |
+    接第三格。同组接第三格的情感动词还有 ра́доваться（高兴）、
+    зави́довать（羡慕）、сочу́вствовать（同情）。
+
+- lemma: радоваться
+  stress: ра́доваться
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кому-чему
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 高兴，感到喜悦
+      en: to rejoice
+      examples:
+        - ru: Де́ти ра́дуются пода́ркам.
+          zh: 孩子们为礼物高兴。
+  verify: [zaliznyak]

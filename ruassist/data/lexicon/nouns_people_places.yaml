@@ -1,0 +1,603 @@
+# Professions, education, transport, home.
+
+# --- Professions ------------------------------------------------------------
+
+- lemma: продавец
+  stress: продаве́ц
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*b
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 售货员
+      en: shop assistant
+      examples:
+        - ru: Продаве́ц показа́л нам но́вый телефо́н.
+          zh: 售货员给我们看了新手机。
+
+- lemma: водитель
+  stress: води́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 司机
+      en: driver
+      examples:
+        - ru: Води́тель авто́буса о́чень ве́жливый.
+          zh: 公交车司机很有礼貌。
+
+- lemma: повар
+  stress: по́вар
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1c(1)
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 厨师
+      en: cook, chef
+      examples:
+        - ru: Он рабо́тает по́варом.
+          zh: 他当厨师。
+
+- lemma: писатель
+  stress: писа́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 作家
+      en: writer
+      examples:
+        - ru: Толсто́й — вели́кий ру́сский писа́тель.
+          zh: 托尔斯泰是伟大的俄国作家。
+
+- lemma: художник
+  stress: худо́жник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 画家，美术家
+      en: artist, painter
+      examples:
+        - ru: Э́тот худо́жник о́чень изве́стен.
+          zh: 这位画家很有名。
+
+- lemma: журналист
+  stress: журнали́ст
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 记者
+      en: journalist
+      examples:
+        - ru: Она́ рабо́тает журнали́стом.
+          zh: 她当记者。
+
+- lemma: директор
+  stress: дире́ктор
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1c(1)
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 经理，校长
+      en: director, principal
+      examples:
+        - ru: Дире́ктор шко́лы — моя́ тётя.
+          zh: 校长是我姑姑。
+  common_errors: |
+    复数是 директора́（重音在词尾），与 профессора́、до́ктор → доктора́ 同型。
+
+- lemma: актёр
+  stress: актёр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 演员
+      en: actor
+      examples:
+        - ru: Он изве́стный актёр.
+          zh: 他是有名的演员。
+  notes: |
+    女演员是 актри́са，不是 актёрка。
+
+- lemma: певец
+  stress: певе́ц
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 歌手
+      en: singer
+      examples:
+        - ru: Э́тот певе́ц о́чень популя́рен.
+          zh: 这个歌手很红。
+  notes: |
+    女歌手是 певи́ца。
+
+- lemma: начальник
+  stress: нача́льник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 领导，上司
+      en: boss, chief
+      examples:
+        - ru: Мой нача́льник о́чень стро́гий.
+          zh: 我领导很严。
+
+# --- Education --------------------------------------------------------------
+
+- lemma: ученик
+  stress: учени́к
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 学生（中小学）；徒弟
+      en: pupil
+      examples:
+        - ru: В кла́ссе два́дцать ученико́в.
+          zh: 班里有二十个学生。
+  common_errors: |
+    与 студе́нт 分工：ученик 是中小学生，студе́нт 只指大学生。
+
+- lemma: лекция
+  stress: ле́кция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 讲座，大课
+      en: lecture
+      examples:
+        - ru: Сего́дня две ле́кции.
+          zh: 今天有两节大课。
+
+- lemma: предмет
+  stress: предме́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 科目；物品
+      en: subject, object
+      examples:
+        - ru: Како́й твой люби́мый предме́т?
+          zh: 你最喜欢哪门课？
+
+- lemma: курс
+  stress: курс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 年级（大学）；课程
+      en: year of study, course
+      examples:
+        - ru: Я учу́сь на тре́тьем ку́рсе.
+          zh: 我上大三。
+  common_errors: |
+    "上几年级（大学）"用 на + 第六格：на тре́тьем ку́рсе。
+    中小学年级用 класс：в тре́тьем кла́ссе。
+
+- lemma: оценка
+  stress: оце́нка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 分数，评价
+      en: mark, grade
+      examples:
+        - ru: Он получи́л хоро́шую оце́нку.
+          zh: 他得了个好分数。
+
+# --- Transport --------------------------------------------------------------
+
+- lemma: вокзал
+  stress: вокза́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 火车站
+      en: railway station
+      examples:
+        - ru: Мы встре́тились на вокза́ле.
+          zh: 我们在火车站碰的头。
+  common_errors: |
+    "在火车站"用 на вокза́ле，不是 в。
+
+- lemma: аэропорт
+  stress: аэропо́рт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,loc2: аэропорту́
+  senses:
+    - zh: 机场
+      en: airport
+      examples:
+        - ru: Он уже́ в аэропорту́.
+          zh: 他已经在机场了。
+  common_errors: |
+    "在机场"用处所格 в аэропорту́（重音在词尾），不是 в аэропо́рте。
+
+- lemma: станция
+  stress: ста́нция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 车站（地铁、小站）
+      en: station
+      examples:
+        - ru: Э́то ста́нция метро́ «Арба́тская».
+          zh: 这是阿尔巴特地铁站。
+
+- lemma: остановка
+  stress: остано́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 站（公交、电车）
+      en: stop
+      examples:
+        - ru: Вы выхо́дите на сле́дующей остано́вке?
+          zh: 您下一站下吗？
+
+- lemma: трамвай
+  stress: трамва́й
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 有轨电车
+      en: tram
+      examples:
+        - ru: Мы е́дем на трамва́е.
+          zh: 我们坐电车。
+
+- lemma: такси
+  stress: такси́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 出租车
+      en: taxi
+      examples:
+        - ru: Дава́й возьмём такси́.
+          zh: 咱们打车吧。
+  common_errors: |
+    不变格中性名词。"打车"是 взять такси́ 或 пое́хать на такси́。
+
+- lemma: велосипед
+  stress: велосипе́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 自行车
+      en: bicycle
+      examples:
+        - ru: Он е́здит на велосипе́де.
+          zh: 他骑自行车。
+
+- lemma: чемодан
+  stress: чемода́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 行李箱
+      en: suitcase
+      examples:
+        - ru: Мой чемода́н о́чень тяжёлый.
+          zh: 我的箱子很沉。
+
+# --- Home -------------------------------------------------------------------
+
+- lemma: этаж
+  stress: эта́ж
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 楼层
+      en: floor, storey
+      examples:
+        - ru: Мы живём на пя́том этаже́.
+          zh: 我们住五楼。
+  common_errors: |
+    "住几楼"用 на + 第六格：на пя́том этаже́（重音在词尾）。
+
+- lemma: лифт
+  stress: лифт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 电梯
+      en: lift, elevator
+      examples:
+        - ru: Лифт не рабо́тает.
+          zh: 电梯坏了。
+
+- lemma: шкаф
+  stress: шкаф
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,loc2: шкафу́
+  senses:
+    - zh: 柜子，衣柜
+      en: cupboard, wardrobe
+      examples:
+        - ru: Оде́жда в шкафу́.
+          zh: 衣服在柜子里。
+
+- lemma: диван
+  stress: дива́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 沙发
+      en: sofa
+      examples:
+        - ru: Он спит на дива́не.
+          zh: 他在沙发上睡。
+
+- lemma: кресло
+  stress: кре́сло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*a
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,gent: кре́сел
+  senses:
+    - zh: 扶手椅
+      en: armchair
+      examples:
+        - ru: Сади́тесь в кре́сло.
+          zh: 请坐扶手椅上。
+
+- lemma: лампа
+  stress: ла́мпа
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 灯
+      en: lamp
+      examples:
+        - ru: На столе́ стои́т ла́мпа.
+          zh: 桌上放着一盏灯。
+
+- lemma: зеркало
+  stress: зе́ркало
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: зеркала́
+    plur,gent: зерка́л
+  senses:
+    - zh: 镜子
+      en: mirror
+      examples:
+        - ru: Он смо́трит в зе́ркало.
+          zh: 他在照镜子。
+
+- lemma: холодильник
+  stress: холоди́льник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 冰箱
+      en: fridge
+      examples:
+        - ru: Молоко́ в холоди́льнике.
+          zh: 牛奶在冰箱里。
+
+- lemma: стена
+  stress: стена́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: сте́ну
+    plur,nomn: сте́ны
+  senses:
+    - zh: 墙
+      en: wall
+      examples:
+        - ru: На стене́ виси́т карти́на.
+          zh: 墙上挂着画。
+
+- lemma: пол
+  stress: пол
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,loc2: полу́
+  senses:
+    - zh: 地板
+      en: floor
+      examples:
+        - ru: Кни́га упа́ла на́ пол.
+          zh: 书掉到地上了。
+  common_errors: |
+    «на́ пол»（掉到地上）里前置词把重音吸走。"在地板上"是 на полу́。
+
+- lemma: картина
+  stress: карти́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 画，图画
+      en: picture, painting
+      examples:
+        - ru: Э́то краси́вая карти́на.
+          zh: 这是幅漂亮的画。
+
+# --- Animals ----------------------------------------------------------------
+
+- lemma: птица
+  stress: пти́ца
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 鸟
+      en: bird
+      examples:
+        - ru: В саду́ пою́т пти́цы.
+          zh: 园子里鸟在叫。
+
+- lemma: лошадь
+  stress: ло́шадь
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,ablt: лошадьми́
+  senses:
+    - zh: 马
+      en: horse
+      examples:
+        - ru: Он лю́бит лошаде́й.
+          zh: 他喜欢马。
+  common_errors: |
+    复数第五格是 лошадьми́（带 -ьми́），与 людьми́、детьми́ 同型。
+  verify: [zaliznyak]
+
+- lemma: корова
+  stress: коро́ва
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 母牛
+      en: cow
+      examples:
+        - ru: Коро́вы даю́т молоко́.
+          zh: 牛产奶。
+
+- lemma: медведь
+  stress: медве́дь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 熊
+      en: bear
+      examples:
+        - ru: Медве́дь спит зимо́й.
+          zh: 熊冬天睡觉。
+  notes: |
+    俄罗斯的象征性动物，在成语和民间故事里高频出现。
+
+- lemma: мышь
+  stress: мышь
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 老鼠；（电脑）鼠标
+      en: mouse
+      examples:
+        - ru: Ко́шка пойма́ла мышь.
+          zh: 猫抓住了老鼠。
+  common_errors: |
+    以 ь 结尾但是**阴性**，与 медве́дь（阳性）对照。
+    -ь 结尾的名词性别要逐个记，没有可靠规则。
+  verify: [zaliznyak]

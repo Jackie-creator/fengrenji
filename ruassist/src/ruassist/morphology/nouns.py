@@ -127,10 +127,14 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
             tags = {number, case}
             cells[canonical_tag(tags)] = Form.make(text, tags)
 
-        # Feminine -а/-я has its own accusative singular; everything else copies.
+        # A feminine singular always has its own accusative and never borrows
+        # the genitive, animate or not: ло́шадь and мышь are animate but their
+        # accusative is ло́шадь / мышь, because the third declension simply has
+        # no separate form to distinguish. Animacy only reaches the accusative
+        # where the paradigm leaves the choice open.
         if number == "sing" and gender is Gender.FEMN:
             acc_ending = _ending(gender, index, "sing", "accs", entry.gender)
-            if acc_ending is not None and acc_ending not in ("ь",):
+            if acc_ending is not None:
                 text = _assemble(
                     entry.lemma, stem, acc_ending, index, "sing", "accs", stem_ordinal
                 )

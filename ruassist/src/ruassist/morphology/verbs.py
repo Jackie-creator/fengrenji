@@ -204,6 +204,11 @@ def _imperative(entry: LexEntry, index: Index, lemma: str) -> dict[str, Form]:
 
     if stem[-1] in VOWELS:
         suffix, end_stressed = "й", False
+    elif _has_stressed_vy_prefix(entry, lemma):
+        # вы- takes the stress but the rest of the paradigm behaves as if it had
+        # not: учи́ть -> учи́, so вы́учить -> вы́учи, never *вы́учь. The imperative
+        # keeps the base verb's -и while the stress stays on the prefix.
+        suffix, end_stressed = "и", False
     elif index.scheme in ("b", "c"):
         suffix, end_stressed = "и", True
     elif _ends_in_cluster(stem):
@@ -248,6 +253,15 @@ def _stem_ordinal(entry: LexEntry, stem: str, index: Index) -> int:
     if ordinal < stem_vowels:
         return ordinal
     return max(stem_vowels - 1, 0)
+
+
+def _has_stressed_vy_prefix(entry: LexEntry, lemma: str) -> bool:
+    """A вы- perfective whose stress the prefix has pulled onto itself."""
+    return (
+        entry.aspect is Aspect.PERF
+        and lemma.startswith("вы")
+        and _stress_ordinal(entry.stress) == 0
+    )
 
 
 def _ends_in_cluster(stem: str) -> bool:
