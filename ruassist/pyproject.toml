@@ -15,10 +15,14 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
+    "pymorphy3>=2.0",   # cross-checks generated forms against OpenCorpora
 ]
 
 [project.scripts]
+ruassist = "ruassist.cli:main"
 ruassist-validate = "ruassist.validate:main"
+ruassist-coverage = "ruassist.coverage:main"
+ruassist-crosscheck = "ruassist.crosscheck:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

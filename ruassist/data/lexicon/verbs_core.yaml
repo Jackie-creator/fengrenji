@@ -670,7 +670,6 @@
           zh: 孩子还在睡。
   common_errors: |
     第一人称单数有 л 插入音：сплю。过去时阴性 спала́ 重音在词尾。
-  verify: [zaliznyak]
 
 - lemma: отдыхать
   stress: отдыха́ть

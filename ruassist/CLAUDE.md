@@ -19,7 +19,7 @@
 
 - ✅ M0 数据地基：schema 定稿、重音规范、校验器、55 词难样本样例
 - ✅ A1 核心词表批次：216 词条，自建 A1 词表覆盖 100%，覆盖率工具就位
-- ⬜ M1 形态引擎：范式展开、词形还原（含歧义候选）、CLI 查词
+- ✅ M1 形态引擎：范式展开、词形还原（含歧义候选）、CLI 查词、OpenCorpora 交叉核验
 - ⬜ M2 词典查询层：模糊查、拉丁转写输入、词条组装、发音
 - ⬜ M3 Web 前端（PWA）：查词界面、西里尔键盘、形态表、重音开关、离线词包
 - ⬜ M4 学习层：生词本、间隔重复、词书（高考俄语／专四／ТРКИ）
@@ -37,6 +37,10 @@
 - 中文释义由本项目**自己撰写**，因为开源俄语数据（OpenRussian／Wiktionary）只有英德释义。
 - 词形、重音、范式**必须来自开源形态数据**（OpenCorpora／OpenRussian）交叉核验，不能靠手写。
 - 规模不对标法语助手的几十万词条；目标是前 5,000 词做到高质量。
+- **形容词的扎利兹尼亚克字母描述短尾**，不能拿它定长尾重音；长尾除 -о́й 型外一律词干重音。
+- **形容词软硬看拼写**（-ий 前是否软辅音），不看索引类型：хоро́ший／ру́сский 是硬变化。
+- 名词的性是固有的，形容词的性是一致关系——与 OpenCorpora 比对时名词必须去掉性标签。
+- pymorphy3 只是开发期工具，产品里不含分析器，只含展开好的词形表。
 
 ## 领域要点（改数据前先读）
 
@@ -71,9 +75,11 @@
 ```bash
 cd ruassist
 pip install -e ".[dev]"
-python -m ruassist.validate data/lexicon          # 校验词库，列出待核对项
-python -m ruassist.validate data/lexicon --strict # 警告也当错误
-python -m pytest                                  # 全部测试
+python -m ruassist.validate data/lexicon   # 校验词库，列出待核对项
+python -m ruassist.coverage                # 词表覆盖率
+python -m ruassist.crosscheck              # 生成词形 vs OpenCorpora
+python -m ruassist.cli стали --table       # 查词（接受任意词形／拉丁转写）
+python -m pytest                           # 全部测试
 ```
 
 ## 关键文件
@@ -82,3 +88,6 @@ python -m pytest                                  # 全部测试
 - `src/ruassist/schema.py` — schema 的可执行定义，与文档不一致时以代码为准
 - `src/ruassist/stress.py` — 重音处理，整个项目的地基
 - `data/lexicon/*.yaml` — 手写知识库
+- `src/ruassist/morphology/` — 形态引擎（zaliznyak 解析 / 名词 / 形容词 / 动词 / engine）
+- `src/ruassist/crosscheck.py` — 与 OpenCorpora 比对，`verify` 清单靠它清
+- `src/ruassist/index.py` — 词形→词元索引，歧义全量返回
