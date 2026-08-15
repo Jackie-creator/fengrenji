@@ -470,3 +470,14 @@ def test_stressed_verb_ending_uses_yo():
         transitivity="intrans", reflexive=True,
     )
     assert cells(entry, ("pres", "2per", "sing")) == ["смеёшься"]
+
+
+def test_fleeting_vowel_after_l_leaves_a_soft_sign():
+    """па́лец -> па́льца: the л stays soft after the vowel that softened it goes."""
+    entry = noun("палец", "па́лец", "м 5*a", "masc")
+    assert cells(entry, ("sing", "gent"), ("plur", "nomn")) == ["па́льца", "па́льцы"]
+
+
+def test_fleeting_vowel_elsewhere_leaves_nothing():
+    entry = noun("отец", "оте́ц", "м 5*b", "masc", animacy="anim")
+    assert cells(entry, ("sing", "gent")) == ["отца́"]

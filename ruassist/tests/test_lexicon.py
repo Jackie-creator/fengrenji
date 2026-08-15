@@ -145,3 +145,26 @@ def test_english_glosses_are_strings(lexicon):
     for entry in lexicon.entries:
         for sense in entry.senses:
             assert sense.en is None or isinstance(sense.en, str)
+
+
+def test_prefixed_motion_verbs_pair_up(lexicon):
+    """Each prefixed motion verb needs its aspect partner; half a pair is useless."""
+    prefixed = {
+        "войти": "входить", "выйти": "выходить", "перейти": "переходить",
+        "подойти": "подходить", "зайти": "заходить", "пройти": "проходить",
+        "приехать": "приезжать", "уехать": "уезжать",
+    }
+    for perfective, imperfective in prefixed.items():
+        entries = lexicon.by_lemma(perfective)
+        assert entries, f"{perfective} missing"
+        assert entries[0].aspect_pair == imperfective
+
+
+def test_days_and_months_are_complete(lexicon):
+    """Closed sets: a partial set is worse than none, since the gap is invisible."""
+    days = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота",
+            "воскресенье"]
+    months = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль",
+              "август", "сентябрь", "октябрь", "ноябрь", "декабрь"]
+    for word in days + months:
+        assert lexicon.by_lemma(word), f"{word} missing"

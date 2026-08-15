@@ -1,0 +1,364 @@
+# Days of the week and months.
+#
+# A closed, finite set that a learner needs on day one and that the dictionary
+# had no entries for at all. The one real trap is uniform: "on Wednesday" is
+# в сре́ду, with the stress retracting off the ending it has in the nominative.
+
+# --- Days -------------------------------------------------------------------
+
+- lemma: понедельник
+  stress: понеде́льник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期一
+      en: Monday
+      examples:
+        - ru: В понеде́льник у нас экза́мен.
+          zh: 星期一我们考试。
+  common_errors: |
+    "在星期几"一律用 **в + 第四格**：в понеде́льник, во вто́рник, в сре́ду。
+    星期名称一律小写，不像英语要大写。
+
+- lemma: вторник
+  stress: вто́рник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期二
+      en: Tuesday
+      examples:
+        - ru: Он прие́дет во вто́рник.
+          zh: 他星期二到。
+  notes: |
+    前面的 в 变成 во（辅音丛前）：во вто́рник。
+
+- lemma: среда
+  stress: среда́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: сре́ду
+    plur,nomn: сре́ды
+  senses:
+    - zh: 星期三
+      en: Wednesday
+      examples:
+        - ru: В сре́ду я свобо́ден.
+          zh: 星期三我有空。
+  common_errors: |
+    第四格是 **сре́ду**（重音回到词干），所以"在星期三"是 в сре́ду，不是 в среду́。
+    与 рука́ → ру́ку 同一个重音例外。
+
+- lemma: четверг
+  stress: четве́рг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期四
+      en: Thursday
+      examples:
+        - ru: В четве́рг бу́дет собра́ние.
+          zh: 星期四开会。
+  common_errors: |
+    重音在词尾且变格后显现：четверга́ / четвергу́ / четверго́м。
+
+- lemma: пятница
+  stress: пя́тница
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期五
+      en: Friday
+      examples:
+        - ru: В пя́тницу мы идём в кино́.
+          zh: 星期五我们去看电影。
+
+- lemma: суббота
+  stress: суббо́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期六
+      en: Saturday
+      examples:
+        - ru: В суббо́ту я отдыха́ю.
+          zh: 星期六我休息。
+
+- lemma: воскресенье
+  stress: воскресе́нье
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 6a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 星期日
+      en: Sunday
+      examples:
+        - ru: В воскресе́нье мы бы́ли до́ма.
+          zh: 星期天我们在家。
+  notes: |
+    中性名词，第四格与第一格同形，所以"在星期天"就是 в воскресе́нье。
+
+# --- Months -----------------------------------------------------------------
+# "In a month" takes в + prepositional, unlike days which take the accusative:
+# в январе́, but в понеде́льник. The two sets must be learned apart.
+
+- lemma: январь
+  stress: янва́рь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 一月
+      en: January
+      examples:
+        - ru: В январе́ здесь о́чень хо́лодно.
+          zh: 一月这儿很冷。
+  common_errors: |
+    "在某月"用 **в + 第六格**：в январе́（重音在词尾），与星期用第四格不同。
+    月份名称一律小写。
+
+- lemma: февраль
+  stress: февра́ль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 二月
+      en: February
+      examples:
+        - ru: Он роди́лся в феврале́.
+          zh: 他二月出生。
+
+- lemma: март
+  stress: март
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 三月
+      en: March
+      examples:
+        - ru: В ма́рте начина́ется весна́.
+          zh: 三月春天开始了。
+
+- lemma: апрель
+  stress: апре́ль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 四月
+      en: April
+      examples:
+        - ru: В апре́ле ча́сто идёт дождь.
+          zh: 四月常下雨。
+
+- lemma: май
+  stress: май
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 五月
+      en: May
+      examples:
+        - ru: В ма́е бу́дет пра́здник.
+          zh: 五月有节日。
+
+- lemma: июнь
+  stress: ию́нь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 六月
+      en: June
+      examples:
+        - ru: В ию́не начина́ются кани́кулы.
+          zh: 六月开始放假。
+
+- lemma: июль
+  stress: ию́ль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 七月
+      en: July
+      examples:
+        - ru: Ию́ль — са́мый жа́ркий ме́сяц.
+          zh: 七月是最热的月份。
+
+- lemma: август
+  stress: а́вгуст
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 八月
+      en: August
+      examples:
+        - ru: В а́вгусте мы бы́ли на мо́ре.
+          zh: 八月我们在海边。
+
+- lemma: сентябрь
+  stress: сентя́брь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 九月
+      en: September
+      examples:
+        - ru: Учёба начина́ется в сентябре́.
+          zh: 九月开学。
+
+- lemma: октябрь
+  stress: октя́брь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 十月
+      en: October
+      examples:
+        - ru: В октябре́ уже́ хо́лодно.
+          zh: 十月已经冷了。
+
+- lemma: ноябрь
+  stress: ноя́брь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 十一月
+      en: November
+      examples:
+        - ru: В ноябре́ идёт снег.
+          zh: 十一月下雪。
+
+- lemma: декабрь
+  stress: дека́брь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 十二月
+      en: December
+      examples:
+        - ru: В декабре́ Но́вый год.
+          zh: 十二月是新年。
+  notes: |
+    八个月份名（янва́рь, февра́ль, сентя́брь, октя́брь, ноя́брь, дека́брь）
+    都是 -рь 结尾、重音在词尾的阳性名词，可以整组记。
+
+# --- Related time nouns -----------------------------------------------------
+
+- lemma: праздник
+  stress: пра́здник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 节日
+      en: holiday, festival
+      examples:
+        - ru: С пра́здником!
+          zh: 节日快乐！
+  common_errors: |
+    д 不发音，读作 [пра́зник]。
+    «С пра́здником!» 是万能的节日祝福语，用第五格。
+
+- lemma: каникулы
+  stress: кани́кулы
+  pos: noun
+  gender: femn
+  animacy: inan
+  number_only: plur
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: кани́кулы
+    plur,gent: кани́кул
+    plur,datv: кани́кулам
+    plur,accs: кани́кулы
+    plur,ablt: кани́кулами
+    plur,loct: кани́кулах
+  senses:
+    - zh: 假期（学校的）
+      en: school holidays
+      examples:
+        - ru: Ле́тние кани́кулы начина́ются в ию́не.
+          zh: 暑假六月开始。
+  common_errors: |
+    只有复数。"放假期间"用 на кани́кулах。
+    与 о́тпуск（成年人的休假）分工：学生放假是 кани́кулы，上班的人休假是 о́тпуск。
+
+- lemma: сутки
+  stress: су́тки
+  pos: noun
+  gender: femn
+  animacy: inan
+  number_only: plur
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,nomn: су́тки
+    plur,gent: су́ток
+    plur,datv: су́ткам
+    plur,accs: су́тки
+    plur,ablt: су́тками
+    plur,loct: су́тках
+  senses:
+    - zh: 一昼夜，二十四小时
+      en: twenty-four hours
+      examples:
+        - ru: По́езд идёт дво́е су́ток.
+          zh: 火车要走两天两夜。
+  notes: |
+    只有复数，汉语没有对应的单词。计数要用集合数词：дво́е су́ток, тро́е су́ток。

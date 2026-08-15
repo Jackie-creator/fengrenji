@@ -285,10 +285,15 @@ def _spell(stem: str, ending: str, *, stressed: bool, case: str = "", number: st
 
 
 def _drop_fleeting(stem: str) -> str:
-    """отец -> отц-, день -> дн-: the last о/е/ё before the final consonant goes."""
+    """отец -> отц-, день -> дн-: the last о/е/ё before the final consonant goes.
+
+    After л the vowel leaves a soft sign behind: па́лец -> па́льца, not *палца.
+    The л stays soft even though the vowel that softened it is gone.
+    """
     for i in range(len(stem) - 1, -1, -1):
         if stem[i] in "оеё" and i == len(stem) - 2:
-            return stem[:i] + stem[i + 1 :]
+            replacement = "ь" if i > 0 and stem[i - 1] == "л" else ""
+            return stem[:i] + replacement + stem[i + 1 :]
     return stem
 
 

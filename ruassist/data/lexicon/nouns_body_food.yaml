@@ -1,0 +1,366 @@
+# Body parts and food.
+#
+# Body parts are where Russian's irregular plurals cluster (у́хо -> у́ши,
+# глаз -> глаза́), and where Chinese and Russian carve the body up differently.
+
+# --- Body -------------------------------------------------------------------
+
+- lemma: лицо
+  stress: лицо́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 5d
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: ли́ца
+    plur,gent: лиц
+  senses:
+    - zh: 脸
+      en: face
+      examples:
+        - ru: У неё до́брое лицо́.
+          zh: 她面善。
+    - zh: 人物；（语法）人称
+      en: person
+      examples:
+        - ru: Глаго́л изменя́ется по ли́цам.
+          zh: 动词按人称变化。
+  verify: [zaliznyak]
+
+- lemma: ухо
+  stress: у́хо
+  pos: noun
+  gender: neut
+  animacy: inan
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,nomn: у́хо
+    sing,gent: у́ха
+    sing,datv: у́ху
+    sing,accs: у́хо
+    sing,ablt: у́хом
+    sing,loct: у́хе
+    plur,nomn: у́ши
+    plur,gent: уше́й
+    plur,datv: уша́м
+    plur,accs: у́ши
+    plur,ablt: уша́ми
+    plur,loct: уша́х
+  senses:
+    - zh: 耳朵
+      en: ear
+      examples:
+        - ru: У меня́ боли́т у́хо.
+          zh: 我耳朵疼。
+  common_errors: |
+    复数换了词干：у́хо → у́ши / уше́й（х 变 ш），而且重音移到词尾。
+    单数是中性，但复数看起来像阴性——形式上很反直觉，只能整体记。
+
+- lemma: нос
+  stress: нос
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,loc2: носу́
+  senses:
+    - zh: 鼻子
+      en: nose
+      examples:
+        - ru: У него́ большо́й нос.
+          zh: 他鼻子大。
+
+- lemma: рот
+  stress: рот
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1*b
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,gent: рта
+    sing,datv: рту
+    sing,ablt: ртом
+    sing,loct: рте
+  senses:
+    - zh: 嘴
+      en: mouth
+      examples:
+        - ru: Откро́йте рот.
+          zh: 请张嘴。
+  common_errors: |
+    逃逸元音 о 一变格就掉：рот → рта / рту / ртом，只剩一个音节。
+
+- lemma: зуб
+  stress: зуб
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1e
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 牙齿
+      en: tooth
+      examples:
+        - ru: У меня́ боля́т зу́бы.
+          zh: 我牙疼。
+  verify: [zaliznyak]
+
+- lemma: волосы
+  stress: во́лосы
+  pos: noun
+  gender: masc
+  animacy: inan
+  number_only: plur
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: во́лосы
+    plur,gent: воло́с
+    plur,datv: волоса́м
+    plur,accs: во́лосы
+    plur,ablt: волоса́ми
+    plur,loct: волоса́х
+  senses:
+    - zh: 头发
+      en: hair
+      examples:
+        - ru: У неё дли́нные во́лосы.
+          zh: 她头发长。
+  common_errors: |
+    "头发"日常只用复数。汉语"一根头发"要说单数 во́лос，但说"头发（整体）"必须用复数。
+    第三格以下重音移到词尾：волоса́м / волоса́ми。
+
+- lemma: сердце
+  stress: се́рдце
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 5c
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: серде́ц
+  senses:
+    - zh: 心，心脏
+      en: heart
+      examples:
+        - ru: У него́ больно́е се́рдце.
+          zh: 他心脏不好。
+  common_errors: |
+    д 不发音，读作 [се́рце]。
+  verify: [zaliznyak]
+
+- lemma: палец
+  stress: па́лец
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 手指；脚趾
+      en: finger, toe
+      examples:
+        - ru: Я поре́зал па́лец.
+          zh: 我把手指割破了。
+  common_errors: |
+    逃逸元音：па́лец → па́льца / па́льцу。
+    俄语不分手指和脚趾，都是 па́лец，要说清楚得加 па́лец руки́／ноги́。
+
+- lemma: спина
+  stress: спина́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    sing,accs: спи́ну
+    plur,nomn: спи́ны
+  senses:
+    - zh: 背，脊背
+      en: back
+      examples:
+        - ru: У меня́ боли́т спина́.
+          zh: 我背疼。
+
+# --- Food -------------------------------------------------------------------
+
+- lemma: рыба
+  stress: ры́ба
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 鱼
+      en: fish
+      examples:
+        - ru: Я не ем ры́бу.
+          zh: 我不吃鱼。
+  common_errors: |
+    ры́ба 在语法上是**动物名词**，所以复数第四格与第二格同形：«лови́ть рыб»。
+    单数看不出来（阴性 -а 名词有自己的第四格 ры́бу），只有复数才暴露。
+
+- lemma: сыр
+  stress: сыр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,gen2: сы́ру
+  senses:
+    - zh: 奶酪
+      en: cheese
+      examples:
+        - ru: Дай мне кусо́к сы́ра.
+          zh: 给我一块奶酪。
+
+- lemma: масло
+  stress: ма́сло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 黄油；油
+      en: butter, oil
+      collocations: [сли́вочное ма́сло, расти́тельное ма́сло]
+      examples:
+        - ru: Хлеб с ма́слом.
+          zh: 抹黄油的面包。
+  notes: |
+    黄油是 сли́вочное ма́сло，植物油是 расти́тельное ма́сло，单说 ма́сло 通常指黄油。
+
+- lemma: сахар
+  stress: са́хар
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,gen2: са́хару
+  senses:
+    - zh: 糖
+      en: sugar
+      examples:
+        - ru: Чай без са́хара, пожа́луйста.
+          zh: 请给不加糖的茶。
+  notes: |
+    有部分格 са́хару（"来点糖"），与 ча́ю 同类。
+
+- lemma: соль
+  stress: соль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 盐
+      en: salt
+      examples:
+        - ru: Переда́йте соль, пожа́луйста.
+          zh: 请把盐递给我。
+  verify: [zaliznyak]
+
+- lemma: овощи
+  stress: о́вощи
+  pos: noun
+  gender: masc
+  animacy: inan
+  number_only: plur
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: о́вощи
+    plur,gent: овоще́й
+    plur,datv: овоща́м
+    plur,accs: о́вощи
+    plur,ablt: овоща́ми
+    plur,loct: овоща́х
+  senses:
+    - zh: 蔬菜
+      en: vegetables
+      examples:
+        - ru: Я люблю́ све́жие о́вощи.
+          zh: 我喜欢新鲜蔬菜。
+  notes: |
+    日常总是用复数。单数 о́вощ 存在但极少用。
+
+- lemma: фрукты
+  stress: фру́кты
+  pos: noun
+  gender: masc
+  animacy: inan
+  number_only: plur
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: фру́кты
+    plur,gent: фру́ктов
+    plur,datv: фру́ктам
+    plur,accs: фру́кты
+    plur,ablt: фру́ктами
+    plur,loct: фру́ктах
+  senses:
+    - zh: 水果
+      en: fruit
+      examples:
+        - ru: Он купи́л фру́кты на ры́нке.
+          zh: 他在市场买了水果。
+
+- lemma: сок
+  stress: сок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,gen2: со́ку
+  senses:
+    - zh: 果汁
+      en: juice
+      examples:
+        - ru: Я пью апельси́новый сок.
+          zh: 我喝橙汁。
+  verify: [zaliznyak]
+
+- lemma: рынок
+  stress: ры́нок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 市场，集市
+      en: market
+      examples:
+        - ru: Мы идём на ры́нок.
+          zh: 我们去市场。
+  common_errors: |
+    逃逸元音：ры́нок → ры́нка。"去市场"用 на，不是 в。
+
+- lemma: вкус
+  stress: вкус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 味道；品味
+      en: taste
+      examples:
+        - ru: У э́того су́па стра́нный вкус.
+          zh: 这汤味道怪。

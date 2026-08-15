@@ -1,0 +1,299 @@
+# Position and placement verbs.
+#
+# Russian splits what Chinese covers with 放 and 在 into a grid: transitive
+# placement (класть/ста́вить/ве́шать) versus intransitive position (лежа́ть/
+# стоя́ть/висе́ть), each further split by the object's orientation. Choosing the
+# wrong axis is what makes a sentence sound foreign even when it is grammatical.
+
+- lemma: класть
+  stress: класть
+  pos: verb
+  aspect: impf
+  aspect_pair: положить
+  transitivity: trans
+  government: что куда
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: кладу́
+    pres,2per,sing: кладёшь
+    pres,3per,sing: кладёт
+    pres,1per,plur: кладём
+    pres,2per,plur: кладёте
+    pres,3per,plur: кладу́т
+    past,masc: клал
+    past,femn: кла́ла
+    past,neut: кла́ло
+    past,plur: кла́ли
+    impr,sing: клади́
+    impr,plur: клади́те
+  senses:
+    - zh: 放（平着放）
+      en: to put (lying)
+      examples:
+        - ru: Он кладёт кни́гу на стол.
+          zh: 他把书放到桌上。
+  common_errors: |
+    现在时词干完全变了：кладу́ / кладёшь，与不定式 класть 对不上。
+    与 ста́вить 的分工：平着放用 класть，竖着放用 ста́вить。
+    汉语一个"放"字不区分，这一组必须靠物体的姿态判断。
+
+- lemma: положить
+  stress: положи́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: класть
+  transitivity: trans
+  government: что куда
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 放好（完成体）
+      en: to put
+      examples:
+        - ru: Положи́ кни́гу на ме́сто.
+          zh: 把书放回原处。
+  common_errors: |
+    体对不对称：класть（未完成）／положи́ть（完成）——词根完全不同，必须成对记。
+    没有 «покла́сть» 这个词。
+
+- lemma: ставить
+  stress: ста́вить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: поставить
+  transitivity: trans
+  government: что куда
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 放（竖着放）
+      en: to put (standing)
+      examples:
+        - ru: Она́ ста́вит ва́зу на стол.
+          zh: 她把花瓶放到桌上。
+  common_errors: |
+    第一人称单数有 л 插入音：ста́влю。
+
+- lemma: поставить
+  stress: поста́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: ставить
+  transitivity: trans
+  government: что куда
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 放好（竖着，完成体）
+      en: to put
+      examples:
+        - ru: Поста́вь ча́шку сюда́.
+          zh: 把杯子放这儿。
+
+- lemma: вешать
+  stress: ве́шать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: повесить
+  transitivity: trans
+  government: что куда
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 挂
+      en: to hang
+      examples:
+        - ru: Он ве́шает карти́ну на сте́ну.
+          zh: 他把画挂到墙上。
+
+- lemma: повесить
+  stress: пове́сить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: вешать
+  transitivity: trans
+  government: что куда
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 挂好（完成体）
+      en: to hang
+      examples:
+        - ru: Пове́сь пальто́ в шкаф.
+          zh: 把大衣挂到柜子里。
+
+- lemma: висеть
+  stress: висе́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  government: где
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 挂着
+      en: to hang, to be hanging
+      examples:
+        - ru: На стене́ виси́т карти́на.
+          zh: 墙上挂着一幅画。
+  common_errors: |
+    这是 ве́шать 的不及物对应词：ве́шать 是"（人）挂"，висе́ть 是"（物）挂着"。
+    与 стоя́ть／лежа́ть 构成完整的三分：竖着／平着／挂着。
+
+- lemma: садиться
+  stress: сади́ться
+  pos: verb
+  zaliznyak: нсв 4b
+  aspect: impf
+  aspect_pair: сесть
+  transitivity: intrans
+  reflexive: true
+  government: куда
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 坐下
+      en: to sit down
+      examples:
+        - ru: Сади́тесь, пожа́луйста.
+          zh: 请坐。
+  common_errors: |
+    与 сиде́ть 的分工：сади́ться 是"坐下"这个动作，сиде́ть 是"坐着"这个状态。
+    请人坐下说 «Сади́тесь»，不是 «Сиди́те»（那是"别动，坐着别起来"）。
+
+- lemma: сесть
+  stress: сесть
+  pos: verb
+  aspect: perf
+  aspect_pair: садиться
+  transitivity: intrans
+  government: куда
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: ся́ду
+    futr,2per,sing: ся́дешь
+    futr,3per,sing: ся́дет
+    futr,1per,plur: ся́дем
+    futr,2per,plur: ся́дете
+    futr,3per,plur: ся́дут
+    past,masc: сел
+    past,femn: се́ла
+    past,neut: се́ло
+    past,plur: се́ли
+    impr,sing: сядь
+    impr,plur: ся́дьте
+  senses:
+    - zh: 坐下了（完成体）
+      en: to sit down
+      examples:
+        - ru: Он сел у окна́.
+          zh: 他在窗边坐下了。
+  common_errors: |
+    将来时词干是 сяд-：ся́ду / ся́дешь，与不定式 сесть 毫无相似之处。
+
+- lemma: вставать
+  stress: встава́ть
+  pos: verb
+  aspect: impf
+  aspect_pair: встать
+  transitivity: intrans
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: встаю́
+    pres,2per,sing: встаёшь
+    pres,3per,sing: встаёт
+    pres,1per,plur: встаём
+    pres,2per,plur: встаёте
+    pres,3per,plur: встаю́т
+    past,masc: встава́л
+    past,femn: встава́ла
+    past,neut: встава́ло
+    past,plur: встава́ли
+    impr,sing: встава́й
+    impr,plur: встава́йте
+  senses:
+    - zh: 起床；站起来
+      en: to get up, to stand up
+      examples:
+        - ru: Я встаю́ в семь часо́в.
+          zh: 我七点起床。
+  common_errors: |
+    -вать 型动词现在时丢掉 -ва-：встаю́ / встаёшь，与 дава́ть → даю́ 同型。
+
+- lemma: встать
+  stress: встать
+  pos: verb
+  aspect: perf
+  aspect_pair: вставать
+  transitivity: intrans
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: вста́ну
+    futr,2per,sing: вста́нешь
+    futr,3per,sing: вста́нет
+    futr,1per,plur: вста́нем
+    futr,2per,plur: вста́нете
+    futr,3per,plur: вста́нут
+    past,masc: встал
+    past,femn: вста́ла
+    past,neut: вста́ло
+    past,plur: вста́ли
+    impr,sing: встань
+    impr,plur: вста́ньте
+  senses:
+    - zh: 起来了（完成体）
+      en: to get up
+      examples:
+        - ru: Он встал и вы́шел.
+          zh: 他站起来出去了。
+
+- lemma: ложиться
+  stress: ложи́ться
+  pos: verb
+  zaliznyak: нсв 4b
+  aspect: impf
+  aspect_pair: лечь
+  transitivity: intrans
+  reflexive: true
+  government: куда
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 躺下；就寝
+      en: to lie down, to go to bed
+      collocations: [ложи́ться спать]
+      examples:
+        - ru: Я ложу́сь спать в оди́ннадцать.
+          zh: 我十一点睡觉。
+  common_errors: |
+    "睡觉"这个日常说法是 ложи́ться спать（躺下去睡），不是单说 спать。
+    спать 是"正在睡着"这个状态。
+
+- lemma: лечь
+  stress: лечь
+  pos: verb
+  aspect: perf
+  aspect_pair: ложиться
+  transitivity: intrans
+  government: куда
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: ля́гу
+    futr,2per,sing: ля́жешь
+    futr,3per,sing: ля́жет
+    futr,1per,plur: ля́жем
+    futr,2per,plur: ля́жете
+    futr,3per,plur: ля́гут
+    past,masc: лёг
+    past,femn: легла́
+    past,neut: легло́
+    past,plur: легли́
+    impr,sing: ляг
+    impr,plur: ля́гте
+  senses:
+    - zh: 躺下了（完成体）
+      en: to lie down
+      examples:
+        - ru: Он лёг и сра́зу засну́л.
+          zh: 他躺下就睡着了。
+  common_errors: |
+    极不规则：将来时 ля́гу / ля́жешь / ля́гут（г 与 ж 交替），
+    过去时 лёг / легла́（阳性没有 -л）。与 мочь → мог / могла́ 同型。

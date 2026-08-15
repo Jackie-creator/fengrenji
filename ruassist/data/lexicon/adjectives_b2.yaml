@@ -1,0 +1,277 @@
+# More descriptive adjectives, mostly antonym pairs.
+
+- lemma: высокий
+  stress: высо́кий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: вы́ше
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 高的
+      en: tall, high
+      examples:
+        - ru: Э́то о́чень высо́кий дом.
+          zh: 这楼很高。
+  common_errors: |
+    比较级 вы́ше 重音在前，与形容词 высо́кий 的重音位置不同。
+  antonyms: [низкий]
+
+- lemma: низкий
+  stress: ни́зкий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: ни́же
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 低的，矮的
+      en: low, short
+      examples:
+        - ru: У э́того сту́ла ни́зкая спи́нка.
+          zh: 这椅子靠背矮。
+  antonyms: [высокий]
+
+- lemma: широкий
+  stress: широ́кий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: ши́ре
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 宽的
+      en: wide
+      examples:
+        - ru: Здесь широ́кая у́лица.
+          zh: 这条街很宽。
+  antonyms: [узкий]
+
+- lemma: узкий
+  stress: у́зкий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: у́же
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 窄的
+      en: narrow
+      examples:
+        - ru: Э́то о́чень у́зкая доро́га.
+          zh: 这条路很窄。
+  common_errors: |
+    比较级 у́же 与副词 уже́（已经）拼写完全相同，只差重音——典型的重音辨义对。
+  antonyms: [широкий]
+
+- lemma: тяжёлый
+  stress: тяжёлый
+  pos: adj
+  zaliznyak: п 1*b
+  short_form: true
+  comparative: тяжеле́е
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 重的；艰难的
+      en: heavy, hard
+      examples:
+        - ru: Э́та су́мка о́чень тяжёлая.
+          zh: 这个包很沉。
+  antonyms: [лёгкий]
+
+- lemma: свежий
+  stress: све́жий
+  pos: adj
+  zaliznyak: п 4a
+  short_form: true
+  comparative: свеже́е
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 新鲜的
+      en: fresh
+      collocations: [све́жий во́здух, све́жие о́вощи]
+      examples:
+        - ru: Здесь све́жий во́здух.
+          zh: 这儿空气新鲜。
+
+- lemma: вкусный
+  stress: вку́сный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: вкусне́е
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 好吃的，可口的
+      en: tasty
+      examples:
+        - ru: Как вку́сно!
+          zh: 真好吃！
+  notes: |
+    中性短尾 вку́сно 常单独用作感叹："真好吃"。
+
+- lemma: любимый
+  stress: люби́мый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 最喜欢的；心爱的
+      en: favourite, beloved
+      examples:
+        - ru: Э́то моя́ люби́мая пе́сня.
+          zh: 这是我最喜欢的歌。
+
+- lemma: странный
+  stress: стра́нный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: странне́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 奇怪的
+      en: strange
+      examples:
+        - ru: Како́й стра́нный челове́к!
+          zh: 多奇怪的人！
+
+- lemma: простой
+  stress: просто́й
+  pos: adj
+  zaliznyak: п 1b
+  short_form: true
+  comparative: про́ще
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 简单的；普通的
+      en: simple
+      examples:
+        - ru: Э́то о́чень просто́й вопро́с.
+          zh: 这问题很简单。
+  antonyms: [сложный]
+
+- lemma: сложный
+  stress: сло́жный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: сложне́е
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 复杂的
+      en: complicated
+      examples:
+        - ru: Э́то сло́жная зада́ча.
+          zh: 这是道复杂的题。
+  common_errors: |
+    与 тру́дный 的分工：сло́жный 是"结构复杂"，тру́дный 是"做起来费劲"。
+    汉语"难"两者都覆盖。
+  antonyms: [простой]
+
+- lemma: тёмный
+  stress: тёмный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: темне́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 暗的，黑的
+      en: dark
+      examples:
+        - ru: На у́лице уже́ темно́.
+          zh: 外面已经黑了。
+  antonyms: [светлый]
+
+- lemma: светлый
+  stress: све́тлый
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: светле́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 明亮的；浅色的
+      en: light, bright
+      examples:
+        - ru: У них све́тлая кварти́ра.
+          zh: 他们家房子很敞亮。
+  antonyms: [тёмный]
+
+- lemma: богатый
+  stress: бога́тый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  comparative: бога́че
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 富有的
+      en: rich
+      examples:
+        - ru: Э́то бога́тая страна́.
+          zh: 这是个富国。
+  antonyms: [бедный]
+
+- lemma: бедный
+  stress: бе́дный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: бедне́е
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 贫穷的；可怜的
+      en: poor
+      examples:
+        - ru: Бе́дный ма́льчик!
+          zh: 可怜的孩子！
+  antonyms: [богатый]
+
+- lemma: глупый
+  stress: глу́пый
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: глупе́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 愚蠢的
+      en: stupid
+      examples:
+        - ru: Э́то была́ глу́пая оши́бка.
+          zh: 这是个愚蠢的错误。
+  antonyms: [умный]
+
+- lemma: удобный
+  stress: удо́бный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: удобне́е
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 舒适的；方便的
+      en: comfortable, convenient
+      examples:
+        - ru: Э́то о́чень удо́бное вре́мя.
+          zh: 这个时间很方便。
+
+- lemma: похожий
+  stress: похо́жий
+  pos: adj
+  zaliznyak: п 4a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 相似的，像
+      en: similar
+      government: на кого-что
+      examples:
+        - ru: Он похо́ж на отца́.
+          zh: 他像他父亲。
+  common_errors: |
+    "像某人"用短尾 + **на + 第四格**：похо́ж на отца́。
+    这个搭配几乎只用短尾，长尾 похо́жий 反而少见。

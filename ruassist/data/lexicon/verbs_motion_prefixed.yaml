@@ -1,0 +1,426 @@
+# Prefixed motion verbs.
+#
+# The single largest structural gap left in the lexicon and the point where most
+# learners stall. Russian builds a whole system out of one root: the prefix says
+# the direction, and the imperfective/perfective pair still has to be chosen on
+# top of that. Chinese expresses all of it with 进/出/过/到 plus 去, so nothing
+# in the source language forces the distinction.
+#
+# All the -йти perfectives share one paradigm: -йду́ / -йдёшь, past -шёл / -шла́,
+# built on the same suppletive stem as идти́.
+
+- lemma: входить
+  stress: входи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: войти
+  transitivity: intrans
+  government: во что / куда
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 走进，进入
+      en: to enter
+      examples:
+        - ru: Он вхо́дит в ко́мнату.
+          zh: 他走进房间。
+  common_errors: |
+    "进入某处"用 в + 第四格：войти́ в дом。
+  antonyms: [выходить]
+
+- lemma: войти
+  stress: войти́
+  pos: verb
+  aspect: perf
+  aspect_pair: входить
+  transitivity: intrans
+  government: во что / куда
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: войду́
+    futr,2per,sing: войдёшь
+    futr,3per,sing: войдёт
+    futr,1per,plur: войдём
+    futr,2per,plur: войдёте
+    futr,3per,plur: войду́т
+    past,masc: вошёл
+    past,femn: вошла́
+    past,neut: вошло́
+    past,plur: вошли́
+    impr,sing: войди́
+    impr,plur: войди́те
+  senses:
+    - zh: 走进去了（完成体）
+      en: to enter
+      examples:
+        - ru: Войди́те!
+          zh: 请进！
+  common_errors: |
+    过去时是 вошёл / вошла́——й 在过去时消失，与不定式 войти́ 对不上，必须单记。
+
+- lemma: выходить
+  stress: выходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: выйти
+  transitivity: intrans
+  government: из чего / куда
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 走出，出来；下车
+      en: to go out, to get off
+      examples:
+        - ru: Вы выхо́дите на сле́дующей?
+          zh: 您下一站下车吗？
+  notes: |
+    «Вы выхо́дите?» 是在拥挤的公交车上挤到门口的固定用语。
+  antonyms: [входить]
+
+- lemma: выйти
+  stress: вы́йти
+  pos: verb
+  aspect: perf
+  aspect_pair: выходить
+  transitivity: intrans
+  government: из чего / куда
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: вы́йду
+    futr,2per,sing: вы́йдешь
+    futr,3per,sing: вы́йдет
+    futr,1per,plur: вы́йдем
+    futr,2per,plur: вы́йдете
+    futr,3per,plur: вы́йдут
+    past,masc: вы́шел
+    past,femn: вы́шла
+    past,neut: вы́шло
+    past,plur: вы́шли
+    impr,sing: вы́йди
+    impr,plur: вы́йдите
+  senses:
+    - zh: 走出去了（完成体）
+      en: to go out
+      examples:
+        - ru: Он вы́шел из до́ма в семь.
+          zh: 他七点出的门。
+  common_errors: |
+    前缀 вы- 在完成体里**夺走重音**：вы́йти / вы́йду / вы́шел，
+    而未完成体 выходи́ть 重音在词尾。同型的还有 вы́брать、вы́учить、вы́пить。
+    另外"从某处出来"用 из + 第二格：вы́йти из до́ма。
+
+- lemma: переходить
+  stress: переходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: перейти
+  transitivity: intrans
+  government: что / через что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 穿过，横过；转到
+      en: to cross, to move over
+      examples:
+        - ru: Он перехо́дит у́лицу.
+          zh: 他在过马路。
+
+- lemma: перейти
+  stress: перейти́
+  pos: verb
+  aspect: perf
+  aspect_pair: переходить
+  transitivity: intrans
+  government: что / через что
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: перейду́
+    futr,2per,sing: перейдёшь
+    futr,3per,sing: перейдёт
+    futr,1per,plur: перейдём
+    futr,2per,plur: перейдёте
+    futr,3per,plur: перейду́т
+    past,masc: перешёл
+    past,femn: перешла́
+    past,neut: перешло́
+    past,plur: перешли́
+    impr,sing: перейди́
+    impr,plur: перейди́те
+  senses:
+    - zh: 穿过去了（完成体）
+      en: to cross
+      examples:
+        - ru: Мы перешли́ че́рез доро́гу.
+          zh: 我们过了马路。
+
+- lemma: подходить
+  stress: подходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: подойти
+  transitivity: intrans
+  government: к кому-чему
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 走近，靠近
+      en: to approach
+      examples:
+        - ru: Он подхо́дит к окну́.
+          zh: 他走近窗户。
+    - zh: 合适，适合
+      en: to suit
+      government: кому
+      examples:
+        - ru: Э́то вре́мя мне подхо́дит.
+          zh: 这个时间我合适。
+  common_errors: |
+    "走近某物"用 **к + 第三格**：подойти́ к до́му。
+
+- lemma: подойти
+  stress: подойти́
+  pos: verb
+  aspect: perf
+  aspect_pair: подходить
+  transitivity: intrans
+  government: к кому-чему
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: подойду́
+    futr,2per,sing: подойдёшь
+    futr,3per,sing: подойдёт
+    futr,1per,plur: подойдём
+    futr,2per,plur: подойдёте
+    futr,3per,plur: подойду́т
+    past,masc: подошёл
+    past,femn: подошла́
+    past,neut: подошло́
+    past,plur: подошли́
+    impr,sing: подойди́
+    impr,plur: подойди́те
+  senses:
+    - zh: 走近了（完成体）
+      en: to approach
+      examples:
+        - ru: Подойди́те, пожа́луйста, сюда́.
+          zh: 请过来一下。
+
+- lemma: заходить
+  stress: заходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: зайти
+  transitivity: intrans
+  government: к кому / куда
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 顺路去，串门
+      en: to drop in
+      examples:
+        - ru: Заходи́ ко мне ве́чером.
+          zh: 晚上到我这儿来坐坐。
+  notes: |
+    前缀 за- 表示"顺便、短暂地去一下"，是拜访朋友最常用的说法。
+    "去某人家"用 к + 第三格：зайти́ к дру́гу。
+
+- lemma: зайти
+  stress: зайти́
+  pos: verb
+  aspect: perf
+  aspect_pair: заходить
+  transitivity: intrans
+  government: к кому / куда
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: зайду́
+    futr,2per,sing: зайдёшь
+    futr,3per,sing: зайдёт
+    futr,1per,plur: зайдём
+    futr,2per,plur: зайдёте
+    futr,3per,plur: зайду́т
+    past,masc: зашёл
+    past,femn: зашла́
+    past,neut: зашло́
+    past,plur: зашли́
+    impr,sing: зайди́
+    impr,plur: зайди́те
+  senses:
+    - zh: 顺路去了（完成体）
+      en: to drop in
+      examples:
+        - ru: Я зашёл в магази́н по доро́ге.
+          zh: 我路上顺便去了趟商店。
+
+- lemma: проходить
+  stress: проходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: пройти
+  transitivity: intrans
+  government: что / мимо чего
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 走过，经过；（时间）过去
+      en: to pass, to go by
+      examples:
+        - ru: Вре́мя прохо́дит бы́стро.
+          zh: 时间过得快。
+
+- lemma: пройти
+  stress: пройти́
+  pos: verb
+  aspect: perf
+  aspect_pair: проходить
+  transitivity: intrans
+  government: что / мимо чего
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: пройду́
+    futr,2per,sing: пройдёшь
+    futr,3per,sing: пройдёт
+    futr,1per,plur: пройдём
+    futr,2per,plur: пройдёте
+    futr,3per,plur: пройду́т
+    past,masc: прошёл
+    past,femn: прошла́
+    past,neut: прошло́
+    past,plur: прошли́
+    impr,sing: пройди́
+    impr,plur: пройди́те
+  senses:
+    - zh: 走过去了；（时间）过去了
+      en: to pass
+      examples:
+        - ru: Прошёл це́лый год.
+          zh: 整整过去了一年。
+  notes: |
+    «Как пройти́ к метро́?» 是问路的标准说法。
+
+- lemma: приезжать
+  stress: приезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: приехать
+  transitivity: intrans
+  government: куда / к кому
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: （乘车）到达，来
+      en: to arrive (by vehicle)
+      examples:
+        - ru: Он ча́сто приезжа́ет к нам.
+          zh: 他常来我们这儿。
+  common_errors: |
+    与 приходи́ть 的分工与 идти́／е́хать 一致：步行来用 приходи́ть，
+    乘车／坐飞机来用 приезжа́ть。
+  antonyms: [уезжать]
+
+- lemma: приехать
+  stress: прие́хать
+  pos: verb
+  aspect: perf
+  aspect_pair: приезжать
+  transitivity: intrans
+  government: куда / к кому
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: прие́ду
+    futr,2per,sing: прие́дешь
+    futr,3per,sing: прие́дет
+    futr,1per,plur: прие́дем
+    futr,2per,plur: прие́дете
+    futr,3per,plur: прие́дут
+    past,masc: прие́хал
+    past,femn: прие́хала
+    past,neut: прие́хало
+    past,plur: прие́хали
+    impr,sing: приезжа́й
+    impr,plur: приезжа́йте
+  senses:
+    - zh: （乘车）到了（完成体）
+      en: to arrive
+      examples:
+        - ru: Он прие́хал из Кита́я.
+          zh: 他从中国来的。
+  common_errors: |
+    命令式借用未完成体的形式：приезжа́й(те)，不能说 «прие́хай»。
+    与 е́хать → поезжа́й 是同一个补充现象。
+
+- lemma: уезжать
+  stress: уезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: уехать
+  transitivity: intrans
+  government: откуда / куда
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: （乘车）离开，走
+      en: to leave (by vehicle)
+      examples:
+        - ru: За́втра он уезжа́ет в Москву́.
+          zh: 他明天动身去莫斯科。
+  antonyms: [приезжать]
+
+- lemma: уехать
+  stress: уе́хать
+  pos: verb
+  aspect: perf
+  aspect_pair: уезжать
+  transitivity: intrans
+  government: откуда / куда
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: уе́ду
+    futr,2per,sing: уе́дешь
+    futr,3per,sing: уе́дет
+    futr,1per,plur: уе́дем
+    futr,2per,plur: уе́дете
+    futr,3per,plur: уе́дут
+    past,masc: уе́хал
+    past,femn: уе́хала
+    past,neut: уе́хало
+    past,plur: уе́хали
+    impr,sing: уезжа́й
+    impr,plur: уезжа́йте
+  senses:
+    - zh: （乘车）走了（完成体）
+      en: to leave
+      examples:
+        - ru: Она́ уе́хала на про́шлой неде́ле.
+          zh: 她上周走的。
+
+- lemma: поехать
+  stress: пое́хать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  motion_group: prefixed
+  government: куда
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: пое́ду
+    futr,2per,sing: пое́дешь
+    futr,3per,sing: пое́дет
+    futr,1per,plur: пое́дем
+    futr,2per,plur: пое́дете
+    futr,3per,plur: пое́дут
+    past,masc: пое́хал
+    past,femn: пое́хала
+    past,neut: пое́хало
+    past,plur: пое́хали
+    impr,sing: поезжа́й
+    impr,plur: поезжа́йте
+  senses:
+    - zh: （乘车）出发去
+      en: to set off (by vehicle)
+      examples:
+        - ru: Ле́том мы пое́дем в Росси́ю.
+          zh: 夏天我们要去俄罗斯。
+  notes: |
+    与 пойти́ 对应：пойти́ 是走着出发，пое́хать 是乘车出发。
+    «Пое́хали!» 是"出发吧／走着！"的口号式说法（形式上是过去时）。
