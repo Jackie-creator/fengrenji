@@ -392,6 +392,13 @@ class TestDeclensionGender:
         entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
         assert cells(entry, ("plur", "accs")) == cells(entry, ("plur", "gent"))
 
+    def test_common_gender_declines_like_a_feminine(self):
+        """колле́га agrees by referent (мой/моя́) but has one declension."""
+        entry = noun("коллега", "колле́га", "м 3a", "common", animacy="anim")
+        assert cells(entry, ("sing", "nomn"), ("sing", "gent"), ("sing", "ablt")) == [
+            "колле́га", "колле́ги", "колле́гой",
+        ]
+
 
 class TestSoftStemNouns:
     """Types 6 and 7 differ in one cell, and that cell is a frequent one."""
@@ -481,6 +488,24 @@ def test_fleeting_vowel_after_l_leaves_a_soft_sign():
 def test_fleeting_vowel_elsewhere_leaves_nothing():
     entry = noun("отец", "оте́ц", "м 5*b", "masc", animacy="anim")
     assert cells(entry, ("sing", "gent")) == ["отца́"]
+
+
+def test_dropped_o_after_l_leaves_no_soft_sign():
+    """Only a dropped е/ё softens the л: па́лец -> па́льца but переу́лок -> переу́лка.
+
+    The о in переу́лок never softened anything, so writing ь in its place
+    would invent a consonant that was never there.
+    """
+    entry = noun("переулок", "переу́лок", "м 3*a", "masc")
+    assert cells(entry, ("sing", "gent"), ("plur", "nomn")) == [
+        "переу́лка", "переу́лки",
+    ]
+
+
+def test_inserted_fleeting_vowel_before_ts_is_e():
+    """полоте́нце -> полоте́нец, not *полотеноц."""
+    entry = noun("полотенце", "полоте́нце", "с 5*a", "neut")
+    assert cells(entry, ("plur", "gent")) == ["полоте́нец"]
 
 
 def test_inserted_fleeting_vowel_replaces_a_soft_sign():

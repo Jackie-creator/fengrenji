@@ -73,6 +73,7 @@ _GEN_PL = {
     (Gender.NEUT, 1): "",
     (Gender.NEUT, 2): "ей",
     (Gender.NEUT, 3): "",
+    (Gender.NEUT, 5): "",
     (Gender.NEUT, 6): "ий",
     (Gender.NEUT, 7): "й",
 }
@@ -170,7 +171,13 @@ def declension_gender(lemma: str, gender: Gender) -> Gender:
     the masculine -- but they decline exactly like feminine -а nouns. Grammatical
     gender governs agreement; the ending shape governs declension, and here the
     two come apart.
+
+    Common-gender nouns (колле́га, сирота́, у́мница) take their agreement from
+    the person referred to, so they have no fixed grammatical gender at all --
+    but they have exactly one declension, the -а feminine one.
     """
+    if gender is Gender.COMMON:
+        return Gender.FEMN if lemma[-1] in "ая" else Gender.MASC
     if gender is Gender.MASC and lemma[-1] in "ая":
         return Gender.FEMN
     return gender
@@ -291,13 +298,15 @@ def _spell(stem: str, ending: str, *, stressed: bool, case: str = "", number: st
 def _drop_fleeting(stem: str) -> str:
     """отец -> отц-, день -> дн-: the last о/е/ё before the final consonant goes.
 
-    After л the vowel leaves a soft sign behind: па́лец -> па́льца, not *палца.
-    The л stays soft even though the vowel that softened it is gone.
+    A soft sign is left behind only when the vowel that dropped was е/ё *and*
+    the consonant before it was л: па́лец -> па́льца, лёд -> льда. There the л
+    was soft and stays soft. A dropped о never softened anything, so переу́лок
+    -> переу́лка and у́гол -> угла́ keep the л hard.
     """
     for i in range(len(stem) - 1, -1, -1):
         if stem[i] in "оеё" and i == len(stem) - 2:
-            replacement = "ь" if i > 0 and stem[i - 1] == "л" else ""
-            return stem[:i] + replacement + stem[i + 1 :]
+            soft_l = i > 0 and stem[i - 1] == "л" and stem[i] in "её"
+            return stem[:i] + ("ь" if soft_l else "") + stem[i + 1 :]
     return stem
 
 
@@ -315,7 +324,9 @@ def _insert_fleeting(stem: str) -> str:
         return stem
     if before == "ь":
         return stem[:-2] + "е" + after
-    vowel = "е" if before in HUSHING_OR_TS or before in "й" else "о"
+    # е, not о, next to a soft or hushing consonant on either side:
+    # полоте́нце -> полоте́нец, се́рдце -> серде́ц, ру́чка -> ру́чек.
+    vowel = "е" if before in HUSHING_OR_TS or before == "й" or after == "ц" else "о"
     return stem[:-1] + vowel + after
 
 

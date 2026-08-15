@@ -1,0 +1,1128 @@
+# Work, money, commerce, law and the state.
+#
+# This is the vocabulary of documents and news, the layer a learner needs to
+# read anything official. Case government is noted on the senses that have one,
+# because "за что" vs "в чём" is where the mistakes happen, not in the gloss.
+
+- lemma: сотрудник
+  stress: сотру́дник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 职员，同事
+      en: employee, colleague
+      examples:
+        - ru: Он сотру́дник на́шего отде́ла.
+          zh: 他是我们部门的职员。
+
+- lemma: коллега
+  stress: колле́га
+  pos: noun
+  gender: common
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 同事（男女通用）
+      en: colleague
+      examples:
+        - ru: Моя́ колле́га уе́хала в о́тпуск.
+          zh: 我同事休假去了。
+  common_errors: |
+    通性名词：形容词随所指的人的性别变——мой колле́га（男）／моя́ колле́га（女），
+    但变格一律按 -а 阴性走。
+
+- lemma: клиент
+  stress: клие́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 客户，顾客
+      en: client, customer
+      examples:
+        - ru: Клие́нт всегда́ прав.
+          zh: 顾客永远是对的。
+
+- lemma: специалист
+  stress: специали́ст
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 专家，专业人员
+      en: specialist, expert
+      examples:
+        - ru: Он специали́ст по эконо́мике.
+          zh: 他是经济方面的专家。
+
+- lemma: должность
+  stress: до́лжность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 职务，职位
+      en: post, position
+      examples:
+        - ru: Он занима́ет высо́кую до́лжность.
+          zh: 他担任高位。
+
+- lemma: обязанность
+  stress: обя́занность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 义务，职责
+      en: duty, obligation
+      examples:
+        - ru: Э́то вхо́дит в мои́ обя́занности.
+          zh: 这是我职责之内的。
+
+- lemma: ответственность
+  stress: отве́тственность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 责任
+      en: responsibility
+      examples:
+        - ru: Он несёт отве́тственность за реше́ние.
+          zh: 这个决定由他负责。
+
+- lemma: договор
+  stress: догово́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 合同，协议
+      en: contract, agreement
+      examples:
+        - ru: Мы подписа́ли догово́р.
+          zh: 我们签了合同。
+  notes: |
+    规范重音是 догово́р、догово́ры；口语里的 до́говор／договора́ 不进正式场合。
+
+- lemma: подпись
+  stress: по́дпись
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 签名
+      en: signature
+      examples:
+        - ru: Здесь нужна́ ва́ша по́дпись.
+          zh: 这里需要您签名。
+
+- lemma: заявление
+  stress: заявле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 申请书；声明
+      en: application; statement
+      examples:
+        - ru: Он по́дал заявле́ние об ухо́де.
+          zh: 他递了辞职申请。
+
+- lemma: справка
+  stress: спра́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 证明（单据）
+      en: certificate, official note
+      examples:
+        - ru: Мне нужна́ спра́вка от врача́.
+          zh: 我需要一张医生开的证明。
+
+- lemma: услуга
+  stress: услу́га
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 服务；帮忙
+      en: service, favour
+      examples:
+        - ru: Э́то пла́тная услу́га.
+          zh: 这是收费服务。
+
+- lemma: товар
+  stress: това́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 商品，货物
+      en: goods, merchandise
+      examples:
+        - ru: Э́тот това́р по́льзуется спро́сом.
+          zh: 这商品很有销路。
+
+- lemma: стоимость
+  stress: сто́имость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 价值，费用
+      en: cost, value
+      examples:
+        - ru: Кака́я сто́имость доста́вки?
+          zh: 运费多少？
+
+- lemma: скидка
+  stress: ски́дка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 折扣
+      en: discount
+      examples:
+        - ru: На э́тот това́р есть ски́дка.
+          zh: 这件商品有折扣。
+
+- lemma: касса
+  stress: ка́сса
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 收银台，售票处
+      en: cash desk, ticket office
+      examples:
+        - ru: Плати́те в ка́ссу.
+          zh: 请到收银台付款。
+
+- lemma: налог
+  stress: нало́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 税
+      en: tax
+      examples:
+        - ru: Он пла́тит нало́ги во́время.
+          zh: 他按时纳税。
+
+- lemma: доход
+  stress: дохо́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 收入
+      en: income
+      examples:
+        - ru: У них небольшо́й дохо́д.
+          zh: 他们收入不高。
+  antonyms: [расход]
+
+- lemma: расход
+  stress: расхо́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 支出，开销
+      en: expense
+      examples:
+        - ru: Ну́жно сократи́ть расхо́ды.
+          zh: 得压缩开支。
+  antonyms: [доход]
+
+- lemma: премия
+  stress: пре́мия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 奖金；奖项
+      en: bonus; prize
+      examples:
+        - ru: Он получи́л пре́мию за рабо́ту.
+          zh: 他因为工作拿了奖金。
+
+- lemma: командировка
+  stress: командиро́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 出差
+      en: business trip
+      examples:
+        - ru: Он в командиро́вке до пя́тницы.
+          zh: 他出差到星期五。
+
+- lemma: собеседование
+  stress: собесе́дование
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 面试
+      en: job interview
+      examples:
+        - ru: За́втра у меня́ собесе́дование.
+          zh: 我明天有面试。
+
+- lemma: карьера
+  stress: карье́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 事业，职业生涯
+      en: career
+      examples:
+        - ru: Он де́лает карье́ру.
+          zh: 他在往上走。
+
+- lemma: компания
+  stress: компа́ния
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 公司
+      en: company
+      examples:
+        - ru: Он рабо́тает в большо́й компа́нии.
+          zh: 他在一家大公司工作。
+    - zh: 一伙人，同伴
+      en: company, group of friends
+      examples:
+        - ru: Мы пошли́ туда́ большо́й компа́нией.
+          zh: 我们一大帮人一起去的。
+
+- lemma: организация
+  stress: организа́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 组织，机构
+      en: organisation
+      examples:
+        - ru: Э́то междунаро́дная организа́ция.
+          zh: 这是个国际组织。
+
+- lemma: учреждение
+  stress: учрежде́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 机关，事业单位
+      en: institution
+      examples:
+        - ru: Э́то госуда́рственное учрежде́ние.
+          zh: 这是国家机关。
+
+- lemma: отдел
+  stress: отде́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 部门；（商店的）柜台区
+      en: department, section
+      examples:
+        - ru: Молоко́ в моло́чном отде́ле.
+          zh: 牛奶在乳品柜台。
+
+- lemma: руководитель
+  stress: руководи́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 领导，负责人
+      en: head, manager
+      examples:
+        - ru: Он руководи́тель прое́кта.
+          zh: 他是项目负责人。
+
+- lemma: совещание
+  stress: совеща́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 工作会议
+      en: meeting, conference
+      examples:
+        - ru: Он на совеща́нии.
+          zh: 他在开会。
+
+- lemma: сделка
+  stress: сде́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 交易
+      en: deal, transaction
+      examples:
+        - ru: Они́ заключи́ли сде́лку.
+          zh: 他们做成了一笔交易。
+
+- lemma: прибыль
+  stress: при́быль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 利润
+      en: profit
+      examples:
+        - ru: Фи́рма получи́ла при́быль.
+          zh: 公司盈利了。
+
+- lemma: кредит
+  stress: креди́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 贷款
+      en: loan, credit
+      examples:
+        - ru: Он взял креди́т на кварти́ру.
+          zh: 他贷款买了房。
+
+- lemma: валюта
+  stress: валю́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 外币，货币
+      en: currency
+      examples:
+        - ru: Где мо́жно поменя́ть валю́ту?
+          zh: 哪里可以换外币？
+
+- lemma: торговля
+  stress: торго́вля
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 贸易，商业
+      en: trade
+      examples:
+        - ru: Ме́жду стра́нами растёт торго́вля.
+          zh: 两国间贸易在增长。
+
+- lemma: реклама
+  stress: рекла́ма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 广告
+      en: advertisement, advertising
+      examples:
+        - ru: По телеви́зору иду́т рекла́мы.
+          zh: 电视上在播广告。
+
+- lemma: суд
+  stress: суд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 法院；审判
+      en: court, trial
+      examples:
+        - ru: Де́ло переда́ли в суд.
+          zh: 案子交到法院了。
+
+- lemma: полиция
+  stress: поли́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 警察（机构）
+      en: police
+      examples:
+        - ru: Вы́зовите поли́цию!
+          zh: 快叫警察！
+
+- lemma: преступление
+  stress: преступле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 犯罪
+      en: crime
+      examples:
+        - ru: Э́то серьёзное преступле́ние.
+          zh: 这是严重犯罪。
+
+- lemma: преступник
+  stress: престу́пник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 罪犯
+      en: criminal
+      examples:
+        - ru: Престу́пника задержа́ли.
+          zh: 罪犯被抓住了。
+
+- lemma: наказание
+  stress: наказа́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 惩罚
+      en: punishment
+      examples:
+        - ru: Наказа́ние бы́ло сли́шком стро́гим.
+          zh: 处罚太重了。
+
+- lemma: тюрьма
+  stress: тюрьма́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1*d
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 监狱
+      en: prison
+      examples:
+        - ru: Его́ посади́ли в тюрьму́.
+          zh: 他被关进了监狱。
+
+- lemma: адвокат
+  stress: адвока́т
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 律师
+      en: lawyer
+      examples:
+        - ru: Ему́ ну́жен хоро́ший адвока́т.
+          zh: 他需要个好律师。
+
+- lemma: свидетель
+  stress: свиде́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 证人，目击者
+      en: witness
+      examples:
+        - ru: Свиде́тель рассказа́л всё.
+          zh: 证人把事情都说了。
+
+- lemma: виза
+  stress: ви́за
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 签证
+      en: visa
+      examples:
+        - ru: Я получи́л ви́зу.
+          zh: 我拿到签证了。
+
+- lemma: регистрация
+  stress: регистра́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 登记，注册；值机
+      en: registration; check-in
+      examples:
+        - ru: Регистра́ция начина́ется в два.
+          zh: 两点开始办理。
+
+- lemma: гражданство
+  stress: гражда́нство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 国籍
+      en: citizenship
+      examples:
+        - ru: У него́ двойно́е гражда́нство.
+          zh: 他有双重国籍。
+
+- lemma: правительство
+  stress: прави́тельство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 政府
+      en: government
+      examples:
+        - ru: Прави́тельство при́няло реше́ние.
+          zh: 政府作出了决定。
+
+- lemma: министр
+  stress: мини́стр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 部长
+      en: minister
+      examples:
+        - ru: Он мини́стр образова́ния.
+          zh: 他是教育部长。
+
+- lemma: депутат
+  stress: депута́т
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 议员，代表
+      en: deputy, MP
+      examples:
+        - ru: Он был вы́бран депута́том.
+          zh: 他当选为代表。
+
+- lemma: партия
+  stress: па́ртия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 政党
+      en: political party
+      examples:
+        - ru: Он состои́т в па́ртии.
+          zh: 他是党员。
+    - zh: 一局，一盘（棋、球）
+      en: game, round
+      examples:
+        - ru: Сыгра́ем па́ртию в ша́хматы.
+          zh: 咱们下一盘棋。
+
+- lemma: политика
+  stress: поли́тика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 政治；方针
+      en: politics; policy
+      examples:
+        - ru: Он не интересу́ется поли́тикой.
+          zh: 他对政治不感兴趣。
+
+- lemma: экономика
+  stress: эконо́мика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 经济；经济学
+      en: economy; economics
+      examples:
+        - ru: Он изуча́ет эконо́мику.
+          zh: 他学经济。
+
+- lemma: офицер
+  stress: офице́р
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 军官
+      en: officer
+      examples:
+        - ru: Его́ оте́ц был офице́ром.
+          zh: 他父亲是军官。
+
+- lemma: оружие
+  stress: ору́жие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 武器
+      en: weapon, arms
+      examples:
+        - ru: Ноше́ние ору́жия запрещено́.
+          zh: 禁止携带武器。
+
+- lemma: безопасность
+  stress: безопа́сность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 安全
+      en: security, safety
+      examples:
+        - ru: Э́то вопро́с безопа́сности.
+          zh: 这是安全问题。
+
+- lemma: религия
+  stress: рели́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 宗教
+      en: religion
+      examples:
+        - ru: Он изуча́ет исто́рию рели́гий.
+          zh: 他研究宗教史。
+
+- lemma: храм
+  stress: храм
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 庙宇，大教堂
+      en: temple, cathedral
+      examples:
+        - ru: Э́то дре́вний храм.
+          zh: 这是座古庙。
+
+- lemma: традиция
+  stress: тради́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 传统
+      en: tradition
+      examples:
+        - ru: Э́то ста́рая семе́йная тради́ция.
+          zh: 这是家里的老传统。
+
+- lemma: обычай
+  stress: обы́чай
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 风俗，习俗
+      en: custom
+      examples:
+        - ru: У ка́ждого наро́да свои́ обы́чаи.
+          zh: 每个民族都有自己的风俗。
+
+- lemma: свадьба
+  stress: сва́дьба
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 婚礼
+      en: wedding
+      examples:
+        - ru: Мы бы́ли на сва́дьбе.
+          zh: 我们参加了婚礼。
+  notes: |
+    复数第二格是 сва́деб：ь 被逃逸元音替换掉，和 судьба́ → суде́б 同一条规则。
+
+- lemma: население
+  stress: населе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 人口，居民
+      en: population
+      examples:
+        - ru: Населе́ние го́рода растёт.
+          zh: 城市人口在增长。
+
+- lemma: родина
+  stress: ро́дина
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 祖国，故乡
+      en: homeland
+      examples:
+        - ru: Он верну́лся на ро́дину.
+          zh: 他回国了。
+  notes: |
+    "回祖国"用 на ро́дину（不是 в），这是固定搭配。
+
+- lemma: очередь
+  stress: о́чередь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 轮次，顺序
+      en: turn, order
+      collocations: [в свою́ о́чередь]
+      examples:
+        - ru: Тепе́рь твоя́ о́чередь.
+          zh: 现在轮到你了。
+  notes: |
+    这一条收"轮到谁"的义项；"排队"的 о́чередь 是另一条词条。
+
+- lemma: успеваемость
+  stress: успева́емость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 学习成绩（总体）
+      en: academic performance
+      examples:
+        - ru: У него́ хоро́шая успева́емость.
+          zh: 他学习成绩不错。
+
+- lemma: конкурс
+  stress: ко́нкурс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 比赛，竞赛；招考
+      en: competition, contest
+      examples:
+        - ru: Она́ вы́играла ко́нкурс.
+          zh: 她在比赛中获胜。
+
+- lemma: приз
+  stress: приз
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 奖品
+      en: prize
+      examples:
+        - ru: Он получи́л гла́вный приз.
+          zh: 他拿了头奖。
+
+- lemma: команда
+  stress: кома́нда
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 队，团队
+      en: team
+      examples:
+        - ru: На́ша кома́нда вы́играла.
+          zh: 我们队赢了。
+    - zh: 命令，口令
+      en: command
+      examples:
+        - ru: Он дал кома́нду начина́ть.
+          zh: 他下令开始。
+
+- lemma: игрок
+  stress: игро́к
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 运动员，选手
+      en: player
+      examples:
+        - ru: Э́то лу́чший игро́к сезо́на.
+          zh: 这是本赛季最佳球员。
+
+- lemma: тренер
+  stress: тре́нер
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 教练
+      en: coach
+      examples:
+        - ru: Тре́нер дово́лен кома́ндой.
+          zh: 教练对球队满意。
+
+- lemma: соревнование
+  stress: соревнова́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 比赛，竞赛（体育）
+      en: competition (sports)
+      examples:
+        - ru: Соревнова́ния начну́тся в суббо́ту.
+          zh: 比赛周六开始。
+
+- lemma: чемпион
+  stress: чемпио́н
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冠军
+      en: champion
+      examples:
+        - ru: Он стал чемпио́ном ми́ра.
+          zh: 他成了世界冠军。
+
+- lemma: медаль
+  stress: меда́ль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 奖牌
+      en: medal
+      examples:
+        - ru: Она́ вы́играла золоту́ю меда́ль.
+          zh: 她拿了金牌。
+
+- lemma: правительница
+  stress: прави́тельница
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [C1, ТРКИ-4]
+  senses:
+    - zh: 女统治者
+      en: female ruler
+      examples:
+        - ru: Она́ была́ му́дрой прави́тельницей.
+          zh: 她是位英明的女统治者。
+  notes: |
+    -ница 是从阳性 -тель／-ник 造女性对应词的常用后缀：
+    учи́тель → учи́тельница，рабо́тник → рабо́тница。
+
+- lemma: работница
+  stress: рабо́тница
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 女工，女职员
+      en: female worker
+      examples:
+        - ru: Она́ рабо́тница заво́да.
+          zh: 她是工厂的女工。
+
+- lemma: учительница
+  stress: учи́тельница
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 女教师
+      en: female teacher
+      examples:
+        - ru: На́ша учи́тельница о́чень до́брая.
+          zh: 我们老师人很好。
+
+- lemma: студентка
+  stress: студе́нтка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 女大学生
+      en: female student
+      examples:
+        - ru: Она́ студе́нтка второ́го ку́рса.
+          zh: 她是大二学生。
+
+- lemma: сотрудничество
+  stress: сотру́дничество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 合作
+      en: cooperation
+      examples:
+        - ru: Мы наде́емся на сотру́дничество.
+          zh: 我们期待合作。

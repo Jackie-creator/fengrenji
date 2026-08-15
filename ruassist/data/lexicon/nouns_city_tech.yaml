@@ -1,0 +1,1135 @@
+# The built world: media and technology, transport, the city, the flat.
+#
+# Concrete nouns, so the entries are short. The teaching notes are reserved
+# for the handful where Chinese and Russian carve the world differently --
+# зна́к vs. си́мвол, дом as "building" vs. "home", вход/выход as a pair.
+
+- lemma: статья
+  stress: статья́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 6*b
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: стате́й
+  senses:
+    - zh: 文章；条款
+      en: article
+      examples:
+        - ru: Он написа́л статью́ для журна́ла.
+          zh: 他给杂志写了篇文章。
+
+- lemma: канал
+  stress: кана́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 频道；运河
+      en: channel; canal
+      examples:
+        - ru: Переключи́ на друго́й кана́л.
+          zh: 换个台。
+
+- lemma: программа
+  stress: програ́мма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 节目；程序；大纲
+      en: programme; software
+      examples:
+        - ru: Э́то моя́ люби́мая програ́мма.
+          zh: 这是我最爱的节目。
+
+- lemma: передача
+  stress: переда́ча
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: （广播电视）节目
+      en: broadcast, programme
+      examples:
+        - ru: Я смотрю́ э́ту переда́чу ка́ждый ве́чер.
+          zh: 这个节目我每晚都看。
+
+- lemma: сериал
+  stress: сериа́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 电视剧，连续剧
+      en: TV series
+      examples:
+        - ru: Она́ смо́трит но́вый сериа́л.
+          zh: 她在追新剧。
+
+- lemma: сайт
+  stress: сайт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 网站
+      en: website
+      examples:
+        - ru: Информа́ция есть на са́йте.
+          zh: 网站上有信息。
+
+- lemma: сообщение
+  stress: сообще́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 消息，短信
+      en: message
+      examples:
+        - ru: Я отпра́вил тебе́ сообще́ние.
+          zh: 我给你发消息了。
+
+- lemma: связь
+  stress: связь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 联系；通信
+      en: connection, communication
+      collocations: [в свя́зи с чем]
+      examples:
+        - ru: Здесь плоха́я связь.
+          zh: 这里信号不好。
+
+- lemma: сеть
+  stress: сеть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 网络；网
+      en: network; net
+      collocations: [социа́льные се́ти]
+      examples:
+        - ru: Он мно́го вре́мени прово́дит в се́ти.
+          zh: 他上网时间很多。
+
+- lemma: пароль
+  stress: паро́ль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 密码
+      en: password
+      examples:
+        - ru: Я забы́л паро́ль.
+          zh: 我忘了密码。
+
+- lemma: пользователь
+  stress: по́льзователь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 用户
+      en: user
+      examples:
+        - ru: По́льзователь до́лжен войти́ в систе́му.
+          zh: 用户需要登录系统。
+
+- lemma: экран
+  stress: экра́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 屏幕
+      en: screen
+      examples:
+        - ru: На экра́не появи́лась оши́бка.
+          zh: 屏幕上出现了错误。
+
+- lemma: файл
+  stress: файл
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 文件（电子）
+      en: file
+      examples:
+        - ru: Сохрани́ файл, пожа́луйста.
+          zh: 请保存文件。
+
+- lemma: папка
+  stress: па́пка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 文件夹
+      en: folder
+      examples:
+        - ru: Файл лежи́т в друго́й па́пке.
+          zh: 文件在另一个文件夹里。
+
+- lemma: техника
+  stress: те́хника
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 技术设备；技巧
+      en: equipment; technique
+      examples:
+        - ru: В до́ме мно́го бытово́й те́хники.
+          zh: 家里家电不少。
+
+- lemma: устройство
+  stress: устро́йство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 装置，设备
+      en: device
+      examples:
+        - ru: Э́то просто́е устро́йство.
+          zh: 这是个简单的装置。
+
+- lemma: прибор
+  stress: прибо́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 仪器
+      en: instrument, appliance
+      examples:
+        - ru: Прибо́р пока́зывает температу́ру.
+          zh: 仪器显示温度。
+
+- lemma: кнопка
+  stress: кно́пка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 按钮
+      en: button
+      examples:
+        - ru: Нажми́те кно́пку.
+          zh: 请按按钮。
+
+- lemma: камера
+  stress: ка́мера
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 摄像头，相机
+      en: camera
+      examples:
+        - ru: В магази́не есть ка́меры.
+          zh: 商店里有摄像头。
+
+- lemma: фотография
+  stress: фотогра́фия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 照片；摄影
+      en: photograph
+      examples:
+        - ru: Покажи́ фотогра́фии с о́тпуска.
+          zh: 给我看看假期的照片。
+
+- lemma: изображение
+  stress: изображе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 图像
+      en: image
+      examples:
+        - ru: Изображе́ние нечёткое.
+          zh: 图像不清楚。
+
+- lemma: запись
+  stress: за́пись
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 记录；录音，录像
+      en: note; recording
+      examples:
+        - ru: Он слу́шает за́пись ле́кции.
+          zh: 他在听讲座录音。
+
+- lemma: звонок
+  stress: звоно́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 电话；铃声
+      en: phone call; bell
+      examples:
+        - ru: Я жду ва́жный звоно́к.
+          zh: 我在等一个重要电话。
+
+- lemma: транспорт
+  stress: тра́нспорт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 交通工具，运输
+      en: transport
+      examples:
+        - ru: Я е́зжу на обще́ственном тра́нспорте.
+          zh: 我坐公共交通。
+
+- lemma: автомобиль
+  stress: автомоби́ль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 汽车（较正式）
+      en: automobile, car
+      examples:
+        - ru: Он купи́л но́вый автомоби́ль.
+          zh: 他买了辆新车。
+  synonyms: [машина]
+
+- lemma: троллейбус
+  stress: тролле́йбус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 无轨电车
+      en: trolleybus
+      examples:
+        - ru: Мы е́хали на тролле́йбусе.
+          zh: 我们坐无轨电车去的。
+
+- lemma: корабль
+  stress: кора́бль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 船，舰
+      en: ship
+      examples:
+        - ru: Кора́бль вошёл в порт.
+          zh: 船进港了。
+
+- lemma: лодка
+  stress: ло́дка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 小船
+      en: boat
+      examples:
+        - ru: Мы ката́лись на ло́дке.
+          zh: 我们划了船。
+
+- lemma: мотоцикл
+  stress: мотоци́кл
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 摩托车
+      en: motorcycle
+      examples:
+        - ru: Он е́здит на мотоци́кле.
+          zh: 他骑摩托车。
+
+- lemma: пассажир
+  stress: пассажи́р
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 乘客
+      en: passenger
+      examples:
+        - ru: Пассажи́ры вы́шли из ваго́на.
+          zh: 乘客们下了车厢。
+
+- lemma: багаж
+  stress: бага́ж
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 行李
+      en: luggage
+      examples:
+        - ru: Где получи́ть бага́ж?
+          zh: 在哪儿取行李？
+  common_errors: |
+    集合名词，只有单数。"两件行李"要说 два ме́ста багажа́，不能说 *два багажа́。
+
+- lemma: рейс
+  stress: рейс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 航班，班次
+      en: flight, service
+      examples:
+        - ru: Наш рейс задержа́ли.
+          zh: 我们的航班延误了。
+
+- lemma: поездка
+  stress: пое́здка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 出行，一趟行程
+      en: trip
+      examples:
+        - ru: Пое́здка была́ коро́ткой.
+          zh: 这趟行程很短。
+
+- lemma: маршрут
+  stress: маршру́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 路线
+      en: route
+      examples:
+        - ru: Мы измени́ли маршру́т.
+          zh: 我们改了路线。
+
+- lemma: расписание
+  stress: расписа́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 时刻表，课程表
+      en: timetable, schedule
+      examples:
+        - ru: Посмотри́ расписа́ние поездо́в.
+          zh: 看看火车时刻表。
+
+- lemma: пробка
+  stress: про́бка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 堵车
+      en: traffic jam
+      examples:
+        - ru: Мы стои́м в про́бке.
+          zh: 我们堵在路上。
+    - zh: 瓶塞
+      en: cork, stopper
+      examples:
+        - ru: Он вы́тащил про́бку из буты́лки.
+          zh: 他把瓶塞拔了出来。
+
+- lemma: бензин
+  stress: бензи́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 汽油
+      en: petrol, gasoline
+      examples:
+        - ru: Ко́нчился бензи́н.
+          zh: 没油了。
+
+- lemma: двигатель
+  stress: дви́гатель
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 发动机
+      en: engine
+      examples:
+        - ru: Дви́гатель не заво́дится.
+          zh: 发动机打不着。
+
+- lemma: руль
+  stress: руль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 方向盘，车把
+      en: steering wheel, handlebars
+      examples:
+        - ru: Он сиде́л за рулём.
+          zh: 他坐在驾驶位上。
+  notes: |
+    за рулём = 开着车／在驾驶位上，是固定说法。
+
+- lemma: шоссе
+  stress: шоссе́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 公路，大道
+      en: highway
+      examples:
+        - ru: Мы е́хали по шоссе́.
+          zh: 我们沿着公路开。
+
+- lemma: перекрёсток
+  stress: перекрёсток
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 十字路口
+      en: crossroads
+      examples:
+        - ru: Поверни́те на перекрёстке.
+          zh: 在路口拐弯。
+
+- lemma: светофор
+  stress: светофо́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 红绿灯
+      en: traffic light
+      examples:
+        - ru: Жди́те зелёного на светофо́ре.
+          zh: 在红绿灯前等绿灯。
+
+- lemma: знак
+  stress: знак
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 标志，符号
+      en: sign, symbol
+      examples:
+        - ru: Здесь стои́т знак «Стоп».
+          zh: 这里立着"停"的标志。
+
+- lemma: переход
+  stress: перехо́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 人行横道；地下通道
+      en: crossing, underpass
+      examples:
+        - ru: Переходи́ у́лицу по перехо́ду.
+          zh: 走人行横道过马路。
+
+- lemma: здание
+  stress: зда́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 建筑物，大楼
+      en: building
+      examples:
+        - ru: Э́то ста́рое зда́ние.
+          zh: 这是栋老楼。
+  common_errors: |
+    зда́ние 是"建筑物"（中性），дом 既是"楼房"也是"家"。
+    "我回家"只能用 домо́й，不能说 *в зда́ние。
+
+- lemma: туалет
+  stress: туале́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 厕所，洗手间
+      en: toilet
+      examples:
+        - ru: Где здесь туале́т?
+          zh: 请问洗手间在哪儿？
+
+- lemma: коридор
+  stress: коридо́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 走廊
+      en: corridor
+      examples:
+        - ru: Подожди́те в коридо́ре.
+          zh: 请在走廊等一下。
+
+- lemma: балкон
+  stress: балко́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 阳台
+      en: balcony
+      examples:
+        - ru: Она́ вы́шла на балко́н.
+          zh: 她走到阳台上。
+
+- lemma: подъезд
+  stress: подъе́зд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 单元门，楼门
+      en: entrance (of a block of flats)
+      examples:
+        - ru: Я жду тебя́ у подъе́зда.
+          zh: 我在楼门口等你。
+  notes: |
+    俄式住宅楼按 подъе́зд 分单元，地址里常写"дом 5, подъе́зд 2"。
+
+- lemma: лестница
+  stress: ле́стница
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 楼梯
+      en: stairs
+      examples:
+        - ru: Мы подняли́сь по ле́стнице.
+          zh: 我们顺楼梯上去了。
+  notes: |
+    т 不发音：[ле́сница]。
+
+- lemma: крыша
+  stress: кры́ша
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 屋顶
+      en: roof
+      examples:
+        - ru: На кры́ше лежи́т снег.
+          zh: 屋顶上积着雪。
+
+- lemma: потолок
+  stress: потоло́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 天花板
+      en: ceiling
+      examples:
+        - ru: В ко́мнате высо́кий потоло́к.
+          zh: 房间层高很高。
+
+- lemma: замок
+  stress: замо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 锁
+      en: lock
+      examples:
+        - ru: Он слома́л замо́к.
+          zh: 他把锁弄坏了。
+  common_errors: |
+    замо́к（重音在后）是"锁"，за́мок（重音在前）是"城堡"。
+    拼写完全一样，只有重音区分，是俄语重音辨义的经典例子。
+
+- lemma: двор
+  stress: двор
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 院子
+      en: courtyard, yard
+      examples:
+        - ru: Де́ти игра́ют во дворе́.
+          zh: 孩子们在院子里玩。
+
+- lemma: проспект
+  stress: проспе́кт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 大街，大道
+      en: avenue
+      examples:
+        - ru: Он живёт на Не́вском проспе́кте.
+          zh: 他住在涅瓦大街。
+
+- lemma: переулок
+  stress: переу́лок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 小巷，胡同
+      en: side street, lane
+      examples:
+        - ru: Магази́н в сосе́днем переу́лке.
+          zh: 商店在旁边的小巷里。
+
+- lemma: памятник
+  stress: па́мятник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 纪念碑，塑像
+      en: monument
+      government: кому
+      examples:
+        - ru: Э́то па́мятник Пу́шкину.
+          zh: 这是普希金纪念碑。
+  common_errors: |
+    "给某人立的碑"用第三格：па́мятник Пу́шкину，不是 *па́мятник Пу́шкина。
+
+- lemma: фонтан
+  stress: фонта́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 喷泉
+      en: fountain
+      examples:
+        - ru: Мы встре́тились у фонта́на.
+          zh: 我们在喷泉旁见的面。
+
+- lemma: мебель
+  stress: ме́бель
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 家具（总称）
+      en: furniture
+      examples:
+        - ru: Мы купи́ли но́вую ме́бель.
+          zh: 我们买了新家具。
+  common_errors: |
+    集合名词，只有单数。"两件家具"要说 два предме́та ме́бели。
+
+- lemma: полка
+  stress: по́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 架子，搁板；铺位
+      en: shelf; berth
+      examples:
+        - ru: Кни́ги стоя́т на по́лке.
+          zh: 书立在架子上。
+
+- lemma: ковёр
+  stress: ковёр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1*b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 地毯
+      en: carpet
+      examples:
+        - ru: На полу́ лежи́т ковёр.
+          zh: 地上铺着地毯。
+  notes: |
+    间接格里 ё 脱落：ковёр → ковра́、ковру́、ковро́м。
+
+- lemma: штора
+  stress: што́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 窗帘
+      en: curtain
+      examples:
+        - ru: Закро́й што́ры.
+          zh: 把窗帘拉上。
+
+- lemma: подушка
+  stress: поду́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 枕头
+      en: pillow
+      examples:
+        - ru: Э́то мя́гкая поду́шка.
+          zh: 这枕头很软。
+
+- lemma: одеяло
+  stress: одея́ло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 被子
+      en: blanket, duvet
+      examples:
+        - ru: Но́чью бы́ло хо́лодно под одея́лом.
+          zh: 夜里盖着被子还是冷。
+
+- lemma: полотенце
+  stress: полоте́нце
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 5*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 毛巾
+      en: towel
+      examples:
+        - ru: Дай мне чи́стое полоте́нце.
+          zh: 给我条干净毛巾。
+  notes: |
+    复数第二格是 полоте́нец：ц 前的逃逸元音是 е 不是 о。
+
+- lemma: мыло
+  stress: мы́ло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 肥皂
+      en: soap
+      examples:
+        - ru: Помо́й ру́ки с мы́лом.
+          zh: 用肥皂洗手。
+
+- lemma: щётка
+  stress: щётка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 刷子
+      en: brush
+      collocations: [зубна́я щётка]
+      examples:
+        - ru: Я купи́л зубну́ю щётку.
+          zh: 我买了把牙刷。
+
+- lemma: расчёска
+  stress: расчёска
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 梳子
+      en: comb
+      examples:
+        - ru: Где моя́ расчёска?
+          zh: 我梳子呢？
+
+- lemma: душ
+  stress: душ
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 淋浴
+      en: shower
+      collocations: [приня́ть душ]
+      examples:
+        - ru: Я принима́ю душ у́тром.
+          zh: 我早上洗澡。
+
+- lemma: ванна
+  stress: ва́нна
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 浴缸；洗澡
+      en: bath, bathtub
+      examples:
+        - ru: Она́ лежи́т в ва́нне.
+          zh: 她在浴缸里泡着。
+
+- lemma: вход
+  stress: вход
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 入口
+      en: entrance
+      examples:
+        - ru: Вход с друго́й стороны́.
+          zh: 入口在另一边。
+  antonyms: [выход]
+
+- lemma: выход
+  stress: вы́ход
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 出口
+      en: exit
+      examples:
+        - ru: Где вы́ход из метро́?
+          zh: 地铁出口在哪儿？
+    - zh: 出路，办法
+      en: way out
+      examples:
+        - ru: Друго́го вы́хода нет.
+          zh: 没别的办法了。
+  antonyms: [вход]
+
+- lemma: ключ
+  stress: ключ
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  homonym_id: 2
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 泉，泉眼
+      en: spring (of water)
+      examples:
+        - ru: Из земли́ бьёт ключ.
+          zh: 泉水从地里涌出来。
+  notes: |
+    这一条收"泉水"的义项；开门用的"钥匙"是另一条词条。
+
+- lemma: инструмент
+  stress: инструме́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 工具；乐器
+      en: tool; instrument
+      examples:
+        - ru: Он игра́ет на двух инструме́нтах.
+          zh: 他会两种乐器。
+
+- lemma: материал
+  stress: материа́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 材料；资料
+      en: material
+      examples:
+        - ru: Собери́ материа́л для докла́да.
+          zh: 为报告收集材料。
+
+- lemma: ремонт
+  stress: ремо́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 修理；装修
+      en: repair, renovation
+      examples:
+        - ru: В кварти́ре идёт ремо́нт.
+          zh: 房子在装修。
+
+- lemma: строительство
+  stress: строи́тельство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 建设，施工
+      en: construction
+      examples:
+        - ru: Строи́тельство ко́нчится в ма́е.
+          zh: 施工五月结束。
