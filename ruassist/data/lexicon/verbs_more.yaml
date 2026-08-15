@@ -1,0 +1,459 @@
+# More high-frequency verbs, with the aspect pairs kept together.
+
+- lemma: менять
+  stress: меня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: поменять
+  transitivity: trans
+  government: что на что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 换，更换
+      en: to change, to exchange
+      examples:
+        - ru: Я хочу́ поменя́ть де́ньги.
+          zh: 我想换钱。
+
+- lemma: поменять
+  stress: поменя́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: менять
+  transitivity: trans
+  government: что на что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 换好了（完成体）
+      en: to change
+      examples:
+        - ru: Он поменя́л рабо́ту.
+          zh: 他换了工作。
+
+- lemma: проверять
+  stress: проверя́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: проверить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 检查，核对
+      en: to check
+      examples:
+        - ru: Учи́тель проверя́ет тетра́ди.
+          zh: 老师在批本子。
+
+- lemma: проверить
+  stress: прове́рить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: проверять
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 检查完（完成体）
+      en: to check
+      examples:
+        - ru: Прове́рьте, пожа́луйста, оши́бки.
+          zh: 请检查一下错误。
+
+- lemma: исправлять
+  stress: исправля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: исправить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 改正
+      en: to correct
+      examples:
+        - ru: Он исправля́ет свои́ оши́бки.
+          zh: 他在改自己的错误。
+
+- lemma: исправить
+  stress: испра́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: исправлять
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 改正了（完成体）
+      en: to correct
+      examples:
+        - ru: Испра́вьте оши́бку.
+          zh: 请改正错误。
+
+- lemma: строить
+  stress: стро́ить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: построить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 建造
+      en: to build
+      examples:
+        - ru: Здесь стро́ят но́вую шко́лу.
+          zh: 这儿在盖新学校。
+
+- lemma: построить
+  stress: постро́ить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: строить
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 建成（完成体）
+      en: to build
+      examples:
+        - ru: Они́ постро́или дом за год.
+          zh: 他们一年就把房子盖好了。
+
+- lemma: продавать
+  stress: продава́ть
+  pos: verb
+  aspect: impf
+  aspect_pair: продать
+  transitivity: trans
+  government: что кому
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: продаю́
+    pres,2per,sing: продаёшь
+    pres,3per,sing: продаёт
+    pres,1per,plur: продаём
+    pres,2per,plur: продаёте
+    pres,3per,plur: продаю́т
+    past,masc: продава́л
+    past,femn: продава́ла
+    past,neut: продава́ло
+    past,plur: продава́ли
+    impr,sing: продава́й
+    impr,plur: продава́йте
+  senses:
+    - zh: 卖
+      en: to sell
+      examples:
+        - ru: Здесь продаю́т кни́ги.
+          zh: 这儿卖书。
+  common_errors: |
+    -давать 型现在时丢掉 -ва-：продаю́ / продаёшь，与 дава́ть、встава́ть 同型。
+  antonyms: [покупать]
+
+- lemma: продать
+  stress: прода́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: продавать
+  transitivity: trans
+  government: что кому
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: прода́м
+    futr,2per,sing: прода́шь
+    futr,3per,sing: прода́ст
+    futr,1per,plur: продади́м
+    futr,2per,plur: продади́те
+    futr,3per,plur: продаду́т
+    past,masc: про́дал
+    past,femn: продала́
+    past,neut: про́дало
+    past,plur: про́дали
+    impr,sing: прода́й
+    impr,plur: прода́йте
+  senses:
+    - zh: 卖掉（完成体）
+      en: to sell
+      examples:
+        - ru: Он про́дал свою́ маши́ну.
+          zh: 他把车卖了。
+  common_errors: |
+    将来时跟着 дать 走：прода́м / прода́шь / прода́ст / продади́м……
+    过去时阴性重音在词尾：продала́。
+
+- lemma: держать
+  stress: держа́ть
+  pos: verb
+  zaliznyak: нсв 5c
+  aspect: impf
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 拿着，握住；保持
+      en: to hold, to keep
+      examples:
+        - ru: Он де́ржит ребёнка за́ руку.
+          zh: 他牵着孩子的手。
+  common_errors: |
+    嘶音结尾：держу́ / де́ржишь / де́ржат（不是 держя́т）。
+
+- lemma: ловить
+  stress: лови́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: поймать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 抓，捕
+      en: to catch
+      examples:
+        - ru: Он ло́вит ры́бу.
+          zh: 他在钓鱼。
+  common_errors: |
+    第一人称单数有 л 插入音：ловлю́。
+
+- lemma: поймать
+  stress: пойма́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: ловить
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 抓住了（完成体）
+      en: to catch
+      examples:
+        - ru: Ко́шка пойма́ла мышь.
+          zh: 猫抓住了老鼠。
+  notes: |
+    体对的词根完全不同（лови́ть / пойма́ть），与 класть / положи́ть 同一类型。
+
+- lemma: бросать
+  stress: броса́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: бросить
+  transitivity: trans
+  government: что / инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 扔；放弃，戒掉
+      en: to throw, to give up
+      examples:
+        - ru: Он бро́сил кури́ть.
+          zh: 他把烟戒了。
+
+- lemma: бросить
+  stress: бро́сить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: бросать
+  transitivity: trans
+  government: что / инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 扔了；戒了（完成体）
+      en: to throw, to quit
+      examples:
+        - ru: Не броса́й э́то здесь.
+          zh: 别把这个扔这儿。
+
+- lemma: считать
+  stress: счита́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что / кого кем
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 数，计算
+      en: to count
+      examples:
+        - ru: Ребёнок у́чится счита́ть.
+          zh: 孩子在学数数。
+    - zh: 认为
+      en: to consider
+      examples:
+        - ru: Я счита́ю, что он прав.
+          zh: 我认为他对。
+  common_errors: |
+    сч 读作 [щ]：[щита́ть]，与 сча́стье 同一规则。
+
+- lemma: значить
+  stress: зна́чить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 意味着，表示
+      en: to mean
+      examples:
+        - ru: Что зна́чит э́то сло́во?
+          zh: 这个词是什么意思？
+  notes: |
+    «Что зна́чит…?» 是问词义的标准说法，比 «Что э́то?» 精确。
+
+- lemma: происходить
+  stress: происходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 发生
+      en: to happen
+      examples:
+        - ru: Что здесь происхо́дит?
+          zh: 这儿出什么事了？
+
+- lemma: случаться
+  stress: случа́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: случиться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 发生（偶然）
+      en: to happen
+      examples:
+        - ru: Тако́е ре́дко случа́ется.
+          zh: 这种事很少发生。
+
+- lemma: случиться
+  stress: случи́ться
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: случаться
+  transitivity: intrans
+  reflexive: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 发生了（完成体）
+      en: to happen
+      examples:
+        - ru: Что случи́лось?
+          zh: 怎么了？
+  notes: |
+    «Что случи́лось?» 是"出什么事了"的日常固定问法。
+
+- lemma: болеть
+  stress: боле́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: чем
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 生病
+      en: to be ill
+      examples:
+        - ru: Он ча́сто боле́ет.
+          zh: 他常生病。
+  common_errors: |
+    还有一个同形动词 боле́ть「（身体某处）疼」，只用第三人称：
+    «У меня́ боли́т голова́»（болит，重音在词尾）。
+    两个词不定式相同但变位不同：боле́ю（我生病）／ боли́т（它疼）。
+
+- lemma: выглядеть
+  stress: вы́глядеть
+  pos: verb
+  zaliznyak: нсв 5a
+  aspect: impf
+  transitivity: intrans
+  government: как / кем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 看上去，显得
+      en: to look, to appear
+      examples:
+        - ru: Ты сего́дня хорошо́ вы́глядишь.
+          zh: 你今天气色不错。
+  notes: |
+    虽然带 вы- 前缀且重音在前缀上，但它是未完成体，没有对应的完成体。
+
+- lemma: отдохнуть
+  stress: отдохну́ть
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: отдохну́
+    futr,2per,sing: отдохнёшь
+    futr,3per,sing: отдохнёт
+    futr,1per,plur: отдохнём
+    futr,2per,plur: отдохнёте
+    futr,3per,plur: отдохну́т
+    past,masc: отдохну́л
+    past,femn: отдохну́ла
+    past,neut: отдохну́ло
+    past,plur: отдохну́ли
+    impr,sing: отдохни́
+    impr,plur: отдохни́те
+  senses:
+    - zh: 休息一下（完成体）
+      en: to have a rest
+      examples:
+        - ru: Отдохни́те немно́го.
+          zh: 休息一会儿吧。
+  notes: |
+    -нуть 是一个能产的完成体后缀，表示"一次性、短暂地做"：
+    отдохну́ть, кри́кнуть, взгляну́ть, улыбну́ться。
+
+- lemma: вернуться
+  stress: верну́ться
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  reflexive: true
+  government: куда / откуда
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: верну́сь
+    futr,2per,sing: вернёшься
+    futr,3per,sing: вернётся
+    futr,1per,plur: вернёмся
+    futr,2per,plur: вернётесь
+    futr,3per,plur: верну́тся
+    past,masc: верну́лся
+    past,femn: верну́лась
+    past,neut: верну́лось
+    past,plur: верну́лись
+    impr,sing: верни́сь
+    impr,plur: верни́тесь
+  senses:
+    - zh: 回来，返回
+      en: to return
+      examples:
+        - ru: Он вернётся в семь часо́в.
+          zh: 他七点回来。
+  common_errors: |
+    未完成体是 возвраща́ться，词根完全不同。
+    "回家"是 верну́ться домо́й（副词，不带前置词）。

@@ -256,10 +256,15 @@ def _stem_ordinal(entry: LexEntry, stem: str, index: Index) -> int:
 
 
 def _has_stressed_vy_prefix(entry: LexEntry, lemma: str) -> bool:
-    """A вы- perfective whose stress the prefix has pulled onto itself."""
+    """A verb whose stress the prefix вы- has pulled onto itself.
+
+    Aspect is irrelevant -- вы́глядеть is imperfective and still behaves this
+    way (гляде́ть -> гляди́, so вы́глядеть -> вы́гляди). The length guard keeps
+    out words where вы- is not a prefix at all, such as выть.
+    """
     return (
-        entry.aspect is Aspect.PERF
-        and lemma.startswith("вы")
+        lemma.startswith("вы")
+        and len(lemma) > 5
         and _stress_ordinal(entry.stress) == 0
     )
 

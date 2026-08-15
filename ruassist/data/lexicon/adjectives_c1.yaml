@@ -1,0 +1,374 @@
+# Further adjectives and the adverbs that pair with them.
+
+- lemma: строгий
+  stress: стро́гий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: стро́же
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 严格的，严厉的
+      en: strict
+      examples:
+        - ru: У нас стро́гий преподава́тель.
+          zh: 我们老师很严。
+
+- lemma: вежливый
+  stress: ве́жливый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 有礼貌的
+      en: polite
+      examples:
+        - ru: Он о́чень ве́жливый молодо́й челове́к.
+          zh: 他是个很有礼貌的年轻人。
+
+- lemma: смешной
+  stress: смешно́й
+  pos: adj
+  zaliznyak: п 1b
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可笑的，好笑的
+      en: funny
+      examples:
+        - ru: Э́то о́чень смешна́я исто́рия.
+          zh: 这故事很好笑。
+
+- lemma: грустный
+  stress: гру́стный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 忧伤的
+      en: sad
+      examples:
+        - ru: Почему́ ты тако́й гру́стный?
+          zh: 你怎么这么闷闷不乐？
+  common_errors: |
+    т 不发音，读作 [гру́сный]。同类：изве́стный、ра́достный。
+
+- lemma: здоровый
+  stress: здоро́вый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 健康的
+      en: healthy
+      examples:
+        - ru: Он соверше́нно здоро́в.
+          zh: 他完全健康。
+  antonyms: [больной]
+
+- lemma: больной
+  stress: больно́й
+  pos: adj
+  zaliznyak: п 1b
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 有病的；（名词）病人
+      en: ill, sick; patient
+      examples:
+        - ru: Он сего́дня бо́лен.
+          zh: 他今天病了。
+  common_errors: |
+    "生病了"日常用短尾 бо́лен / больна́ / больны́，长尾 больно́й 更像"病号"。
+    作名词时按形容词变格：ви́жу больно́го。
+  antonyms: [здоровый]
+
+- lemma: голодный
+  stress: голо́дный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 饿的
+      en: hungry
+      examples:
+        - ru: Я о́чень го́лоден.
+          zh: 我很饿。
+
+- lemma: усталый
+  stress: уста́лый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: false
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 疲倦的
+      en: tired
+      examples:
+        - ru: У неё уста́лый вид.
+          zh: 她一脸疲态。
+  common_errors: |
+    表达"我累了"日常用动词过去时 «Я уста́л»，不是 «Я уста́лый»。
+    形容词只修饰名词（уста́лый вид、уста́лые глаза́）。
+
+- lemma: счастливый
+  stress: счастли́вый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 幸福的，幸运的
+      en: happy
+      collocations: [счастли́вого пути́]
+      examples:
+        - ru: Она́ вы́глядит счастли́вой.
+          zh: 她看上去很幸福。
+  common_errors: |
+    第一个 т 不发音：[щасли́вый]。
+    «Счастли́вого пути́!» 是"一路顺风"，用第二格。
+
+- lemma: довольный
+  stress: дово́льный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 满意的
+      en: satisfied
+      government: кем-чем
+      examples:
+        - ru: Он дово́лен результа́том.
+          zh: 他对结果满意。
+  common_errors: |
+    "对……满意"用短尾 + **第五格**：дово́лен результа́том。
+
+- lemma: уверенный
+  stress: уве́ренный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 有把握的，自信的
+      en: confident, sure
+      government: в ком-чём
+      examples:
+        - ru: Я уве́рен, что он придёт.
+          zh: 我确信他会来。
+  common_errors: |
+    "确信某事"用短尾 уве́рен + в + 第六格，或接 что 从句。
+
+- lemma: одинаковый
+  stress: одина́ковый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 相同的，一样的
+      en: identical
+      examples:
+        - ru: У нас одина́ковые су́мки.
+          zh: 我们的包一模一样。
+
+- lemma: обычный
+  stress: обы́чный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 平常的，普通的
+      en: usual, ordinary
+      examples:
+        - ru: Э́то обы́чный де́нь.
+          zh: 这就是平常的一天。
+
+- lemma: современный
+  stress: совреме́нный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 现代的
+      en: modern
+      examples:
+        - ru: Он лю́бит совреме́нную му́зыку.
+          zh: 他喜欢现代音乐。
+
+- lemma: иностранный
+  stress: иностра́нный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: false
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 外国的
+      en: foreign
+      collocations: [иностра́нный язы́к]
+      examples:
+        - ru: Он изуча́ет два иностра́нных языка́.
+          zh: 他学两门外语。
+
+- lemma: свободно
+  stress: свобо́дно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 流利地；自由地
+      en: fluently, freely
+      examples:
+        - ru: Он свобо́дно говори́т по-ру́сски.
+          zh: 他俄语说得很流利。
+
+- lemma: правильно
+  stress: пра́вильно
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 正确地；对
+      en: correctly
+      examples:
+        - ru: Вы всё сде́лали пра́вильно.
+          zh: 您做得都对。
+
+- lemma: неправильно
+  stress: непра́вильно
+  pos: adv
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 不正确地，错
+      en: incorrectly
+      examples:
+        - ru: Вы непра́вильно написа́ли моё и́мя.
+          zh: 我名字您写错了。
+  notes: |
+    否定前缀 не- 与形容词／副词连写：непра́вильно、нехорошо́、неинтере́сно。
+    与否定语气词 не（分写）不是一回事。
+
+- lemma: точно
+  stress: то́чно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 准确地；确切地说
+      en: exactly
+      examples:
+        - ru: Я то́чно не зна́ю.
+          zh: 我不太清楚。
+
+- lemma: почти
+  stress: почти́
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 几乎，差不多
+      en: almost
+      examples:
+        - ru: Я почти́ зако́нчил.
+          zh: 我快做完了。
+
+- lemma: совсем
+  stress: совсе́м
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 完全，根本
+      en: completely, at all
+      examples:
+        - ru: Я совсе́м не уста́л.
+          zh: 我一点都不累。
+  common_errors: |
+    与否定连用意思是"根本不"：совсе́м не。
+    单用则是"完全、彻底"：«Он совсе́м забы́л»。
+
+- lemma: слишком
+  stress: сли́шком
+  pos: adv
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 太，过于
+      en: too
+      examples:
+        - ru: Э́то сли́шком до́рого.
+          zh: 这太贵了。
+  common_errors: |
+    与 о́чень 分工：о́чень 是"很"（中性），сли́шком 是"太"（含否定意味）。
+    "很好"是 о́чень хорошо́，"太好了"表示过头才用 сли́шком。
+
+- lemma: немного
+  stress: немно́го
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 一点儿，稍微
+      en: a little
+      examples:
+        - ru: Я немно́го говорю́ по-ру́сски.
+          zh: 我会说一点俄语。
+  common_errors: |
+    后接名词时用第二格：немно́го воды́ / немно́го вре́мени，与 мно́го 一致。
+
+- lemma: сначала
+  stress: снача́ла
+  pos: adv
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 起初，首先；从头
+      en: at first, from the beginning
+      examples:
+        - ru: Снача́ла поу́жинаем, пото́м пойдём.
+          zh: 先吃晚饭，然后走。
+
+- lemma: наконец
+  stress: наконе́ц
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 终于，最后
+      en: finally
+      examples:
+        - ru: Наконе́ц он пришёл.
+          zh: 他终于来了。
+
+- lemma: например
+  stress: наприме́р
+  pos: adv
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 例如
+      en: for example
+      examples:
+        - ru: Я люблю́ фру́кты, наприме́р я́блоки.
+          zh: 我喜欢水果，比如苹果。
+
+- lemma: кстати
+  stress: кста́ти
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 顺便说；正好
+      en: by the way
+      examples:
+        - ru: Кста́ти, ты ви́дел его́?
+          zh: 对了，你见到他了吗？
+
+- lemma: вообще
+  stress: вообще́
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 总的来说；根本
+      en: in general, at all
+      examples:
+        - ru: Вообще́ э́то хоро́шая иде́я.
+          zh: 总的来说这主意不错。
+  common_errors: |
+    读作 [ваапще́]，中间的 о 弱化。

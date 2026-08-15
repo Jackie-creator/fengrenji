@@ -1,0 +1,538 @@
+# Society, nature, and the abstractions that fill B1-B2 reading.
+
+# --- Society and state ------------------------------------------------------
+
+- lemma: государство
+  stress: госуда́рство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 国家（政权）
+      en: state
+      examples:
+        - ru: Госуда́рство помога́ет студе́нтам.
+          zh: 国家给学生提供帮助。
+  common_errors: |
+    与 страна́ 分工：страна́ 是地理和人民意义上的国家，госуда́рство 是政权。
+
+- lemma: народ
+  stress: наро́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 人民，民族；（口语）人群
+      en: people, nation
+      examples:
+        - ru: На пло́щади мно́го наро́ду.
+          zh: 广场上人很多。
+  notes: |
+    有部分格 наро́ду，日常表示"人（很多）"就用它：«мно́го наро́ду»。
+
+- lemma: общество
+  stress: о́бщество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 社会
+      en: society
+      examples:
+        - ru: Совреме́нное о́бщество бы́стро меня́ется.
+          zh: 现代社会变化很快。
+
+- lemma: закон
+  stress: зако́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 法律；规律
+      en: law
+      examples:
+        - ru: Э́то запрещено́ зако́ном.
+          zh: 这是法律禁止的。
+
+- lemma: президент
+  stress: президе́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 总统
+      en: president
+      examples:
+        - ru: Президе́нт вы́ступил вчера́.
+          zh: 总统昨天发表了讲话。
+
+- lemma: гражданин
+  stress: граждани́н
+  pos: noun
+  gender: masc
+  animacy: anim
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: граждани́н
+    sing,gent: граждани́на
+    sing,datv: граждани́ну
+    sing,accs: граждани́на
+    sing,ablt: граждани́ном
+    sing,loct: граждани́не
+    plur,nomn: гра́ждане
+    plur,gent: гра́ждан
+    plur,datv: гра́жданам
+    plur,accs: гра́ждан
+    plur,ablt: гра́жданами
+    plur,loct: гра́жданах
+  senses:
+    - zh: 公民
+      en: citizen
+      examples:
+        - ru: Он граждани́н Кита́я.
+          zh: 他是中国公民。
+  common_errors: |
+    复数丢掉 -ин 后缀并换重音：граждани́н → гра́ждане / гра́ждан。
+    同型的还有 крестья́нин → крестья́не、англича́нин → англича́не。
+
+- lemma: солдат
+  stress: солда́т
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: солда́т
+    plur,accs: солда́т
+  senses:
+    - zh: 士兵
+      en: soldier
+      examples:
+        - ru: В по́лку ты́сяча солда́т.
+          zh: 团里有一千名士兵。
+  common_errors: |
+    复数第二格是零词尾 солда́т，与单数第一格同形。
+    同型的还有 челове́к、глаз、раз——都是量词式的常用词。
+
+- lemma: армия
+  stress: а́рмия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 军队
+      en: army
+      examples:
+        - ru: Он слу́жит в а́рмии.
+          zh: 他在部队服役。
+
+- lemma: власть
+  stress: власть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 权力；（复数）当局
+      en: power, authorities
+      examples:
+        - ru: Э́то реши́ла ме́стная власть.
+          zh: 这是地方当局决定的。
+  verify: [zaliznyak]
+
+# --- Work and money ---------------------------------------------------------
+
+- lemma: зарплата
+  stress: зарпла́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 工资
+      en: salary
+      examples:
+        - ru: У него́ хоро́шая зарпла́та.
+          zh: 他工资不错。
+  notes: |
+    是 за́работная пла́та 的缩合形式，日常一律用缩合形式。
+
+- lemma: профессия
+  stress: профе́ссия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 职业
+      en: profession
+      examples:
+        - ru: Кто он по профе́ссии?
+          zh: 他是做什么的？
+  notes: |
+    问职业的固定说法是 «Кто вы по профе́ссии?»，用 по + 第三格。
+
+- lemma: фирма
+  stress: фи́рма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 公司
+      en: firm, company
+      examples:
+        - ru: Он рабо́тает в большо́й фи́рме.
+          zh: 他在一家大公司工作。
+
+- lemma: завод
+  stress: заво́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 工厂
+      en: factory
+      examples:
+        - ru: Мой оте́ц рабо́тает на заво́де.
+          zh: 我父亲在工厂工作。
+  common_errors: |
+    "在工厂"用 на заво́де，不是 в。与 на по́чте、на вокза́ле 同类。
+
+- lemma: офис
+  stress: о́фис
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 办公室
+      en: office
+      examples:
+        - ru: Наш о́фис в це́нтре.
+          zh: 我们办公室在市中心。
+
+- lemma: собрание
+  stress: собра́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 会议
+      en: meeting
+      examples:
+        - ru: За́втра бу́дет собра́ние.
+          zh: 明天开会。
+
+# --- Nature and weather -----------------------------------------------------
+
+- lemma: дождь
+  stress: дождь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 雨
+      en: rain
+      collocations: [идёт дождь, си́льный дождь]
+      examples:
+        - ru: Идёт си́льный дождь.
+          zh: 雨下得很大。
+  common_errors: |
+    "下雨"是 идёт дождь（雨在"走"），不能照汉语说 «па́дает дождь»。
+    "雨大"用 си́льный，不是 большо́й。
+
+- lemma: снег
+  stress: снег
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3c(1)
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,loc2: снегу́
+  senses:
+    - zh: 雪
+      en: snow
+      collocations: [идёт снег]
+      examples:
+        - ru: Зимо́й ча́сто идёт снег.
+          zh: 冬天常下雪。
+
+- lemma: ветер
+  stress: ве́тер
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1*c(1)
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 风
+      en: wind
+      examples:
+        - ru: Сего́дня си́льный ве́тер.
+          zh: 今天风大。
+  common_errors: |
+    逃逸元音：ве́тер → ве́тра / ве́тром。
+  verify: [zaliznyak]
+
+- lemma: температура
+  stress: температу́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 温度；体温
+      en: temperature
+      examples:
+        - ru: У него́ высо́кая температу́ра.
+          zh: 他发烧了。
+  notes: |
+    单说 «У меня́ температу́ра» 就是"我发烧了"，不必加 высо́кая。
+
+- lemma: озеро
+  stress: о́зеро
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1c
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: озёра
+    plur,gent: озёр
+    plur,datv: озёрам
+    plur,ablt: озёрами
+    plur,loct: озёрах
+  senses:
+    - zh: 湖
+      en: lake
+      examples:
+        - ru: Байка́л — са́мое глубо́кое о́зеро.
+          zh: 贝加尔湖是最深的湖。
+  common_errors: |
+    复数出现 ё：о́зеро → озёра，与 сестра́ → сёстры 同一现象。
+
+- lemma: поле
+  stress: по́ле
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 2c
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 田野；场地
+      en: field
+      examples:
+        - ru: За дере́вней больши́е поля́.
+          zh: 村外是大片田地。
+  verify: [zaliznyak]
+
+- lemma: деревня
+  stress: дере́вня
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*a
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: дереве́нь
+  senses:
+    - zh: 农村，村庄
+      en: village, countryside
+      examples:
+        - ru: Ле́том мы живём в дере́вне.
+          zh: 夏天我们住在乡下。
+
+- lemma: сад
+  stress: сад
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,loc2: саду́
+  senses:
+    - zh: 花园，果园
+      en: garden
+      collocations: [де́тский сад]
+      examples:
+        - ru: Де́ти игра́ют в саду́.
+          zh: 孩子们在园子里玩。
+  notes: |
+    де́тский сад = 幼儿园，日常缩略成 садик。
+
+# --- Abstract nouns ---------------------------------------------------------
+
+- lemma: возможность
+  stress: возмо́жность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可能性；机会
+      en: possibility, opportunity
+      examples:
+        - ru: У меня́ нет тако́й возмо́жности.
+          zh: 我没有这个条件。
+
+- lemma: внимание
+  stress: внима́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 注意，注意力
+      en: attention
+      collocations: [обрати́ть внима́ние, спаси́бо за внима́ние]
+      examples:
+        - ru: Обрати́те внима́ние на э́то сло́во.
+          zh: 请注意这个词。
+  notes: |
+    «Спаси́бо за внима́ние» 是演讲结束的固定用语。
+
+- lemma: интерес
+  stress: интере́с
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 兴趣
+      en: interest
+      examples:
+        - ru: Он слу́шал с интере́сом.
+          zh: 他听得很有兴趣。
+
+- lemma: сила
+  stress: си́ла
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 力量，力气
+      en: strength, force
+      examples:
+        - ru: У меня́ бо́льше нет сил.
+          zh: 我没劲了。
+
+- lemma: свобода
+  stress: свобо́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 自由
+      en: freedom
+      examples:
+        - ru: Свобо́да сло́ва — ва́жное пра́во.
+          zh: 言论自由是重要权利。
+
+- lemma: право
+  stress: пра́во
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1c
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 权利；法学
+      en: right, law
+      examples:
+        - ru: Ка́ждый име́ет пра́во на образова́ние.
+          zh: 每个人都有受教育的权利。
+
+- lemma: порядок
+  stress: поря́док
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 秩序，次序
+      en: order
+      collocations: [всё в поря́дке]
+      examples:
+        - ru: Всё в поря́дке.
+          zh: 一切正常。
+  notes: |
+    «Всё в поря́дке» 是"没事／一切正常"的高频回答。
+
+- lemma: разговор
+  stress: разгово́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 谈话，交谈
+      en: conversation
+      examples:
+        - ru: У нас был до́лгий разгово́р.
+          zh: 我们谈了很久。
+
+- lemma: слух
+  stress: слух
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 听觉；传闻
+      en: hearing, rumour
+      examples:
+        - ru: У неё хоро́ший музыка́льный слух.
+          zh: 她乐感很好。
+
+- lemma: смысл
+  stress: смысл
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 意义，含义
+      en: meaning, sense
+      examples:
+        - ru: В э́том нет смы́сла.
+          zh: 这没有意义。
