@@ -1,0 +1,838 @@
+# Additional prefixed motion verbs (ехать / лететь / нести / вести bases).
+
+- lemma: въехать
+  stress: въе́хать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: во что / куда
+  level: [B1, ТРКИ-2]
+  aspect_pair: въезжать
+  form_overrides:
+    futr,1per,sing: въе́ду
+    futr,2per,sing: въе́дешь
+    futr,3per,sing: въе́дет
+    futr,1per,plur: въе́дем
+    futr,2per,plur: въе́дете
+    futr,3per,plur: въе́дут
+    past,masc: въе́хал
+    past,femn: въе́хала
+    past,neut: въе́хало
+    past,plur: въе́хали
+    impr,sing: въезжа́й
+    impr,plur: въезжа́йте
+  senses:
+    - zh: 驶入；搬进（新住所）
+      en: to drive in; to move in
+      examples:
+        - ru: Мы въе́хали в но́вую кварти́ру.
+          zh: 我们搬进了新公寓。
+
+- lemma: въезжать
+  stress: въезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: во что / куда
+  level: [B1, ТРКИ-2]
+  aspect_pair: въехать
+  senses:
+    - zh: 驶入；搬进（经常性）
+      en: to drive in; to move in (habitual)
+      examples:
+        - ru: Маши́ны въезжа́ют во двор.
+          zh: 汽车驶入院子。
+
+- lemma: выехать
+  stress: вы́ехать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: из чего / откуда
+  level: [B1, ТРКИ-2]
+  aspect_pair: выезжать
+  form_overrides:
+    futr,1per,sing: вы́еду
+    futr,2per,sing: вы́едешь
+    futr,3per,sing: вы́едет
+    futr,1per,plur: вы́едем
+    futr,2per,plur: вы́едете
+    futr,3per,plur: вы́едут
+    past,masc: вы́ехал
+    past,femn: вы́ехала
+    past,neut: вы́ехало
+    past,plur: вы́ехали
+    impr,sing: выезжа́й
+    impr,plur: выезжа́йте
+  senses:
+    - zh: 驶出；搬出
+      en: to drive out; to move out
+      examples:
+        - ru: Мы вы́ехали из го́рода ра́но у́тром.
+          zh: 我们一大早驱车离开了城市。
+
+- lemma: выезжать
+  stress: выезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: из чего / откуда
+  level: [B1, ТРКИ-2]
+  aspect_pair: выехать
+  senses:
+    - zh: 驶出；搬出（经常性）
+      en: to drive out (habitual)
+      examples:
+        - ru: Он выезжа́ет из до́ма в семь.
+          zh: 他七点开车出门。
+
+- lemma: доехать
+  stress: дое́хать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: до чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: доезжать
+  form_overrides:
+    futr,1per,sing: дое́ду
+    futr,2per,sing: дое́дешь
+    futr,3per,sing: дое́дет
+    futr,1per,plur: дое́дем
+    futr,2per,plur: дое́дете
+    futr,3per,plur: дое́дут
+    past,masc: дое́хал
+    past,femn: дое́хала
+    past,neut: дое́хало
+    past,plur: дое́хали
+    impr,sing: доезжа́й
+    impr,plur: доезжа́йте
+  senses:
+    - zh: 乘车到达
+      en: to reach (by vehicle)
+      examples:
+        - ru: Мы дое́хали до аэропо́рта за час.
+          zh: 我们一小时到了机场。
+
+- lemma: доезжать
+  stress: доезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: до чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: доехать
+  senses:
+    - zh: 乘车到达（经常性）
+      en: to reach (by vehicle) (habitual)
+      examples:
+        - ru: Авто́бус доезжа́ет до це́нтра за полчаса́.
+          zh: 公交车半小时到市中心。
+
+- lemma: переехать
+  stress: перее́хать
+  pos: verb
+  aspect: perf
+  transitivity: trans
+  government: что / через что
+  level: [B1, ТРКИ-1]
+  aspect_pair: переезжать
+  form_overrides:
+    futr,1per,sing: перее́ду
+    futr,2per,sing: перее́дешь
+    futr,3per,sing: перее́дет
+    futr,1per,plur: перее́дем
+    futr,2per,plur: перее́дете
+    futr,3per,plur: перее́дут
+    past,masc: перее́хал
+    past,femn: перее́хала
+    past,neut: перее́хало
+    past,plur: перее́хали
+    impr,sing: переезжа́й
+    impr,plur: переезжа́йте
+  senses:
+    - zh: 搬家；驶过
+      en: to move (relocate); to drive across
+      examples:
+        - ru: Мы перее́хали в но́вый дом.
+          zh: 我们搬进了新房子。
+
+- lemma: переезжать
+  stress: переезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что / через что
+  level: [B1, ТРКИ-1]
+  aspect_pair: переехать
+  senses:
+    - zh: 搬家；驶过（经常性）
+      en: to move (relocate) (habitual)
+      examples:
+        - ru: Они́ ча́сто переезжа́ют с ме́ста на ме́сто.
+          zh: 他们经常搬来搬去。
+
+- lemma: подъехать
+  stress: подъе́хать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: к чему
+  level: [B1, ТРКИ-2]
+  aspect_pair: подъезжать
+  form_overrides:
+    futr,1per,sing: подъе́ду
+    futr,2per,sing: подъе́дешь
+    futr,3per,sing: подъе́дет
+    futr,1per,plur: подъе́дем
+    futr,2per,plur: подъе́дете
+    futr,3per,plur: подъе́дут
+    past,masc: подъе́хал
+    past,femn: подъе́хала
+    past,neut: подъе́хало
+    past,plur: подъе́хали
+    impr,sing: подъезжа́й
+    impr,plur: подъезжа́йте
+  senses:
+    - zh: 驶近，开到跟前
+      en: to drive up to
+      examples:
+        - ru: Такси́ подъе́хало к до́му.
+          zh: 出租车开到了楼下。
+
+- lemma: подъезжать
+  stress: подъезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: к чему
+  level: [B1, ТРКИ-2]
+  aspect_pair: подъехать
+  senses:
+    - zh: 驶近（经常性）
+      en: to drive up to (habitual)
+      examples:
+        - ru: По́езд подъезжа́ет к ста́нции.
+          zh: 火车正驶近车站。
+
+- lemma: отъехать
+  stress: отъе́хать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: от чего
+  level: [B2, ТРКИ-2]
+  aspect_pair: отъезжать
+  form_overrides:
+    futr,1per,sing: отъе́ду
+    futr,2per,sing: отъе́дешь
+    futr,3per,sing: отъе́дет
+    futr,1per,plur: отъе́дем
+    futr,2per,plur: отъе́дете
+    futr,3per,plur: отъе́дут
+    past,masc: отъе́хал
+    past,femn: отъе́хала
+    past,neut: отъе́хало
+    past,plur: отъе́хали
+    impr,sing: отъезжа́й
+    impr,plur: отъезжа́йте
+  senses:
+    - zh: 驶离
+      en: to drive away
+      examples:
+        - ru: Маши́на отъе́хала от до́ма.
+          zh: 汽车驶离了房子。
+
+- lemma: отъезжать
+  stress: отъезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: от чего
+  level: [B2, ТРКИ-2]
+  aspect_pair: отъехать
+  senses:
+    - zh: 驶离（经常性）
+      en: to drive away (habitual)
+      examples:
+        - ru: Авто́бус отъезжа́ет от остано́вки.
+          zh: 公交车驶离站台。
+
+- lemma: объехать
+  stress: объе́хать
+  pos: verb
+  aspect: perf
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-2]
+  aspect_pair: объезжать
+  form_overrides:
+    futr,1per,sing: объе́ду
+    futr,2per,sing: объе́дешь
+    futr,3per,sing: объе́дет
+    futr,1per,plur: объе́дем
+    futr,2per,plur: объе́дете
+    futr,3per,plur: объе́дут
+    past,masc: объе́хал
+    past,femn: объе́хала
+    past,neut: объе́хало
+    past,plur: объе́хали
+    impr,sing: объезжа́й
+    impr,plur: объезжа́йте
+  senses:
+    - zh: 绕行，绕过
+      en: to drive around, to bypass
+      examples:
+        - ru: Мы объе́хали про́бку.
+          zh: 我们绕过了堵车。
+
+- lemma: объезжать
+  stress: объезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-2]
+  aspect_pair: объехать
+  senses:
+    - zh: 绕行（经常性）
+      en: to drive around (habitual)
+      examples:
+        - ru: Води́тели объезжа́ют э́тот перекрёсток.
+          zh: 司机们绕过这个路口。
+
+- lemma: проехать
+  stress: прое́хать
+  pos: verb
+  aspect: perf
+  transitivity: trans
+  government: что / мимо чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: проезжать
+  form_overrides:
+    futr,1per,sing: прое́ду
+    futr,2per,sing: прое́дешь
+    futr,3per,sing: прое́дет
+    futr,1per,plur: прое́дем
+    futr,2per,plur: прое́дете
+    futr,3per,plur: прое́дут
+    past,masc: прое́хал
+    past,femn: прое́хала
+    past,neut: прое́хало
+    past,plur: прое́хали
+    impr,sing: проезжа́й
+    impr,plur: проезжа́йте
+  senses:
+    - zh: 驶过；坐过站
+      en: to drive past; to travel (a distance)
+      examples:
+        - ru: Мы прое́хали свою́ остано́вку.
+          zh: 我们坐过了站。
+
+- lemma: проезжать
+  stress: проезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что / мимо чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: проехать
+  senses:
+    - zh: 驶过（经常性）
+      en: to drive past (habitual)
+      examples:
+        - ru: Авто́бус проезжа́ет ми́мо на́шего до́ма.
+          zh: 公交车经过我们家门口。
+
+- lemma: съехать
+  stress: съе́хать
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: с чего / откуда
+  level: [B2, ТРКИ-2]
+  aspect_pair: съезжать
+  form_overrides:
+    futr,1per,sing: съе́ду
+    futr,2per,sing: съе́дешь
+    futr,3per,sing: съе́дет
+    futr,1per,plur: съе́дем
+    futr,2per,plur: съе́дете
+    futr,3per,plur: съе́дут
+    past,masc: съе́хал
+    past,femn: съе́хала
+    past,neut: съе́хало
+    past,plur: съе́хали
+    impr,sing: съезжа́й
+    impr,plur: съезжа́йте
+  senses:
+    - zh: 搬出；滑下
+      en: to move out; to slide down
+      examples:
+        - ru: Он съе́хал с кварти́ры.
+          zh: 他从公寓搬走了。
+
+- lemma: съезжать
+  stress: съезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: с чего / откуда
+  level: [B2, ТРКИ-2]
+  aspect_pair: съехать
+  senses:
+    - zh: 搬出；滑下（经常性）
+      en: to move out (habitual)
+      examples:
+        - ru: Жильцы́ постепе́нно съезжа́ют из э́того до́ма.
+          zh: 住户们陆续搬走。
+
+- lemma: прилететь
+  stress: прилете́ть
+  pos: verb
+  zaliznyak: св 5b
+  aspect: perf
+  transitivity: intrans
+  government: куда / откуда
+  level: [B1, ТРКИ-1]
+  aspect_pair: прилетать
+  senses:
+    - zh: 飞来，飞到
+      en: to arrive by air
+      examples:
+        - ru: Самолёт прилете́л во́время.
+          zh: 飞机准时到了。
+
+- lemma: прилетать
+  stress: прилета́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: куда / откуда
+  level: [B1, ТРКИ-1]
+  aspect_pair: прилететь
+  senses:
+    - zh: 飞来（经常性）
+      en: to arrive by air (habitual)
+      examples:
+        - ru: Пти́цы прилета́ют весно́й.
+          zh: 鸟儿春天飞来。
+
+- lemma: улететь
+  stress: улете́ть
+  pos: verb
+  zaliznyak: св 5b
+  aspect: perf
+  transitivity: intrans
+  government: откуда / куда
+  level: [B1, ТРКИ-1]
+  aspect_pair: улетать
+  senses:
+    - zh: 飞走，起飞离去
+      en: to fly away
+      examples:
+        - ru: Он улете́л в Москву́.
+          zh: 他飞去了莫斯科。
+
+- lemma: улетать
+  stress: улета́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: откуда / куда
+  level: [B1, ТРКИ-1]
+  aspect_pair: улететь
+  senses:
+    - zh: 飞走（经常性）
+      en: to fly away (habitual)
+      examples:
+        - ru: Пти́цы улета́ют на юг о́сенью.
+          zh: 鸟儿秋天飞往南方。
+
+- lemma: вылететь
+  stress: вы́лететь
+  pos: verb
+  zaliznyak: св 5b
+  aspect: perf
+  transitivity: intrans
+  government: из чего / откуда
+  level: [B1, ТРКИ-2]
+  aspect_pair: вылетать
+  senses:
+    - zh: 飞出；起飞
+      en: to fly out; to depart (by air)
+      examples:
+        - ru: Самолёт вы́летел из Пеки́на.
+          zh: 飞机从北京起飞了。
+
+- lemma: вылетать
+  stress: вылета́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: из чего / откуда
+  level: [B1, ТРКИ-2]
+  aspect_pair: вылететь
+  senses:
+    - zh: 飞出；起飞（经常性）
+      en: to fly out (habitual)
+      examples:
+        - ru: Ре́йсы вылета́ют ка́ждый час.
+          zh: 航班每小时起飞一次。
+
+- lemma: дойти
+  stress: дойти́
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: до чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: доходить
+  form_overrides:
+    futr,1per,sing: дойду́
+    futr,2per,sing: дойдёшь
+    futr,3per,sing: дойдёт
+    futr,1per,plur: дойдём
+    futr,2per,plur: дойдёте
+    futr,3per,plur: дойду́т
+    past,masc: дошёл
+    past,femn: дошла́
+    past,neut: дошло́
+    past,plur: дошли́
+    impr,sing: дойди́
+    impr,plur: дойди́те
+  senses:
+    - zh: 走到，到达
+      en: to reach (on foot)
+      examples:
+        - ru: Мы дошли́ до музе́я за де́сять мину́т.
+          zh: 我们走了十分钟到了博物馆。
+
+- lemma: доходить
+  stress: доходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  government: до чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: дойти
+  senses:
+    - zh: 走到（经常性）；传到
+      en: to reach; to get through
+      examples:
+        - ru: Письма́ дохо́дят за неде́лю.
+          zh: 信件一周送达。
+
+- lemma: обойти
+  stress: обойти́
+  pos: verb
+  aspect: perf
+  transitivity: trans
+  government: что / кого
+  level: [B2, ТРКИ-2]
+  aspect_pair: обходить
+  form_overrides:
+    futr,1per,sing: обойду́
+    futr,2per,sing: обойдёшь
+    futr,3per,sing: обойдёт
+    futr,1per,plur: обойдём
+    futr,2per,plur: обойдёте
+    futr,3per,plur: обойду́т
+    past,masc: обошёл
+    past,femn: обошла́
+    past,neut: обошло́
+    past,plur: обошли́
+    impr,sing: обойди́
+    impr,plur: обойди́те
+  senses:
+    - zh: 绕过；巡视
+      en: to go around; to bypass
+      examples:
+        - ru: Мы обошли́ о́зеро.
+          zh: 我们绕湖走了一圈。
+
+- lemma: обходить
+  stress: обходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: что / кого
+  level: [B2, ТРКИ-2]
+  aspect_pair: обойти
+  senses:
+    - zh: 绕过；巡视（经常性）
+      en: to go around (habitual)
+      examples:
+        - ru: Охра́нник обхо́дит зда́ние ка́ждый час.
+          zh: 保安每小时巡视大楼一次。
+
+- lemma: отойти
+  stress: отойти́
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: от чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: отходить
+  form_overrides:
+    futr,1per,sing: отойду́
+    futr,2per,sing: отойдёшь
+    futr,3per,sing: отойдёт
+    futr,1per,plur: отойдём
+    futr,2per,plur: отойдёте
+    futr,3per,plur: отойду́т
+    past,masc: отошёл
+    past,femn: отошла́
+    past,neut: отошло́
+    past,plur: отошли́
+    impr,sing: отойди́
+    impr,plur: отойди́те
+  senses:
+    - zh: 走开；（车船）出发
+      en: to step away; to depart
+      examples:
+        - ru: По́езд отошёл от перро́на.
+          zh: 火车驶离了站台。
+
+- lemma: отходить
+  stress: отходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  government: от чего
+  level: [B1, ТРКИ-1]
+  aspect_pair: отойти
+  senses:
+    - zh: 走开；（车船）出发（经常性）
+      en: to step away; to depart (habitual)
+      examples:
+        - ru: По́езд отхо́дит в де́вять.
+          zh: 火车九点出发。
+
+- lemma: разойтись
+  stress: разойти́сь
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  aspect_pair: расходиться
+  form_overrides:
+    futr,1per,sing: разойду́сь
+    futr,2per,sing: разойдёшься
+    futr,3per,sing: разойдётся
+    futr,1per,plur: разойдёмся
+    futr,2per,plur: разойдётесь
+    futr,3per,plur: разойду́тся
+    past,masc: разошёлся
+    past,femn: разошла́сь
+    past,neut: разошло́сь
+    past,plur: разошли́сь
+    impr,sing: разойди́сь
+    impr,plur: разойди́тесь
+  senses:
+    - zh: 散开；分手；意见分歧
+      en: to disperse; to part ways; to diverge
+      examples:
+        - ru: Го́сти разошли́сь по́здно.
+          zh: 客人们很晚才散去。
+
+- lemma: расходиться
+  stress: расходи́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  aspect_pair: разойтись
+  senses:
+    - zh: 散开；分手（经常性）
+      en: to disperse; to part ways (habitual)
+      examples:
+        - ru: На́ши мне́ния расхо́дятся.
+          zh: 我们意见分歧。
+
+- lemma: сойти
+  stress: сойти́
+  pos: verb
+  aspect: perf
+  transitivity: intrans
+  government: с чего
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    futr,1per,sing: сойду́
+    futr,2per,sing: сойдёшь
+    futr,3per,sing: сойдёт
+    futr,1per,plur: сойдём
+    futr,2per,plur: сойдёте
+    futr,3per,plur: сойду́т
+    past,masc: сошёл
+    past,femn: сошла́
+    past,neut: сошло́
+    past,plur: сошли́
+    impr,sing: сойди́
+    impr,plur: сойди́те
+  senses:
+    - zh: 走下来；（雪）融化；及格，勉强合格
+      en: to come down; to melt (of snow); to pass (as acceptable)
+      examples:
+        - ru: Снег сошёл в апре́ле.
+          zh: 雪在四月融化了。
+
+- lemma: унести
+  stress: унести́
+  pos: verb
+  zaliznyak: св 7b/b
+  aspect: perf
+  transitivity: trans
+  government: что откуда
+  level: [B1, ТРКИ-1]
+  aspect_pair: уносить
+  senses:
+    - zh: 带走，拿走
+      en: to carry away, to take away
+      examples:
+        - ru: Ве́тер унёс шля́пу.
+          zh: 风吹走了帽子。
+
+- lemma: уносить
+  stress: уноси́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: что откуда
+  level: [B1, ТРКИ-1]
+  aspect_pair: унести
+  senses:
+    - zh: 带走（经常性）
+      en: to carry away (habitual)
+      examples:
+        - ru: Не уноси́те посу́ду.
+          zh: 不要撤走餐具。
+
+- lemma: вынести
+  stress: вы́нести
+  pos: verb
+  zaliznyak: св 7b/b
+  aspect: perf
+  transitivity: trans
+  government: что откуда
+  level: [B1, ТРКИ-2]
+  aspect_pair: выносить
+  senses:
+    - zh: 搬出；忍受
+      en: to carry out; to endure
+      examples:
+        - ru: Вы́несите му́сор.
+          zh: 把垃圾拿出去。
+
+- lemma: выносить
+  stress: выноси́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: что откуда
+  level: [B1, ТРКИ-2]
+  aspect_pair: вынести
+  senses:
+    - zh: 搬出；忍受（经常性）
+      en: to carry out; to endure (habitual)
+      examples:
+        - ru: Я не выношу́ шу́ма.
+          zh: 我受不了噪音。
+
+- lemma: привести
+  stress: привести́
+  pos: verb
+  zaliznyak: св 7b/b
+  aspect: perf
+  transitivity: trans
+  government: кого куда
+  level: [B1, ТРКИ-1]
+  aspect_pair: приводить
+  senses:
+    - zh: 带来（领着人来）；导致
+      en: to bring (lead someone); to lead to
+      examples:
+        - ru: Он привёл друзе́й.
+          zh: 他把朋友们带来了。
+
+- lemma: приводить
+  stress: приводи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: кого куда
+  level: [B1, ТРКИ-1]
+  aspect_pair: привести
+  senses:
+    - zh: 带来（经常性）；导致
+      en: to bring; to lead to (habitual)
+      examples:
+        - ru: Э́то приво́дит к пробле́мам.
+          zh: 这会导致问题。
+
+- lemma: отвести
+  stress: отвести́
+  pos: verb
+  zaliznyak: св 7b/b
+  aspect: perf
+  transitivity: trans
+  government: кого куда
+  level: [B1, ТРКИ-2]
+  aspect_pair: отводить
+  senses:
+    - zh: 带走（领走）；拨出
+      en: to lead away; to allot
+      examples:
+        - ru: Он отвёл ребёнка в шко́лу.
+          zh: 他把孩子送到了学校。
+
+- lemma: отводить
+  stress: отводи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  government: кого куда
+  level: [B1, ТРКИ-2]
+  aspect_pair: отвести
+  senses:
+    - zh: 带走（经常性）；拨出
+      en: to lead away (habitual)
+      examples:
+        - ru: Ка́ждое у́тро он отво́дит сы́на в де́тский сад.
+          zh: 他每天早上送儿子去幼儿园。
+
+- lemma: перевести
+  stress: перевести́
+  pos: verb
+  zaliznyak: св 7b/b
+  aspect: perf
+  transitivity: trans
+  government: кого/что куда
+  level: [B1, ТРКИ-1]
+  aspect_pair: переводить
+  senses:
+    - zh: 翻译；转账；带过（马路等）
+      en: to translate; to transfer; to lead across
+      examples:
+        - ru: Переведи́те э́то предложе́ние на ру́сский.
+          zh: 请把这句话翻译成俄语。

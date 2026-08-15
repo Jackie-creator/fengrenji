@@ -873,6 +873,7 @@
   pos: verb
   zaliznyak: нсв 4c
   aspect: impf
+  aspect_pair: перевести
   transitivity: trans
   government: что с чего на что
   level: [B1, ТРКИ-1]
@@ -1138,6 +1139,7 @@
   pos: verb
   zaliznyak: нсв 6a
   aspect: impf
+  aspect_pair: спрятать
   transitivity: trans
   government: кого-что
   level: [B2, ТРКИ-2]
@@ -1607,6 +1609,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: обнять
   transitivity: trans
   government: кого
   level: [B2, ТРКИ-2]

@@ -1,0 +1,456 @@
+# Body parts (additions), clothing items, and food/drink.
+
+- lemma: ресница
+  stress: ресни́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 睫毛
+      en: eyelash
+      examples:
+        - ru: Дли́нные ресни́цы.
+          zh: 长长的睫毛。
+
+- lemma: веко
+  stress: ве́ко
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    nomn,plur: ве́ки
+    gent,plur: век
+    datv,plur: ве́кам
+    accs,plur: ве́ки
+    ablt,plur: ве́ками
+    loct,plur: ве́ках
+  senses:
+    - zh: 眼皮
+      en: eyelid
+      examples:
+        - ru: Ве́ки тяжеле́ют.
+          zh: 眼皮变沉了。
+
+- lemma: скула
+  stress: скула́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 颧骨
+      en: cheekbone
+      examples:
+        - ru: Высо́кие ску́лы.
+          zh: 高颧骨。
+
+- lemma: затылок
+  stress: заты́лок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 后脑勺
+      en: back of the head
+      examples:
+        - ru: Он почеса́л заты́лок.
+          zh: 他挠了挠后脑勺。
+
+- lemma: висок
+  stress: висо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 太阳穴
+      en: temple (of the head)
+      examples:
+        - ru: Боль в виска́х.
+          zh: 太阳穴疼。
+
+- lemma: локоть
+  stress: ло́коть
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*d
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    nomn,sing: ло́коть
+    gent,sing: ло́ктя
+    datv,sing: ло́ктю
+    accs,sing: ло́коть
+    ablt,sing: ло́ктем
+    loct,sing: ло́кте
+    nomn,plur: ло́кти
+    gent,plur: локте́й
+    datv,plur: локтя́м
+    accs,plur: ло́кти
+    ablt,plur: локтя́ми
+    loct,plur: локтя́х
+  senses:
+    - zh: 肘
+      en: elbow
+      examples:
+        - ru: Не ста́вь ло́кти на стол.
+          zh: 别把胳膊肘放在桌上。
+
+- lemma: плечо
+  stress: плечо́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1d
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    nomn,plur: пле́чи
+    accs,plur: пле́чи
+  senses:
+    - zh: 肩膀
+      en: shoulder
+      examples:
+        - ru: Он пожа́л плеча́ми.
+          zh: 他耸了耸肩。
+
+- lemma: бедро
+  stress: бедро́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*d
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    gent,plur: бёдер
+  senses:
+    - zh: 大腿；臀部
+      en: hip; thigh
+      examples:
+        - ru: Боль в бедре́.
+          zh: 大腿疼。
+
+- lemma: пятка
+  stress: пя́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 脚后跟
+      en: heel
+      examples:
+        - ru: Ту́фли натира́ют пя́тки.
+          zh: 鞋子磨脚后跟。
+
+- lemma: жилет
+  stress: жиле́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 马甲，背心
+      en: vest, waistcoat
+      examples:
+        - ru: Спаса́тельный жиле́т.
+          zh: 救生衣。
+
+- lemma: халат
+  stress: хала́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 浴衣；工作服
+      en: robe; lab coat
+      examples:
+        - ru: Врач в бе́лом хала́те.
+          zh: 穿白大褂的医生。
+
+- lemma: фартук
+  stress: фа́ртук
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 围裙
+      en: apron
+      examples:
+        - ru: По́вар наде́л фа́ртук.
+          zh: 厨师穿上了围裙。
+
+- lemma: каблук
+  stress: каблу́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鞋跟
+      en: heel (of a shoe)
+      examples:
+        - ru: Ту́фли на высо́ком каблуке́.
+          zh: 高跟鞋。
+
+- lemma: подошва
+  stress: подо́шва
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 鞋底
+      en: sole (of a shoe)
+      examples:
+        - ru: Подо́шва стёрлась.
+          zh: 鞋底磨平了。
+
+- lemma: воротник
+  stress: воротни́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 衣领
+      en: collar
+      examples:
+        - ru: Подня́ть воротни́к.
+          zh: 竖起衣领。
+
+- lemma: рукав
+  stress: рука́в
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    nomn,plur: рукава́
+    accs,plur: рукава́
+  senses:
+    - zh: 袖子
+      en: sleeve
+      examples:
+        - ru: Засучи́ рукава́.
+          zh: 卷起袖子。
+
+- lemma: бульон
+  stress: бульо́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 肉汤
+      en: broth
+      examples:
+        - ru: Кури́ный бульо́н.
+          zh: 鸡汤。
+
+- lemma: сосиска
+  stress: соси́ска
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 小香肠
+      en: sausage (frankfurter)
+      examples:
+        - ru: Свари́ соси́ски.
+          zh: 煮几根小香肠。
+
+- lemma: ветчина
+  stress: ветчина́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 火腿
+      en: ham
+      examples:
+        - ru: Бутербро́д с ветчино́й.
+          zh: 火腿三明治。
+
+- lemma: крупа
+  stress: крупа́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 谷物，粮食
+      en: groats, cereal
+      examples:
+        - ru: Гречне́вая крупа́.
+          zh: 荞麦粒。
+
+- lemma: уксус
+  stress: у́ксус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 醋
+      en: vinegar
+      examples:
+        - ru: Доба́вь немно́го у́ксуса.
+          zh: 加一点醋。
+
+- lemma: горчица
+  stress: горчи́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 芥末
+      en: mustard
+      examples:
+        - ru: Соси́ска с горчи́цей.
+          zh: 蘸芥末的香肠。
+
+- lemma: корица
+  stress: кори́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 肉桂
+      en: cinnamon
+      examples:
+        - ru: Ча́й с кори́цей.
+          zh: 肉桂茶。
+
+- lemma: компот
+  stress: компо́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 水果甜汤
+      en: compote
+      examples:
+        - ru: Компо́т из я́блок.
+          zh: 苹果甜汤。
+
+- lemma: квас
+  stress: квас
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 格瓦斯（发酵饮料）
+      en: kvass
+      examples:
+        - ru: Холо́дный квас.
+          zh: 冰镇格瓦斯。
+
+- lemma: пельмени
+  stress: пельме́ни
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: мн 2a
+  number_only: plur
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    nomn,plur: пельме́ни
+    gent,plur: пельме́ней
+    datv,plur: пельме́ням
+    accs,plur: пельме́ни
+    ablt,plur: пельме́нями
+    loct,plur: пельме́нях
+  senses:
+    - zh: 饺子（俄式水饺）
+      en: pelmeni (Russian dumplings)
+      examples:
+        - ru: Пельме́ни с мя́сом.
+          zh: 肉馅饺子。
+
+- lemma: котлета
+  stress: котле́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 肉饼
+      en: cutlet, patty
+      examples:
+        - ru: Котле́ты с пюре́.
+          zh: 肉饼配土豆泥。
+
+- lemma: щи
+  stress: щи
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: мн 2b
+  number_only: plur
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    nomn,plur: щи
+    gent,plur: щей
+    datv,plur: щам
+    accs,plur: щи
+    ablt,plur: щами́
+    loct,plur: щах
+  senses:
+    - zh: 菜汤
+      en: shchi (cabbage soup)
+      examples:
+        - ru: Щи из све́жей ка́пусты.
+          zh: 新鲜白菜做的菜汤。
+
+- lemma: окрошка
+  stress: окро́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冷杂拌汤
+      en: okroshka (cold soup)
+      examples:
+        - ru: Ле́том хороша́ окро́шка.
+          zh: 夏天喝冷杂拌汤很好。

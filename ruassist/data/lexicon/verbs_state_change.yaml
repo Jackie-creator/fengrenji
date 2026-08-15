@@ -1,0 +1,1087 @@
+# State-change verbs: heating/cooling, mixing/separating, filling/emptying,
+# wetting/drying, deformation, opening/closing, attachment.
+
+- lemma: нагреть
+  stress: нагре́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: нагревать
+  senses:
+    - zh: 加热了
+      en: to heat up (completed)
+      examples:
+        - ru: Она́ нагре́ла воду́ для ча́я.
+          zh: 她把水烧热了泡茶。
+
+- lemma: нагревать
+  stress: нагрева́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: нагреть
+  senses:
+    - zh: 加热
+      en: to heat up
+      examples:
+        - ru: Ну́жно нагрева́ть молоко́ на ме́дленном огне́.
+          zh: 需要用小火加热牛奶。
+
+- lemma: охладить
+  stress: охлади́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: охлаждать
+  senses:
+    - zh: 冷却了
+      en: to cool down (completed)
+      examples:
+        - ru: По́вар охлади́л суп в холоди́льнике.
+          zh: 厨师把汤放进冰箱冷却了。
+
+- lemma: охлаждать
+  stress: охлажда́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: охладить
+  senses:
+    - zh: 冷却
+      en: to cool down
+      examples:
+        - ru: Кондиционе́р охлажда́ет во́здух в ко́мнате.
+          zh: 空调在给房间降温。
+
+- lemma: разогреть
+  stress: разогре́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: разогревать
+  senses:
+    - zh: 热好了（饭菜）
+      en: to reheat (completed)
+      examples:
+        - ru: Я разогре́л обе́д в микроволно́вке.
+          zh: 我在微波炉里把午饭热好了。
+
+- lemma: разогревать
+  stress: разогрева́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: разогреть
+  senses:
+    - zh: 热（饭菜）
+      en: to reheat
+      examples:
+        - ru: Ка́ждый день я разогрева́ю еду́ на рабо́те.
+          zh: 每天我都在上班时热饭。
+
+- lemma: остыть
+  stress: осты́ть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: остывать
+  senses:
+    - zh: 凉了
+      en: to cool off (completed)
+      examples:
+        - ru: Ко́фе осты́л, пока́ я разгова́ривал по телефо́ну.
+          zh: 我打电话的工夫，咖啡凉了。
+
+- lemma: остывать
+  stress: остыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: остыть
+  senses:
+    - zh: 变凉
+      en: to cool off
+      examples:
+        - ru: Суп остыва́ет сли́шком бы́стро.
+          zh: 汤凉得太快了。
+
+- lemma: растопить
+  stress: растопи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: растапливать
+  senses:
+    - zh: 融化了（及物）
+      en: to melt (completed, trans)
+      examples:
+        - ru: Со́лнце растопи́ло снег на кры́ше.
+          zh: 太阳把屋顶上的雪融化了。
+
+- lemma: растапливать
+  stress: раста́пливать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: растопить
+  senses:
+    - zh: 融化（及物）
+      en: to melt (trans)
+      examples:
+        - ru: По́вар раста́пливает ма́сло в кастрю́ле.
+          zh: 厨师在锅里化黄油。
+
+- lemma: заморозить
+  stress: заморо́зить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: замораживать
+  senses:
+    - zh: 冷冻了
+      en: to freeze (completed)
+      examples:
+        - ru: Мы заморо́зили я́годы на зи́му.
+          zh: 我们把浆果冻起来过冬了。
+
+- lemma: замораживать
+  stress: замора́живать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: заморозить
+  senses:
+    - zh: 冷冻
+      en: to freeze
+      examples:
+        - ru: Холоди́льник замора́живает проду́кты о́чень бы́стро.
+          zh: 这个冰箱冷冻食品非常快。
+
+- lemma: таять
+  stress: та́ять
+  pos: verb
+  zaliznyak: нсв 6a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: растаять
+  senses:
+    - zh: 融化（不及物）
+      en: to melt (intrans)
+      examples:
+        - ru: Снег та́ет на со́лнце.
+          zh: 雪在阳光下融化。
+
+- lemma: растаять
+  stress: раста́ять
+  pos: verb
+  zaliznyak: св 6a
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: таять
+  senses:
+    - zh: 融化了（不及物）
+      en: to melt (completed, intrans)
+      examples:
+        - ru: Моро́женое раста́яло на жаре́.
+          zh: 冰淇淋在高温下化掉了。
+
+- lemma: смешать
+  stress: смеша́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: смешивать
+  senses:
+    - zh: 混合了
+      en: to mix (completed)
+      examples:
+        - ru: Она́ смеша́ла муку́ с са́харом.
+          zh: 她把面粉和糖混合了。
+
+- lemma: смешивать
+  stress: сме́шивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: смешать
+  senses:
+    - zh: 混合
+      en: to mix
+      examples:
+        - ru: По́вар сме́шивает ингредие́нты в ми́ске.
+          zh: 厨师在碗里搅拌配料。
+
+- lemma: скрутить
+  stress: скрути́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: скручивать
+  senses:
+    - zh: 拧了，扭了
+      en: to twist (completed)
+      examples:
+        - ru: Он скрути́л два провода́ вме́сте.
+          zh: 他把两根电线拧到了一起。
+
+- lemma: скручивать
+  stress: скру́чивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: скрутить
+  senses:
+    - zh: 拧，扭
+      en: to twist
+      examples:
+        - ru: Он скру́чивает газе́ту в тру́бку.
+          zh: 他把报纸拧成筒状。
+
+- lemma: захлопнуть
+  stress: захло́пнуть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: захлопывать
+  senses:
+    - zh: 砰地关上了
+      en: to slam shut (completed)
+      examples:
+        - ru: Ве́тер захло́пнул дверь.
+          zh: 风把门砰地关上了。
+
+- lemma: захлопывать
+  stress: захло́пывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: захлопнуть
+  senses:
+    - zh: 砰地关
+      en: to slam shut
+      examples:
+        - ru: Не захло́пывай дверь так гро́мко!
+          zh: 别这么大声摔门！
+
+- lemma: отделить
+  stress: отдели́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отделять
+  senses:
+    - zh: 分离了，分开了
+      en: to separate, to detach (completed)
+      examples:
+        - ru: Она́ отдели́ла жёлтки от белко́в.
+          zh: 她把蛋黄和蛋白分开了。
+
+- lemma: отделять
+  stress: отделя́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отделить
+  senses:
+    - zh: 分离，分开
+      en: to separate, to detach
+      examples:
+        - ru: Ну́жно отделя́ть ли́чное от рабо́чего.
+          zh: 要把个人和工作分开。
+
+- lemma: растворить
+  stress: раствори́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: растворять
+  senses:
+    - zh: 溶解了
+      en: to dissolve (completed)
+      examples:
+        - ru: Она́ раствори́ла соль в воде́.
+          zh: 她把盐溶解在水里了。
+
+- lemma: растворять
+  stress: растворя́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: растворить
+  senses:
+    - zh: 溶解
+      en: to dissolve
+      examples:
+        - ru: Хи́мик растворя́ет веще́ство в кислоте́.
+          zh: 化学家在酸中溶解物质。
+
+- lemma: перемешать
+  stress: перемеша́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: перемешивать
+  senses:
+    - zh: 搅匀了
+      en: to stir thoroughly (completed)
+      examples:
+        - ru: Он перемеша́л сала́т ло́жкой.
+          zh: 他用勺子把沙拉搅匀了。
+
+- lemma: перемешивать
+  stress: переме́шивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: перемешать
+  senses:
+    - zh: 搅拌
+      en: to stir
+      examples:
+        - ru: Ну́жно переме́шивать ка́шу, что́бы не пригоре́ла.
+          zh: 要搅粥，不然会糊。
+
+- lemma: наполнить
+  stress: напо́лнить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: наполнять
+  senses:
+    - zh: 装满了
+      en: to fill (completed)
+      examples:
+        - ru: Он напо́лнил стака́н водо́й.
+          zh: 他把杯子装满了水。
+
+- lemma: наполнять
+  stress: наполня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: наполнить
+  senses:
+    - zh: 装满
+      en: to fill
+      examples:
+        - ru: Река́ наполня́ет о́зеро весно́й.
+          zh: 春天河水注满湖泊。
+
+- lemma: опустошить
+  stress: опустоши́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: опустошать
+  senses:
+    - zh: 清空了
+      en: to empty, to devastate (completed)
+      examples:
+        - ru: Саранча́ опустоши́ла поля́.
+          zh: 蝗虫把田地糟蹋光了。
+
+- lemma: опустошать
+  stress: опустоша́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: опустошить
+  senses:
+    - zh: 清空
+      en: to empty, to devastate
+      examples:
+        - ru: Война́ опустоша́ет страну́.
+          zh: 战争使国家满目疮痍。
+
+- lemma: отклеить
+  stress: откле́ить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отклеивать
+  senses:
+    - zh: 撕下了（粘着的东西）
+      en: to peel off, to unstick (completed)
+      examples:
+        - ru: Он откле́ил ста́рые обо́и со стены́.
+          zh: 他把旧壁纸从墙上撕下来了。
+
+- lemma: отклеивать
+  stress: откле́ивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отклеить
+  senses:
+    - zh: 撕下（粘着的东西）
+      en: to peel off, to unstick
+      examples:
+        - ru: Она́ осторо́жно откле́ивает наклёйку.
+          zh: 她小心翼翼地撕下贴纸。
+
+- lemma: пополнить
+  stress: попо́лнить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: пополнять
+  senses:
+    - zh: 补充了
+      en: to replenish (completed)
+      examples:
+        - ru: Я попо́лнил счёт в ба́нке.
+          zh: 我在银行把账户充值了。
+
+- lemma: пополнять
+  stress: пополня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: пополнить
+  senses:
+    - zh: 补充
+      en: to replenish
+      examples:
+        - ru: Ну́жно регуля́рно пополня́ть запа́сы.
+          zh: 需要定期补充库存。
+
+- lemma: истощить
+  stress: истощи́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: истощать
+  senses:
+    - zh: 耗尽了
+      en: to exhaust, to deplete (completed)
+      examples:
+        - ru: Дли́тельная засу́ха истощи́ла по́чву.
+          zh: 长期干旱把土壤耗尽了。
+
+- lemma: истощать
+  stress: истоща́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: истощить
+  senses:
+    - zh: 耗尽
+      en: to exhaust, to deplete
+      examples:
+        - ru: Тяжёлая рабо́та истоща́ет си́лы.
+          zh: 繁重的工作耗尽精力。
+
+- lemma: намочить
+  stress: намочи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: намачивать
+  senses:
+    - zh: 弄湿了
+      en: to wet, to soak (completed)
+      examples:
+        - ru: Дождь намочи́л всю оде́жду.
+          zh: 雨把所有衣服淋湿了。
+
+- lemma: намачивать
+  stress: нама́чивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: намочить
+  senses:
+    - zh: 弄湿，浸泡
+      en: to wet, to soak
+      examples:
+        - ru: Пе́ред сти́ркой ну́жно нама́чивать бельё.
+          zh: 洗之前需要泡一下衣物。
+
+- lemma: высохнуть
+  stress: вы́сохнуть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: высыхать
+  senses:
+    - zh: 干了
+      en: to dry out (completed)
+      examples:
+        - ru: Бельё вы́сохло на со́лнце.
+          zh: 衣物在太阳下晒干了。
+
+- lemma: высыхать
+  stress: высыха́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: высохнуть
+  senses:
+    - zh: 变干
+      en: to dry out
+      examples:
+        - ru: Оде́жда высыха́ет на ветру́.
+          zh: 衣服在风中晾干。
+
+- lemma: отмыть
+  stress: отмы́ть
+  pos: verb
+  zaliznyak: св 12a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отмывать
+  senses:
+    - zh: 洗掉了
+      en: to wash off (completed)
+      examples:
+        - ru: Она́ отмы́ла пятно́ с ковра́.
+          zh: 她把地毯上的污渍洗掉了。
+
+- lemma: отмывать
+  stress: отмыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отмыть
+  senses:
+    - zh: 洗掉
+      en: to wash off
+      examples:
+        - ru: Он отмыва́ет полы́ ка́ждый день.
+          zh: 他每天擦地板。
+
+- lemma: согнуть
+  stress: согну́ть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: сгибать
+  senses:
+    - zh: 弯了
+      en: to bend (completed)
+      examples:
+        - ru: Он согну́л прово́локу попола́м.
+          zh: 他把铁丝弯成了两半。
+
+- lemma: сгибать
+  stress: сгиба́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: согнуть
+  senses:
+    - zh: 弯
+      en: to bend
+      examples:
+        - ru: Не сгиба́й э́ту карто́нку!
+          zh: 别折这张硬纸板！
+
+- lemma: растянуть
+  stress: растяну́ть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: растягивать
+  senses:
+    - zh: 拉长了
+      en: to stretch (completed)
+      examples:
+        - ru: Она́ растяну́ла рези́нку.
+          zh: 她把橡皮筋拉长了。
+
+- lemma: растягивать
+  stress: растя́гивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: растянуть
+  senses:
+    - zh: 拉伸
+      en: to stretch
+      examples:
+        - ru: Гимна́стка растя́гивает мы́шцы пе́ред трениро́вкой.
+          zh: 体操运动员训练前拉伸肌肉。
+
+- lemma: сжать
+  stress: сжать
+  pos: verb
+  zaliznyak: св 14c
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: сжимать
+  form_overrides:
+    futr,1per,sing: сожму́
+    futr,2per,sing: сожмёшь
+    futr,3per,sing: сожмёт
+    futr,1per,plur: сожмём
+    futr,2per,plur: сожмёте
+    futr,3per,plur: сожму́т
+  senses:
+    - zh: 挤压了，压缩了
+      en: to squeeze, to compress (completed)
+      examples:
+        - ru: Он сжал кула́к.
+          zh: 他握紧了拳头。
+
+- lemma: сжимать
+  stress: сжима́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: сжать
+  senses:
+    - zh: 挤压，压缩
+      en: to squeeze, to compress
+      examples:
+        - ru: Ребёнок сжима́ет игру́шку в рука́х.
+          zh: 孩子把玩具攥在手里。
+
+- lemma: свернуть
+  stress: сверну́ть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: сворачивать
+  senses:
+    - zh: 卷起了
+      en: to roll up, to fold up (completed)
+      examples:
+        - ru: Она́ сверну́ла ко́врик в тру́бку.
+          zh: 她把垫子卷成了筒状。
+
+- lemma: сворачивать
+  stress: свора́чивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: свернуть
+  senses:
+    - zh: 卷起
+      en: to roll up, to fold up
+      examples:
+        - ru: Он свора́чивает газе́ту.
+          zh: 他在卷报纸。
+
+- lemma: развернуть
+  stress: разверну́ть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: разворачивать
+  senses:
+    - zh: 展开了，打开了
+      en: to unfold, to unwrap (completed)
+      examples:
+        - ru: Ребёнок разверну́л пода́рок.
+          zh: 孩子拆开了礼物。
+
+- lemma: разворачивать
+  stress: развора́чивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: развернуть
+  senses:
+    - zh: 展开，打开
+      en: to unfold, to unwrap
+      examples:
+        - ru: Де́ти развора́чивают пода́рки.
+          zh: 孩子们在拆礼物。
+
+- lemma: сложить
+  stress: сложи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: складывать
+  senses:
+    - zh: 折好了，叠好了
+      en: to fold, to stack (completed)
+      examples:
+        - ru: Он сложи́л оде́жду в шкаф.
+          zh: 他把衣服叠好放进了衣柜。
+
+- lemma: складывать
+  stress: скла́дывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: сложить
+  senses:
+    - zh: 折，叠
+      en: to fold, to stack
+      examples:
+        - ru: Мне на́до скла́дывать ве́щи.
+          zh: 我得叠衣服了。
+
+- lemma: разложить
+  stress: разложи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: раскладывать
+  senses:
+    - zh: 摊开了，展开了
+      en: to lay out, to spread out (completed)
+      examples:
+        - ru: Она́ разложи́ла карто́чки на столе́.
+          zh: 她把卡片摊在了桌上。
+
+- lemma: раскладывать
+  stress: раскла́дывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: разложить
+  senses:
+    - zh: 摊开，展开
+      en: to lay out, to spread out
+      examples:
+        - ru: Он раскла́дывает кни́ги по по́лкам.
+          zh: 他把书按书架摆放。
+
+- lemma: распахнуть
+  stress: распахну́ть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: распахивать
+  senses:
+    - zh: 猛地打开了
+      en: to fling open (completed)
+      examples:
+        - ru: Он распахну́л дверь и вошёл.
+          zh: 他一把推开门走了进去。
+
+- lemma: распахивать
+  stress: распа́хивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: распахнуть
+  senses:
+    - zh: 猛地打开
+      en: to fling open
+      examples:
+        - ru: Ве́тер распа́хивает о́кна.
+          zh: 风把窗户吹得大开。
+
+- lemma: запереть
+  stress: запере́ть
+  pos: verb
+  zaliznyak: св 9b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: запирать
+  form_overrides:
+    futr,1per,sing: запру́
+    futr,2per,sing: запрёшь
+    futr,3per,sing: запрёт
+    futr,1per,plur: запрём
+    futr,2per,plur: запрёте
+    futr,3per,plur: запру́т
+    past,masc: за́пер
+    past,femn: заперла́
+  senses:
+    - zh: 锁上了
+      en: to lock (completed)
+      examples:
+        - ru: Она́ заперла́ дверь на ключ.
+          zh: 她用钥匙把门锁上了。
+
+- lemma: промокнуть
+  stress: промо́кнуть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 被淋湿了
+      en: to get soaked (completed)
+      examples:
+        - ru: Мы промо́кли под дождём.
+          zh: 我们被雨淋湿了。
+
+- lemma: отпереть
+  stress: отпере́ть
+  pos: verb
+  zaliznyak: св 9b
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отпирать
+  form_overrides:
+    futr,1per,sing: отопру́
+    futr,2per,sing: отопрёшь
+    futr,3per,sing: отопрёт
+    futr,1per,plur: отопрём
+    futr,2per,plur: отопрёте
+    futr,3per,plur: отопру́т
+    past,masc: о́тпер
+    past,femn: отперла́
+  senses:
+    - zh: 开锁了
+      en: to unlock (completed)
+      examples:
+        - ru: Она́ отперла́ две́рцу шка́фа.
+          zh: 她把柜门的锁打开了。
+
+- lemma: отпирать
+  stress: отпира́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: отпереть
+  senses:
+    - zh: 开锁
+      en: to unlock
+      examples:
+        - ru: Он отпира́ет замо́к ключо́м.
+          zh: 他用钥匙开锁。
+
+- lemma: прикрепить
+  stress: прикрепи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: прикреплять
+  senses:
+    - zh: 固定了，安装了
+      en: to attach, to fasten (completed)
+      examples:
+        - ru: Она́ прикрепи́ла фотогра́фию к стене́.
+          zh: 她把照片固定到了墙上。
+
+- lemma: прикреплять
+  stress: прикрепля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: прикрепить
+  senses:
+    - zh: 固定，安装
+      en: to attach, to fasten
+      examples:
+        - ru: Сотру́дники прикрепля́ют объявле́ния к доске́.
+          zh: 工作人员把通知贴到公告板上。
+
+- lemma: приклеить
+  stress: прикле́ить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: приклеивать
+  senses:
+    - zh: 粘上了
+      en: to glue on (completed)
+      examples:
+        - ru: Он прикле́ил ма́рку на конве́рт.
+          zh: 他把邮票贴到了信封上。
+
+- lemma: приклеивать
+  stress: прикле́ивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: приклеить
+  senses:
+    - zh: 粘
+      en: to glue on
+      examples:
+        - ru: Де́ти прикле́ивают карти́нки в альбо́м.
+          zh: 孩子们往相册里贴图画。
+
+- lemma: привязать
+  stress: привяза́ть
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: привязывать
+  form_overrides:
+    futr,1per,sing: привяжу́
+  senses:
+    - zh: 绑上了
+      en: to tie to (completed)
+      examples:
+        - ru: Он привяза́л соба́ку к де́реву.
+          zh: 他把狗拴到了树上。
+
+- lemma: привязывать
+  stress: привя́зывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: привязать
+  senses:
+    - zh: 绑
+      en: to tie to
+      examples:
+        - ru: Рыба́к привя́зывает лёску к крючку́.
+          zh: 渔夫把钓线绑到鱼钩上。
+
+- lemma: оторвать
+  stress: оторва́ть
+  pos: verb
+  zaliznyak: св 6b
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: отрывать
+  form_overrides:
+    futr,1per,sing: оторву́
+    futr,2per,sing: оторвёшь
+    futr,3per,sing: оторвёт
+    futr,1per,plur: оторвём
+    futr,2per,plur: оторвёте
+    futr,3per,plur: оторву́т
+    impr,sing: оторви́
+    impr,plur: оторви́те
+  senses:
+    - zh: 撕掉了
+      en: to tear off (completed)
+      examples:
+        - ru: Ве́тер оторва́л вы́веску от стены́.
+          zh: 风把招牌从墙上刮掉了。
+
+- lemma: отрывать
+  stress: отрыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: оторвать
+  senses:
+    - zh: 撕掉
+      en: to tear off
+      examples:
+        - ru: Не отрыва́й стра́ницы из кни́ги!
+          zh: 别从书里撕页！

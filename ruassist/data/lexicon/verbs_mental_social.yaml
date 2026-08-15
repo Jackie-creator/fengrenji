@@ -1,0 +1,387 @@
+# Mental processes, social interactions, and states.
+
+- lemma: убедить
+  stress: убеди́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  government: кого в чём
+  level: [B1, ТРКИ-1]
+  aspect_pair: убеждать
+  form_overrides:
+    futr,1per,sing: убежу́
+  senses:
+    - zh: 说服了
+      en: to convince (once)
+      examples:
+        - ru: Мне удало́сь убеди́ть его́.
+          zh: 我成功说服了他。
+  common_errors: '一单将来时是 убежу́（д → ж 交替），不是 *убедю́。'
+
+- lemma: предполагать
+  stress: предполага́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: предположить
+  senses:
+    - zh: 假设，推测
+      en: to assume, to suppose
+      examples:
+        - ru: Я предполага́ю, что он прав.
+          zh: 我认为他是对的。
+
+- lemma: предположить
+  stress: предположи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: предполагать
+  senses:
+    - zh: 假设了
+      en: to assume (once)
+      examples:
+        - ru: Предположи́м, что э́то пра́вда.
+          zh: 假设这是真的。
+
+- lemma: утверждать
+  stress: утвержда́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 断言，主张
+      en: to assert, to claim
+      examples:
+        - ru: Он утвержда́ет, что э́то непра́вда.
+          zh: 他声称这不是真的。
+
+- lemma: отрицать
+  stress: отрица́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 否认
+      en: to deny
+      examples:
+        - ru: Он отрица́ет свою́ вину́.
+          zh: 他否认自己的罪行。
+
+- lemma: признаваться
+  stress: признава́ться
+  pos: verb
+  zaliznyak: нсв 13b
+  aspect: impf
+  transitivity: intrans
+  government: в чём кому
+  level: [B1, ТРКИ-1]
+  aspect_pair: признаться
+  senses:
+    - zh: 承认；坦白
+      en: to confess, to admit
+      examples:
+        - ru: Он признаётся в оши́бке.
+          zh: 他承认了错误。
+
+- lemma: признаться
+  stress: призна́ться
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: intrans
+  government: в чём кому
+  level: [B1, ТРКИ-1]
+  aspect_pair: признаваться
+  senses:
+    - zh: 承认了
+      en: to confess (once)
+      examples:
+        - ru: Он призна́лся.
+          zh: 他坦白了。
+
+- lemma: обвинять
+  stress: обвиня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого в чём
+  level: [B2, ТРКИ-2]
+  aspect_pair: обвинить
+  senses:
+    - zh: 指控，指责
+      en: to accuse
+      examples:
+        - ru: Его́ обвиня́ют в кра́же.
+          zh: 他被指控盗窃。
+
+- lemma: обвинить
+  stress: обвини́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  government: кого в чём
+  level: [B2, ТРКИ-2]
+  aspect_pair: обвинять
+  senses:
+    - zh: 指控了
+      en: to accuse (once)
+      examples:
+        - ru: Его́ обвини́ли в кра́же.
+          zh: 他被指控了盗窃。
+
+- lemma: оправдывать
+  stress: опра́вдывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: оправдать
+  senses:
+    - zh: 为……辩护；证明……正当
+      en: to justify; to acquit
+      examples:
+        - ru: Он опра́вдывает свой посту́пок.
+          zh: 他为自己的行为辩解。
+
+- lemma: оправдать
+  stress: оправда́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: оправдывать
+  senses:
+    - zh: 证明……正当了；宣告无罪
+      en: to justify; to acquit (once)
+      examples:
+        - ru: Суд оправда́л обвиня́емого.
+          zh: 法庭宣判被告无罪。
+
+- lemma: наказывать
+  stress: нака́зывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-1]
+  aspect_pair: наказать
+  senses:
+    - zh: 惩罚
+      en: to punish
+      examples:
+        - ru: Нельзя́ нака́зывать дете́й без причи́ны.
+          zh: 不能无缘无故惩罚孩子。
+
+- lemma: наказать
+  stress: наказа́ть
+  pos: verb
+  zaliznyak: св 6*c
+  aspect: perf
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-1]
+  aspect_pair: наказывать
+  senses:
+    - zh: 惩罚了
+      en: to punish (once)
+      examples:
+        - ru: Его́ наказа́ли за опозда́ние.
+          zh: 他因为迟到被处罚了。
+
+- lemma: восхищаться
+  stress: восхища́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: кем-чем
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 赞叹，欣赏
+      en: to admire
+      examples:
+        - ru: Мы восхища́емся э́тим худо́жником.
+          zh: 我们很欣赏这位画家。
+
+- lemma: презирать
+  stress: презира́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 蔑视，鄙视
+      en: to despise
+      examples:
+        - ru: Он презира́ет трусо́сть.
+          zh: 他蔑视怯懦。
+
+- lemma: завидовать
+  stress: зави́довать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  government: кому
+  level: [B1, ТРКИ-1]
+  aspect_pair: позавидовать
+  senses:
+    - zh: 嫉妒，羡慕
+      en: to envy
+      examples:
+        - ru: Не зави́дуй други́м.
+          zh: 别嫉妒别人。
+
+- lemma: позавидовать
+  stress: позави́довать
+  pos: verb
+  zaliznyak: св 2a
+  aspect: perf
+  transitivity: intrans
+  government: кому
+  level: [B1, ТРКИ-1]
+  aspect_pair: завидовать
+  senses:
+    - zh: 嫉妒了
+      en: to envy (once)
+      examples:
+        - ru: Он позави́довал успе́ху дру́га.
+          zh: 他嫉妒了朋友的成功。
+
+- lemma: подражать
+  stress: подража́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: кому
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 模仿
+      en: to imitate
+      examples:
+        - ru: Де́ти подража́ют взро́слым.
+          zh: 孩子模仿大人。
+
+- lemma: притворяться
+  stress: притворя́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  aspect_pair: притвориться
+  senses:
+    - zh: 假装
+      en: to pretend
+      examples:
+        - ru: Он притворя́ется больны́м.
+          zh: 他装病。
+
+- lemma: притвориться
+  stress: притвори́ться
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  aspect_pair: притворяться
+  senses:
+    - zh: 假装了
+      en: to pretend (once)
+      examples:
+        - ru: Он притвори́лся, что не слы́шит.
+          zh: 他假装没听见。
+
+- lemma: хвастаться
+  stress: хва́статься
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: чем
+  level: [B2, ТРКИ-2]
+  aspect_pair: похвастаться
+  senses:
+    - zh: 吹嘘，炫耀
+      en: to boast, to brag
+      examples:
+        - ru: Он хва́стается но́вой маши́ной.
+          zh: 他在炫耀新车。
+
+- lemma: похвастаться
+  stress: похва́статься
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: intrans
+  government: чем
+  level: [B2, ТРКИ-2]
+  aspect_pair: хвастаться
+  senses:
+    - zh: 炫耀了
+      en: to boast (once)
+      examples:
+        - ru: Он похва́стался но́вым телефо́ном.
+          zh: 他炫耀了一下新手机。
+
+- lemma: стыдиться
+  stress: стыди́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  government: кого-чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 感到羞耻
+      en: to be ashamed
+      examples:
+        - ru: Он стыди́тся своего́ посту́пка.
+          zh: 他为自己的行为感到羞耻。
+
+- lemma: сочувствовать
+  stress: сочу́вствовать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  government: кому
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 同情
+      en: to sympathize
+      examples:
+        - ru: Мы сочу́вствуем вам.
+          zh: 我们同情你们。
+
+- lemma: сожалеть
+  stress: сожале́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: о чём
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 遗憾，后悔
+      en: to regret
+      examples:
+        - ru: Сожале́ю, что не смогу́ прийти́.
+          zh: 很遗憾我不能来。

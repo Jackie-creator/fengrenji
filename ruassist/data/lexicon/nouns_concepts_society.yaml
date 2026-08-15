@@ -1,0 +1,1000 @@
+# Abstract concepts, society, law, and governance.
+
+- lemma: заблуждение
+  stress: заблужде́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 误解，错误观念
+      en: misconception, delusion
+      examples:
+        - ru: Э́то распространённое заблужде́ние.
+          zh: 这是一个常见的误解。
+
+- lemma: ложь
+  stress: ложь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    gent,sing: лжи
+    datv,sing: лжи
+    ablt,sing: ло́жью
+    loct,sing: лжи
+  senses:
+    - zh: 谎言，谎话
+      en: lie, falsehood
+      examples:
+        - ru: Ложь разруша́ет дове́рие ме́жду людьми́.
+          zh: 谎言破坏人与人之间的信任。
+
+- lemma: идеал
+  stress: идеа́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 理想，典范
+      en: ideal
+      examples:
+        - ru: Он стреми́тся к идеа́лу во всём.
+          zh: 他在一切事物中追求理想。
+
+- lemma: реальность
+  stress: реа́льность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 现实
+      en: reality
+      examples:
+        - ru: Реа́льность оказа́лась сло́жнее, чем мы ду́мали.
+          zh: 现实比我们想象的更复杂。
+
+- lemma: мировоззрение
+  stress: мировоззре́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 世界观
+      en: worldview
+      examples:
+        - ru: Мировоззре́ние челове́ка форми́руется с де́тства.
+          zh: 人的世界观从童年开始形成。
+
+- lemma: недоверие
+  stress: недове́рие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不信任，怀疑
+      en: distrust, mistrust
+      examples:
+        - ru: Недове́рие ме́жду стра́нами ме́шает сотру́дничеству.
+          zh: 国家之间的不信任妨碍了合作。
+
+- lemma: убеждение
+  stress: убежде́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 信念，信仰
+      en: conviction, belief
+      examples:
+        - ru: Он де́йствует в соотве́тствии со свои́ми убежде́ниями.
+          zh: 他按照自己的信念行事。
+
+- lemma: предрассудок
+  stress: предрассу́док
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 偏见，成见
+      en: prejudice
+      examples:
+        - ru: На́до боро́ться с предрассу́дками.
+          zh: 必须与偏见作斗争。
+
+- lemma: иллюзия
+  stress: иллю́зия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 幻觉，幻想
+      en: illusion
+      examples:
+        - ru: Не стро́йте иллю́зий отно́сительно бу́дущего.
+          zh: 不要对未来抱有幻想。
+
+- lemma: парадокс
+  stress: парадо́кс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 悖论，矛盾
+      en: paradox
+      examples:
+        - ru: Э́то настоя́щий парадо́кс.
+          zh: 这是一个真正的悖论。
+
+- lemma: сословие
+  stress: сосло́вие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: （历史上的）社会等级，阶层
+      en: social estate, class
+      examples:
+        - ru: В ца́рской Росси́и бы́ли ра́зные сосло́вия.
+          zh: 沙皇俄国有不同的社会等级。
+
+- lemma: равенство
+  stress: ра́венство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 平等
+      en: equality
+      examples:
+        - ru: Все лю́ди стремя́тся к ра́венству.
+          zh: 所有人都追求平等。
+
+- lemma: неравенство
+  stress: нера́венство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不平等
+      en: inequality
+      examples:
+        - ru: Социа́льное нера́венство — серьёзная пробле́ма.
+          zh: 社会不平等是一个严重的问题。
+
+- lemma: справедливость
+  stress: справедли́вость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 公正，正义
+      en: justice, fairness
+      examples:
+        - ru: Он бо́рется за справедли́вость.
+          zh: 他为正义而斗争。
+
+- lemma: несправедливость
+  stress: несправедли́вость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不公正，不公平
+      en: injustice
+      examples:
+        - ru: Несправедли́вость вызыва́ет проте́ст.
+          zh: 不公正引发抗议。
+
+- lemma: дискриминация
+  stress: дискримина́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 歧视
+      en: discrimination
+      examples:
+        - ru: Дискримина́ция по по́лу запрещена́ зако́ном.
+          zh: 法律禁止性别歧视。
+
+- lemma: привилегия
+  stress: привиле́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 特权
+      en: privilege
+      examples:
+        - ru: Образова́ние — э́то не привиле́гия, а пра́во.
+          zh: 教育不是特权，而是权利。
+
+- lemma: элита
+  stress: эли́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 精英
+      en: elite
+      examples:
+        - ru: Эли́та о́бщества реша́ет мно́гие вопро́сы.
+          zh: 社会精英决定许多问题。
+
+- lemma: меньшинство
+  stress: меньшинство́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 少数，少数群体
+      en: minority
+      examples:
+        - ru: Права́ меньшинства́ защищены́ зако́ном.
+          zh: 少数群体的权利受法律保护。
+
+- lemma: большинство
+  stress: большинство́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 多数，大多数
+      en: majority
+      examples:
+        - ru: Большинство́ гра́ждан поддержа́ло рефо́рму.
+          zh: 大多数公民支持了改革。
+
+- lemma: правонарушение
+  stress: правонаруше́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 违法行为
+      en: offense, violation
+      examples:
+        - ru: За э́то правонаруше́ние предусмо́трен штраф.
+          zh: 对这种违法行为处以罚款。
+
+- lemma: взятка
+  stress: взя́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 贿赂
+      en: bribe
+      examples:
+        - ru: Чино́вник был задержа́н за получе́ние взя́тки.
+          zh: 官员因受贿被拘留。
+
+- lemma: коррупция
+  stress: корру́пция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 腐败，贪污
+      en: corruption
+      examples:
+        - ru: Борьба́ с корру́пцией — приорите́тная зада́ча.
+          zh: 反腐败是优先任务。
+
+- lemma: мошенничество
+  stress: моше́нничество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 诈骗，欺诈
+      en: fraud
+      examples:
+        - ru: Он стал же́ртвой моше́нничества.
+          zh: 他成了诈骗的受害者。
+
+- lemma: ограбление
+  stress: ограбле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 抢劫
+      en: robbery
+      examples:
+        - ru: Ограбле́ние ба́нка произошло́ но́чью.
+          zh: 银行抢劫发生在夜间。
+
+- lemma: убийство
+  stress: уби́йство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 谋杀
+      en: murder
+      examples:
+        - ru: Поли́ция рассле́дует уби́йство.
+          zh: 警方正在调查谋杀案。
+
+- lemma: кража
+  stress: кра́жа
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 盗窃
+      en: theft
+      examples:
+        - ru: Кра́жа докуме́нтов — серьёзное преступле́ние.
+          zh: 盗窃文件是严重的犯罪。
+
+- lemma: улика
+  stress: ули́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 证据，物证
+      en: evidence, clue
+      examples:
+        - ru: Сле́дователь обнару́жил ва́жную ули́ку.
+          zh: 调查员发现了重要的证据。
+
+- lemma: алиби
+  stress: а́либи
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不在场证明
+      en: alibi
+      examples:
+        - ru: У подозрева́емого есть а́либи.
+          zh: 嫌疑人有不在场证明。
+
+- lemma: допрос
+  stress: допро́с
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 审讯，讯问
+      en: interrogation
+      examples:
+        - ru: Допро́с свиде́теля дли́лся три часа́.
+          zh: 证人审讯持续了三个小时。
+
+- lemma: показание
+  stress: показа́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 证词，供词
+      en: testimony, deposition
+      examples:
+        - ru: Свиде́тель дал показа́ния в суде́.
+          zh: 证人在法庭上作了证词。
+
+- lemma: приговор
+  stress: пригово́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 判决，宣判
+      en: verdict, sentence
+      examples:
+        - ru: Суд вы́нес пригово́р обвиня́емому.
+          zh: 法院对被告做出了判决。
+
+- lemma: невиновность
+  stress: невино́вность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 无罪，清白
+      en: innocence
+      examples:
+        - ru: Адвока́т дока́зал невино́вность подсуди́мого.
+          zh: 律师证明了被告的无罪。
+
+- lemma: обвинение
+  stress: обвине́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 指控，控告；控方
+      en: accusation, charge
+      examples:
+        - ru: Обвине́ние предста́вило до́казательства.
+          zh: 控方出示了证据。
+
+- lemma: залог
+  stress: зало́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保释金；抵押
+      en: bail, pledge
+      examples:
+        - ru: Обвиня́емого освободи́ли под зало́г.
+          zh: 被告被保释释放。
+
+- lemma: арест
+  stress: аре́ст
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 逮捕
+      en: arrest
+      examples:
+        - ru: Поли́ция произвела́ аре́ст подозрева́емого.
+          zh: 警方逮捕了嫌疑人。
+
+- lemma: задержание
+  stress: задержа́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 拘留
+      en: detention
+      examples:
+        - ru: Задержа́ние подозрева́емого бы́ло зако́нным.
+          zh: 对嫌疑人的拘留是合法的。
+
+- lemma: мэр
+  stress: мэр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 市长
+      en: mayor
+      examples:
+        - ru: Мэр го́рода встре́тился с жи́телями.
+          zh: 市长与居民们会面。
+
+- lemma: губернатор
+  stress: губерна́тор
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 州长，省长
+      en: governor
+      examples:
+        - ru: Губерна́тор подписа́л но́вый зако́н.
+          zh: 州长签署了新法律。
+
+- lemma: посол
+  stress: посо́л
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 大使
+      en: ambassador
+      examples:
+        - ru: Посо́л вручи́л верите́льные гра́моты.
+          zh: 大使递交了国书。
+
+- lemma: дипломат
+  stress: диплома́т
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 外交官
+      en: diplomat
+      examples:
+        - ru: Диплома́т предста́вил свою́ страну́ на конфере́нции.
+          zh: 外交官在会议上代表了自己的国家。
+
+- lemma: чиновник
+  stress: чино́вник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 官员，公务员
+      en: official, bureaucrat
+      examples:
+        - ru: Чино́вник при́нял посети́телей.
+          zh: 官员接待了来访者。
+
+- lemma: законодатель
+  stress: законода́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 立法者
+      en: lawmaker, legislator
+      examples:
+        - ru: Законода́тели при́няли но́вый зако́н.
+          zh: 立法者通过了新法律。
+
+- lemma: министерство
+  stress: министе́рство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 部，部委
+      en: ministry
+      examples:
+        - ru: Министе́рство образова́ния разрабо́тало но́вую програ́мму.
+          zh: 教育部制定了新的计划。
+
+- lemma: ведомство
+  stress: ве́домство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 部门，机关
+      en: agency, department
+      examples:
+        - ru: Э́то ве́домство отвеча́ет за безопа́сность.
+          zh: 这个部门负责安全。
+
+- lemma: бюрократия
+  stress: бюрокра́тия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 官僚主义，官僚机构
+      en: bureaucracy
+      examples:
+        - ru: Бюрокра́тия замедля́ет приня́тие реше́ний.
+          zh: 官僚主义延缓了决策。
+
+- lemma: реформа
+  stress: рефо́рма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 改革
+      en: reform
+      examples:
+        - ru: Рефо́рма образова́ния вы́звала обще́ственную диску́ссию.
+          zh: 教育改革引发了社会讨论。
+
+- lemma: законопроект
+  stress: законопрое́кт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 法案，法律草案
+      en: bill, draft law
+      examples:
+        - ru: Парла́мент рассма́тривает но́вый законопрое́кт.
+          zh: 议会正在审议新法案。
+
+- lemma: избиратель
+  stress: избира́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 选民
+      en: voter, elector
+      examples:
+        - ru: Избира́тели пришли́ на избира́тельные уча́стки.
+          zh: 选民来到了投票站。
+
+- lemma: полномочие
+  stress: полномо́чие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 权限，职权
+      en: authority, power
+      examples:
+        - ru: Президе́нт де́йствовал в ра́мках свои́х полномо́чий.
+          zh: 总统在其权限范围内行事。
+
+- lemma: мораль
+  stress: мора́ль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 道德；寓意
+      en: morality, moral
+      examples:
+        - ru: Мора́ль э́той и́стории о́чень проста́.
+          zh: 这个故事的寓意很简单。
+
+- lemma: нравственность
+  stress: нра́вственность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 道德，品德
+      en: morality, ethics
+      examples:
+        - ru: Нра́вственность челове́ка определя́ется его́ посту́пками.
+          zh: 一个人的道德由其行为决定。
+
+- lemma: этика
+  stress: э́тика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 伦理学，道德规范
+      en: ethics
+      examples:
+        - ru: Э́тика — ва́жная часть филосо́фии.
+          zh: 伦理学是哲学的重要组成部分。
+
+- lemma: добродетель
+  stress: доброде́тель
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 美德
+      en: virtue
+      examples:
+        - ru: Терпе́ние — одна́ из гла́вных доброде́телей.
+          zh: 耐心是主要的美德之一。
+
+- lemma: порок
+  stress: поро́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 恶习，缺陷
+      en: vice, defect
+      examples:
+        - ru: Жа́дность — оди́н из са́мых распространённых поро́ков.
+          zh: 贪婪是最常见的恶习之一。
+
+- lemma: обязательство
+  stress: обяза́тельство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 义务，承诺
+      en: obligation, commitment
+      examples:
+        - ru: Страна́ вы́полнила свои́ междунаро́дные обяза́тельства.
+          zh: 国家履行了其国际义务。
+
+- lemma: раскаяние
+  stress: раска́яние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 悔过，忏悔
+      en: repentance, remorse
+      examples:
+        - ru: Он вы́разил и́скреннее раска́яние.
+          zh: 他表达了真诚的忏悔。
+
+- lemma: честь
+  stress: честь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 荣誉，名誉
+      en: honor
+      examples:
+        - ru: Он защища́л честь свое́й семьи́.
+          zh: 他维护自己家族的荣誉。
+
+- lemma: величие
+  stress: вели́чие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 伟大，宏伟
+      en: greatness, grandeur
+      examples:
+        - ru: Вели́чие э́той страны́ изве́стно все́му ми́ру.
+          zh: 这个国家的伟大举世闻名。
+
+- lemma: благородство
+  stress: благоро́дство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 高尚，高贵
+      en: nobility, nobleness
+      examples:
+        - ru: Благоро́дство души́ проявля́ется в посту́пках.
+          zh: 心灵的高贵体现在行为中。
+
+- lemma: миграция
+  stress: мигра́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 迁移，移民
+      en: migration
+      examples:
+        - ru: Мигра́ция населе́ния — глоба́льная пробле́ма.
+          zh: 人口迁移是一个全球性问题。
+
+- lemma: беженец
+  stress: беже́нец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 5*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 难民
+      en: refugee
+      examples:
+        - ru: Беже́нцы прибы́ли из зо́ны конфли́кта.
+          zh: 难民从冲突地区抵达。
+
+- lemma: эмиграция
+  stress: эмигра́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 移居国外，移民（出）
+      en: emigration
+      examples:
+        - ru: Эмигра́ция из страны́ уси́лилась в после́дние го́ды.
+          zh: 近年来，移出国外的人数增加了。
+
+- lemma: иммиграция
+  stress: иммигра́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 移入，移民（入）
+      en: immigration
+      examples:
+        - ru: Иммигра́ция регули́руется зако́нами страны́.
+          zh: 移民受国家法律监管。
+
+- lemma: следствие
+  stress: сле́дствие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 调查；后果
+      en: investigation; consequence
+      examples:
+        - ru: Сле́дствие по де́лу ещё не зако́нчено.
+          zh: 案件调查尚未结束。
+
+- lemma: расследование
+  stress: рассле́дование
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 侦查，调查
+      en: investigation, inquiry
+      examples:
+        - ru: Рассле́дование пока́зало, что обвиня́емый невино́вен.
+          zh: 调查表明被告无罪。
+
+- lemma: помилование
+  stress: поми́лование
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 赦免
+      en: pardon, clemency
+      examples:
+        - ru: Президе́нт подписа́л ука́з о поми́ловании.
+          zh: 总统签署了赦免令。
+
+- lemma: амнистия
+  stress: амни́стия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 大赦
+      en: amnesty
+      examples:
+        - ru: Парла́мент объяви́л амни́стию.
+          zh: 议会宣布了大赦。
+
+- lemma: свидетельство
+  stress: свиде́тельство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 证明，证书
+      en: certificate, testimony
+      examples:
+        - ru: Свиде́тельство о рожде́нии — ва́жный докуме́нт.
+          zh: 出生证明是重要的文件。
+
+- lemma: идеология
+  stress: идеоло́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 意识形态
+      en: ideology
+      examples:
+        - ru: Идеоло́гия влия́ет на полити́ку госуда́рства.
+          zh: 意识形态影响国家政策。

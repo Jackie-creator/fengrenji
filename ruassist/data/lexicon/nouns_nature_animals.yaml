@@ -1,0 +1,597 @@
+# Landforms, weather phenomena, and animals.
+
+- lemma: скала
+  stress: скала́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 岩石，峭壁
+      en: rock, cliff
+      examples:
+        - ru: Высо́кая скала́ над мо́рем.
+          zh: 海边的高崖。
+
+- lemma: обрыв
+  stress: обры́в
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 悬崖，断崖
+      en: precipice, cliff
+      examples:
+        - ru: Не подходи́ к обры́ву!
+          zh: 别靠近悬崖！
+
+- lemma: овраг
+  stress: овра́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 沟壑，山谷
+      en: ravine
+      examples:
+        - ru: На дне овра́га течёт ручеёк.
+          zh: 沟底有条小溪。
+
+- lemma: ручей
+  stress: руче́й
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6*b
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    gent,sing: ручья́
+    datv,sing: ручью́
+    accs,sing: руче́й
+    ablt,sing: ручьём
+    loct,sing: ручье́
+    nomn,plur: ручьи́
+    gent,plur: ручьёв
+    datv,plur: ручья́м
+    accs,plur: ручьи́
+    ablt,plur: ручья́ми
+    loct,plur: ручья́х
+  senses:
+    - zh: 小溪
+      en: stream, brook
+      examples:
+        - ru: Руче́й впада́ет в реку́.
+          zh: 小溪汇入河流。
+
+- lemma: водопад
+  stress: водопа́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 瀑布
+      en: waterfall
+      examples:
+        - ru: Краси́вый водопа́д.
+          zh: 美丽的瀑布。
+
+- lemma: болото
+  stress: боло́то
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 沼泽
+      en: swamp, marsh
+      examples:
+        - ru: Не ходи́ по боло́ту.
+          zh: 别走沼泽地。
+
+- lemma: пещера
+  stress: пеще́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 山洞，洞穴
+      en: cave
+      examples:
+        - ru: Мы вошли́ в пеще́ру.
+          zh: 我们走进了洞穴。
+
+- lemma: тундра
+  stress: ту́ндра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冻原，苔原
+      en: tundra
+      examples:
+        - ru: Ту́ндра покры́та мхом.
+          zh: 苔原上覆盖着苔藓。
+
+- lemma: тайга
+  stress: тайга́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 针叶林带
+      en: taiga
+      examples:
+        - ru: Сиби́рская тайга́.
+          zh: 西伯利亚针叶林。
+
+- lemma: степь
+  stress: степь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 草原
+      en: steppe
+      examples:
+        - ru: Бескра́йняя степь.
+          zh: 无边无际的草原。
+
+- lemma: роща
+  stress: ро́ща
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 树林，小树林
+      en: grove
+      examples:
+        - ru: Берёзовая ро́ща.
+          zh: 白桦林。
+
+- lemma: лужа
+  stress: лу́жа
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 水坑
+      en: puddle
+      examples:
+        - ru: Де́ти пры́гают по лу́жам.
+          zh: 孩子们在水坑里跳。
+
+- lemma: сугроб
+  stress: сугро́б
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 雪堆
+      en: snowdrift
+      examples:
+        - ru: Маши́на засе́ла в сугро́бе.
+          zh: 汽车陷在雪堆里了。
+
+- lemma: сосулька
+  stress: сосу́лька
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冰柱
+      en: icicle
+      examples:
+        - ru: С кры́ши сви́сают сосу́льки.
+          zh: 屋顶上垂着冰柱。
+
+- lemma: засуха
+  stress: за́суха
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 干旱
+      en: drought
+      examples:
+        - ru: Из-за за́сухи урожа́й поги́б.
+          zh: 因为干旱庄稼歉收了。
+
+- lemma: наводнение
+  stress: наводне́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 洪水
+      en: flood
+      examples:
+        - ru: Наводне́ние разру́шило мост.
+          zh: 洪水冲毁了桥。
+
+- lemma: землетрясение
+  stress: землетрясе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 地震
+      en: earthquake
+      examples:
+        - ru: Си́льное землетрясе́ние.
+          zh: 强烈的地震。
+
+- lemma: ураган
+  stress: урага́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 飓风
+      en: hurricane
+      examples:
+        - ru: Урага́н разру́шил дома́.
+          zh: 飓风摧毁了房屋。
+
+- lemma: роса
+  stress: роса́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 露水
+      en: dew
+      examples:
+        - ru: У́тренняя роса́ на траве́.
+          zh: 草上的晨露。
+
+- lemma: иней
+  stress: и́ней
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 霜
+      en: frost (hoarfrost)
+      examples:
+        - ru: Дере́вья покры́лись и́неем.
+          zh: 树上结了霜。
+
+- lemma: орёл
+  stress: орёл
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鹰
+      en: eagle
+      examples:
+        - ru: Орёл лета́ет высоко́.
+          zh: 鹰飞得很高。
+
+- lemma: ворона
+  stress: воро́на
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 乌鸦
+      en: crow
+      examples:
+        - ru: Воро́на села́ на де́рево.
+          zh: 乌鸦落在了树上。
+
+- lemma: воробей
+  stress: воробе́й
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 6*b
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    gent,sing: воробья́
+    datv,sing: воробью́
+    accs,sing: воробья́
+    ablt,sing: воробьём
+    loct,sing: воробье́
+    nomn,plur: воробьи́
+    gent,plur: воробьёв
+    datv,plur: воробья́м
+    accs,plur: воробьёв
+    ablt,plur: воробья́ми
+    loct,plur: воробья́х
+  senses:
+    - zh: 麻雀
+      en: sparrow
+      examples:
+        - ru: Воробьи́ пры́гают по земле́.
+          zh: 麻雀在地上蹦跳。
+
+- lemma: голубь
+  stress: го́лубь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鸽子
+      en: pigeon, dove
+      examples:
+        - ru: Го́луби на пло́щади.
+          zh: 广场上的鸽子。
+
+- lemma: лебедь
+  stress: ле́бедь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 天鹅
+      en: swan
+      examples:
+        - ru: Ле́бедь плывёт по о́зеру.
+          zh: 天鹅在湖上游。
+
+- lemma: попугай
+  stress: попуга́й
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 6a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鹦鹉
+      en: parrot
+      examples:
+        - ru: Попуга́й повторя́ет сло́ва.
+          zh: 鹦鹉模仿说话。
+
+- lemma: сова
+  stress: сова́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 猫头鹰
+      en: owl
+      examples:
+        - ru: Совы́ охо́тятся но́чью.
+          zh: 猫头鹰在夜间狩猎。
+
+- lemma: дельфин
+  stress: дельфи́н
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 海豚
+      en: dolphin
+      examples:
+        - ru: Дельфи́ны о́чень у́мные.
+          zh: 海豚非常聪明。
+
+- lemma: кит
+  stress: кит
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鲸鱼
+      en: whale
+      examples:
+        - ru: Голубо́й кит — са́мое большо́е живо́тное.
+          zh: 蓝鲸是最大的动物。
+
+- lemma: черепаха
+  stress: черепа́ха
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 乌龟
+      en: turtle, tortoise
+      examples:
+        - ru: Черепа́ха ме́дленно по́лзает.
+          zh: 乌龟爬得很慢。
+
+- lemma: змея
+  stress: змея́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 6*d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 蛇
+      en: snake
+      examples:
+        - ru: Осторо́жно, змея́!
+          zh: 小心，蛇！
+
+- lemma: лягушка
+  stress: лягу́шка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 青蛙
+      en: frog
+      examples:
+        - ru: Лягу́шки ква́кают.
+          zh: 青蛙在呱呱叫。
+
+- lemma: муравей
+  stress: мураве́й
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 6*b
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    gent,sing: муравья́
+    datv,sing: муравью́
+    accs,sing: муравья́
+    ablt,sing: муравьём
+    loct,sing: муравье́
+    nomn,plur: муравьи́
+    gent,plur: муравьёв
+    datv,plur: муравья́м
+    accs,plur: муравьёв
+    ablt,plur: муравья́ми
+    loct,plur: муравья́х
+  senses:
+    - zh: 蚂蚁
+      en: ant
+      examples:
+        - ru: Муравьи́ рабо́тают вме́сте.
+          zh: 蚂蚁一起劳动。
+
+- lemma: паук
+  stress: пау́к
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 蜘蛛
+      en: spider
+      examples:
+        - ru: Пау́к плетёт паути́ну.
+          zh: 蜘蛛织网。
+
+- lemma: пчела
+  stress: пчела́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 蜜蜂
+      en: bee
+      examples:
+        - ru: Пчела́ собира́ет мёд.
+          zh: 蜜蜂采蜂蜜。
+
+- lemma: оса
+  stress: оса́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 黄蜂
+      en: wasp
+      examples:
+        - ru: Осторо́жно, оса́ куса́ется!
+          zh: 小心，黄蜂蜇人！
+
+- lemma: жук
+  stress: жук
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 甲虫
+      en: beetle
+      examples:
+        - ru: Жук по́лзает по листу́.
+          zh: 甲虫在叶子上爬。
+
+- lemma: стрекоза
+  stress: стрекоза́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 蜻蜓
+      en: dragonfly
+      examples:
+        - ru: Стрекоза́ лета́ет над водо́й.
+          zh: 蜻蜓在水面飞。
+
+- lemma: ёж
+  stress: ёж
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 4b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 刺猬
+      en: hedgehog
+      examples:
+        - ru: Ёж сверну́лся клубко́м.
+          zh: 刺猬蜷成了一团。
+
+- lemma: белка
+  stress: бе́лка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: жо 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 松鼠
+      en: squirrel
+      examples:
+        - ru: Бе́лка гры́зет оре́хи.
+          zh: 松鼠啃坚果。

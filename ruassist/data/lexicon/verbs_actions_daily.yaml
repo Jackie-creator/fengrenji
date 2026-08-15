@@ -1,0 +1,483 @@
+# Communication, manual actions, and daily routine verbs.
+
+- lemma: прошептать
+  stress: прошепта́ть
+  pos: verb
+  zaliznyak: св 6*c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: шептать
+  senses:
+    - zh: 低声说了
+      en: to whisper (once)
+      examples:
+        - ru: Он прошепта́л не́сколько слов.
+          zh: 他低声说了几句。
+
+- lemma: крикнуть
+  stress: кри́кнуть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: кричать
+  senses:
+    - zh: 喊了一声
+      en: to shout (once)
+      examples:
+        - ru: 'Он кри́кнул: «Стой!»'
+          zh: '他喊了一声："站住！"'
+
+- lemma: ругаться
+  stress: руга́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: поругаться
+  senses:
+    - zh: 吵架；骂人
+      en: to quarrel; to swear
+      examples:
+        - ru: Они́ ча́сто руга́ются.
+          zh: 他们经常吵架。
+
+- lemma: поругаться
+  stress: поруга́ться
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: ругаться
+  senses:
+    - zh: 吵了一架
+      en: to quarrel (once)
+      examples:
+        - ru: Они́ поруга́лись и помири́лись.
+          zh: 他们吵了一架又和好了。
+
+- lemma: пошутить
+  stress: пошути́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: шутить
+  senses:
+    - zh: 开了个玩笑
+      en: to joke (once)
+      examples:
+        - ru: Он пошути́л, и все засмея́лись.
+          zh: 他开了个玩笑，大家都笑了。
+
+- lemma: погладить
+  stress: погла́дить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: гладить
+  senses:
+    - zh: 熨了；摸了
+      en: to iron (once); to stroke (once)
+      examples:
+        - ru: Она́ погла́дила ко́шку.
+          zh: 她摸了摸猫。
+
+- lemma: шить
+  stress: шить
+  pos: verb
+  zaliznyak: нсв 11b
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: сшить
+  senses:
+    - zh: 缝，缝制
+      en: to sew
+      examples:
+        - ru: Ба́бушка шьёт пла́тье.
+          zh: 奶奶在缝连衣裙。
+
+- lemma: сшить
+  stress: сшить
+  pos: verb
+  zaliznyak: св 11b
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: шить
+  senses:
+    - zh: 缝好了
+      en: to sew (completed)
+      examples:
+        - ru: Она́ сши́ла пла́тье за день.
+          zh: 她一天缝好了一件裙子。
+
+- lemma: связать
+  stress: связа́ть
+  pos: verb
+  zaliznyak: св 6*c
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: вязать
+  senses:
+    - zh: 编织好了；绑，联系
+      en: to knit (completed); to tie; to connect
+      examples:
+        - ru: Она́ связа́ла сви́тер.
+          zh: 她织好了一件毛衣。
+
+- lemma: выкопать
+  stress: вы́копать
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: копать
+  senses:
+    - zh: 挖出来了
+      en: to dig out
+      examples:
+        - ru: Он вы́копал я́му.
+          zh: 他挖好了坑。
+
+- lemma: сажать
+  stress: сажа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: посадить
+  senses:
+    - zh: 种植；让坐
+      en: to plant; to seat
+      examples:
+        - ru: Она́ сажа́ет цветы́.
+          zh: 她在种花。
+
+- lemma: посадить
+  stress: посади́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: сажать
+  senses:
+    - zh: 种好了；让坐下了
+      en: to plant (completed); to seat (once)
+      examples:
+        - ru: Мы посади́ли де́рево.
+          zh: 我们种了一棵树。
+
+- lemma: полить
+  stress: поли́ть
+  pos: verb
+  zaliznyak: св 11b
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: поливать
+  senses:
+    - zh: 浇了水
+      en: to water (completed)
+      examples:
+        - ru: Ты поли́л цветы́?
+          zh: 你浇花了吗？
+
+- lemma: покрасить
+  stress: покра́сить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: красить
+  senses:
+    - zh: 刷好了漆；染好了色
+      en: to paint; to dye (completed)
+      examples:
+        - ru: Она́ покра́сила во́лосы.
+          zh: 她染了头发。
+
+- lemma: обнять
+  stress: обня́ть
+  pos: verb
+  zaliznyak: св 14b
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: обнимать
+  form_overrides:
+    futr,1per,sing: обниму́
+    futr,2per,sing: обни́мешь
+    futr,3per,sing: обни́мет
+    futr,1per,plur: обни́мем
+    futr,2per,plur: обни́мете
+    futr,3per,plur: обни́мут
+    past,masc: обня́л
+    past,femn: обняла́
+    past,neut: обня́ло
+    past,plur: обня́ли
+    impr,sing: обними́
+    impr,plur: обними́те
+  senses:
+    - zh: 拥抱了
+      en: to hug (once)
+      examples:
+        - ru: Он обня́л друзе́й.
+          zh: 他拥抱了朋友们。
+
+- lemma: толкнуть
+  stress: толкну́ть
+  pos: verb
+  zaliznyak: св 3b
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: толкать
+  senses:
+    - zh: 推了一下
+      en: to push (once)
+      examples:
+        - ru: Кто-то толкну́л меня́ в спи́ну.
+          zh: 有人从背后推了我一下。
+
+- lemma: тянуть
+  stress: тяну́ть
+  pos: verb
+  zaliznyak: нсв 3b
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: потянуть
+  senses:
+    - zh: 拉，拽
+      en: to pull, to drag
+      examples:
+        - ru: Тяни́ за верёвку.
+          zh: 拉绳子。
+
+- lemma: потянуть
+  stress: потяну́ть
+  pos: verb
+  zaliznyak: св 3b
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: тянуть
+  senses:
+    - zh: 拉了一下
+      en: to pull (once)
+      examples:
+        - ru: Он потяну́л дверь на себя́.
+          zh: 他把门拉向自己。
+
+- lemma: качать
+  stress: кача́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 摇，摆；打气
+      en: to rock, to swing; to pump
+      examples:
+        - ru: Ма́ма кача́ет колы́бель.
+          zh: 妈妈摇摇篮。
+
+- lemma: качаться
+  stress: кача́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 摇摆，摇晃
+      en: to swing, to sway
+      examples:
+        - ru: Дере́вья кача́ются от ве́тра.
+          zh: 树木被风吹得摇晃。
+
+- lemma: крутить
+  stress: крути́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 旋转，拧
+      en: to turn, to twist
+      examples:
+        - ru: Он кру́тит руль.
+          zh: 他在转方向盘。
+
+- lemma: трогать
+  stress: тро́гать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: тронуть
+  senses:
+    - zh: 触摸；感动
+      en: to touch; to move (emotionally)
+      examples:
+        - ru: Не тро́гай!
+          zh: 别碰！
+
+- lemma: тронуть
+  stress: тро́нуть
+  pos: verb
+  zaliznyak: св 3a
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: трогать
+  senses:
+    - zh: 碰了一下；感动了
+      en: to touch (once); to move (emotionally)
+      examples:
+        - ru: Его́ сло́ва тро́нули ме́ня.
+          zh: 他的话感动了我。
+
+- lemma: чесать
+  stress: чеса́ть
+  pos: verb
+  zaliznyak: нсв 6*c
+  aspect: impf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: почесать
+  senses:
+    - zh: 挠，抓
+      en: to scratch
+      examples:
+        - ru: Не чеши́ уку́с.
+          zh: 别挠被蚊子咬的地方。
+
+- lemma: почесать
+  stress: почеса́ть
+  pos: verb
+  zaliznyak: св 6*c
+  aspect: perf
+  transitivity: trans
+  level: [B2, ТРКИ-2]
+  aspect_pair: чесать
+  senses:
+    - zh: 挠了挠
+      en: to scratch (once)
+      examples:
+        - ru: Он почеса́л заты́лок.
+          zh: 他挠了挠后脑勺。
+
+- lemma: спрятать
+  stress: спря́тать
+  pos: verb
+  zaliznyak: св 6*c
+  aspect: perf
+  transitivity: trans
+  level: [B1, ТРКИ-1]
+  aspect_pair: прятать
+  form_overrides:
+    impr,sing: спря́чь
+    impr,plur: спря́чьте
+  senses:
+    - zh: 藏好了
+      en: to hide (completed)
+      examples:
+        - ru: Он спря́тал ключи́.
+          zh: 他把钥匙藏起来了。
+
+- lemma: прятаться
+  stress: пря́таться
+  pos: verb
+  zaliznyak: нсв 6*c
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: спрятаться
+  form_overrides:
+    impr,sing: пря́чься
+    impr,plur: пря́чьтесь
+  senses:
+    - zh: 躲藏
+      en: to hide (oneself)
+      examples:
+        - ru: Де́ти пря́чутся за дере́вом.
+          zh: 孩子们躲在树后。
+
+- lemma: спрятаться
+  stress: спря́таться
+  pos: verb
+  zaliznyak: св 6*c
+  aspect: perf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  aspect_pair: прятаться
+  form_overrides:
+    impr,sing: спря́чься
+    impr,plur: спря́чьтесь
+  senses:
+    - zh: 躲起来了
+      en: to hide (oneself, completed)
+      examples:
+        - ru: Ко́шка спря́талась под крова́тью.
+          zh: 猫躲到了床底下。
+
+- lemma: наливать
+  stress: налива́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  level: [A2, ТРКИ-1]
+  aspect_pair: налить
+  senses:
+    - zh: 倒（液体）
+      en: to pour
+      examples:
+        - ru: Налива́й чай.
+          zh: 倒茶。
+
+- lemma: налить
+  stress: нали́ть
+  pos: verb
+  zaliznyak: св 11*b
+  aspect: perf
+  transitivity: trans
+  level: [A2, ТРКИ-1]
+  aspect_pair: наливать
+  form_overrides:
+    futr,1per,sing: налью́
+    futr,2per,sing: нальёшь
+    futr,3per,sing: нальёт
+    futr,1per,plur: нальём
+    futr,2per,plur: нальёте
+    futr,3per,plur: налью́т
+    past,masc: нали́л
+    past,femn: налила́
+    past,neut: на́лило
+    past,plur: на́лили
+    impr,sing: нале́й
+    impr,plur: нале́йте
+  senses:
+    - zh: 倒好了
+      en: to pour (completed)
+      examples:
+        - ru: Нале́й мне во́ды.
+          zh: 给我倒杯水。

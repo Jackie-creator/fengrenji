@@ -1,0 +1,446 @@
+# Professions, social roles, and abstract concepts (thought, time, society).
+
+- lemma: плотник
+  stress: пло́тник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 木匠
+      en: carpenter
+      examples:
+        - ru: Пло́тник де́лает ме́бель.
+          zh: 木匠做家具。
+
+- lemma: слесарь
+  stress: сле́сарь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 钳工，锁匠
+      en: fitter, locksmith
+      examples:
+        - ru: Вызови́те сле́саря.
+          zh: 请叫锁匠来。
+
+- lemma: сантехник
+  stress: санте́хник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 水管工
+      en: plumber
+      examples:
+        - ru: Санте́хник чи́нит трубу́.
+          zh: 水管工在修水管。
+
+- lemma: электрик
+  stress: эле́ктрик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 电工
+      en: electrician
+      examples:
+        - ru: Эле́ктрик прове́рил прово́дку.
+          zh: 电工检查了线路。
+
+- lemma: маляр
+  stress: маля́р
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 油漆工
+      en: painter (house)
+      examples:
+        - ru: Маля́р кра́сит стены́.
+          zh: 油漆工在刷墙。
+
+- lemma: каменщик
+  stress: ка́менщик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 瓦工，砌砖工
+      en: bricklayer, mason
+      examples:
+        - ru: Ка́менщик кладёт кирпичи́.
+          zh: 瓦工在砌砖。
+
+- lemma: портной
+  stress: портно́й
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1b
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    nomn,sing: портно́й
+    gent,sing: портно́го
+    datv,sing: портно́му
+    accs,sing: портно́го
+    ablt,sing: портны́м
+    loct,sing: портно́м
+    nomn,plur: портны́е
+    gent,plur: портны́х
+    datv,plur: портны́м
+    accs,plur: портны́х
+    ablt,plur: портны́ми
+    loct,plur: портны́х
+  senses:
+    - zh: 裁缝
+      en: tailor
+      examples:
+        - ru: Портно́й шьёт костю́м.
+          zh: 裁缝在做西装。
+
+- lemma: пекарь
+  stress: пе́карь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 面包师
+      en: baker
+      examples:
+        - ru: Пе́карь печёт хлеб.
+          zh: 面包师烤面包。
+
+- lemma: грузчик
+  stress: гру́зчик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 搬运工
+      en: loader, porter
+      examples:
+        - ru: Гру́зчики перено́сят коро́бки.
+          zh: 搬运工在搬箱子。
+
+- lemma: охранник
+  stress: охра́нник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 保安
+      en: security guard
+      examples:
+        - ru: Охра́нник стои́т у вхо́да.
+          zh: 保安站在入口处。
+
+- lemma: пожарный
+  stress: пожа́рный
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    nomn,sing: пожа́рный
+    gent,sing: пожа́рного
+    datv,sing: пожа́рному
+    accs,sing: пожа́рного
+    ablt,sing: пожа́рным
+    loct,sing: пожа́рном
+    nomn,plur: пожа́рные
+    gent,plur: пожа́рных
+    datv,plur: пожа́рным
+    accs,plur: пожа́рных
+    ablt,plur: пожа́рными
+    loct,plur: пожа́рных
+  senses:
+    - zh: 消防员
+      en: firefighter
+      examples:
+        - ru: Пожа́рные прие́хали бы́стро.
+          zh: 消防员很快赶到了。
+
+- lemma: спасатель
+  stress: спаса́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 救援人员
+      en: rescuer
+      examples:
+        - ru: Спаса́тели на́шли пострада́вших.
+          zh: 救援人员找到了伤者。
+
+- lemma: фотограф
+  stress: фото́граф
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 摄影师
+      en: photographer
+      examples:
+        - ru: Фото́граф сфотографи́ровал нас.
+          zh: 摄影师给我们拍了照。
+
+- lemma: предприниматель
+  stress: предпринима́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 企业家
+      en: entrepreneur
+      examples:
+        - ru: Он успе́шный предпринима́тель.
+          zh: 他是成功的企业家。
+
+- lemma: кассир
+  stress: касси́р
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 收银员
+      en: cashier
+      examples:
+        - ru: Заплати́те касси́ру.
+          zh: 请付款给收银员。
+
+- lemma: страхование
+  stress: страхова́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保险
+      en: insurance
+      examples:
+        - ru: Медици́нское страхова́ние обяза́тельно.
+          zh: 医疗保险是必须的。
+
+- lemma: наследство
+  stress: насле́дство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 遗产
+      en: inheritance
+      examples:
+        - ru: Он получи́л насле́дство.
+          zh: 他继承了遗产。
+
+- lemma: собственность
+  stress: со́бственность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 财产，所有权
+      en: property, ownership
+      examples:
+        - ru: Ча́стная со́бственность.
+          zh: 私有财产。
+
+- lemma: имущество
+  stress: иму́щество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 财物，财产
+      en: property, possessions
+      examples:
+        - ru: Всё иму́щество застрахо́вано.
+          zh: 所有财产都投保了。
+
+- lemma: ссуда
+  stress: ссу́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 贷款
+      en: loan
+      examples:
+        - ru: Он взял ссу́ду в ба́нке.
+          zh: 他在银行贷了款。
+
+- lemma: накладная
+  stress: накладна́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  level: [C1, ТРКИ-3]
+  form_overrides:
+    nomn,sing: накладна́я
+    gent,sing: накладно́й
+    datv,sing: накладно́й
+    accs,sing: накладну́ю
+    ablt,sing: накладно́й
+    loct,sing: накладно́й
+    nomn,plur: накладны́е
+    gent,plur: накладны́х
+    datv,plur: накладны́м
+    accs,plur: накладны́е
+    ablt,plur: накладны́ми
+    loct,plur: накладны́х
+  senses:
+    - zh: 发货单
+      en: waybill, invoice
+      examples:
+        - ru: Подпиши́те накладну́ю.
+          zh: 请在发货单上签字。
+
+- lemma: поставка
+  stress: поста́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 供货，交货
+      en: delivery, supply
+      examples:
+        - ru: Поста́вка заде́рживается.
+          zh: 供货延迟了。
+
+- lemma: подрядчик
+  stress: подря́дчик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 3a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 承包商
+      en: contractor
+      examples:
+        - ru: Подря́дчик зако́нчил строи́тельство.
+          zh: 承包商完成了施工。
+
+- lemma: потребитель
+  stress: потреби́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: мо 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 消费者
+      en: consumer
+      examples:
+        - ru: Права́ потреби́телей.
+          zh: 消费者权益。
+
+- lemma: противоречие
+  stress: противоре́чие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 矛盾
+      en: contradiction
+      examples:
+        - ru: Внутре́ннее противоре́чие.
+          zh: 内在矛盾。
+
+- lemma: сущность
+  stress: су́щность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 本质
+      en: essence
+      examples:
+        - ru: В э́том су́щность пробле́мы.
+          zh: 这就是问题的本质。
+
+- lemma: явление
+  stress: явле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 现象
+      en: phenomenon
+      examples:
+        - ru: Приро́дное явле́ние.
+          zh: 自然现象。
+
+- lemma: сходство
+  stress: схо́дство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 相似
+      en: similarity, resemblance
+      examples:
+        - ru: Ме́жду ни́ми есть схо́дство.
+          zh: 他们之间有相似之处。
+
+- lemma: различие
+  stress: разли́чие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 差异
+      en: difference, distinction
+      examples:
+        - ru: Разли́чие ме́жду ни́ми невелико́.
+          zh: 他们之间的差异不大。

@@ -1,0 +1,689 @@
+# Evaluative adjectives, adverbs of evaluation, and functional words.
+
+- lemma: великолепный
+  stress: великоле́пный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 华丽的；壮丽的
+      en: magnificent, splendid
+      examples:
+        - ru: Великоле́пный зака́т над мо́рем.
+          zh: 海上壮丽的日落。
+
+- lemma: превосходный
+  stress: превосхо́дный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 卓越的；极好的
+      en: superb, excellent
+      examples:
+        - ru: Превосхо́дное ка́чество э́того вина́.
+          zh: 这款酒卓越的品质。
+
+- lemma: отвратительный
+  stress: отврати́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 令人厌恶的
+      en: disgusting, repulsive
+      examples:
+        - ru: Отврати́тельный за́пах из подва́ла.
+          zh: 地下室传来令人作呕的气味。
+
+- lemma: жалкий
+  stress: жа́лкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 可怜的；可悲的
+      en: pitiful, pathetic
+      examples:
+        - ru: Жа́лкое зре́лище.
+          zh: 可悲的景象。
+
+- lemma: блестящий
+  stress: блестя́щий
+  pos: adj
+  zaliznyak: п 4a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 辉煌的；出色的
+      en: brilliant, outstanding
+      examples:
+        - ru: Блестя́щий отве́т на экза́мене.
+          zh: 考试中出色的回答。
+
+- lemma: незаурядный
+  stress: незауря́дный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 非凡的，出众的
+      en: outstanding, remarkable
+      examples:
+        - ru: Она́ незауря́дный тала́нт.
+          zh: 她是一个出众的人才。
+
+- lemma: посредственный
+  stress: посре́дственный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 平庸的
+      en: mediocre
+      examples:
+        - ru: Посре́дственный результа́т рабо́ты.
+          zh: 工作成绩平平。
+
+- lemma: восторженный
+  stress: восто́рженный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 兴奋的；欣喜若狂的
+      en: enthusiastic, ecstatic
+      examples:
+        - ru: Восто́рженные зри́тели аплоди́ровали.
+          zh: 兴奋的观众鼓掌欢呼。
+
+- lemma: разочарованный
+  stress: разочаро́ванный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 失望的
+      en: disappointed, disillusioned
+      examples:
+        - ru: Разочаро́ванный клие́нт ушёл.
+          zh: 失望的客户走了。
+
+- lemma: встревоженный
+  stress: встрево́женный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 焦虑的；不安的
+      en: anxious, alarmed
+      examples:
+        - ru: Встрево́женная мать позвони́ла в шко́лу.
+          zh: 焦虑的母亲给学校打了电话。
+
+- lemma: растерянный
+  stress: расте́рянный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 困惑的；不知所措的
+      en: bewildered, confused
+      examples:
+        - ru: Расте́рянный тури́ст иска́л доро́гу.
+          zh: 困惑的游客在找路。
+
+- lemma: потрясённый
+  stress: потрясённый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 震惊的
+      en: shocked, stunned
+      examples:
+        - ru: Потрясённый но́востью, он молча́л.
+          zh: 被消息震惊了，他沉默不语。
+
+- lemma: подавленный
+  stress: пода́вленный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 沮丧的；消沉的
+      en: depressed, dejected
+      examples:
+        - ru: Пода́вленный и уста́лый, он верну́лся домо́й.
+          zh: 他沮丧又疲惫地回到了家。
+
+- lemma: возмущённый
+  stress: возмущённый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 愤怒的；愤慨的
+      en: indignant, outraged
+      examples:
+        - ru: Возмущённый покупа́тель потре́бовал кни́гу жа́лоб.
+          zh: 愤怒的顾客要求出示投诉簿。
+
+- lemma: удовлетворённый
+  stress: удовлетворённый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 满意的
+      en: satisfied, content
+      examples:
+        - ru: Удовлетворённый результа́том, он улыбну́лся.
+          zh: 他对结果满意，露出了微笑。
+
+- lemma: благодарный
+  stress: благода́рный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 感激的
+      en: grateful, thankful
+      examples:
+        - ru: Я вам о́чень благода́рен.
+          zh: 我非常感激您。
+
+- lemma: безразличный
+  stress: безразли́чный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冷漠的；无所谓的
+      en: indifferent, apathetic
+      examples:
+        - ru: Безразли́чный взгляд незнако́мца.
+          zh: 陌生人冷漠的目光。
+
+- lemma: благородный
+  stress: благоро́дный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 高尚的；高贵的
+      en: noble, honorable
+      examples:
+        - ru: Благоро́дный посту́пок заслу́живает уваже́ния.
+          zh: 高尚的行为值得尊重。
+
+- lemma: коварный
+  stress: кова́рный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 阴险的；狡诈的
+      en: treacherous, insidious
+      examples:
+        - ru: Кова́рный план прова́лился.
+          zh: 阴险的计划失败了。
+
+- lemma: легкомысленный
+  stress: легкомы́сленный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 轻率的；草率的
+      en: frivolous, thoughtless
+      examples:
+        - ru: Легкомы́сленный посту́пок привёл к пробле́мам.
+          zh: 轻率的行为导致了问题。
+
+- lemma: рассеянный
+  stress: рассе́янный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 心不在焉的
+      en: absent-minded, distracted
+      examples:
+        - ru: Рассе́янный профе́ссор забы́л портфе́ль.
+          zh: 心不在焉的教授忘了公文包。
+
+- lemma: педантичный
+  stress: педанти́чный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 一丝不苟的；拘泥的
+      en: pedantic, meticulous
+      examples:
+        - ru: Педанти́чный бухга́лтер прове́рил все доку́менты.
+          zh: 一丝不苟的会计检查了所有文件。
+
+- lemma: сдержанный
+  stress: сде́ржанный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 克制的；矜持的
+      en: reserved, restrained
+      examples:
+        - ru: Он всегда́ сде́ржан и споко́ен.
+          zh: 他总是克制而沉着。
+
+- lemma: вспыльчивый
+  stress: вспы́льчивый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 急躁的；易怒的
+      en: hot-tempered, irascible
+      examples:
+        - ru: Вспы́льчивый хара́ктер меша́ет в рабо́те.
+          zh: 急躁的性格影响工作。
+
+- lemma: покорный
+  stress: поко́рный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 顺从的；温顺的
+      en: obedient, submissive
+      examples:
+        - ru: Поко́рный слуга́ вы́полнил прика́з.
+          zh: 顺从的仆人执行了命令。
+
+- lemma: мужественный
+  stress: му́жественный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 英勇的；刚毅的
+      en: courageous, manly
+      examples:
+        - ru: Му́жественный посту́пок спас лю́дям жизнь.
+          zh: 英勇的行为挽救了人们的生命。
+
+- lemma: трусливый
+  stress: трусли́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 胆怯的；怯懦的
+      en: cowardly, timid
+      examples:
+        - ru: Трусли́вый щено́к спря́тался под крова́ть.
+          zh: 胆怯的小狗躲到了床下。
+
+- lemma: сообразительный
+  stress: сообрази́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 机灵的；聪颖的
+      en: quick-witted, bright
+      examples:
+        - ru: Сообрази́тельный учени́к бы́стро реши́л зада́чу.
+          zh: 机灵的学生很快解出了题。
+
+- lemma: остроумный
+  stress: остроу́мный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 机智的；诙谐的
+      en: witty, clever
+      examples:
+        - ru: Остроу́мный отве́т рассмеши́л всех.
+          zh: 机智的回答逗笑了大家。
+
+- lemma: бестолковый
+  stress: бестолко́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 愚笨的；糊涂的
+      en: stupid, muddle-headed
+      examples:
+        - ru: Бестолко́вый вопро́с.
+          zh: 愚蠢的问题。
+
+- lemma: рассудительный
+  stress: рассуди́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 理智的；明达的
+      en: sensible, judicious
+      examples:
+        - ru: Рассуди́тельная же́нщина приняла́ ве́рное реше́ние.
+          zh: 理智的女人做出了正确的决定。
+
+- lemma: проницательный
+  stress: проница́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 敏锐的；有洞察力的
+      en: perceptive, insightful
+      examples:
+        - ru: Проница́тельный сле́дователь раскры́л де́ло.
+          zh: 敏锐的侦探破了案。
+
+- lemma: изнурённый
+  stress: изнурённый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 精疲力竭的
+      en: exhausted, worn out
+      examples:
+        - ru: Изнурённый бегу́н пересёк фи́нишную черту́.
+          zh: 精疲力竭的跑步者冲过了终点线。
+
+- lemma: утомлённый
+  stress: утомлённый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 疲倦的
+      en: tired, fatigued
+      examples:
+        - ru: Утомлённые тури́сты верну́лись в оте́ль.
+          zh: 疲倦的游客回到了酒店。
+
+- lemma: обессиленный
+  stress: обесси́ленный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 筋疲力尽的
+      en: enfeebled, drained
+      examples:
+        - ru: Обесси́ленный спортсме́н сел на скамью́.
+          zh: 筋疲力尽的运动员坐到了长椅上。
+
+- lemma: бледный
+  stress: бле́дный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 苍白的
+      en: pale
+      examples:
+        - ru: Бле́дное лицо́ больно́го.
+          zh: 病人苍白的脸。
+
+- lemma: румяный
+  stress: румя́ный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 红润的
+      en: rosy, ruddy
+      examples:
+        - ru: Румя́ные щёки ребёнка.
+          zh: 孩子红润的脸颊。
+
+- lemma: загорелый
+  stress: загоре́лый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 晒黑的
+      en: tanned, sunburnt
+      examples:
+        - ru: Загоре́лые де́ти игра́ли на пля́же.
+          zh: 晒黑的孩子们在海滩上玩耍。
+
+- lemma: худощавый
+  stress: худоща́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 瘦削的；清瘦的
+      en: lean, thin
+      examples:
+        - ru: Худоща́вый ю́ноша в очка́х.
+          zh: 戴眼镜的瘦削青年。
+
+- lemma: полноватый
+  stress: полнова́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 微胖的
+      en: plump, slightly overweight
+      examples:
+        - ru: Полнова́тый мужчи́на в костю́ме.
+          zh: 穿西装的微胖男士。
+
+- lemma: нелепый
+  stress: неле́пый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 荒谬的；可笑的
+      en: absurd, ridiculous
+      examples:
+        - ru: Неле́пая ситуа́ция.
+          zh: 荒唐的局面。
+
+- lemma: изысканный
+  stress: изы́сканный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 精致的；高雅的
+      en: exquisite, refined
+      examples:
+        - ru: Изы́сканный вкус э́того блю́да.
+          zh: 这道菜精致的口味。
+
+- lemma: роскошный
+  stress: роско́шный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 豪华的；奢侈的
+      en: luxurious, sumptuous
+      examples:
+        - ru: Роско́шный оте́ль в це́нтре го́рода.
+          zh: 市中心的豪华酒店。
+
+- lemma: убогий
+  stress: убо́гий
+  pos: adj
+  zaliznyak: п 3a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 简陋的；寒酸的
+      en: wretched, squalid
+      examples:
+        - ru: Убо́гая хи́жина на краю́ дере́вни.
+          zh: 村边简陋的小屋。
+
+- lemma: заурядный
+  stress: зауря́дный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 平凡的；不出众的
+      en: ordinary, unremarkable
+      examples:
+        - ru: Зауря́дный слу́чай, ничего́ осо́бенного.
+          zh: 平常的事，没什么特别的。
+
+- lemma: категорически
+  stress: категори́чески
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 坚决地；断然地
+      en: categorically, flatly
+      examples:
+        - ru: Он категори́чески отказа́лся.
+          zh: 他断然拒绝了。
+
+- lemma: принципиально
+  stress: принципиа́льно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 原则上；从根本上
+      en: on principle, fundamentally
+      examples:
+        - ru: Принципиа́льно не согла́сен.
+          zh: 原则上不同意。
+
+- lemma: сознательно
+  stress: созна́тельно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 自觉地；有意识地
+      en: consciously, deliberately
+      examples:
+        - ru: Он созна́тельно промолча́л.
+          zh: 他有意沉默不语。
+
+- lemma: бессознательно
+  stress: бессозна́тельно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 无意识地；不自觉地
+      en: unconsciously
+      examples:
+        - ru: Бессозна́тельно сжал кулаки́.
+          zh: 不自觉地握紧了拳头。
+
+- lemma: вдребезги
+  stress: вдре́безги
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 粉碎地
+      en: to smithereens, to pieces
+      examples:
+        - ru: Ча́шка разби́лась вдре́безги.
+          zh: 杯子摔得粉碎。
+
+- lemma: наугад
+  stress: науга́д
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 随便地；瞎猜地
+      en: at random, by guessing
+      examples:
+        - ru: Он отве́тил науга́д.
+          zh: 他随便猜着答了。
+
+- lemma: втайне
+  stress: вта́йне
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 暗地里；偷偷地
+      en: secretly, in secret
+      examples:
+        - ru: Вта́йне он мечта́л о путеше́ствии.
+          zh: 他暗地里梦想着旅行。
+
+- lemma: всерьёз
+  stress: всерьёз
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 认真地；当真地
+      en: seriously, in earnest
+      examples:
+        - ru: Он принялся́ за рабо́ту всерьёз.
+          zh: 他认真地投入了工作。
+
+- lemma: вследствие
+  stress: всле́дствие
+  pos: prep
+  government: чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 由于；因为
+      en: owing to, as a result of
+      examples:
+        - ru: Всле́дствие дождя́ матч отменён.
+          zh: 由于下雨比赛取消了。
+
+- lemma: наподобие
+  stress: наподо́бие
+  pos: prep
+  government: чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 类似于
+      en: resembling, like
+      examples:
+        - ru: Зда́ние наподо́бие пирами́ды.
+          zh: 类似金字塔的建筑。
+
+- lemma: в течение
+  stress: в тече́ние
+  pos: prep
+  government: чего
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在……期间
+      en: during, in the course of
+      examples:
+        - ru: В тече́ние неде́ли мы подгото́вим отве́т.
+          zh: 我们将在一周内准备好回复。
+
+- lemma: в отличие от
+  stress: в отли́чие от
+  pos: prep
+  government: чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 与……不同
+      en: unlike, in contrast to
+      examples:
+        - ru: В отли́чие от бра́та она́ лю́бит чита́ть.
+          zh: 与哥哥不同，她喜欢读书。
+
+- lemma: помимо
+  stress: поми́мо
+  pos: prep
+  government: чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 除……之外
+      en: besides, apart from
+      examples:
+        - ru: Поми́мо рабо́ты он занима́ется спо́ртом.
+          zh: 除了工作，他还做运动。

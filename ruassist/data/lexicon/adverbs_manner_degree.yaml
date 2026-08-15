@@ -1,0 +1,278 @@
+# Adverbs of manner, degree, and circumstance.
+
+- lemma: внезапно
+  stress: внеза́пно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 突然地
+      en: suddenly
+      examples:
+        - ru: Он внеза́пно останови́лся.
+          zh: 他突然停下来了。
+
+- lemma: намеренно
+  stress: наме́ренно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 故意地
+      en: intentionally, deliberately
+      examples:
+        - ru: Он сде́лал э́то наме́ренно.
+          zh: 他是故意这么做的。
+
+- lemma: взаимно
+  stress: взаи́мно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 互相地
+      en: mutually
+      examples:
+        - ru: Они́ взаи́мно уважа́ют друг дру́га.
+          zh: 他们互相尊重。
+
+- lemma: одновременно
+  stress: одновре́менно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 同时
+      en: simultaneously
+      examples:
+        - ru: Они́ пришли́ одновре́менно.
+          zh: 他们同时到的。
+
+- lemma: поочерёдно
+  stress: поочерёдно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 轮流地
+      en: in turn, alternately
+      examples:
+        - ru: Де́ти отвеча́ли поочерёдно.
+          zh: 孩子们轮流回答。
+
+- lemma: чрезвычайно
+  stress: чрезвыча́йно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 极其，非常
+      en: extremely
+      examples:
+        - ru: Э́то чрезвыча́йно ва́жно.
+          zh: 这极其重要。
+
+- lemma: исключительно
+  stress: исключи́тельно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 极其；仅仅
+      en: exceptionally; exclusively
+      examples:
+        - ru: Он исключи́тельно та́лантлив.
+          zh: 他才华横溢。
+
+- lemma: существенно
+  stress: суще́ственно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 显著地
+      en: substantially, significantly
+      examples:
+        - ru: Цены́ суще́ственно вы́росли.
+          zh: 价格显著上涨了。
+
+- lemma: значительно
+  stress: значи́тельно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 显著地，大大地
+      en: considerably, significantly
+      examples:
+        - ru: Значи́тельно лу́чше.
+          zh: 好多了。
+
+- lemma: незначительно
+  stress: незначи́тельно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 轻微地
+      en: slightly, insignificantly
+      examples:
+        - ru: Температу́ра незначи́тельно повы́силась.
+          zh: 温度略有升高。
+
+- lemma: заметно
+  stress: заме́тно
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 明显地
+      en: noticeably
+      examples:
+        - ru: Заме́тно похолода́ло.
+          zh: 明显变冷了。
+
+- lemma: тщательно
+  stress: тща́тельно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 仔细地
+      en: carefully, thoroughly
+      examples:
+        - ru: Тща́тельно прове́рьте все докуме́нты.
+          zh: 仔细检查所有文件。
+
+- lemma: небрежно
+  stress: небре́жно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 马虎地，潦草地
+      en: carelessly
+      examples:
+        - ru: Он небре́жно оде́лся.
+          zh: 他穿着很随意。
+
+- lemma: торжественно
+  stress: торже́ственно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 庄严地，隆重地
+      en: solemnly
+      examples:
+        - ru: Торже́ственно откры́ли вы́ставку.
+          zh: 隆重开幕了展览。
+
+- lemma: мысленно
+  stress: мы́сленно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 在心里，默默地
+      en: "mentally, in one's mind"
+      examples:
+        - ru: Он мы́сленно повтори́л речь.
+          zh: 他在心里默默重复了一遍讲话。
+
+- lemma: шёпотом
+  stress: шёпотом
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 低声地
+      en: in a whisper
+      examples:
+        - ru: Он говори́л шёпотом.
+          zh: 他低声说。
+
+- lemma: надолго
+  stress: надо́лго
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 很久
+      en: for a long time
+      examples:
+        - ru: Вы прие́хали надо́лго?
+          zh: 你来得久吗？
+
+- lemma: ненадолго
+  stress: ненадо́лго
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 不久，一会儿
+      en: for a short time
+      examples:
+        - ru: Зайди́те ненадо́лго.
+          zh: 进来坐一会儿。
+
+- lemma: подряд
+  stress: подря́д
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 连续地
+      en: in a row
+      examples:
+        - ru: Три дня подря́д.
+          zh: 连续三天。
+
+- lemma: насквозь
+  stress: наскво́зь
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 穿透地
+      en: through, right through
+      examples:
+        - ru: Я промо́к наскво́зь.
+          zh: 我浑身湿透了。
+
+- lemma: наружу
+  stress: нару́жу
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 向外面
+      en: out, outward
+      examples:
+        - ru: Вы́верни карма́н нару́жу.
+          zh: 把口袋翻出来。
+
+- lemma: снаружи
+  stress: снару́жи
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在外面
+      en: outside, on the outside
+      examples:
+        - ru: Снару́жи хо́лодно.
+          zh: 外面冷。
+
+- lemma: изнутри
+  stress: изнутри́
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 从里面
+      en: from the inside
+      examples:
+        - ru: Дверь закры́та изнутри́.
+          zh: 门从里面锁着。
+
+- lemma: насчёт
+  stress: насчёт
+  pos: prep
+  government: чего
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 关于
+      en: about, regarding
+      examples:
+        - ru: Насчёт за́втрашней встре́чи.
+          zh: 关于明天的会议。
+
+- lemma: посреди
+  stress: посреди́
+  pos: prep
+  government: чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 在……中间
+      en: in the middle of
+      examples:
+        - ru: Стол стои́т посреди́ ко́мнаты.
+          zh: 桌子在房间中央。

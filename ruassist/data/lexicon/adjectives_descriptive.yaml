@@ -1,0 +1,481 @@
+# Physical properties, textures, personality, and food tastes.
+
+- lemma: влажный
+  stress: вла́жный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 潮湿的
+      en: damp, humid
+      examples:
+        - ru: Вла́жный кли́мат.
+          zh: 潮湿的气候。
+
+- lemma: гладкий
+  stress: гла́дкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 光滑的
+      en: smooth
+      examples:
+        - ru: Гла́дкая пове́рхность.
+          zh: 光滑的表面。
+
+- lemma: шершавый
+  stress: шерша́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 粗糙的
+      en: rough
+      examples:
+        - ru: У него́ шерша́вые ру́ки.
+          zh: 他的手很粗糙。
+
+- lemma: тупой
+  stress: тупо́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 钝的；愚钝的
+      en: blunt; dull
+      examples:
+        - ru: Нож тупо́й, на́до нато́чить.
+          zh: 刀钝了，得磨一下。
+
+- lemma: прозрачный
+  stress: прозра́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 透明的
+      en: transparent
+      examples:
+        - ru: Прозра́чная вода́.
+          zh: 清澈的水。
+
+- lemma: мутный
+  stress: му́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 浑浊的
+      en: muddy, turbid
+      examples:
+        - ru: Му́тная вода́ в реке́.
+          zh: 河里的水很浑浊。
+
+- lemma: хрупкий
+  stress: хру́пкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 易碎的；脆弱的
+      en: fragile, brittle
+      examples:
+        - ru: Осторо́жно, э́то хру́пкая вещь.
+          zh: 小心，这是易碎品。
+
+- lemma: рыхлый
+  stress: ры́хлый
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 松软的
+      en: loose, crumbly
+      examples:
+        - ru: Ры́хлая зе́мля.
+          zh: 松软的土壤。
+
+- lemma: скользкий
+  stress: ско́льзкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 滑的
+      en: slippery
+      examples:
+        - ru: Осторо́жно, пол ско́льзкий.
+          zh: 小心，地板滑。
+
+- lemma: липкий
+  stress: ли́пкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 黏的
+      en: sticky
+      examples:
+        - ru: Ли́пкие ру́ки от мёда.
+          zh: 手被蜂蜜弄黏了。
+
+- lemma: ржавый
+  stress: ржа́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 生锈的
+      en: rusty
+      examples:
+        - ru: Ржа́вый гвоздь.
+          zh: 生锈的钉子。
+
+- lemma: наглый
+  stress: на́глый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 无耻的，厚脸皮的
+      en: impudent, brazen
+      examples:
+        - ru: Како́й на́глый тип!
+          zh: 多么厚脸皮的家伙！
+
+- lemma: ловкий
+  stress: ло́вкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 灵巧的，敏捷的
+      en: dexterous, agile
+      examples:
+        - ru: Ло́вкий гимна́ст.
+          zh: 灵巧的体操运动员。
+
+- lemma: неуклюжий
+  stress: неуклю́жий
+  pos: adj
+  zaliznyak: п 4a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 笨拙的
+      en: clumsy, awkward
+      examples:
+        - ru: Неуклю́жий медве́дь.
+          zh: 笨拙的熊。
+
+- lemma: застенчивый
+  stress: засте́нчивый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 害羞的
+      en: shy
+      examples:
+        - ru: Она́ засте́нчивая де́вушка.
+          zh: 她是个害羞的姑娘。
+
+- lemma: настойчивый
+  stress: насто́йчивый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 坚持不懈的
+      en: persistent, insistent
+      examples:
+        - ru: Насто́йчивый челове́к добьётся свое́го.
+          zh: 坚持不懈的人会达到目的。
+
+- lemma: равнодушный
+  stress: равноду́шный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冷漠的，漠不关心的
+      en: indifferent
+      examples:
+        - ru: Он равноду́шен к иску́сству.
+          zh: 他对艺术漠不关心。
+
+- lemma: упрямый
+  stress: упря́мый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 固执的
+      en: stubborn
+      examples:
+        - ru: Упря́мый как осёл.
+          zh: 像驴一样固执。
+
+- lemma: искренний
+  stress: и́скренний
+  pos: adj
+  zaliznyak: п 2*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 真诚的
+      en: sincere
+      examples:
+        - ru: И́скренне благодарю́ вас.
+          zh: 真诚地感谢你们。
+
+- lemma: лицемерный
+  stress: лицеме́рный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 虚伪的
+      en: hypocritical
+      examples:
+        - ru: Лицеме́рная улы́бка.
+          zh: 虚伪的微笑。
+
+- lemma: пышный
+  stress: пы́шный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 茂盛的；华丽的；蓬松的
+      en: lush; magnificent; fluffy
+      examples:
+        - ru: Пы́шные во́лосы.
+          zh: 蓬松的头发。
+
+- lemma: скудный
+  stress: ску́дный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 贫乏的，匮乏的
+      en: meager, scanty
+      examples:
+        - ru: Ску́дный обе́д.
+          zh: 寒酸的午餐。
+
+- lemma: обильный
+  stress: оби́льный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 丰盛的，充裕的
+      en: abundant, plentiful
+      examples:
+        - ru: Оби́льный у́жин.
+          zh: 丰盛的晚餐。
+
+- lemma: зрелый
+  stress: зре́лый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 成熟的
+      en: ripe; mature
+      examples:
+        - ru: Зре́лые поми́доры.
+          zh: 成熟的西红柿。
+
+- lemma: спелый
+  stress: спе́лый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 熟了的（水果）
+      en: ripe (fruit)
+      examples:
+        - ru: Спе́лые я́блоки.
+          zh: 熟了的苹果。
+
+- lemma: сырой
+  stress: сыро́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 生的；潮湿的
+      en: raw; damp
+      examples:
+        - ru: Сыро́е мя́со.
+          zh: 生肉。
+
+- lemma: варёный
+  stress: варёный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 煮熟的
+      en: boiled
+      examples:
+        - ru: Варёные яйца́.
+          zh: 煮鸡蛋。
+
+- lemma: жареный
+  stress: жа́реный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 煎的，炒的
+      en: fried
+      examples:
+        - ru: Жа́реная карто́шка.
+          zh: 炸土豆。
+
+- lemma: копчёный
+  stress: копчёный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 烟熏的
+      en: smoked
+      examples:
+        - ru: Копчёная ры́ба.
+          zh: 烟熏鱼。
+
+- lemma: пряный
+  stress: пря́ный
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 辛香的
+      en: spicy, aromatic
+      examples:
+        - ru: Пря́ный аро́мат.
+          zh: 辛香的气味。
+
+- lemma: пресный
+  stress: пре́сный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 淡的（无盐的）
+      en: fresh (unsalted); bland
+      examples:
+        - ru: Пре́сная вода́.
+          zh: 淡水。
+
+- lemma: душный
+  stress: ду́шный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 闷热的
+      en: stuffy
+      examples:
+        - ru: В ко́мнате ду́шно.
+          zh: 房间里很闷。
+
+- lemma: тухлый
+  stress: ту́хлый
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 变质的，腐烂的
+      en: rotten, spoiled
+      examples:
+        - ru: Ту́хлое яйцо́.
+          zh: 臭鸡蛋。
+
+- lemma: кривой
+  stress: криво́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 弯的，歪的
+      en: crooked, curved
+      examples:
+        - ru: Криво́е зе́ркало.
+          zh: 哈哈镜。
+
+- lemma: плоский
+  stress: пло́ский
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 平的
+      en: flat
+      examples:
+        - ru: Пло́ская пове́рхность.
+          zh: 平面。
+
+- lemma: выпуклый
+  stress: вы́пуклый
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 凸的
+      en: convex
+      examples:
+        - ru: Вы́пуклая ли́нза.
+          zh: 凸透镜。
+
+- lemma: вогнутый
+  stress: во́гнутый
+  pos: adj
+  zaliznyak: п 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 凹的
+      en: concave
+      examples:
+        - ru: Во́гнутое зе́ркало.
+          zh: 凹面镜。
+
+- lemma: крутой
+  stress: круто́й
+  pos: adj
+  zaliznyak: п 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 陡峭的；（俚）酷的；浓的
+      en: steep; cool (slang); strong (tea)
+      examples:
+        - ru: Круто́й подъём.
+          zh: 陡坡。
+
+- lemma: пологий
+  stress: поло́гий
+  pos: adj
+  zaliznyak: п 4a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 平缓的
+      en: gentle (slope)
+      examples:
+        - ru: Поло́гий спуск.
+          zh: 平缓的下坡。
+
+- lemma: рваный
+  stress: рва́ный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 破的，破烂的
+      en: torn, ragged
+      examples:
+        - ru: Рва́ные джи́нсы.
+          zh: 破洞牛仔裤。

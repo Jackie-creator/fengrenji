@@ -1,0 +1,549 @@
+# Tools, materials, containers, and textiles.
+
+- lemma: молоток
+  stress: молото́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 锤子
+      en: hammer
+      examples:
+        - ru: Он забива́ет гвозди́ молотко́м.
+          zh: 他用锤子钉钉子。
+
+- lemma: гвоздь
+  stress: гвоздь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 钉子
+      en: nail
+      examples:
+        - ru: Мне ну́жен гвоздь и молото́к.
+          zh: 我需要钉子和锤子。
+
+- lemma: отвёртка
+  stress: отвёртка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 螺丝刀
+      en: screwdriver
+      examples:
+        - ru: Да́й мне отвёртку.
+          zh: 给我螺丝刀。
+
+- lemma: пила
+  stress: пила́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 锯子
+      en: saw
+      examples:
+        - ru: Он пи́лит до́ску пило́й.
+          zh: 他用锯子锯木板。
+
+- lemma: верёвка
+  stress: верёвка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 绳子
+      en: rope
+      examples:
+        - ru: Привяжи́ верёвку к де́реву.
+          zh: 把绳子拴在树上。
+
+- lemma: проволока
+  stress: про́волока
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 铁丝，金属丝
+      en: wire
+      examples:
+        - ru: Забо́р из колю́чей про́волоки.
+          zh: 铁丝网围栏。
+
+- lemma: кирпич
+  stress: кирпи́ч
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 砖
+      en: brick
+      examples:
+        - ru: Дом из кра́сного кирпича́.
+          zh: 红砖房。
+
+- lemma: бетон
+  stress: бето́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 混凝土
+      en: concrete
+      examples:
+        - ru: Стены́ из бето́на.
+          zh: 混凝土墙壁。
+
+- lemma: цемент
+  stress: цеме́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 水泥
+      en: cement
+      examples:
+        - ru: Рабо́чие меша́ют цеме́нт.
+          zh: 工人们在搅拌水泥。
+
+- lemma: глина
+  stress: гли́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 黏土，泥土
+      en: clay
+      examples:
+        - ru: Горшо́к из гли́ны.
+          zh: 泥罐。
+
+- lemma: резина
+  stress: рези́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 橡胶
+      en: rubber
+      examples:
+        - ru: Перча́тки из рези́ны.
+          zh: 橡胶手套。
+
+- lemma: пластмасса
+  stress: пластма́сса
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 塑料
+      en: plastic
+      examples:
+        - ru: Буты́лка из пластма́ссы.
+          zh: 塑料瓶。
+
+- lemma: ткань
+  stress: ткань
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 布料，织物
+      en: fabric, cloth
+      examples:
+        - ru: Пла́тье из натура́льной тка́ни.
+          zh: 天然面料的裙子。
+
+- lemma: шёлк
+  stress: шёлк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    nomn,plur: шелка́
+    accs,plur: шелка́
+  senses:
+    - zh: 丝绸
+      en: silk
+      examples:
+        - ru: Блу́зка из шёлка.
+          zh: 丝绸衬衫。
+
+- lemma: шерсть
+  stress: шерсть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 羊毛；（动物的）毛
+      en: wool; fur
+      examples:
+        - ru: Сви́тер из ше́рсти.
+          zh: 毛衣。
+
+- lemma: хлопок
+  stress: хло́пок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 棉花
+      en: cotton
+      examples:
+        - ru: Руба́шка из чи́стого хло́пка.
+          zh: 纯棉衬衫。
+
+- lemma: мех
+  stress: мех
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 皮毛，毛皮
+      en: fur
+      examples:
+        - ru: Шу́ба из нату́рального ме́ха.
+          zh: 天然毛皮大衣。
+
+- lemma: ведро
+  stress: ведро́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*b
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    gent,plur: вёдер
+  senses:
+    - zh: 桶
+      en: bucket
+      examples:
+        - ru: Он принёс ведро́ воды́.
+          zh: 他提来一桶水。
+
+- lemma: бочка
+  stress: бо́чка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 桶（大桶）
+      en: barrel
+      examples:
+        - ru: Бо́чка мёда.
+          zh: 一桶蜂蜜。
+
+- lemma: ящик
+  stress: я́щик
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 箱子；抽屉
+      en: box, crate; drawer
+      examples:
+        - ru: Положи́ э́то в я́щик.
+          zh: 把这个放进箱子/抽屉里。
+
+- lemma: мешок
+  stress: мешо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 袋子
+      en: bag, sack
+      examples:
+        - ru: Мешо́к карто́шки.
+          zh: 一袋土豆。
+
+- lemma: лопата
+  stress: лопа́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 铲子
+      en: shovel
+      examples:
+        - ru: Он копа́ет зе́млю лопа́той.
+          zh: 他用铲子挖土。
+
+- lemma: грабли
+  stress: гра́бли
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: мн 5a
+  number_only: plur
+  level: [C1, ТРКИ-3]
+  form_overrides:
+    nomn,plur: гра́бли
+    gent,plur: гра́бель
+    datv,plur: гра́блям
+    accs,plur: гра́бли
+    ablt,plur: гра́блями
+    loct,plur: гра́блях
+  senses:
+    - zh: 耙子
+      en: rake
+      examples:
+        - ru: Он собира́ет ли́стья гра́блями.
+          zh: 他用耙子拢树叶。
+
+- lemma: игла
+  stress: игла́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d′
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 针
+      en: needle
+      examples:
+        - ru: Ей ну́жны игла́ и ни́тка.
+          zh: 她需要针和线。
+
+- lemma: нитка
+  stress: ни́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 线
+      en: thread
+      examples:
+        - ru: Вде́нь ни́тку в иго́лку.
+          zh: 把线穿进针眼。
+
+- lemma: лента
+  stress: ле́нта
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 带子，丝带
+      en: ribbon, tape
+      examples:
+        - ru: Де́вочка завяза́ла ба́нт из ле́нты.
+          zh: 小女孩用丝带打了个蝴蝶结。
+
+- lemma: скрепка
+  stress: скре́пка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 回形针
+      en: paper clip
+      examples:
+        - ru: Скрепи́те бума́ги скре́пкой.
+          zh: 用回形针把纸夹在一起。
+
+- lemma: булавка
+  stress: була́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 别针
+      en: pin
+      examples:
+        - ru: Приколи́ значо́к була́вкой.
+          zh: 用别针别上徽章。
+
+- lemma: лак
+  stress: лак
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 漆；指甲油
+      en: lacquer; nail polish
+      examples:
+        - ru: Покро́й стол ла́ком.
+          zh: 给桌子上层漆。
+
+- lemma: губка
+  stress: гу́бка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 海绵
+      en: sponge
+      examples:
+        - ru: Протри́ стол гу́бкой.
+          zh: 用海绵擦桌子。
+
+- lemma: метла
+  stress: метла́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1*d
+  level: [C1, ТРКИ-3]
+  form_overrides:
+    gent,plur: мётел
+  senses:
+    - zh: 扫帚
+      en: broom
+      examples:
+        - ru: Он подмета́ет двор метло́й.
+          zh: 他用扫帚扫院子。
+
+- lemma: фен
+  stress: фен
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 吹风机
+      en: hair dryer
+      examples:
+        - ru: Высуши́ во́лосы фе́ном.
+          zh: 用吹风机吹干头发。
+
+- lemma: выключатель
+  stress: выключа́тель
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 开关
+      en: switch
+      examples:
+        - ru: Выключа́тель сле́ва от двери́.
+          zh: 开关在门的左边。
+
+- lemma: кран
+  stress: кран
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 水龙头；起重机
+      en: tap, faucet; crane
+      examples:
+        - ru: Закро́й кран — вода́ течёт.
+          zh: 关上水龙头——水在流。
+
+- lemma: труба
+  stress: труба́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 管子；烟囱；管乐器
+      en: pipe; chimney; trumpet
+      examples:
+        - ru: Водопрово́дная труба́ ло́пнула.
+          zh: 水管爆了。
+
+- lemma: шланг
+  stress: шланг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 软管
+      en: hose
+      examples:
+        - ru: Поли́й цветы́ из шла́нга.
+          zh: 用水管浇花。
+
+- lemma: винт
+  stress: винт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 螺丝
+      en: screw
+      examples:
+        - ru: Закрути́ винт покре́пче.
+          zh: 把螺丝拧紧些。
+
+- lemma: гайка
+  stress: га́йка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 螺母
+      en: nut (hardware)
+      examples:
+        - ru: Подкрути́ га́йку ключо́м.
+          zh: 用扳手拧螺母。
