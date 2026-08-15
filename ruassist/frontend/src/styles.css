@@ -138,3 +138,92 @@ button.active { border-color: var(--accent); color: var(--accent); }
   .searchbar input { font-size: 17px; }
   .paradigm { font-size: 14px; }
 }
+
+/* --- tabs -------------------------------------------------------------- */
+.tabs { display: flex; gap: 6px; margin: 4px 0 12px; }
+.tab { flex: 1; padding: 9px 0; border-radius: 10px; font-size: 14px; }
+.tab.active { border-color: var(--accent); color: var(--accent); background: var(--panel); }
+
+.row-between { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+button.small { font-size: 12px; padding: 5px 9px; }
+button.primary {
+  background: var(--accent); color: #0d1017; border-color: var(--accent);
+  font-weight: 600; padding: 10px 16px; border-radius: 10px;
+}
+button.primary:disabled { opacity: .4; cursor: default; background: var(--panel-2); color: var(--muted); }
+button.wide { width: 100%; }
+
+.entry-actions { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.entry-actions .toggle { margin-top: 0; }
+.toggle.in-notebook { color: var(--accent); border-color: var(--accent); }
+
+/* --- notebook ---------------------------------------------------------- */
+.stat-row { display: flex; gap: 8px; margin-bottom: 12px; }
+.stat {
+  flex: 1; background: var(--panel); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px; text-align: center;
+}
+.stat b { display: block; font-size: 22px; }
+.stat span { font-size: 12px; color: var(--muted); }
+.stat.highlight { border-color: var(--accent); }
+.stat.highlight b { color: var(--accent); }
+
+.cards { list-style: none; padding: 0; margin: 16px 0 0; }
+.cards li {
+  display: flex; align-items: center; gap: 10px; padding: 9px 4px;
+  border-bottom: 1px solid var(--border);
+}
+.card-word {
+  background: none; border: none; color: var(--ru); font-size: 17px;
+  padding: 0; text-align: left; min-width: 110px;
+}
+.card-gloss { flex: 1; color: var(--muted); font-size: 14px; }
+.card-due { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.card-remove { background: none; border: none; color: var(--muted); padding: 2px 6px; }
+
+/* --- review ------------------------------------------------------------ */
+.review {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 14px; padding: 20px; margin-bottom: 12px;
+}
+.review-head { display: flex; justify-content: space-between; margin-bottom: 18px; }
+.prompt { font-size: 19px; margin: 8px 0 18px; text-align: center; }
+.ru-big { font-size: 30px; color: var(--ru); font-weight: 600; }
+.answer { text-align: center; font-size: 17px; margin: 12px 0; }
+.answer.ok { color: #5fd68a; }
+.answer.bad { color: #ff7b72; }
+
+.answer-input {
+  width: 100%; padding: 12px; font-size: 19px; text-align: center;
+  background: var(--panel-2); color: var(--ru);
+  border: 1px solid var(--border); border-radius: 10px;
+}
+.answer-input:focus { outline: none; border-color: var(--accent); }
+
+.choices { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.choice { font-size: 20px; padding: 10px 14px; color: var(--ru); }
+.choice.ok { border-color: #5fd68a; color: #5fd68a; }
+.choice.bad { border-color: #ff7b72; color: #ff7b72; }
+
+.grades { display: flex; gap: 6px; margin-top: 18px; }
+.grade { flex: 1; padding: 10px 4px; font-size: 13px; display: grid; gap: 2px; }
+.grade small { color: var(--muted); font-size: 11px; }
+.grade.again:hover { border-color: #ff7b72; }
+.grade.good:hover, .grade.easy:hover { border-color: #5fd68a; }
+
+.review-example {
+  margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--border);
+  text-align: center;
+}
+.review-example .ru { color: var(--ru); }
+.review-example .zh { color: var(--muted); font-size: 14px; }
+
+/* --- word books -------------------------------------------------------- */
+.book {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 14px; margin-top: 10px;
+}
+.book-head { display: flex; justify-content: space-between; margin-bottom: 8px; }
+.progress { height: 6px; background: var(--panel-2); border-radius: 3px; overflow: hidden; }
+.progress div { height: 100%; background: var(--accent); }
+.book button { margin-top: 10px; width: 100%; font-size: 13px; }

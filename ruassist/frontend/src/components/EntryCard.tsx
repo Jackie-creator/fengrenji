@@ -33,9 +33,14 @@ interface Props {
   result: Result;
   showStress: boolean;
   onNavigate: (lemma: string) => void;
+  inNotebook: boolean;
+  onAdd: () => void;
+  onRemove: () => void;
 }
 
-export function EntryCard({ result, showStress, onNavigate }: Props) {
+export function EntryCard({
+  result, showStress, onNavigate, inNotebook, onAdd, onRemove,
+}: Props) {
   const [open, setOpen] = useState(false);
   const entry = result.entry;
 
@@ -104,10 +109,19 @@ export function EntryCard({ result, showStress, onNavigate }: Props) {
       {entry.n?.errors && <Note title="常见错误" body={entry.n.errors} kind="warn" />}
       {entry.n?.notes && <Note title="说明" body={entry.n.notes} />}
 
-      <button type="button" className="toggle" onClick={() => setOpen(!open)}>
-        {open ? "收起变位表" : "展开变位表"}
-        {entry.z && <span className="index">«{entry.z}»</span>}
-      </button>
+      <div className="entry-actions">
+        <button type="button" className="toggle" onClick={() => setOpen(!open)}>
+          {open ? "收起变位表" : "展开变位表"}
+          {entry.z && <span className="index">«{entry.z}»</span>}
+        </button>
+        <button
+          type="button"
+          className={inNotebook ? "toggle in-notebook" : "toggle"}
+          onClick={inNotebook ? onRemove : onAdd}
+        >
+          {inNotebook ? "✓ 已在生词本" : "＋ 加入生词本"}
+        </button>
+      </div>
       {open && <ParadigmTable entry={entry} showStress={showStress} />}
     </article>
   );
