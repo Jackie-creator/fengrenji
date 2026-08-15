@@ -44,6 +44,12 @@ _FEM_SOFT_SG = {"nomn": "ь", "gent": "и", "datv": "и", "accs": "ь", "ablt": 
 _NEUT_O_SG = {"nomn": "о", "gent": "а", "datv": "у", "ablt": "ом", "loct": "е"}
 _NEUT_E_SG = {"nomn": "е", "gent": "я", "datv": "ю", "ablt": "ем", "loct": "е"}
 
+# Type 7 (-ия / -ие) differs from type 6 (-я / -ье) in exactly one place: where
+# the ending would be -е it is -и instead. исто́рия -> в исто́рии, мне́ние -> о
+# мне́нии, but иде́я -> об иде́е and здоро́вье -> о здоро́вье.
+_FEM_IJA_SG = {"nomn": "я", "gent": "и", "datv": "и", "accs": "ю", "ablt": "ей", "loct": "и"}
+_NEUT_IJE_SG = {"nomn": "е", "gent": "я", "datv": "ю", "ablt": "ем", "loct": "и"}
+
 _HARD_PL = {"nomn": "ы", "datv": "ам", "ablt": "ами", "loct": "ах"}
 _SOFT_PL = {"nomn": "и", "datv": "ям", "ablt": "ями", "loct": "ях"}
 
@@ -61,10 +67,14 @@ _GEN_PL = {
     (Gender.FEMN, 3): "",
     (Gender.FEMN, 4): "",
     (Gender.FEMN, 5): "",
+    (Gender.FEMN, 6): "й",
+    (Gender.FEMN, 7): "й",
     (Gender.FEMN, 8): "ей",
     (Gender.NEUT, 1): "",
     (Gender.NEUT, 2): "ей",
     (Gender.NEUT, 3): "",
+    (Gender.NEUT, 6): "ий",
+    (Gender.NEUT, 7): "й",
 }
 
 
@@ -83,10 +93,18 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
     stem_ordinal = _stem_stress_ordinal(entry, stem)
     oblique_stem = _drop_fleeting(stem) if index.fleeting and gender is Gender.MASC else stem
 
+    # A noun marked singular- or plural-only has no cells in the other number.
+    # Generating them anyway would put здоро́вья and де́ньга in the index.
+    numbers = ("sing", "plur")
+    if entry.number_only == "sing":
+        numbers = ("sing",)
+    elif entry.number_only == "plur":
+        numbers = ("plur",)
+
     cells: dict[str, Form] = {}
-    for number in ("sing", "plur"):
+    for number in numbers:
         for case in CASES:
-            ending = _ending(gender, index, number, case)
+            ending = _ending(gender, index, number, case, entry.gender)
             if ending is None:
                 continue
             use_stem = stem if (number == "sing" and case == "nomn") else oblique_stem
@@ -100,6 +118,9 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
                 and count_vowels(ending) == 0
             ):
                 use_stem = _insert_fleeting(stem)
+            elif ending == "ий" and use_stem.endswith("ь"):
+                # здоро́вь- + -ий is written здоро́вий: ь is not kept before и.
+                use_stem = use_stem[:-1]
             text = _assemble(
                 entry.lemma, use_stem, ending, index, number, case, stem_ordinal
             )
@@ -108,7 +129,7 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
 
         # Feminine -а/-я has its own accusative singular; everything else copies.
         if number == "sing" and gender is Gender.FEMN:
-            acc_ending = _ending(gender, index, "sing", "accs")
+            acc_ending = _ending(gender, index, "sing", "accs", entry.gender)
             if acc_ending is not None and acc_ending not in ("ь",):
                 text = _assemble(
                     entry.lemma, stem, acc_ending, index, "sing", "accs", stem_ordinal
@@ -161,9 +182,22 @@ def _stem(lemma: str, gender: Gender, index: Index) -> str:
     return lemma[:-1] if lemma[-1] in "оея" else lemma
 
 
-def _ending(gender: Gender, index: Index, number: str, case: str) -> str | None:
+def _ending(
+    gender: Gender,
+    index: Index,
+    number: str,
+    case: str,
+    grammatical: Gender | None = None,
+) -> str | None:
     if number == "plur":
         if case == "gent":
+            # A masculine noun declining as a soft feminine keeps the masculine
+            # genitive plural: дя́дя -> дя́дей, not *дядь. The hard ones (мужчи́на
+            # -> мужчи́н) coincide with the feminine ending anyway.
+            if grammatical is Gender.MASC and gender is Gender.FEMN and _is_soft(
+                gender, index
+            ):
+                return "ей"
             return _GEN_PL.get((gender, index.type))
         soft = _is_soft(gender, index)
         table = _SOFT_PL if soft else _HARD_PL
@@ -184,20 +218,25 @@ def _ending(gender: Gender, index: Index, number: str, case: str) -> str | None:
     if gender is Gender.FEMN:
         if index.type == 8:
             return _FEM_SOFT_SG.get(case)
-        if index.type == 2:
+        if index.type == 7:
+            return _FEM_IJA_SG.get(case)
+        if index.type in (2, 6):
             return _FEM_JA_SG.get(case)
         return _FEM_A_SG.get(case)
-    if index.type == 2:
+    if index.type == 7:
+        return _NEUT_IJE_SG.get(case)
+    if index.type in (2, 6):
         return _NEUT_E_SG.get(case)
     return _NEUT_O_SG.get(case)
 
 
 def _is_soft(gender: Gender, index: Index) -> bool:
+    """Soft stems take я/ю/и endings in the plural rather than а/у/ы."""
     if gender is Gender.MASC:
         return index.type in (2, 6, 7)
     if gender is Gender.FEMN:
-        return index.type in (2, 7, 8)
-    return index.type in (2, 7)
+        return index.type in (2, 6, 7, 8)
+    return index.type in (2, 6, 7)
 
 
 def _assemble(

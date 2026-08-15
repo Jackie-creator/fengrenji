@@ -1,0 +1,694 @@
+# Determiners, prepositions and conjunctions.
+#
+# These are short, extremely frequent, and carry most of the grammar. A learner
+# who knows 5,000 nouns but not which case за governs still cannot form a
+# sentence.
+
+# --- Determiners ------------------------------------------------------------
+
+- lemma: этот
+  stress: э́тот
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: э́тот
+    sing,femn,nomn: э́та
+    sing,neut,nomn: э́то
+    plur,nomn: э́ти
+    sing,masc,gent: э́того
+    sing,masc,datv: э́тому
+    sing,masc,ablt: э́тим
+    sing,masc,loct: э́том
+    sing,femn,accs: э́ту
+    plur,gent: э́тих
+  senses:
+    - zh: 这个
+      en: this
+      examples:
+        - ru: Э́тот дом о́чень ста́рый.
+          zh: 这栋房子很旧。
+  common_errors: |
+    要与名词性数格一致：э́тот дом / э́та кни́га / э́то окно́ / э́ти лю́ди。
+    注意区分 э́то（中性"这个"，修饰名词）和 э́то（"这是"，判断句的主语）：
+    «Э́то кни́га» 这是本书 ／ «Э́та кни́га» 这本书。前者 э́то 不变，后者要一致。
+
+- lemma: тот
+  stress: тот
+  pos: pron
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: тот
+    sing,femn,nomn: та
+    sing,neut,nomn: то
+    plur,nomn: те
+    sing,masc,gent: того́
+    sing,masc,datv: тому́
+    sing,masc,ablt: тем
+    sing,masc,loct: том
+    sing,femn,accs: ту
+    plur,gent: тех
+  senses:
+    - zh: 那个
+      en: that
+      examples:
+        - ru: Тот дом бо́льше.
+          zh: 那栋房子更大。
+  notes: |
+    常与 кото́рый 搭配构成"就是……的那个"：«тот, кото́рый мне ну́жен»。
+
+- lemma: весь
+  stress: весь
+  pos: pron
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: весь
+    sing,femn,nomn: вся
+    sing,neut,nomn: всё
+    plur,nomn: все
+    sing,masc,gent: всего́
+    sing,masc,datv: всему́
+    sing,masc,ablt: всем
+    sing,masc,loct: всём
+    sing,femn,accs: всю
+    plur,gent: всех
+  senses:
+    - zh: 全部的，整个的
+      en: all, whole
+      examples:
+        - ru: Я прочита́л всю кни́гу.
+          zh: 我把整本书读完了。
+  common_errors: |
+    中性 всё 是"一切（事物）"，复数 все 是"所有人"——
+    «Всё хорошо́» 一切都好 ／ «Все зна́ют» 大家都知道。
+    这两个只差一个字母，意思完全不同，是高频错点。
+
+- lemma: свой
+  stress: свой
+  pos: pron
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,masc,nomn: свой
+    sing,femn,nomn: своя́
+    sing,neut,nomn: своё
+    plur,nomn: свои́
+    sing,masc,gent: своего́
+    sing,masc,datv: своему́
+    sing,femn,accs: свою́
+  senses:
+    - zh: 自己的
+      en: one's own
+      examples:
+        - ru: Он лю́бит свою́ рабо́ту.
+          zh: 他喜欢自己的工作。
+  common_errors: |
+    **主语自己的东西必须用 свой**，不能用 его́／её／их：
+    «Он взял свою́ кни́гу» 他拿了自己的书 ／
+    «Он взял его́ кни́гу» 他拿了（另一个人）他的书。
+    汉语"他的书"两种都能说，俄语靠 свой 严格区分，这是中国学生的重灾区。
+
+- lemma: который
+  stress: кото́рый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: false
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 哪个；（关系代词）……的那个
+      en: which, who
+      examples:
+        - ru: Э́то студе́нт, кото́рый живёт в общежи́тии.
+          zh: 这是住在宿舍的那个学生。
+  common_errors: |
+    作关系代词时，**性数跟着先行词，格跟着它在从句里的角色**：
+    «кни́га, кото́рую я чита́ю» —— кото́рую 是阴性（跟 кни́га），
+    第四格（因为在从句里作宾语）。两套规则各管一边，容易只顾一边。
+
+- lemma: какой
+  stress: како́й
+  pos: adj
+  zaliznyak: п 1b
+  short_form: false
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 什么样的；多么
+      en: what kind of, what a
+      examples:
+        - ru: Кака́я сего́дня пого́да?
+          zh: 今天天气怎么样？
+        - ru: Кака́я краси́вая пе́сня!
+          zh: 多好听的歌啊！
+
+- lemma: такой
+  stress: тако́й
+  pos: adj
+  zaliznyak: п 1b
+  short_form: false
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 这样的，如此的
+      en: such
+      examples:
+        - ru: Я не ви́дел тако́го фи́льма.
+          zh: 我没看过这样的电影。
+  common_errors: |
+    修饰名词用 тако́й，修饰形容词或副词用 так：
+    «тако́й краси́вый го́род» 这么美的城市 ／ «так краси́во» 这么美。
+
+- lemma: каждый
+  stress: ка́ждый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: false
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 每个
+      en: every, each
+      collocations: [ка́ждый день, ка́ждый раз]
+      examples:
+        - ru: Он звони́т ка́ждый день.
+          zh: 他每天打电话。
+
+- lemma: самый
+  stress: са́мый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: false
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 最（构成最高级）
+      en: most
+      examples:
+        - ru: Э́то са́мый большо́й го́род в ми́ре.
+          zh: 这是世界上最大的城市。
+  common_errors: |
+    俄语最高级最常用的说法就是 са́мый + 形容词，两者都要与名词一致：
+    «са́мая интере́сная кни́га»。
+
+- lemma: другой
+  stress: друго́й
+  pos: adj
+  zaliznyak: п 1b
+  short_form: false
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 别的，另一个
+      en: other, another
+      examples:
+        - ru: Дай мне другу́ю ру́чку.
+          zh: 给我另一支笔。
+
+# --- Adjectives -------------------------------------------------------------
+
+- lemma: главный
+  stress: гла́вный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 主要的
+      en: main
+      collocations: [гла́вное]
+      examples:
+        - ru: Э́то гла́вная у́лица го́рода.
+          zh: 这是城里的主街。
+  notes: |
+    中性短尾 гла́вное 常独立作"最重要的是"：«Гла́вное — не опозда́ть»。
+
+- lemma: общий
+  stress: о́бщий
+  pos: adj
+  zaliznyak: п 4a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 共同的；总的
+      en: common, general
+      examples:
+        - ru: У нас о́бщие интере́сы.
+          zh: 我们有共同的兴趣。
+
+- lemma: разный
+  stress: ра́зный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 不同的，各种各样的
+      en: different, various
+      examples:
+        - ru: У нас ра́зные мне́ния.
+          zh: 我们看法不同。
+
+- lemma: известный
+  stress: изве́стный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 有名的，著名的
+      en: famous
+      examples:
+        - ru: Он изве́стный писа́тель.
+          zh: 他是位有名的作家。
+  common_errors: |
+    т 不发音，读作 [изве́сный]。同类：ра́достный, гру́стный, по́здно。
+
+- lemma: готовый
+  stress: гото́вый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 准备好的；现成的
+      en: ready
+      examples:
+        - ru: У́жин гото́в.
+          zh: 晚饭好了。
+  notes: |
+    日常多用短尾：гото́в / гото́ва / гото́во / гото́вы。
+
+- lemma: возможный
+  stress: возмо́жный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可能的
+      en: possible
+      examples:
+        - ru: Э́то вполне́ возмо́жно.
+          zh: 这完全可能。
+
+- lemma: настоящий
+  stress: настоя́щий
+  pos: adj
+  zaliznyak: п 4a
+  short_form: false
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 真正的；现在的
+      en: real, present
+      examples:
+        - ru: Он настоя́щий друг.
+          zh: 他是真朋友。
+
+- lemma: будущий
+  stress: бу́дущий
+  pos: adj
+  zaliznyak: п 4a
+  short_form: false
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 将来的，下一个的
+      en: future, next
+      collocations: [в бу́дущем году́]
+      examples:
+        - ru: В бу́дущем году́ я пое́ду в Росси́ю.
+          zh: 明年我要去俄罗斯。
+  antonyms: [прошлый]
+
+- lemma: прошлый
+  stress: про́шлый
+  pos: adj
+  zaliznyak: п 1a
+  short_form: false
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 过去的，上一个的
+      en: past, last
+      collocations: [на про́шлой неде́ле]
+      examples:
+        - ru: На про́шлой неде́ле бы́ло хо́лодно.
+          zh: 上周很冷。
+  antonyms: [будущий]
+
+- lemma: следующий
+  stress: сле́дующий
+  pos: adj
+  zaliznyak: п 4a
+  short_form: false
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 下一个的
+      en: next, following
+      examples:
+        - ru: Выхожу́ на сле́дующей остано́вке.
+          zh: 我下一站下车。
+
+- lemma: серьёзный
+  stress: серьёзный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 严肃的；严重的
+      en: serious
+      examples:
+        - ru: Э́то серьёзный вопро́с.
+          zh: 这是个严肃的问题。
+
+- lemma: спокойный
+  stress: споко́йный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 平静的，安静的
+      en: calm
+      collocations: [споко́йной но́чи]
+      examples:
+        - ru: Он о́чень споко́йный челове́к.
+          zh: 他是个很沉稳的人。
+
+# --- Prepositions -----------------------------------------------------------
+
+- lemma: у
+  stress: у
+  pos: prep
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 在……旁边；（表所属）某人有
+      en: at, by; to have
+      government: кого-чего
+      examples:
+        - ru: У меня́ есть вопро́с.
+          zh: 我有个问题。
+        - ru: Он стои́т у окна́.
+          zh: 他站在窗边。
+  common_errors: |
+    "有"的标准说法是 «У кого́ есть что»：у + 第二格 + есть + 第一格。
+    否定用第二格：«У меня́ нет вре́мени»。这个句型必须整体记。
+
+- lemma: для
+  stress: для
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 为了，给
+      en: for
+      government: кого-чего
+      examples:
+        - ru: Э́то пода́рок для тебя́.
+          zh: 这是给你的礼物。
+  common_errors: |
+    接第二格。与 к（第三格，表方向）和 ра́ди（为了……缘故）分工不同。
+
+- lemma: без
+  stress: без
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 没有，不带
+      en: without
+      government: кого-чего
+      examples:
+        - ru: Я пью чай без са́хара.
+          zh: 我喝茶不加糖。
+  notes: |
+    也用于报时间："без пяти́ во́семь" 差五分八点。
+
+- lemma: от
+  stress: от
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 从（某人／某处）离开；由于
+      en: from
+      government: кого-чего
+      examples:
+        - ru: Я получи́л письмо́ от бра́та.
+          zh: 我收到哥哥的信。
+  common_errors: |
+    三个"从"要分清，取决于原来用哪个前置词：
+    в → из（из шко́лы），на → с（с рабо́ты），у → от（от врача́）。
+    去哪儿和从哪儿必须成对记。
+
+- lemma: до
+  stress: до
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 到……为止；在……之前
+      en: until, before
+      government: чего
+      collocations: [до свида́ния]
+      examples:
+        - ru: Магази́н рабо́тает до восьми́.
+          zh: 商店营业到八点。
+  notes: |
+    «До свида́ния» 字面是"到再见为止"，是最标准的告别语。
+
+- lemma: из
+  stress: из
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 从……里出来；用……做的
+      en: from, out of, made of
+      government: чего
+      examples:
+        - ru: Он прие́хал из Кита́я.
+          zh: 他从中国来。
+        - ru: Э́тот стол из де́рева.
+          zh: 这张桌子是木头做的。
+
+- lemma: за
+  stress: за
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 到……后面（接第四格）；为了，换取
+      en: behind, for
+      government: что
+      examples:
+        - ru: Спаси́бо за по́мощь.
+          zh: 谢谢你的帮助。
+    - zh: 在……后面（接第五格）
+      en: behind
+      government: чем
+      examples:
+        - ru: Мы сиде́ли за столо́м.
+          zh: 我们坐在桌旁。
+  common_errors: |
+    与 в／на 一样是"方向用第四格、位置用第五格"的对立：
+    «сесть за стол»（坐到桌旁去）／«сиде́ть за столо́м»（坐在桌旁）。
+    另外"感谢／付钱／买"后面的 за 一律接第四格。
+
+- lemma: под
+  stress: под
+  pos: prep
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 到……下面（第四格）／在……下面（第五格）
+      en: under
+      government: что / чем
+      examples:
+        - ru: Ко́шка спит под столо́м.
+          zh: 猫在桌子底下睡觉。
+
+- lemma: над
+  stress: над
+  pos: prep
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在……上方（接第五格）
+      en: above, over
+      government: чем
+      examples:
+        - ru: Ла́мпа виси́т над столо́м.
+          zh: 灯挂在桌子上方。
+  common_errors: |
+    只支配第五格，没有第四格用法（与 под／за 不同）。
+    "嘲笑"的 смея́ться над 也用它。
+
+- lemma: около
+  stress: о́коло
+  pos: prep
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 在……附近；大约
+      en: near, about
+      government: чего
+      examples:
+        - ru: Он живёт о́коло метро́.
+          zh: 他住在地铁附近。
+
+- lemma: после
+  stress: по́сле
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 在……之后
+      en: after
+      government: чего
+      examples:
+        - ru: По́сле уро́ка мы пошли́ домо́й.
+          zh: 下课后我们回家了。
+  common_errors: |
+    接第二格。与 че́рез（第四格，"过多久之后"）分工：
+    «по́сле уро́ка» 下课后 ／ «че́рез час» 一小时后。
+
+- lemma: через
+  stress: че́рез
+  pos: prep
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 过（多久）之后；穿过
+      en: in, across
+      government: что
+      examples:
+        - ru: Он придёт че́рез час.
+          zh: 他一小时后来。
+
+- lemma: между
+  stress: ме́жду
+  pos: prep
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 在……之间
+      en: between
+      government: чем
+      examples:
+        - ru: Ба́нк ме́жду апте́кой и по́чтой.
+          zh: 银行在药店和邮局之间。
+
+# --- Conjunctions -----------------------------------------------------------
+
+- lemma: и
+  stress: и
+  pos: conj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 和，并且
+      en: and
+      examples:
+        - ru: Он чита́ет и пи́шет.
+          zh: 他又读又写。
+
+- lemma: а
+  stress: а
+  pos: conj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 而，可是（表对比）
+      en: and, but (contrastive)
+      examples:
+        - ru: Я студе́нт, а он врач.
+          zh: 我是学生，而他是医生。
+  common_errors: |
+    а 和 но 都译作"而／但"，但分工不同：
+    **а 表对比**（两边不矛盾，只是不同）——«Я чита́ю, а он пи́шет»；
+    **но 表转折**（后半否定前半的预期）——«Я хочу́, но не могу́»。
+    汉语都能说"而"，靠语义判断，是高频错点。
+
+- lemma: но
+  stress: но
+  pos: conj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 但是
+      en: but
+      examples:
+        - ru: Он хо́чет, но не мо́жет.
+          zh: 他想，但做不到。
+
+- lemma: или
+  stress: и́ли
+  pos: conj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 或者
+      en: or
+      examples:
+        - ru: Чай и́ли ко́фе?
+          zh: 茶还是咖啡？
+
+- lemma: если
+  stress: е́сли
+  pos: conj
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 如果
+      en: if
+      examples:
+        - ru: Е́сли бу́дет вре́мя, я приду́.
+          zh: 有时间我就来。
+
+- lemma: чтобы
+  stress: что́бы
+  pos: conj
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 为了；（引导愿望从句）
+      en: in order to, that
+      examples:
+        - ru: Я пришёл, что́бы помо́чь.
+          zh: 我来是为了帮忙。
+  common_errors: |
+    主语相同时后接**不定式**：«Я пришёл, что́бы помо́чь»。
+    主语不同时后接**过去时**（而不是现在时或将来时）：
+    «Я хочу́, что́бы ты пришёл» 我希望你来——这里 пришёл 是过去时形式，
+    但表达的是愿望，不是过去。这一条中国学生几乎都会错。
+    读作 [што́бы]。
+
+- lemma: потому что
+  stress: потому́ что
+  pos: conj
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 因为
+      en: because
+      examples:
+        - ru: Я не пришёл, потому́ что был за́нят.
+          zh: 我没来，因为我忙。
+  common_errors: |
+    只能放在**后半句**，不能像汉语"因为……所以……"那样放句首。
+    要表达"因为……所以"，前半用 так как／поско́льку，或者用 поэ́тому 接后果。
+
+- lemma: поэтому
+  stress: поэ́тому
+  pos: conj
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 所以，因此
+      en: therefore
+      examples:
+        - ru: Бы́ло по́здно, поэ́тому я пошёл домо́й.
+          zh: 太晚了，所以我回家了。
+  common_errors: |
+    与 потому́ что 方向相反：поэ́тому 引出结果，потому́ что 引出原因。
+    汉语"因为……所以……"两个都用，俄语**只能用一个**，不能两句都加。
+
+- lemma: когда
+  stress: когда́
+  pos: conj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 什么时候；当……的时候
+      en: when
+      examples:
+        - ru: Когда́ ты придёшь?
+          zh: 你什么时候来？
+        - ru: Когда́ я был в Москве́, бы́ло хо́лодно.
+          zh: 我在莫斯科的时候很冷。
+
+- lemma: хотя
+  stress: хотя́
+  pos: conj
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 虽然，尽管
+      en: although
+      examples:
+        - ru: Хотя́ бы́ло по́здно, он продолжа́л рабо́тать.
+          zh: 虽然很晚了，他还在继续工作。
+  common_errors: |
+    与汉语不同，俄语**不能**在后半句再加"但是"。
+    «Хотя́ …, но …» 是病句，只能保留一个。

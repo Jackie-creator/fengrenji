@@ -1,0 +1,731 @@
+# B1 verbs.
+#
+# Chosen for their government. Chinese marks none of this, so "帮他" maps onto
+# помо́чь ему́ (dative) while "问他" maps onto спроси́ть его́ (accusative), and
+# nothing in the Chinese tells the learner which is which. Every entry here
+# states the case it demands.
+
+- lemma: ждать
+  stress: ждать
+  pos: verb
+  aspect: impf
+  transitivity: trans
+  government: кого-что / чего
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    pres,1per,sing: жду
+    pres,2per,sing: ждёшь
+    pres,3per,sing: ждёт
+    pres,1per,plur: ждём
+    pres,2per,plur: ждёте
+    pres,3per,plur: ждут
+    past,masc: ждал
+    past,femn: ждала́
+    past,neut: жда́ло
+    past,plur: жда́ли
+    impr,sing: жди
+    impr,plur: жди́те
+  senses:
+    - zh: 等，等待
+      en: to wait
+      examples:
+        - ru: Я жду тебя́ у вхо́да.
+          zh: 我在入口等你。
+  common_errors: |
+    支配两个格，取决于对象是否确定：
+    确定的人或物用第四格——«жду ма́му», «жду авто́бус но́мер пять»；
+    不确定的、抽象的用第二格——«жду отве́та», «жду по́мощи», «жду авто́буса»。
+    过去时阴性 ждала́ 重音在词尾，与 брать / жить 同型。
+
+- lemma: бояться
+  stress: боя́ться
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кого-чего
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 怕，害怕
+      en: to be afraid of
+      examples:
+        - ru: Он бои́тся соба́к.
+          zh: 他怕狗。
+  common_errors: |
+    后面接**第二格**：боя́ться соба́к / темноты́ / оши́бок。
+    汉语"怕狗"没有任何标记，所以这个格很容易漏。
+  verify: [zaliznyak]
+
+- lemma: пользоваться
+  stress: по́льзоваться
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: чем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 使用，利用
+      en: to use
+      examples:
+        - ru: Мо́жно по́льзоваться словарём?
+          zh: 可以用词典吗？
+  common_errors: |
+    接第五格，不是第四格：по́льзоваться словарём。
+    与 испо́льзовать（接第四格）意思相近但支配不同，容易混。
+  verify: [zaliznyak]
+
+- lemma: зависеть
+  stress: зави́сеть
+  pos: verb
+  zaliznyak: нсв 5a
+  aspect: impf
+  transitivity: intrans
+  government: от кого-чего
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 取决于，依赖
+      en: to depend on
+      examples:
+        - ru: Всё зави́сит от пого́ды.
+          zh: 一切取决于天气。
+  common_errors: |
+    固定用 от + 第二格。«Э́то зави́сит от тебя́» 这要看你。
+
+- lemma: мешать
+  stress: меша́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: помешать
+  transitivity: intrans
+  government: кому
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 妨碍，打扰
+      en: to disturb, to hinder
+      examples:
+        - ru: Извини́те, я вам не меша́ю?
+          zh: 抱歉，我没打扰您吧？
+  common_errors: |
+    "打扰某人"用第三格：меша́ть мне / вам，不是第四格。
+
+- lemma: помешать
+  stress: помеша́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: мешать
+  transitivity: intrans
+  government: кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 妨碍了（完成体）
+      en: to hinder
+      examples:
+        - ru: Дождь помеша́л нам гуля́ть.
+          zh: 雨让我们没散成步。
+
+- lemma: советовать
+  stress: сове́товать
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  aspect_pair: посоветовать
+  transitivity: trans
+  government: кому что / инф.
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 建议，劝告
+      en: to advise
+      examples:
+        - ru: Я сове́тую вам отдохну́ть.
+          zh: 我建议您休息一下。
+  common_errors: |
+    被建议的人用第三格。变位是 сове́тую / сове́туешь（-ова- 变 -у-）。
+  verify: [zaliznyak]
+
+- lemma: посоветовать
+  stress: посове́товать
+  pos: verb
+  zaliznyak: св 2a
+  aspect: perf
+  aspect_pair: советовать
+  transitivity: trans
+  government: кому что / инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 建议（完成体）
+      en: to advise
+      examples:
+        - ru: Посове́туйте, что почита́ть.
+          zh: 请推荐点读物。
+  verify: [zaliznyak]
+
+- lemma: поздравлять
+  stress: поздравля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: поздравить
+  transitivity: trans
+  government: кого с чем
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 祝贺
+      en: to congratulate
+      examples:
+        - ru: Поздравля́ю вас с пра́здником!
+          zh: 祝您节日快乐！
+  common_errors: |
+    结构固定：поздравля́ть **кого́**（第四格）**с чем**（第五格）。
+    «Поздравля́ю с днём рожде́ния!» 生日快乐。
+    照汉语说 «поздравля́ю ваш день рожде́ния» 是错的。
+
+- lemma: поздравить
+  stress: поздра́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: поздравлять
+  transitivity: trans
+  government: кого с чем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 祝贺（完成体）
+      en: to congratulate
+      examples:
+        - ru: Я хочу́ поздра́вить тебя́ с побе́дой.
+          zh: 我想祝贺你获胜。
+
+- lemma: желать
+  stress: жела́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кому чего
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 祝愿，希望
+      en: to wish
+      examples:
+        - ru: Жела́ю вам уда́чи!
+          zh: 祝您好运！
+  common_errors: |
+    双格结构：人用第三格，祝愿的内容用**第二格**——
+    жела́ю вам уда́чи / сча́стья / здоро́вья，不是第四格。
+
+- lemma: благодарить
+  stress: благодари́ть
+  pos: verb
+  zaliznyak: нсв 4b
+  aspect: impf
+  aspect_pair: поблагодарить
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 感谢
+      en: to thank
+      examples:
+        - ru: Благодарю́ вас за по́мощь.
+          zh: 感谢您的帮助。
+  common_errors: |
+    感谢的人用第四格，感谢的事用 за + 第四格。
+    注意与 спаси́бо 不同：«спаси́бо вам» 用第三格，两套不能混。
+
+- lemma: поблагодарить
+  stress: поблагодари́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: благодарить
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 道谢（完成体）
+      en: to thank
+      examples:
+        - ru: Я поблагодари́л его́ за сове́т.
+          zh: 我为他的建议向他道了谢。
+
+- lemma: платить
+  stress: плати́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: заплатить
+  transitivity: intrans
+  government: за что / кому
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 付钱
+      en: to pay
+      examples:
+        - ru: Я плачу́ за биле́ты.
+          zh: 我付票钱。
+  common_errors: |
+    "为某物付钱"用 за + 第四格。第一人称单数是 плачу́（т → ч），
+    与 пла́чу（我哭，来自 пла́кать）只差重音，是经典易混对。
+
+- lemma: заплатить
+  stress: заплати́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: платить
+  transitivity: intrans
+  government: за что / кому
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 付了钱（完成体）
+      en: to pay
+      examples:
+        - ru: Мы уже́ заплати́ли за обе́д.
+          zh: 我们已经把饭钱付了。
+
+- lemma: стоить
+  stress: сто́ить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: intrans
+  government: что / чего
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 值，价值为
+      en: to cost
+      examples:
+        - ru: Ско́лько сто́ит э́та кни́га?
+          zh: 这本书多少钱？
+  notes: |
+    «Ско́лько сто́ит…?» 是问价格的标准说法。
+    另有"值得"的用法接不定式：«Э́то сто́ит посмотре́ть» 这值得一看。
+
+- lemma: просить
+  stress: проси́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: попросить
+  transitivity: trans
+  government: кого о чём / инф.
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 请求，恳求
+      en: to ask for, to request
+      examples:
+        - ru: Я прошу́ вас помо́чь мне.
+          zh: 我请您帮帮我。
+  common_errors: |
+    与 спра́шивать 分工：проси́ть 是"请求（对方做事）"，
+    спра́шивать 是"询问（想知道答案）"。汉语一个"问"字覆盖两者。
+
+- lemma: попросить
+  stress: попроси́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: просить
+  transitivity: trans
+  government: кого о чём / инф.
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 请求（完成体）
+      en: to ask
+      examples:
+        - ru: Он попроси́л меня́ подожда́ть.
+          zh: 他请我等一下。
+
+- lemma: искать
+  stress: иска́ть
+  pos: verb
+  zaliznyak: нсв 6c
+  aspect: impf
+  transitivity: trans
+  government: кого-что / чего
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 找，寻找
+      en: to look for
+      examples:
+        - ru: Я ищу́ свои́ ключи́.
+          zh: 我在找我的钥匙。
+  common_errors: |
+    变位 ищу́ / и́щешь（ск → щ，重音前移）。
+    与 найти́ 构成"过程／结果"的对立：ищу́ 在找，нашёл 找到了。
+
+- lemma: найти
+  stress: найти́
+  pos: verb
+  aspect: perf
+  transitivity: trans
+  government: кого-что
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: найду́
+    futr,2per,sing: найдёшь
+    futr,3per,sing: найдёт
+    futr,1per,plur: найдём
+    futr,2per,plur: найдёте
+    futr,3per,plur: найду́т
+    past,masc: нашёл
+    past,femn: нашла́
+    past,neut: нашло́
+    past,plur: нашли́
+    impr,sing: найди́
+    impr,plur: найди́те
+  senses:
+    - zh: 找到
+      en: to find
+      examples:
+        - ru: Я нашёл твой телефо́н.
+          zh: 我找到你手机了。
+  common_errors: |
+    过去时用 идти́ 那一套补充词干：нашёл / нашла́，与不定式毫无相似之处。
+
+- lemma: терять
+  stress: теря́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: потерять
+  transitivity: trans
+  government: кого-что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 丢失，失去
+      en: to lose
+      examples:
+        - ru: Не теря́й вре́мя.
+          zh: 别浪费时间。
+
+- lemma: потерять
+  stress: потеря́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: терять
+  transitivity: trans
+  government: кого-что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 弄丢了（完成体）
+      en: to lose
+      examples:
+        - ru: Я потеря́л ключи́.
+          zh: 我把钥匙丢了。
+
+- lemma: решать
+  stress: реша́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: решить
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 解决；做（题）
+      en: to solve, to decide
+      examples:
+        - ru: Мы реша́ем э́ту зада́чу.
+          zh: 我们在解这道题。
+
+- lemma: решить
+  stress: реши́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: решать
+  transitivity: trans
+  government: что / инф.
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 决定；解决了
+      en: to decide, to solve
+      examples:
+        - ru: Он реши́л уе́хать.
+          zh: 他决定走了。
+
+- lemma: стараться
+  stress: стара́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: постараться
+  transitivity: intrans
+  reflexive: true
+  government: инф.
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 努力，尽力
+      en: to try
+      examples:
+        - ru: Я стара́юсь говори́ть ме́дленно.
+          zh: 我尽量说慢点。
+
+- lemma: постараться
+  stress: постара́ться
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: стараться
+  transitivity: intrans
+  reflexive: true
+  government: инф.
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 尽力（完成体）
+      en: to try
+      examples:
+        - ru: Постара́йтесь не опозда́ть.
+          zh: 尽量别迟到。
+
+- lemma: продолжать
+  stress: продолжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что / инф.
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 继续
+      en: to continue
+      examples:
+        - ru: Он продолжа́ет рабо́тать.
+          zh: 他还在继续工作。
+  common_errors: |
+    与 начина́ть 一样，后接不定式时只能用未完成体：продолжа́ть чита́ть。
+
+- lemma: выбирать
+  stress: выбира́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: выбрать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 选择
+      en: to choose
+      examples:
+        - ru: Я до́лго выбира́л пода́рок.
+          zh: 我挑礼物挑了很久。
+
+- lemma: выбрать
+  stress: вы́брать
+  pos: verb
+  aspect: perf
+  aspect_pair: выбирать
+  transitivity: trans
+  government: кого-что
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: вы́беру
+    futr,2per,sing: вы́берешь
+    futr,3per,sing: вы́берет
+    futr,1per,plur: вы́берем
+    futr,2per,plur: вы́берете
+    futr,3per,plur: вы́берут
+    past,masc: вы́брал
+    past,femn: вы́брала
+    past,neut: вы́брало
+    past,plur: вы́брали
+    impr,sing: вы́бери
+    impr,plur: вы́берите
+  senses:
+    - zh: 选好了（完成体）
+      en: to choose
+      examples:
+        - ru: Я уже́ вы́брал.
+          zh: 我已经选好了。
+  notes: |
+    前缀 вы- 在完成体里**永远带重音**：вы́брать, вы́йти, вы́учить。
+    这是俄语里少见的"前缀夺取重音"现象，整批词都适用。
+
+- lemma: улыбаться
+  stress: улыба́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кому
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 微笑
+      en: to smile
+      examples:
+        - ru: Она́ улыба́ется мне.
+          zh: 她朝我微笑。
+
+- lemma: смеяться
+  stress: смея́ться
+  pos: verb
+  zaliznyak: нсв 6b
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: над кем-чем
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 笑；嘲笑
+      en: to laugh
+      examples:
+        - ru: Не сме́йтесь на́до мной.
+          zh: 别笑话我。
+  common_errors: |
+    "嘲笑某人"用 над + 第五格：смея́ться над ним。
+    变位时重读词尾的 е 写作 ё：смею́сь / смеёшься / смеётся。
+  verify: [zaliznyak]
+
+- lemma: молчать
+  stress: молча́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 沉默，不作声
+      en: to be silent
+      examples:
+        - ru: Почему́ ты молчи́шь?
+          zh: 你怎么不说话？
+
+- lemma: кричать
+  stress: крича́ть
+  pos: verb
+  zaliznyak: нсв 5b
+  aspect: impf
+  transitivity: intrans
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 喊，叫
+      en: to shout
+      examples:
+        - ru: Не кричи́, я слы́шу.
+          zh: 别喊，我听得见。
+
+- lemma: собираться
+  stress: собира́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: инф.
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 打算，准备（做某事）
+      en: to intend, to be going to
+      examples:
+        - ru: Я собира́юсь в Москву́.
+          zh: 我打算去莫斯科。
+  common_errors: |
+    表示"打算做某事"就用这个词，不能用 ду́мать。
+    «Я собира́юсь купи́ть маши́ну» 我打算买车。
+
+- lemma: успевать
+  stress: успева́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: успеть
+  transitivity: intrans
+  government: инф. / на что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 来得及，赶上
+      en: to have time, to manage
+      examples:
+        - ru: Я не успева́ю всё сде́лать.
+          zh: 我来不及都做完。
+
+- lemma: успеть
+  stress: успе́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: успевать
+  transitivity: intrans
+  government: инф. / на что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 赶上了，来得及（完成体）
+      en: to manage in time
+      examples:
+        - ru: Мы успе́ли на по́езд.
+          zh: 我们赶上火车了。
+
+- lemma: уметь
+  stress: уме́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: инф.
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 会（某项技能）
+      en: to know how to
+      examples:
+        - ru: Он уме́ет пла́вать.
+          zh: 他会游泳。
+  common_errors: |
+    与 мочь 分工：уме́ть 是"学会了这项本事"，мочь 是"当下条件允许"。
+    «Я уме́ю пла́вать, но сего́дня не могу́» 我会游泳，但今天不能游。
+
+- lemma: приносить
+  stress: приноси́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: принести
+  transitivity: trans
+  government: что кому
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 拿来，带来
+      en: to bring
+      examples:
+        - ru: Он ча́сто прино́сит нам фру́кты.
+          zh: 他常给我们带水果。
+
+- lemma: принести
+  stress: принести́
+  pos: verb
+  aspect: perf
+  aspect_pair: приносить
+  transitivity: trans
+  government: что кому
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: принесу́
+    futr,2per,sing: принесёшь
+    futr,3per,sing: принесёт
+    futr,1per,plur: принесём
+    futr,2per,plur: принесёте
+    futr,3per,plur: принесу́т
+    past,masc: принёс
+    past,femn: принесла́
+    past,neut: принесло́
+    past,plur: принесли́
+    impr,sing: принеси́
+    impr,plur: принеси́те
+  senses:
+    - zh: 拿来了（完成体）
+      en: to bring
+      examples:
+        - ru: Принеси́те, пожа́луйста, меню́.
+          zh: 请把菜单拿来。
+  common_errors: |
+    过去时阳性是 принёс（带 ё，没有 -л），阴性才是 принесла́。
+    -ти 结尾的动词过去时阳性大多没有 -л：нёс, вёз, мог。

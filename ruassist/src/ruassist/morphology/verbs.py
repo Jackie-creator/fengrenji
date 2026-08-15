@@ -28,7 +28,10 @@ from .zaliznyak import ENDING, Index, UnsupportedIndex, parse, verb_present_stre
 HUSHING = frozenset("жшчщ")
 VOWELS = frozenset("аеёиоуыэюя")
 
-#: 1st conjugation (classes 1 and 6).
+#: Classes taking first-conjugation endings.
+_FIRST_CONJUGATION = (1, 2, 6)
+
+#: 1st conjugation (classes 1, 2 and 6).
 _FIRST = {
     ("1per", "sing"): "ю",
     ("2per", "sing"): "ешь",
@@ -58,7 +61,7 @@ _ALTERNATIONS = {
 #: Labials take an epenthetic л: люби́ть -> люблю́, купи́ть -> куплю́.
 _LABIALS = frozenset("бпвфм")
 
-SUPPORTED_CLASSES = (1, 4, 5, 6)
+SUPPORTED_CLASSES = (1, 2, 4, 5, 6)
 
 
 def inflect_verb(entry: LexEntry) -> dict[str, Form]:
@@ -121,15 +124,15 @@ def _personal(
 ) -> dict[str, Form]:
     tense = "pres" if entry.aspect is Aspect.IMPF else "futr"
     base = _present_stem(lemma, index)
-    endings = _FIRST if index.type in (1, 6) else _SECOND
+    endings = _FIRST if index.type in _FIRST_CONJUGATION else _SECOND
 
     cells: dict[str, Form] = {}
     for (person, number), ending in endings.items():
         stem = base
         if index.type in (4, 5) and person == "1per" and number == "sing":
             stem = _alternate(base)
-        ending = _spell(stem, ending)
         where = verb_present_stress(index, person, number)
+        ending = _spell(stem, ending, stressed=where is ENDING)
         if where is ENDING:
             text = stress_on_ending(stem, ending)
         else:
@@ -140,13 +143,16 @@ def _personal(
 
 
 def _present_stem(lemma: str, index: Index) -> str:
-    """Strip the infinitive suffix; class 6 also alternates the final consonant."""
+    """Strip the infinitive suffix; classes 2 and 6 also reshape the stem."""
     if index.type == 1:
         return lemma[:-2]  # чита-ть -> чита-
-    if index.type == 4:
-        return lemma[:-3]  # говор-ить -> говор-
-    if index.type == 5:
-        return lemma[:-3]  # вид-еть -> вид-
+    if index.type == 2:
+        # -овать/-евать loses the suffix and gains -у-: сове́товать -> сове́ту-,
+        # интересова́ть -> интересу-. A very productive class, and the one that
+        # borrowed verbs join.
+        return lemma[:-5] + "у"
+    if index.type in (4, 5):
+        return lemma[:-3]  # говор-ить -> говор-, вид-еть -> вид-
     return _alternate(lemma[:-3])  # пис-ать -> пиш-
 
 
@@ -160,8 +166,15 @@ def _alternate(stem: str) -> str:
     return stem
 
 
-def _spell(stem: str, ending: str) -> str:
-    """After a hushing consonant, ю/я are written у/а."""
+def _spell(stem: str, ending: str, *, stressed: bool = False) -> str:
+    """Orthographic adjustments to a personal ending.
+
+    After a hushing consonant ю/я are written у/а. And a stressed е at the head
+    of an ending is written ё: смею́сь but смеёшься, живёшь, идёшь. Unstressed it
+    stays е (чита́ешь), which is why the stress decision has to come first.
+    """
+    if stressed and ending[0] == "е":
+        ending = "ё" + ending[1:]
     if not stem or stem[-1] not in HUSHING:
         return ending
     return {"ю": "у", "я": "а"}.get(ending[0], ending[0]) + ending[1:]

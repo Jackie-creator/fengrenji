@@ -391,3 +391,82 @@ class TestDeclensionGender:
     def test_animacy_still_drives_the_plural_accusative(self):
         entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
         assert cells(entry, ("plur", "accs")) == cells(entry, ("plur", "gent"))
+
+
+class TestSoftStemNouns:
+    """Types 6 and 7 differ in one cell, and that cell is a frequent one."""
+
+    def test_type_7_feminine_takes_i_where_type_6_takes_e(self):
+        # исто́рия -> в исто́рии, but иде́я -> об иде́е.
+        seven = noun("история", "исто́рия", "ж 7a", "femn")
+        six = noun("идея", "иде́я", "ж 6a", "femn")
+        assert cells(seven, ("sing", "datv"), ("sing", "loct")) == ["исто́рии", "исто́рии"]
+        assert cells(six, ("sing", "datv"), ("sing", "loct")) == ["иде́е", "иде́е"]
+
+    def test_type_7_neuter_prepositional_is_ii(self):
+        # мне́ние -> о мне́нии, not *о мне́ние.
+        entry = noun("мнение", "мне́ние", "с 7a", "neut")
+        assert cells(entry, ("sing", "loct")) == ["мне́нии"]
+
+    def test_soft_stems_take_soft_plural_endings(self):
+        entry = noun("идея", "иде́я", "ж 6a", "femn")
+        assert cells(entry, ("plur", "gent"), ("plur", "datv")) == ["иде́й", "иде́ям"]
+
+
+class TestNumberOnly:
+    """A noun with only one number must not have cells in the other."""
+
+    def test_singular_only_noun_has_no_plural(self):
+        entry = noun("здоровье", "здоро́вье", "с 6a", "neut", number_only="sing")
+        paradigm = inflect(entry)
+        assert not [t for t in paradigm.cells if "plur" in t]
+
+    def test_plural_only_noun_has_no_singular(self):
+        entry = noun(
+            "деньги", "де́ньги", "ж 3a", "femn", number_only="plur",
+            form_overrides={"plur,gent": "де́нег"},
+        )
+        paradigm = inflect(entry)
+        assert not [t for t in paradigm.cells if "sing" in t]
+
+
+class TestMasculineInJa:
+    def test_takes_the_masculine_genitive_plural(self):
+        # дя́дя declines as a soft feminine but keeps дя́дей, not *дядь.
+        entry = noun("дядя", "дя́дя", "м 2a", "masc", animacy="anim")
+        assert cells(entry, ("plur", "gent")) == ["дя́дей"]
+
+    def test_hard_masculine_in_a_matches_the_feminine_ending(self):
+        entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
+        assert cells(entry, ("plur", "gent")) == ["мужчи́н"]
+
+
+class TestClassTwoVerbs:
+    """-овать loses its suffix and gains -у-: the class borrowed verbs join."""
+
+    def test_present_stem_replaces_ova_with_u(self):
+        entry = verb("советовать", "сове́товать", "нсв 2a", "impf")
+        assert cells(
+            entry, ("pres", "1per", "sing"), ("pres", "2per", "sing"),
+        ) == ["сове́тую", "сове́туешь"]
+
+    def test_stress_follows_the_shortened_stem(self):
+        # интересова́ть is end-stressed, and the stress lands on the new -у-.
+        entry = verb(
+            "интересоваться", "интересова́ться", "нсв 2a", "impf",
+            transitivity="intrans", reflexive=True,
+        )
+        assert cells(entry, ("pres", "1per", "sing")) == ["интересу́юсь"]
+
+    def test_imperative_takes_j_after_the_vowel_stem(self):
+        entry = verb("советовать", "сове́товать", "нсв 2a", "impf")
+        assert cells(entry, ("impr", "plur")) == ["сове́туйте"]
+
+
+def test_stressed_verb_ending_uses_yo():
+    """смею́сь but смеёшься -- a stressed е at the head of an ending is ё."""
+    entry = verb(
+        "смеяться", "смея́ться", "нсв 6b", "impf",
+        transitivity="intrans", reflexive=True,
+    )
+    assert cells(entry, ("pres", "2per", "sing")) == ["смеёшься"]

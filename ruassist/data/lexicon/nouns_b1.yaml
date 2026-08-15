@@ -1,0 +1,880 @@
+# B1 nouns: abstractions, everyday objects, education and work.
+
+# --- Life and feeling -------------------------------------------------------
+
+- lemma: жизнь
+  stress: жизнь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 生活；生命
+      en: life
+      collocations: [всю жизнь, о́браз жи́зни]
+      examples:
+        - ru: Он всю жизнь рабо́тал здесь.
+          zh: 他一辈子都在这儿工作。
+
+- lemma: здоровье
+  stress: здоро́вье
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 6a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 健康
+      en: health
+      examples:
+        - ru: Как ва́ше здоро́вье?
+          zh: 您身体怎么样？
+  verify: [zaliznyak]
+
+- lemma: болезнь
+  stress: боле́знь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 病，疾病
+      en: illness
+      examples:
+        - ru: По́сле боле́зни он о́чень похуде́л.
+          zh: 病后他瘦了很多。
+
+- lemma: любовь
+  stress: любо́вь
+  pos: noun
+  gender: femn
+  animacy: inan
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: любо́вь
+    sing,gent: любви́
+    sing,datv: любви́
+    sing,accs: любо́вь
+    sing,ablt: любо́вью
+    sing,loct: любви́
+  senses:
+    - zh: 爱，爱情
+      en: love
+      collocations: [любо́вь к ро́дине]
+      examples:
+        - ru: Э́то фильм о любви́.
+          zh: 这是部关于爱情的电影。
+  common_errors: |
+    变格时 о 脱落且重音移到词尾：любо́вь → любви́ / любви́ / любо́вью。
+    唯一保留 о 的是第五格 любо́вью。作为人名 Любо́вь 则不脱落（Любо́ви）。
+
+- lemma: радость
+  stress: ра́дость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 快乐，喜悦
+      en: joy
+      examples:
+        - ru: Э́то была́ больша́я ра́дость.
+          zh: 这是件大喜事。
+  notes: |
+    -ость 结尾的抽象名词全是阴性，全按 ж 8a 变格：ра́дость, но́вость,
+    возмо́жность, тру́дность。这一整类可以一次记住。
+
+- lemma: счастье
+  stress: сча́стье
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 6a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 幸福，运气
+      en: happiness, luck
+      collocations: [к сча́стью]
+      examples:
+        - ru: К сча́стью, все живы́.
+          zh: 幸好大家都活着。
+  common_errors: |
+    сч 读作 [щ]：[ща́стье]。«К сча́стью» 是"幸好"的固定插入语。
+  verify: [zaliznyak]
+
+- lemma: надежда
+  stress: наде́жда
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 希望
+      en: hope
+      examples:
+        - ru: У нас ещё есть наде́жда.
+          zh: 我们还有希望。
+
+# --- Abstractions -----------------------------------------------------------
+
+- lemma: дело
+  stress: де́ло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1c
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 事情，事务
+      en: matter, business
+      collocations: [как дела́, в чём де́ло]
+      examples:
+        - ru: Как дела́?
+          zh: 最近怎么样？
+  common_errors: |
+    «Как дела́?» 用的是复数（дела́，重音在词尾），不是 «Как де́ло?»。
+    这是最常用的问候语之一。
+
+- lemma: случай
+  stress: слу́чай
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 情况，场合；偶然的事
+      en: case, occasion
+      collocations: [в тако́м слу́чае, на вся́кий слу́чай]
+      examples:
+        - ru: На вся́кий слу́чай возьми́ зонт.
+          zh: 以防万一，带把伞。
+
+- lemma: место
+  stress: ме́сто
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1c
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 地方；座位
+      en: place, seat
+      examples:
+        - ru: Здесь есть свобо́дное ме́сто?
+          zh: 这儿有空位吗？
+  common_errors: |
+    复数重音在词尾：места́ / мест / места́м，与 сло́во → слова́ 同型。
+
+- lemma: часть
+  stress: часть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 部分
+      en: part
+      examples:
+        - ru: Пе́рвая часть кни́ги о́чень интере́сная.
+          zh: 书的第一部分很有意思。
+  verify: [zaliznyak]
+
+- lemma: начало
+  stress: нача́ло
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 开始，开端
+      en: beginning
+      examples:
+        - ru: В нача́ле уро́ка мы повторя́ем слова́.
+          zh: 课的开头我们复习单词。
+  antonyms: [конец]
+
+- lemma: конец
+  stress: коне́ц
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5*b
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 结束，末尾
+      en: end
+      collocations: [в конце́ концо́в]
+      examples:
+        - ru: В конце́ неде́ли бу́дет экза́мен.
+          zh: 这周末有考试。
+  common_errors: |
+    逃逸元音 е 脱落：коне́ц → конца́ / концо́м，与 оте́ц 同型。
+  antonyms: [начало]
+
+- lemma: пример
+  stress: приме́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, 高考, ТРКИ-1]
+  senses:
+    - zh: 例子
+      en: example
+      collocations: [наприме́р, привести́ приме́р]
+      examples:
+        - ru: Приведи́те приме́р, пожа́луйста.
+          zh: 请举个例子。
+
+- lemma: причина
+  stress: причи́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 原因
+      en: reason, cause
+      examples:
+        - ru: В чём причи́на?
+          zh: 原因是什么？
+
+- lemma: результат
+  stress: результа́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 结果
+      en: result
+      examples:
+        - ru: Результа́ты бу́дут за́втра.
+          zh: 结果明天出。
+
+- lemma: цель
+  stress: цель
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 目的，目标
+      en: aim, goal
+      examples:
+        - ru: Кака́я у вас цель?
+          zh: 您的目的是什么？
+  verify: [zaliznyak]
+
+- lemma: мысль
+  stress: мысль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 想法，思想
+      en: thought
+      examples:
+        - ru: Э́то интере́сная мысль.
+          zh: 这个想法有意思。
+  verify: [zaliznyak]
+
+- lemma: идея
+  stress: иде́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 6a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 主意，想法
+      en: idea
+      examples:
+        - ru: Э́то отли́чная иде́я!
+          zh: 这主意太好了！
+  verify: [zaliznyak]
+
+- lemma: мнение
+  stress: мне́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 意见，看法
+      en: opinion
+      collocations: [по-мо́ему, по мне́нию]
+      examples:
+        - ru: Како́е ва́ше мне́ние?
+          zh: 您怎么看？
+  verify: [zaliznyak]
+
+# --- Culture and learning ---------------------------------------------------
+
+- lemma: история
+  stress: исто́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 历史
+      en: history
+      examples:
+        - ru: Он изуча́ет исто́рию Росси́и.
+          zh: 他研究俄罗斯历史。
+    - zh: 故事
+      en: story
+      examples:
+        - ru: Расскажи́ интере́сную исто́рию.
+          zh: 讲个有意思的故事。
+  verify: [zaliznyak]
+
+- lemma: культура
+  stress: культу́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 文化
+      en: culture
+      examples:
+        - ru: Меня́ интересу́ет ру́сская культу́ра.
+          zh: 我对俄罗斯文化感兴趣。
+
+- lemma: искусство
+  stress: иску́сство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 艺术
+      en: art
+      examples:
+        - ru: Он лю́бит совреме́нное иску́сство.
+          zh: 他喜欢现代艺术。
+
+- lemma: наука
+  stress: нау́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 科学
+      en: science
+      examples:
+        - ru: Он занима́ется нау́кой.
+          zh: 他搞科研。
+
+- lemma: образование
+  stress: образова́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 教育；学历
+      en: education
+      examples:
+        - ru: У неё вы́сшее образова́ние.
+          zh: 她是大学学历。
+  verify: [zaliznyak]
+
+- lemma: экзамен
+  stress: экза́мен
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 考试
+      en: exam
+      collocations: [сдава́ть экза́мен, сдать экза́мен]
+      examples:
+        - ru: За́втра у нас экза́мен.
+          zh: 我们明天考试。
+  common_errors: |
+    сдава́ть экза́мен（未完成体）是"参加考试"，сдать экза́мен（完成体）才是"考过"。
+    体的差别在这里直接改变意思，说错了就是"考了"和"考过了"的区别。
+
+- lemma: задача
+  stress: зада́ча
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 任务；（数学）题
+      en: task, problem
+      examples:
+        - ru: Э́то тру́дная зада́ча.
+          zh: 这是道难题。
+
+- lemma: словарь
+  stress: слова́рь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 词典
+      en: dictionary
+      examples:
+        - ru: Посмотри́ в словаре́.
+          zh: 查一下词典。
+  common_errors: |
+    重音全程在词尾：словаря́ / словарю́ / словарём / словаре́ / словари́。
+
+- lemma: текст
+  stress: текст
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 课文，文本
+      en: text
+      examples:
+        - ru: Прочита́йте текст.
+          zh: 请读课文。
+
+# --- Everyday things --------------------------------------------------------
+
+- lemma: вещь
+  stress: вещь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 东西，物品；（复数）衣物
+      en: thing
+      examples:
+        - ru: Не забу́дь свои́ ве́щи.
+          zh: 别忘了你的东西。
+  verify: [zaliznyak]
+
+- lemma: одежда
+  stress: оде́жда
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 衣服（总称）
+      en: clothes
+      examples:
+        - ru: Здесь продаю́т де́тскую оде́жду.
+          zh: 这儿卖童装。
+  common_errors: |
+    集合名词，只有单数。"两件衣服"不能说 «две оде́жды»，要说 «две ве́щи»。
+
+- lemma: платье
+  stress: пла́тье
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 6a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,gent: пла́тьев
+  senses:
+    - zh: 连衣裙
+      en: dress
+      examples:
+        - ru: Она́ купи́ла но́вое пла́тье.
+          zh: 她买了条新裙子。
+  verify: [zaliznyak]
+
+- lemma: ключ
+  stress: ключ
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 钥匙
+      en: key
+      examples:
+        - ru: Я потеря́л ключи́.
+          zh: 我把钥匙丢了。
+  common_errors: |
+    嘶音结尾，复数第二格是 ключе́й，不是 ключо́в。与 каранда́ш 同型。
+
+- lemma: билет
+  stress: биле́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 票
+      en: ticket
+      examples:
+        - ru: Два биле́та, пожа́луйста.
+          zh: 请给两张票。
+
+- lemma: паспорт
+  stress: па́спорт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 护照
+      en: passport
+      examples:
+        - ru: Покажи́те ваш па́спорт.
+          zh: 请出示您的护照。
+  common_errors: |
+    复数是 паспорта́（重音在词尾），与 го́род → города́ 同型。
+
+- lemma: документ
+  stress: докуме́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 文件，证件
+      en: document
+      examples:
+        - ru: Все докуме́нты гото́вы.
+          zh: 所有文件都准备好了。
+
+- lemma: дорога
+  stress: доро́га
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 路，道路；路程
+      en: road, way
+      examples:
+        - ru: Доро́га заняла́ два часа́.
+          zh: 路上花了两个小时。
+
+- lemma: ресторан
+  stress: рестора́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 餐厅
+      en: restaurant
+      examples:
+        - ru: Пойдём в рестора́н.
+          zh: 咱们去饭馆吧。
+
+- lemma: кафе
+  stress: кафе́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 咖啡馆，小餐馆
+      en: cafe
+      examples:
+        - ru: Мы сиде́ли в кафе́.
+          zh: 我们在咖啡馆坐着。
+  common_errors: |
+    不变格，且读作 [кафэ́]——е 不软化。与 ко́фе 是两个词，别混。
+
+- lemma: еда
+  stress: еда́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 食物，吃的
+      en: food
+      examples:
+        - ru: Здесь вку́сная еда́.
+          zh: 这儿吃的好吃。
+  verify: [zaliznyak]
+
+- lemma: обед
+  stress: обе́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 午饭
+      en: lunch
+      examples:
+        - ru: По́сле обе́да мы гуля́ли.
+          zh: 午饭后我们散了步。
+
+- lemma: завтрак
+  stress: за́втрак
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 早饭
+      en: breakfast
+      examples:
+        - ru: Что у нас на за́втрак?
+          zh: 早饭吃什么？
+
+- lemma: ужин
+  stress: у́жин
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 晚饭
+      en: dinner
+      examples:
+        - ru: У́жин уже́ гото́в.
+          zh: 晚饭好了。
+
+# --- People and society -----------------------------------------------------
+
+- lemma: родители
+  stress: роди́тели
+  pos: noun
+  gender: masc
+  animacy: anim
+  number_only: plur
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: роди́тели
+    plur,gent: роди́телей
+    plur,datv: роди́телям
+    plur,accs: роди́телей
+    plur,ablt: роди́телями
+    plur,loct: роди́телях
+  senses:
+    - zh: 父母
+      en: parents
+      examples:
+        - ru: Я живу́ с роди́телями.
+          zh: 我和父母住。
+  notes: |
+    日常只用复数。单数 роди́тель 存在但偏公文语体。
+
+- lemma: тётя
+  stress: тётя
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 2a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 姑姑，姨，婶
+      en: aunt
+      examples:
+        - ru: Э́то моя́ тётя.
+          zh: 这是我姑姑。
+  notes: |
+    俄语不区分父系母系，汉语的姑／姨／婶／舅妈都是 тётя。
+
+- lemma: дядя
+  stress: дя́дя
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 叔叔，舅舅
+      en: uncle
+      examples:
+        - ru: Мой дя́дя живёт в дере́вне.
+          zh: 我叔叔住在乡下。
+  common_errors: |
+    与 мужчи́на 一样：阳性名词按阴性变格法变格，形容词仍用阳性
+    （«мой дя́дя»，不是 «моя́»）。
+
+- lemma: сосед
+  stress: сосе́д
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: сосе́ди
+    plur,gent: сосе́дей
+    plur,datv: сосе́дям
+    plur,accs: сосе́дей
+    plur,ablt: сосе́дями
+    plur,loct: сосе́дях
+  senses:
+    - zh: 邻居
+      en: neighbour
+      examples:
+        - ru: Мои́ сосе́ди о́чень до́брые.
+          zh: 我的邻居很好。
+  common_errors: |
+    复数按软变化：сосе́ди / сосе́дей，不是 сосе́ды。
+
+- lemma: группа
+  stress: гру́ппа
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 小组，班；乐队
+      en: group
+      examples:
+        - ru: В на́шей гру́ппе де́сять челове́к.
+          zh: 我们班十个人。
+
+- lemma: страница
+  stress: страни́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 页
+      en: page
+      examples:
+        - ru: Откро́йте страни́цу де́сять.
+          zh: 请翻到第十页。
+
+# --- Nature and abstractions ------------------------------------------------
+
+- lemma: земля
+  stress: земля́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*d
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    sing,accs: зе́млю
+    plur,nomn: зе́мли
+    plur,gent: земе́ль
+  senses:
+    - zh: 土地；地球
+      en: earth, land
+      examples:
+        - ru: Земля́ враща́ется вокру́г Со́лнца.
+          zh: 地球绕着太阳转。
+  verify: [zaliznyak]
+
+- lemma: воздух
+  stress: во́здух
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 空气
+      en: air
+      collocations: [на све́жем во́здухе]
+      examples:
+        - ru: Здесь чи́стый во́здух.
+          zh: 这儿空气干净。
+
+- lemma: война
+  stress: война́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: во́йны
+    plur,gent: войн
+  senses:
+    - zh: 战争
+      en: war
+      examples:
+        - ru: Э́то кни́га о войне́.
+          zh: 这是本关于战争的书。
+  antonyms: [мир]
+
+- lemma: новость
+  stress: но́вость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 消息；（复数）新闻
+      en: news
+      examples:
+        - ru: У меня́ хоро́шая но́вость.
+          zh: 我有个好消息。
+  common_errors: |
+    电视新闻用复数 но́вости：«смотре́ть но́вости»。
+    单数 но́вость 指"一条消息"，与英语 news 不可数不同。
+  verify: [zaliznyak]
+
+- lemma: помощь
+  stress: по́мощь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 帮助
+      en: help
+      collocations: [с по́мощью, ско́рая по́мощь]
+      examples:
+        - ru: Спаси́бо за по́мощь.
+          zh: 谢谢你的帮助。
+  notes: |
+    ско́рая по́мощь = 急救车／急救。
