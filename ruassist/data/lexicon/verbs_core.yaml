@@ -350,6 +350,7 @@
   pos: verb
   zaliznyak: нсв 5a
   aspect: impf
+  aspect_pair: услышать
   transitivity: trans
   government: кого-что / о ком-чём
   level: [A1, 高考, ТРКИ-1]
@@ -404,6 +405,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: послушать
   transitivity: trans
   government: кого-что
   level: [A1, 高考, ТРКИ-1]
@@ -704,6 +706,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: позавтракать
   transitivity: intrans
   level: [A1, ТРКИ-1]
   senses:
@@ -718,6 +721,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: пообедать
   transitivity: intrans
   level: [A1, ТРКИ-1]
   senses:
@@ -732,6 +736,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: поужинать
   transitivity: intrans
   level: [A1, ТРКИ-1]
   senses:

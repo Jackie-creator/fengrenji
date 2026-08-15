@@ -1,0 +1,896 @@
+# Weather and evaluation adjectives, the impersonal predicatives, and the
+# interjections.
+#
+# The predicatives are the reason this file exists. Russian says "мне хо́лодно"
+# where Chinese says 我冷 -- no subject, the person in the dative, and the word
+# itself is neither adjective nor adverb. A learner who files хо́лодно under
+# "adverb of холо́дный" will keep producing «я хо́лодный».
+
+- lemma: солнечный
+  stress: со́лнечный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 晴的，阳光的
+      en: sunny
+      examples:
+        - ru: Сего́дня со́лнечный день.
+          zh: 今天是个晴天。
+  antonyms: [пасмурный]
+
+- lemma: пасмурный
+  stress: па́смурный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 阴天的
+      en: overcast, dull
+      examples:
+        - ru: С утра́ па́смурно.
+          zh: 一早就是阴天。
+  antonyms: [солнечный]
+
+- lemma: дождливый
+  stress: дождли́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 多雨的
+      en: rainy
+      examples:
+        - ru: Была́ дождли́вая о́сень.
+          zh: 那是个多雨的秋天。
+
+- lemma: снежный
+  stress: сне́жный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 下雪的，雪的
+      en: snowy
+      examples:
+        - ru: Была́ сне́жная зима́.
+          zh: 那年冬天雪很大。
+
+- lemma: ветреный
+  stress: ве́треный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 有风的
+      en: windy
+      examples:
+        - ru: На у́лице ве́трено.
+          zh: 外面刮风。
+
+- lemma: облачный
+  stress: о́блачный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 多云的
+      en: cloudy
+      examples:
+        - ru: Ожида́ется о́блачная пого́да.
+          zh: 预计是多云天气。
+
+- lemma: прохладный
+  stress: прохла́дный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 凉爽的
+      en: cool
+      examples:
+        - ru: Ве́чером прохла́дно.
+          zh: 晚上有点凉。
+
+- lemma: морозный
+  stress: моро́зный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 严寒的
+      en: frosty
+      examples:
+        - ru: Стоя́л моро́зный день.
+          zh: 那是个滴水成冰的日子。
+
+- lemma: бесплатный
+  stress: беспла́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 免费的
+      en: free (of charge)
+      examples:
+        - ru: Вход беспла́тный.
+          zh: 免费入场。
+  antonyms: [платный]
+
+- lemma: платный
+  stress: пла́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 收费的
+      en: paid, fee-charging
+      examples:
+        - ru: Э́то пла́тная парко́вка.
+          zh: 这是收费停车场。
+  antonyms: [бесплатный]
+
+- lemma: выгодный
+  stress: вы́годный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 划算的，有利的
+      en: profitable, advantageous
+      examples:
+        - ru: Э́то вы́годное предложе́ние.
+          zh: 这条件挺划算。
+
+- lemma: неудобный
+  stress: неудо́бный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 不方便的，不舒服的
+      en: inconvenient, uncomfortable
+      examples:
+        - ru: Э́то неудо́бное вре́мя.
+          zh: 这个时间不方便。
+  antonyms: [удобный]
+
+- lemma: невкусный
+  stress: невку́сный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 不好吃的
+      en: not tasty
+      examples:
+        - ru: Суп был невку́сный.
+          zh: 汤不好喝。
+  antonyms: [вкусный]
+
+- lemma: срочный
+  stress: сро́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 紧急的
+      en: urgent
+      examples:
+        - ru: Э́то сро́чное де́ло.
+          zh: 这是急事。
+
+- lemma: ненужный
+  stress: нену́жный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 不需要的，多余的
+      en: unnecessary
+      examples:
+        - ru: Вы́брось нену́жные ве́щи.
+          zh: 把没用的东西扔了。
+  antonyms: [нужный]
+
+- lemma: неважный
+  stress: нева́жный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 不重要的；不怎么样
+      en: unimportant; so-so
+      examples:
+        - ru: Э́то нева́жно.
+          zh: 这不重要。
+
+- lemma: незнакомый
+  stress: незнако́мый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 陌生的
+      en: unfamiliar
+      examples:
+        - ru: Э́то незнако́мое сло́во.
+          zh: 这是个生词。
+  antonyms: [знакомый]
+
+- lemma: различный
+  stress: разли́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 各不相同的，各种的
+      en: different, various
+      examples:
+        - ru: Есть разли́чные спо́собы.
+          zh: 办法有好几种。
+
+- lemma: мелкий
+  stress: ме́лкий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: ме́льче
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 细小的；浅的
+      en: small, fine; shallow
+      examples:
+        - ru: Здесь ме́лкая река́.
+          zh: 这条河很浅。
+  antonyms: [глубокий]
+
+- lemma: мёртвый
+  stress: мёртвый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 死的
+      en: dead
+      examples:
+        - ru: Э́то мёртвый язы́к.
+          zh: 这是种死语言。
+  antonyms: [живой]
+
+- lemma: некрасивый
+  stress: некраси́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 不好看的；不体面的
+      en: plain, unattractive
+      examples:
+        - ru: Э́то некраси́вый посту́пок.
+          zh: 这事做得不地道。
+  antonyms: [красивый]
+
+- lemma: несчастный
+  stress: несча́стный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不幸的
+      en: unhappy, unfortunate
+      collocations: [несча́стный слу́чай]
+      examples:
+        - ru: Э́то был несча́стный слу́чай.
+          zh: 那是场意外事故。
+  antonyms: [счастливый]
+
+- lemma: недовольный
+  stress: недово́льный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不满意的
+      en: dissatisfied
+      government: кем-чем
+      examples:
+        - ru: Он недово́лен результа́том.
+          zh: 他对结果不满意。
+  notes: |
+    不满意的对象用第五格：недово́лен рабо́той。
+
+- lemma: нервный
+  stress: не́рвный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 神经紧张的，易激动的
+      en: nervous, edgy
+      examples:
+        - ru: Он ста́л о́чень не́рвным.
+          zh: 他变得很容易紧张。
+
+- lemma: пьяный
+  stress: пья́ный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 喝醉的
+      en: drunk
+      examples:
+        - ru: Он пришёл пья́ный.
+          zh: 他喝醉了回来。
+  antonyms: [трезвый]
+
+- lemma: трезвый
+  stress: тре́звый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 清醒的
+      en: sober
+      examples:
+        - ru: На́до посмотре́ть на э́то тре́звым взгля́дом.
+          zh: 得清醒地看这件事。
+  antonyms: [пьяный]
+
+- lemma: одинокий
+  stress: одино́кий
+  pos: adj
+  zaliznyak: п 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 孤独的，单身的
+      en: lonely, single
+      examples:
+        - ru: Он чу́вствует себя́ одино́ким.
+          zh: 他觉得孤单。
+
+- lemma: неуверенный
+  stress: неуве́ренный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 没把握的，不自信的
+      en: unsure, hesitant
+      examples:
+        - ru: Он говори́л неуве́ренно.
+          zh: 他说得没底气。
+  antonyms: [уверенный]
+
+- lemma: невежливый
+  stress: неве́жливый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 不礼貌的
+      en: impolite
+      examples:
+        - ru: Э́то неве́жливый вопро́с.
+          zh: 这问题不礼貌。
+  antonyms: [вежливый]
+
+- lemma: нечестный
+  stress: нече́стный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不诚实的
+      en: dishonest
+      examples:
+        - ru: Э́то нече́стная игра́.
+          zh: 这不是公平的玩法。
+  antonyms: [честный]
+
+- lemma: невнимательный
+  stress: невнима́тельный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不专心的，粗心的
+      en: inattentive, careless
+      examples:
+        - ru: Он невнима́тельный чита́тель.
+          zh: 他读得不仔细。
+  antonyms: [внимательный]
+
+- lemma: нетерпеливый
+  stress: нетерпели́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 没耐心的
+      en: impatient
+      examples:
+        - ru: Он нетерпели́в в о́череди.
+          zh: 他排队没耐性。
+  antonyms: [терпеливый]
+
+- lemma: нормальный
+  stress: норма́льный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 正常的；还行（口语）
+      en: normal; okay
+      examples:
+        - ru: Всё норма́льно.
+          zh: 一切正常。
+
+- lemma: неправильный
+  stress: непра́вильный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 不正确的
+      en: incorrect, wrong
+      examples:
+        - ru: Э́то непра́вильный отве́т.
+          zh: 这答案不对。
+  antonyms: [правильный]
+
+- lemma: удачный
+  stress: уда́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 顺利的，成功的
+      en: successful, well-chosen
+      examples:
+        - ru: Э́то был уда́чный день.
+          zh: 那天挺顺。
+  antonyms: [неудачный]
+
+- lemma: неудачный
+  stress: неуда́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不成功的，糟糕的
+      en: unsuccessful, unfortunate
+      examples:
+        - ru: Э́то неуда́чный вы́бор.
+          zh: 这个选择不好。
+  antonyms: [удачный]
+
+- lemma: успешный
+  stress: успе́шный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 成功的
+      en: successful
+      examples:
+        - ru: Он успе́шный предпринима́тель.
+          zh: 他是个成功的企业家。
+
+- lemma: бесполезный
+  stress: бесполе́зный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 没用的
+      en: useless
+      examples:
+        - ru: Спо́рить бесполе́зно.
+          zh: 争也没用。
+  antonyms: [полезный]
+
+- lemma: холодно
+  stress: хо́лодно
+  pos: predic
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 冷（无人称）
+      en: (it is) cold
+      government: кому
+      examples:
+        - ru: Мне хо́лодно.
+          zh: 我冷。
+  common_errors: |
+    "我冷"是 Мне хо́лодно——人用**第三格**，句子没有主语。
+    说成 «Я холо́дный» 意思变成"我这个人是冷的（性格冷淡／身体是凉的）"。
+    жа́рко、тепло́、ску́чно、сты́дно 全套都这样。
+
+- lemma: жарко
+  stress: жа́рко
+  pos: predic
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 热（无人称）
+      en: (it is) hot
+      government: кому
+      examples:
+        - ru: Сего́дня о́чень жа́рко.
+          zh: 今天很热。
+
+- lemma: тепло
+  stress: тепло́
+  pos: predic
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 暖和（无人称）
+      en: (it is) warm
+      government: кому
+      examples:
+        - ru: В ко́мнате тепло́.
+          zh: 屋里挺暖和。
+
+- lemma: светло
+  stress: светло́
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 亮（无人称）
+      en: (it is) light
+      examples:
+        - ru: Ле́том до́лго светло́.
+          zh: 夏天天亮得久。
+  antonyms: [темно]
+
+- lemma: темно
+  stress: темно́
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 黑（无人称）
+      en: (it is) dark
+      examples:
+        - ru: На у́лице уже́ темно́.
+          zh: 外面已经黑了。
+  antonyms: [светло]
+
+- lemma: скучно
+  stress: ску́чно
+  pos: predic
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 无聊（无人称）
+      en: (it is) boring
+      government: кому
+      examples:
+        - ru: Мне ску́чно.
+          zh: 我无聊。
+  notes: |
+    чн 读 [шн]：[ску́шно]。
+
+- lemma: стыдно
+  stress: сты́дно
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 羞愧（无人称）
+      en: (one is) ashamed
+      government: кому за кого-что
+      examples:
+        - ru: Мне сты́дно за него́.
+          zh: 我替他臊得慌。
+
+- lemma: обидно
+  stress: оби́дно
+  pos: predic
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 委屈，可惜（无人称）
+      en: (it is) a shame, (one feels) hurt
+      government: кому
+      examples:
+        - ru: О́чень оби́дно, что так вы́шло.
+          zh: 弄成这样真让人憋屈。
+
+- lemma: больно
+  stress: бо́льно
+  pos: predic
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 疼（无人称）
+      en: (it) hurts
+      government: кому
+      examples:
+        - ru: Мне бо́льно.
+          zh: 我疼。
+
+- lemma: страшно
+  stress: стра́шно
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 害怕（无人称）
+      en: (one is) frightened
+      government: кому
+      examples:
+        - ru: Мне стра́шно одному́.
+          zh: 我一个人害怕。
+
+- lemma: пора
+  stress: пора́
+  pos: predic
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 该……了（无人称）
+      en: it is time to
+      government: кому + инф.
+      examples:
+        - ru: Нам пора́ идти́.
+          zh: 我们该走了。
+  common_errors: |
+    人用第三格，后接不定式：Мне пора́ рабо́тать。
+    与同形的名词 пора́（时期）区分靠句法，不靠形式。
+
+- lemma: удобно
+  stress: удо́бно
+  pos: predic
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 方便，舒服（无人称）
+      en: (it is) convenient
+      government: кому
+      examples:
+        - ru: Вам удо́бно в пять?
+          zh: 五点您方便吗？
+
+- lemma: интересно
+  stress: интере́сно
+  pos: predic
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 有意思（无人称）；不知道……（引出疑问）
+      en: (it is) interesting; I wonder
+      government: кому
+      examples:
+        - ru: Интере́сно, где он сейча́с.
+          zh: 不知道他现在在哪儿。
+
+- lemma: приятно
+  stress: прия́тно
+  pos: predic
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 愉快（无人称）
+      en: (it is) pleasant
+      government: кому
+      examples:
+        - ru: Прия́тно с ва́ми познако́миться.
+          zh: 很高兴认识您。
+
+- lemma: весело
+  stress: ве́село
+  pos: predic
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 开心（无人称）
+      en: (it is) fun
+      government: кому
+      examples:
+        - ru: Нам бы́ло ве́село.
+          zh: 我们玩得很开心。
+
+- lemma: грустно
+  stress: гру́стно
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 难过（无人称）
+      en: (one feels) sad
+      government: кому
+      examples:
+        - ru: Ей гру́стно.
+          zh: 她心里难受。
+
+- lemma: смешно
+  stress: смешно́
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 好笑（无人称）
+      en: (it is) funny
+      government: кому
+      examples:
+        - ru: Мне не смешно́.
+          zh: 我笑不出来。
+
+- lemma: тяжело
+  stress: тяжело́
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 难受，吃力（无人称）
+      en: (it is) hard, heavy going
+      government: кому
+      examples:
+        - ru: Ему́ тяжело́ рабо́тать но́чью.
+          zh: 他上夜班很吃力。
+
+- lemma: легко
+  stress: легко́
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 轻松地，容易地
+      en: easily, lightly
+      examples:
+        - ru: Он легко́ сдал экза́мен.
+          zh: 他轻松就考过了。
+  antonyms: [трудно]
+  notes: |
+    读音是 [лехко́]，г 读作 [х]，和 мя́гкий 同类。
+
+- lemma: трудно
+  stress: тру́дно
+  pos: predic
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 难（无人称）
+      en: (it is) difficult
+      government: кому
+      examples:
+        - ru: Мне тру́дно э́то поня́ть.
+          zh: 这个我很难理解。
+  antonyms: [легко]
+
+- lemma: просто
+  stress: про́сто
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 简单地；只不过
+      en: simply; just
+      examples:
+        - ru: Я про́сто хоте́л помо́чь.
+          zh: 我只是想帮忙。
+
+- lemma: сложно
+  stress: сло́жно
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 复杂，难（无人称）
+      en: (it is) complicated
+      government: кому
+      examples:
+        - ru: Э́то сло́жно объясни́ть.
+          zh: 这不好解释。
+
+- lemma: ясно
+  stress: я́сно
+  pos: predic
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 清楚，明白（无人称）
+      en: (it is) clear
+      government: кому
+      examples:
+        - ru: Всё я́сно, спаси́бо.
+          zh: 明白了，谢谢。
+
+- lemma: понятно
+  stress: поня́тно
+  pos: predic
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 懂了，明白（无人称）
+      en: (it is) understood
+      government: кому
+      examples:
+        - ru: Вам поня́тно?
+          zh: 您听懂了吗？
+
+- lemma: важно
+  stress: ва́жно
+  pos: predic
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 重要（无人称）
+      en: (it is) important
+      government: кому
+      examples:
+        - ru: Мне э́то ва́жно.
+          zh: 这对我很重要。
+
+- lemma: ура
+  stress: ура́
+  pos: interj
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 万岁；太好了
+      en: hurrah
+      examples:
+        - ru: Ура́! Мы победи́ли!
+          zh: 太好了！我们赢了！
+
+- lemma: ой
+  stress: ой
+  pos: interj
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 哎哟（惊讶、疼痛）
+      en: oh, ouch
+      examples:
+        - ru: Ой, извини́те!
+          zh: 哎哟，对不起！
+
+- lemma: ах
+  stress: ах
+  pos: interj
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 啊（惊叹）
+      en: ah
+      examples:
+        - ru: Ах, как краси́во!
+          zh: 啊，真美！
+
+- lemma: эй
+  stress: эй
+  pos: interj
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 喂（招呼）
+      en: hey
+      labels: [разг.]
+      examples:
+        - ru: Эй, подожди́!
+          zh: 喂，等等！
+
+- lemma: алло
+  stress: алло́
+  pos: interj
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 喂（接电话）
+      en: hello (on the phone)
+      examples:
+        - ru: Алло́, кто э́то?
+          zh: 喂，哪位？
+  common_errors: |
+    只用于接电话。当面打招呼要用 Здра́вствуйте／Приве́т。
+
+- lemma: ага
+  stress: ага́
+  pos: interj
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 嗯，是（口语应答）
+      en: uh-huh, yeah
+      labels: [разг.]
+      examples:
+        - ru: Ага́, я по́нял.
+          zh: 嗯，我明白了。
+  notes: |
+    非正式，正式场合要说 Да。
+
+- lemma: увы
+  stress: увы́
+  pos: interj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 唉，可惜
+      en: alas
+      examples:
+        - ru: Увы́, э́то невозмо́жно.
+          zh: 唉，这不可能。
+
+- lemma: браво
+  stress: бра́во
+  pos: interj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 好啊（喝彩）
+      en: bravo
+      examples:
+        - ru: Бра́во! Отли́чно сы́грано!
+          zh: 好！演得漂亮！

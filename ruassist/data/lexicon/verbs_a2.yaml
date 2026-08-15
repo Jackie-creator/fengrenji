@@ -368,6 +368,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: подумать
   transitivity: intrans
   government: о ком-чём
   level: [A1, 高考, ТРКИ-1]

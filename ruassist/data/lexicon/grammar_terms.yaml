@@ -1,0 +1,695 @@
+# The metalanguage: the six case names, aspect and number, the two adjectival
+# nouns существи́тельное / прилага́тельное, plus a short tail of everyday words.
+#
+# These exist so the app can explain itself. The teaching notes throughout the
+# lexicon say "第四格" and "未完成体"; a learner who then meets вини́тельный or
+# несоверше́нный in a Russian textbook should be able to look it up here.
+# The case names are collected as a complete set, like the months.
+
+- lemma: именительный
+  stress: имени́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第一格的，主格的
+      en: nominative
+      collocations: [имени́тельный паде́ж]
+      examples:
+        - ru: Э́то фо́рма имени́тельного падежа́.
+          zh: 这是第一格的形式。
+
+- lemma: родительный
+  stress: роди́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第二格的，属格的
+      en: genitive
+      collocations: [роди́тельный паде́ж]
+      examples:
+        - ru: По́сле «нет» ста́вится роди́тельный паде́ж.
+          zh: нет 后面要用第二格。
+
+- lemma: дательный
+  stress: да́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第三格的，与格的
+      en: dative
+      collocations: [да́тельный паде́ж]
+      examples:
+        - ru: Э́тот глаго́л тре́бует да́тельного падежа́.
+          zh: 这个动词要求第三格。
+
+- lemma: винительный
+  stress: вини́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第四格的，宾格的
+      en: accusative
+      collocations: [вини́тельный паде́ж]
+      examples:
+        - ru: Прямо́е дополне́ние стои́т в вини́тельном падеже́.
+          zh: 直接宾语用第四格。
+
+- lemma: творительный
+  stress: твори́тельный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第五格的，工具格的
+      en: instrumental
+      collocations: [твори́тельный паде́ж]
+      examples:
+        - ru: По́сле «с» идёт твори́тельный паде́ж.
+          zh: с 后面接第五格。
+
+- lemma: предложный
+  stress: предло́жный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 第六格的，前置格的
+      en: prepositional
+      collocations: [предло́жный паде́ж]
+      examples:
+        - ru: Предло́жный паде́ж всегда́ идёт с предло́гом.
+          zh: 第六格永远要带前置词。
+  notes: |
+    六个格的顺序（俄式教材）是：имени́тельный、роди́тельный、да́тельный、
+    вини́тельный、твори́тельный、предло́жный。中文教材按 1–6 编号，对应关系要记牢。
+
+- lemma: совершенный
+  stress: соверше́нный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 完成体的
+      en: perfective
+      collocations: [соверше́нный вид]
+      examples:
+        - ru: «Сде́лать» — глаго́л соверше́нного ви́да.
+          zh: сде́лать 是完成体动词。
+  antonyms: [несовершенный]
+
+- lemma: несовершенный
+  stress: несоверше́нный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 未完成体的
+      en: imperfective
+      collocations: [несоверше́нный вид]
+      examples:
+        - ru: «Де́лать» — глаго́л несоверше́нного ви́да.
+          zh: де́лать 是未完成体动词。
+  antonyms: [совершенный]
+
+- lemma: множественный
+  stress: мно́жественный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 复数的
+      en: plural
+      collocations: [мно́жественное число́]
+      examples:
+        - ru: Поста́вьте сло́во во мно́жественное число́.
+          zh: 把这个词变成复数。
+
+- lemma: существительное
+  stress: существи́тельное
+  pos: noun
+  gender: neut
+  animacy: inan
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: существи́тельное
+    sing,gent: существи́тельного
+    sing,datv: существи́тельному
+    sing,accs: существи́тельное
+    sing,ablt: существи́тельным
+    sing,loct: существи́тельном
+    plur,nomn: существи́тельные
+    plur,gent: существи́тельных
+    plur,datv: существи́тельным
+    plur,accs: существи́тельные
+    plur,ablt: существи́тельными
+    plur,loct: существи́тельных
+  senses:
+    - zh: 名词
+      en: noun
+      examples:
+        - ru: Э́то существи́тельное же́нского ро́да.
+          zh: 这是个阴性名词。
+  notes: |
+    和 живо́тное、моро́женое 一样，是形容词变来的名词，按形容词变格。
+
+- lemma: прилагательное
+  stress: прилага́тельное
+  pos: noun
+  gender: neut
+  animacy: inan
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    sing,nomn: прилага́тельное
+    sing,gent: прилага́тельного
+    sing,datv: прилага́тельному
+    sing,accs: прилага́тельное
+    sing,ablt: прилага́тельным
+    sing,loct: прилага́тельном
+    plur,nomn: прилага́тельные
+    plur,gent: прилага́тельных
+    plur,datv: прилага́тельным
+    plur,accs: прилага́тельные
+    plur,ablt: прилага́тельными
+    plur,loct: прилага́тельных
+  senses:
+    - zh: 形容词
+      en: adjective
+      examples:
+        - ru: Прилага́тельное согласу́ется с существи́тельным.
+          zh: 形容词要和名词一致。
+
+- lemma: вид
+  stress: вид
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  homonym_id: 2
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 体（语法）
+      en: aspect (grammatical)
+      examples:
+        - ru: У ру́сского глаго́ла два ви́да.
+          zh: 俄语动词有两个体。
+  notes: |
+    这一条只收语法术语"体"；"样子、景色"的 вид 是另一条词条。
+
+- lemma: род
+  stress: род
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 性（语法）；家族
+      en: gender (grammatical); family line
+      examples:
+        - ru: Како́го ро́да э́то сло́во?
+          zh: 这个词是什么性？
+  notes: |
+    第六格有特殊形式 в роду́（家族义），语法义则说 в мужско́м ро́де。
+
+- lemma: аромат
+  stress: арома́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 香气
+      en: aroma, fragrance
+      examples:
+        - ru: По ку́хне разошёлся арома́т ко́фе.
+          zh: 厨房里飘着咖啡香。
+
+- lemma: чистота
+  stress: чистота́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 干净，清洁
+      en: cleanliness
+      examples:
+        - ru: В до́ме идеа́льная чистота́.
+          zh: 家里干干净净。
+  antonyms: [грязь]
+
+- lemma: грязь
+  stress: грязь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 泥，脏东西
+      en: dirt, mud
+      examples:
+        - ru: На у́лице грязь по́сле дождя́.
+          zh: 雨后街上很泥泞。
+  antonyms: [чистота]
+
+- lemma: пыль
+  stress: пыль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 灰尘
+      en: dust
+      examples:
+        - ru: На по́лке мно́го пы́ли.
+          zh: 架子上积了不少灰。
+
+- lemma: беспорядок
+  stress: беспоря́док
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 乱，杂乱
+      en: disorder, mess
+      examples:
+        - ru: В ко́мнате беспоря́док.
+          zh: 屋里乱七八糟。
+  antonyms: [порядок]
+
+- lemma: соседка
+  stress: сосе́дка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 女邻居
+      en: neighbour (female)
+      examples:
+        - ru: Сосе́дка попроси́ла соль.
+          zh: 邻居来借盐。
+
+- lemma: означать
+  stress: означа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 意味着，表示
+      en: to mean, to signify
+      examples:
+        - ru: Что означа́ет э́тот знак?
+          zh: 这个符号是什么意思？
+  notes: |
+    问词义一般用 Что зна́чит…?，означа́ть 更书面，常用于符号、现象。
+
+- lemma: подчёркивать
+  stress: подчёркивать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 强调；画线
+      en: to emphasise; to underline
+      examples:
+        - ru: Он подчёркивает ва́жность пробле́мы.
+          zh: 他强调这个问题的重要性。
+
+- lemma: перечислять
+  stress: перечисля́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: что
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 一一列举；转账
+      en: to list; to transfer (money)
+      examples:
+        - ru: Он перечисля́ет причи́ны.
+          zh: 他把原因一条条列出来。
+
+- lemma: сравниться
+  stress: сравни́ться
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  transitivity: intrans
+  reflexive: true
+  government: с кем-чем
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 比得上
+      en: to compare with, to match
+      examples:
+        - ru: Ничто́ не сравни́тся с до́мом.
+          zh: 什么都比不上家。
+
+- lemma: отдыхающий
+  stress: отдыха́ющий
+  pos: noun
+  gender: masc
+  animacy: anim
+  level: [B2, ТРКИ-3]
+  form_overrides:
+    sing,nomn: отдыха́ющий
+    sing,gent: отдыха́ющего
+    sing,datv: отдыха́ющему
+    sing,accs: отдыха́ющего
+    sing,ablt: отдыха́ющим
+    sing,loct: отдыха́ющем
+    plur,nomn: отдыха́ющие
+    plur,gent: отдыха́ющих
+    plur,datv: отдыха́ющим
+    plur,accs: отдыха́ющих
+    plur,ablt: отдыха́ющими
+    plur,loct: отдыха́ющих
+  senses:
+    - zh: 度假者
+      en: holidaymaker
+      examples:
+        - ru: На пля́же мно́го отдыха́ющих.
+          zh: 沙滩上度假的人很多。
+  notes: |
+    主动形动词变来的名词，按形容词变格；动物名词，所以单数第四格 = 第二格。
+
+- lemma: провожать
+  stress: провожа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 送（行）
+      en: to see off, to accompany
+      examples:
+        - ru: Он провожа́л меня́ до вокза́ла.
+          zh: 他送我到火车站。
+
+- lemma: встречать
+  stress: встреча́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: встретить
+  transitivity: trans
+  government: кого-что
+  homonym_id: 2
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 接（站），迎接
+      en: to meet (on arrival)
+      examples:
+        - ru: Мы встреча́ем госте́й в аэропорту́.
+          zh: 我们去机场接客人。
+  notes: |
+    这一条收"接站、迎接"的义项；"偶遇"的 встреча́ть 是另一条词条。
+
+- lemma: заезжать
+  stress: заезжа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: к кому / за кем-чем
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 顺路去，捎带过去（乘车）
+      en: to drop by (by vehicle)
+      examples:
+        - ru: Я зае́зжу за тобо́й в семь.
+          zh: 我七点开车来接你。
+
+- lemma: догонять
+  stress: догоня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: trans
+  government: кого-что
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 追赶，赶上
+      en: to catch up with
+      examples:
+        - ru: Он догоня́ет остальны́х.
+          zh: 他在追赶其他人。
+
+- lemma: убегать
+  stress: убега́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: от кого-чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 跑开，逃跑
+      en: to run away
+      examples:
+        - ru: Соба́ка убега́ет от дождя́.
+          zh: 狗躲雨跑开了。
+
+- lemma: прибывать
+  stress: прибыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: куда
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 抵达（正式）
+      en: to arrive (formal)
+      examples:
+        - ru: По́езд прибыва́ет на второ́й путь.
+          zh: 列车到达第二站台。
+  notes: |
+    车站、机场广播用 прибыва́ть／отправля́ться，口语里说 приезжа́ть／уезжа́ть。
+
+- lemma: сообщать
+  stress: сообща́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: сообщить
+  transitivity: trans
+  government: кому о чём
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 通报，报道（正式）
+      en: to report (formally)
+      examples:
+        - ru: Газе́ты сообща́ют о переме́нах.
+          zh: 报纸报道了这些变动。
+  notes: |
+    这一条收正式"通报、报道"的用法；日常"告诉"的 сообща́ть 是另一条词条。
+
+- lemma: наступать
+  stress: наступа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 来临（时节、时刻）
+      en: to set in, to come (of a season)
+      examples:
+        - ru: Наступа́ет весна́.
+          zh: 春天来了。
+
+- lemma: происходить
+  stress: происходи́ть
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  homonym_id: 2
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 出身于，源自
+      en: to come from, to originate
+      government: из чего / от кого
+      examples:
+        - ru: Э́то сло́во происхо́дит из латы́ни.
+          zh: 这个词源自拉丁语。
+  notes: |
+    这一条收"起源、出身"的义项；"发生"的 происходи́ть 是另一条词条。
+
+- lemma: заниматься
+  stress: занима́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: чем
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 从事（某职业、某研究）
+      en: to be engaged in, to work on
+      examples:
+        - ru: Он занима́ется исто́рией Кита́я.
+          zh: 他研究中国史。
+  notes: |
+    这一条收"从事、研究"的义项；"学习、锻炼"的 занима́ться 是另一条词条。
+
+- lemma: удовольствие
+  stress: удово́льствие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 快乐，乐趣
+      en: pleasure
+      collocations: [с удово́льствием]
+      examples:
+        - ru: С удово́льствием!
+          zh: 乐意之至！
+  notes: |
+    С удово́льствием! 是接受邀请时最自然的应答，相当于"好啊，很乐意"。
+
+- lemma: настроение
+  stress: настрое́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 兴致，心思（做某事的意愿）
+      en: mood to do something
+      examples:
+        - ru: Нет настрое́ния рабо́тать.
+          zh: 没心思干活。
+  notes: |
+    这一条收"有没有兴致"的用法；泛指"情绪"的 настрое́ние 是另一条词条。
+
+- lemma: привычный
+  stress: привы́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 习惯了的，熟悉的
+      en: habitual, familiar
+      examples:
+        - ru: Э́то привы́чное де́ло.
+          zh: 这是家常便饭。
+
+- lemma: заметный
+  stress: заме́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 明显的，看得出来的
+      en: noticeable
+      examples:
+        - ru: Разни́ца заме́тна.
+          zh: 差别看得出来。
+
+- lemma: незаметный
+  stress: незаме́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 不显眼的
+      en: imperceptible, inconspicuous
+      examples:
+        - ru: Он оста́лся незаме́тным.
+          zh: 他没引起注意。
+  antonyms: [заметный]
+
+- lemma: постоянно
+  stress: постоя́нно
+  pos: adv
+  homonym_id: 2
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 长期地，固定地
+      en: permanently
+      examples:
+        - ru: Он живёт здесь постоя́нно.
+          zh: 他常住在这儿。
+  notes: |
+    这一条收"长期、固定"的义项；"老是、不断"的 постоя́нно 是另一条词条。
+
+- lemma: временно
+  stress: вре́менно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 暂时地
+      en: temporarily
+      examples:
+        - ru: Он вре́менно живёт у дру́га.
+          zh: 他暂时住在朋友家。
+
+- lemma: наверх
+  stress: наве́рх
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 往上，上楼（方向）
+      en: upstairs, up (direction)
+      examples:
+        - ru: Подними́сь наве́рх.
+          zh: 上楼来。
+  common_errors: |
+    наве́рх 是方向（往上去），наверху́ 是位置（在上面）。
+    和 внизу́／вниз 一样，问 куда 用前者，问 где 用后者。
+
+- lemma: издалека
+  stress: издалека́
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 从远处
+      en: from afar
+      examples:
+        - ru: Я уви́дел его́ издалека́.
+          zh: 我远远就看见他了。
+
+- lemma: вблизи
+  stress: вблизи́
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 在近处，近看
+      en: close up, nearby
+      examples:
+        - ru: Вблизи́ он вы́глядит ста́рше.
+          zh: 近看他显老。

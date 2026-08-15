@@ -205,6 +205,7 @@
   pos: verb
   zaliznyak: нсв 1a
   aspect: impf
+  aspect_pair: пожелать
   transitivity: trans
   government: кому чего
   level: [B1, ТРКИ-1]

@@ -1,0 +1,1823 @@
+# Grammar and language study; speech acts; feelings; classification.
+#
+# The grammatical terms are here so that the app can explain itself: a learner
+# reading "第四格" in a note should be able to look up падеж and винительный.
+# The speech-act nouns (про́сьба, отка́з, разреше́ние) pair with the verbs
+# already in the lexicon and carry the same case government.
+
+- lemma: алфавит
+  stress: алфави́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 字母表
+      en: alphabet
+      examples:
+        - ru: В ру́сском алфави́те три́дцать три бу́квы.
+          zh: 俄语字母表有三十三个字母。
+
+- lemma: буква
+  stress: бу́ква
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 字母
+      en: letter (of the alphabet)
+      examples:
+        - ru: Э́то бу́ква «ж».
+          zh: 这是字母 ж。
+  common_errors: |
+    бу́ква 是字母，письмо́ 是书信。汉语的"信"和"字母"不会混，
+    但英语 letter 的干扰会让人用错。
+
+- lemma: слог
+  stress: слог
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 音节
+      en: syllable
+      examples:
+        - ru: В э́том сло́ве два сло́га.
+          zh: 这个词有两个音节。
+
+- lemma: ударение
+  stress: ударе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 重音
+      en: stress (accent)
+      examples:
+        - ru: Где здесь ударе́ние?
+          zh: 这里重音在哪儿？
+  common_errors: |
+    俄语重音会移动，还能区别词义（за́мок／замо́к、пла́чу／плачу́）。
+    背单词时重音必须和拼写一起记，不能事后补。
+
+- lemma: произношение
+  stress: произноше́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 发音
+      en: pronunciation
+      examples:
+        - ru: У неё хоро́шее произноше́ние.
+          zh: 她发音不错。
+
+- lemma: грамматика
+  stress: грамма́тика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 语法
+      en: grammar
+      examples:
+        - ru: Ру́сская грамма́тика тру́дная.
+          zh: 俄语语法很难。
+
+- lemma: лексика
+  stress: ле́ксика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 词汇
+      en: vocabulary, lexis
+      examples:
+        - ru: Ну́жно расширя́ть ле́ксику.
+          zh: 得扩大词汇量。
+
+- lemma: падеж
+  stress: паде́ж
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 格
+      en: grammatical case
+      examples:
+        - ru: В ру́сском языке́ шесть падеже́й.
+          zh: 俄语有六个格。
+
+- lemma: склонение
+  stress: склоне́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 变格
+      en: declension
+      examples:
+        - ru: Э́то существи́тельное пе́рвого склоне́ния.
+          zh: 这是第一变格法的名词。
+
+- lemma: спряжение
+  stress: спряже́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 变位
+      en: conjugation
+      examples:
+        - ru: Э́тот глаго́л второ́го спряже́ния.
+          zh: 这个动词属第二变位法。
+
+- lemma: окончание
+  stress: оконча́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 词尾；结尾
+      en: ending
+      examples:
+        - ru: У э́тих слов ра́зные оконча́ния.
+          zh: 这些词的词尾不一样。
+
+- lemma: приставка
+  stress: приста́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 前缀
+      en: prefix
+      examples:
+        - ru: Приста́вка «по-» меня́ет вид.
+          zh: 前缀 по- 会改变体。
+
+- lemma: суффикс
+  stress: су́ффикс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 后缀
+      en: suffix
+      examples:
+        - ru: Су́ффикс «-ни́ца» образу́ет же́нские назва́ния.
+          zh: 后缀 -ница 用来构成女性名称。
+
+- lemma: глагол
+  stress: глаго́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 动词
+      en: verb
+      examples:
+        - ru: Э́то глаго́л несоверше́нного ви́да.
+          zh: 这是未完成体动词。
+
+- lemma: наречие
+  stress: наре́чие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 副词
+      en: adverb
+      examples:
+        - ru: «Бы́стро» — э́то наре́чие.
+          zh: бы́стро 是副词。
+
+- lemma: местоимение
+  stress: местоиме́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 代词
+      en: pronoun
+      examples:
+        - ru: «Он» — ли́чное местоиме́ние.
+          zh: он 是人称代词。
+
+- lemma: предлог
+  stress: предло́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 前置词
+      en: preposition
+      examples:
+        - ru: Ка́ждый предло́г тре́бует своего́ падежа́.
+          zh: 每个前置词都要求自己的格。
+
+- lemma: речь
+  stress: речь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 言语，讲话
+      en: speech
+      collocations: [речь идёт о чём]
+      examples:
+        - ru: Речь идёт о де́ньгах.
+          zh: 说的是钱的事。
+
+- lemma: диалог
+  stress: диало́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 对话
+      en: dialogue
+      examples:
+        - ru: Прочита́йте диало́г по ро́лям.
+          zh: 请分角色读对话。
+
+- lemma: интонация
+  stress: интона́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 语调
+      en: intonation
+      examples:
+        - ru: Вопро́с передаётся интона́цией.
+          zh: 疑问靠语调表达。
+
+- lemma: акцент
+  stress: акце́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 口音
+      en: accent
+      examples:
+        - ru: Он говори́т с лёгким акце́нтом.
+          zh: 他说话带一点口音。
+
+- lemma: диалект
+  stress: диале́кт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 方言
+      en: dialect
+      examples:
+        - ru: В э́том райо́не свой диале́кт.
+          zh: 这个地区有自己的方言。
+
+- lemma: синоним
+  stress: сино́ним
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 同义词
+      en: synonym
+      examples:
+        - ru: Найди́те сино́ним к э́тому сло́ву.
+          zh: 给这个词找个同义词。
+  antonyms: [антоним]
+
+- lemma: антоним
+  stress: анто́ним
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 反义词
+      en: antonym
+      examples:
+        - ru: «Тёплый» — анто́ним к «холо́дный».
+          zh: тёплый 是 холо́дный 的反义词。
+  antonyms: [синоним]
+
+- lemma: определение
+  stress: определе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 定义；定语
+      en: definition; attribute
+      examples:
+        - ru: Дай определе́ние э́тому те́рмину.
+          zh: 给这个术语下个定义。
+
+- lemma: термин
+  stress: те́рмин
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 术语
+      en: term
+      examples:
+        - ru: Э́то нау́чный те́рмин.
+          zh: 这是个科学术语。
+
+- lemma: понятие
+  stress: поня́тие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 概念
+      en: concept, notion
+      examples:
+        - ru: Э́то сло́жное поня́тие.
+          zh: 这是个复杂的概念。
+
+- lemma: сокращение
+  stress: сокраще́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 缩写；缩减
+      en: abbreviation; reduction
+      examples:
+        - ru: Э́то приня́тое сокраще́ние.
+          zh: 这是通用的缩写。
+
+- lemma: фраза
+  stress: фра́за
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 句子，说法
+      en: phrase, sentence
+      examples:
+        - ru: Повтори́те фра́зу.
+          zh: 请把这句重复一遍。
+
+- lemma: выражение
+  stress: выраже́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 说法，表达；表情
+      en: expression
+      examples:
+        - ru: Э́то усто́йчивое выраже́ние.
+          zh: 这是个固定说法。
+
+- lemma: пословица
+  stress: посло́вица
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 谚语
+      en: proverb
+      examples:
+        - ru: Он лю́бит ру́сские посло́вицы.
+          zh: 他喜欢俄语谚语。
+
+- lemma: исключение
+  stress: исключе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 例外
+      en: exception
+      collocations: [за исключе́нием]
+      examples:
+        - ru: Э́то исключе́ние из пра́вила.
+          zh: 这是规则的例外。
+
+- lemma: содержание
+  stress: содержа́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 内容；目录
+      en: content; table of contents
+      examples:
+        - ru: Расскажи́те содержа́ние фи́льма.
+          zh: 讲讲电影的内容。
+
+- lemma: название
+  stress: назва́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 名称，题目
+      en: name, title
+      examples:
+        - ru: Я забы́л назва́ние кни́ги.
+          zh: 我忘了书名。
+  common_errors: |
+    事物的名称是 назва́ние，人的名字是и́мя。
+    问事物用 Как называ́ется…?，问人用 Как вас зову́т?
+
+- lemma: отчество
+  stress: о́тчество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 父称
+      en: patronymic
+      examples:
+        - ru: Как ва́ше и́мя и о́тчество?
+          zh: 您的名字和父称是？
+  notes: |
+    正式称呼是"名 + 父称"：Ива́н Петро́вич。汉语没有对应结构，
+    在俄国用这种称呼相当于中文的"某老师／某总"。
+
+- lemma: почерк
+  stress: по́черк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 笔迹
+      en: handwriting
+      examples:
+        - ru: У него́ неразбо́рчивый по́черк.
+          zh: 他的字很难认。
+
+- lemma: истина
+  stress: и́стина
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 真理
+      en: truth
+      examples:
+        - ru: Э́то о́бщая и́стина.
+          zh: 这是公认的道理。
+
+- lemma: суть
+  stress: суть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 实质，要点
+      en: essence, the point
+      examples:
+        - ru: В чём суть пробле́мы?
+          zh: 问题的实质是什么？
+
+- lemma: просьба
+  stress: про́сьба
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 请求
+      en: request
+      examples:
+        - ru: У меня́ к вам про́сьба.
+          zh: 我有个请求。
+
+- lemma: приглашение
+  stress: приглаше́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 邀请（函）
+      en: invitation
+      examples:
+        - ru: Спаси́бо за приглаше́ние.
+          zh: 谢谢邀请。
+
+- lemma: согласие
+  stress: согла́сие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 同意
+      en: consent, agreement
+      examples:
+        - ru: Он дал согла́сие.
+          zh: 他同意了。
+  antonyms: [отказ]
+
+- lemma: отказ
+  stress: отка́з
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 拒绝
+      en: refusal
+      government: от чего
+      examples:
+        - ru: Мы получи́ли отка́з.
+          zh: 我们被拒绝了。
+  antonyms: [согласие]
+
+- lemma: разрешение
+  stress: разреше́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 许可
+      en: permission
+      examples:
+        - ru: Ну́жно разреше́ние роди́телей.
+          zh: 需要家长许可。
+  antonyms: [запрет]
+
+- lemma: запрет
+  stress: запре́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 禁令
+      en: ban, prohibition
+      government: на что
+      examples:
+        - ru: Ввели́ запре́т на куре́ние.
+          zh: 出了禁烟令。
+  antonyms: [разрешение]
+
+- lemma: рекомендация
+  stress: рекоменда́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 推荐；建议
+      en: recommendation
+      examples:
+        - ru: Он дал мне рекоменда́цию.
+          zh: 他给我写了推荐。
+
+- lemma: замечание
+  stress: замеча́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 意见；批评
+      en: remark; reprimand
+      examples:
+        - ru: Учи́тель сде́лал ему́ замеча́ние.
+          zh: 老师说了他一句。
+
+- lemma: предупреждение
+  stress: предупрежде́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 警告，提醒
+      en: warning
+      examples:
+        - ru: Э́то бы́ло после́днее предупрежде́ние.
+          zh: 这是最后一次警告。
+
+- lemma: напоминание
+  stress: напомина́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 提醒
+      en: reminder
+      examples:
+        - ru: Поста́вь напомина́ние в телефо́не.
+          zh: 在手机上设个提醒。
+
+- lemma: объявление
+  stress: объявле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 通知，启事
+      en: announcement, notice
+      examples:
+        - ru: На двери́ висе́ло объявле́ние.
+          zh: 门上贴着张通知。
+
+- lemma: извинение
+  stress: извине́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 道歉
+      en: apology
+      examples:
+        - ru: Он при́нял мои́ извине́ния.
+          zh: 他接受了我的道歉。
+
+- lemma: благодарность
+  stress: благода́рность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 感谢，谢意
+      en: gratitude
+      examples:
+        - ru: Прими́те мою́ благода́рность.
+          zh: 请接受我的谢意。
+
+- lemma: уважение
+  stress: уваже́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 尊敬
+      en: respect
+      government: к кому-чему
+      examples:
+        - ru: С уваже́нием, Ива́н.
+          zh: 此致敬礼，伊万。
+  notes: |
+    С уваже́нием 是书信、邮件结尾的标准落款。
+
+- lemma: доверие
+  stress: дове́рие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 信任
+      en: trust
+      government: к кому-чему
+      examples:
+        - ru: Он потеря́л моё дове́рие.
+          zh: 他失去了我的信任。
+
+- lemma: знакомство
+  stress: знако́мство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 结识，相识
+      en: acquaintance
+      examples:
+        - ru: Э́то бы́ло на́ше пе́рвое знако́мство.
+          zh: 那是我们第一次认识。
+
+- lemma: приветствие
+  stress: приве́тствие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 问候语
+      en: greeting
+      examples:
+        - ru: Он не отве́тил на приве́тствие.
+          zh: 他没回招呼。
+
+- lemma: обещание
+  stress: обеща́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 承诺
+      en: promise
+      examples:
+        - ru: Он вы́полнил обеща́ние.
+          zh: 他兑现了承诺。
+
+- lemma: критика
+  stress: кри́тика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 批评
+      en: criticism
+      examples:
+        - ru: Он не выно́сит кри́тики.
+          zh: 他受不了批评。
+
+- lemma: похвала
+  stress: похвала́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 表扬
+      en: praise
+      examples:
+        - ru: Он заслужи́л похвалу́.
+          zh: 他值得表扬。
+
+- lemma: оправдание
+  stress: оправда́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 辩解，借口
+      en: excuse, justification
+      examples:
+        - ru: Э́то не оправда́ние.
+          zh: 这不是理由。
+
+- lemma: переписка
+  stress: перепи́ска
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 通信，往来信件
+      en: correspondence
+      examples:
+        - ru: Они́ веду́т перепи́ску не́сколько лет.
+          zh: 他们通信好几年了。
+
+- lemma: эмоция
+  stress: эмо́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 情绪
+      en: emotion
+      examples:
+        - ru: Он не пока́зывает эмо́ций.
+          zh: 他不流露情绪。
+
+- lemma: волнение
+  stress: волне́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 激动，紧张
+      en: agitation, nerves
+      examples:
+        - ru: Он не мог скры́ть волне́ния.
+          zh: 他掩饰不住紧张。
+
+- lemma: спокойствие
+  stress: споко́йствие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 平静，镇定
+      en: calm
+      examples:
+        - ru: Он сохрани́л споко́йствие.
+          zh: 他保持了镇定。
+
+- lemma: тревога
+  stress: трево́га
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 不安，警报
+      en: anxiety; alarm
+      examples:
+        - ru: Он почу́вствовал трево́гу.
+          zh: 他心里不安起来。
+
+- lemma: паника
+  stress: па́ника
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 恐慌
+      en: panic
+      examples:
+        - ru: То́лько без па́ники.
+          zh: 千万别慌。
+
+- lemma: ужас
+  stress: у́жас
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 恐怖；糟透了（口语感叹）
+      en: horror; "how awful"
+      examples:
+        - ru: Како́й у́жас!
+          zh: 太可怕了！
+
+- lemma: восторг
+  stress: восто́рг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 兴奋，欣喜
+      en: delight
+      examples:
+        - ru: Де́ти бы́ли в восто́рге.
+          zh: 孩子们高兴坏了。
+
+- lemma: восхищение
+  stress: восхище́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 赞叹，钦佩
+      en: admiration
+      examples:
+        - ru: Он смотре́л с восхище́нием.
+          zh: 他看得赞叹不已。
+
+- lemma: разочарование
+  stress: разочарова́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 失望
+      en: disappointment
+      examples:
+        - ru: Э́то бы́ло большо́е разочарова́ние.
+          zh: 这让人很失望。
+
+- lemma: обида
+  stress: оби́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 委屈，怨气
+      en: hurt, resentment
+      examples:
+        - ru: Он до́лго держа́л оби́ду.
+          zh: 他心里憋了很久的委屈。
+
+- lemma: злость
+  stress: злость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 恼怒
+      en: anger, spite
+      examples:
+        - ru: Он говори́л со зло́стью.
+          zh: 他说话带着火气。
+
+- lemma: раздражение
+  stress: раздраже́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 烦躁；刺激
+      en: irritation
+      examples:
+        - ru: Э́то вызыва́ет раздраже́ние.
+          zh: 这让人心烦。
+
+- lemma: терпение
+  stress: терпе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 耐心
+      en: patience
+      examples:
+        - ru: У меня́ ко́нчилось терпе́ние.
+          zh: 我耐心用完了。
+
+- lemma: смелость
+  stress: сме́лость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 勇气
+      en: courage
+      examples:
+        - ru: У него́ хвати́ло сме́лости.
+          zh: 他有这个胆量。
+
+- lemma: глупость
+  stress: глу́пость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 蠢事，胡话
+      en: stupidity, nonsense
+      examples:
+        - ru: Не говори́ глу́постей.
+          zh: 别说傻话。
+
+- lemma: доброта
+  stress: доброта́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 善良
+      en: kindness
+      examples:
+        - ru: Спаси́бо за ва́шу доброту́.
+          zh: 谢谢您的好心。
+
+- lemma: честность
+  stress: че́стность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 诚实
+      en: honesty
+      examples:
+        - ru: Он це́нит че́стность.
+          zh: 他看重诚实。
+
+- lemma: скромность
+  stress: скро́мность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 谦虚
+      en: modesty
+      examples:
+        - ru: Скро́мность украша́ет.
+          zh: 谦虚使人可敬。
+
+- lemma: лень
+  stress: лень
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 懒；懒得（口语作谓语）
+      en: laziness; "can't be bothered"
+      examples:
+        - ru: Мне лень встава́ть.
+          zh: 我懒得起来。
+  notes: |
+    口语里当无人称谓语用：Мне лень + 不定式，人用第三格。
+
+- lemma: грусть
+  stress: грусть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 忧伤
+      en: sadness
+      examples:
+        - ru: В его́ го́лосе была́ грусть.
+          zh: 他声音里带着忧伤。
+
+- lemma: печаль
+  stress: печа́ль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 悲伤（书面）
+      en: sorrow
+      labels: [книжн.]
+      examples:
+        - ru: Его́ печа́ль была́ глубо́кой.
+          zh: 他的悲伤很深。
+
+- lemma: тоска
+  stress: тоска́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3b
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 忧郁，思念
+      en: longing, melancholy
+      government: по кому-чему
+      examples:
+        - ru: Его́ мучи́ла тоска́ по до́му.
+          zh: 他被乡愁折磨着。
+
+- lemma: скука
+  stress: ску́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 无聊
+      en: boredom
+      examples:
+        - ru: Кака́я ску́ка!
+          zh: 真无聊！
+
+- lemma: удивление
+  stress: удивле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 惊讶
+      en: surprise
+      collocations: [к моему́ удивле́нию]
+      examples:
+        - ru: К моему́ удивле́нию, он согласи́лся.
+          zh: 让我意外的是，他同意了。
+
+- lemma: зависть
+  stress: за́висть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 嫉妒
+      en: envy
+      examples:
+        - ru: Он говори́л без за́висти.
+          zh: 他说这话不带嫉妒。
+
+- lemma: ненависть
+  stress: не́нависть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 仇恨
+      en: hatred
+      government: к кому-чему
+      examples:
+        - ru: В его́ слова́х была́ не́нависть.
+          zh: 他话里带着恨。
+
+- lemma: темнота
+  stress: темнота́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 黑暗
+      en: darkness
+      examples:
+        - ru: Он бои́тся темноты́.
+          zh: 他怕黑。
+
+- lemma: средство
+  stress: сре́дство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 手段，工具；药剂
+      en: means; remedy
+      examples:
+        - ru: Э́то хоро́шее сре́дство от ка́шля.
+          zh: 这是止咳的好东西。
+
+- lemma: источник
+  stress: исто́чник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 来源；泉源
+      en: source
+      examples:
+        - ru: Укажи́те исто́чник информа́ции.
+          zh: 请注明信息来源。
+
+- lemma: основание
+  stress: основа́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 依据，理由；基础
+      en: grounds, basis
+      examples:
+        - ru: На како́м основа́нии?
+          zh: 依据是什么？
+
+- lemma: принцип
+  stress: при́нцип
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 原则
+      en: principle
+      collocations: [в при́нципе]
+      examples:
+        - ru: Э́то де́ло при́нципа.
+          zh: 这是原则问题。
+
+- lemma: ценность
+  stress: це́нность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 价值；（复数）价值观
+      en: value
+      examples:
+        - ru: У нас ра́зные це́нности.
+          zh: 我们价值观不同。
+
+- lemma: преимущество
+  stress: преиму́щество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 优势
+      en: advantage
+      examples:
+        - ru: У э́того вариа́нта есть преиму́щества.
+          zh: 这个方案有优势。
+  antonyms: [недостаток]
+
+- lemma: недостаток
+  stress: недоста́ток
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 缺点；不足
+      en: shortcoming; shortage
+      examples:
+        - ru: У ка́ждого есть недоста́тки.
+          zh: 谁都有缺点。
+  antonyms: [преимущество]
+
+- lemma: достоинство
+  stress: досто́инство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 优点；尊严
+      en: merit; dignity
+      examples:
+        - ru: Он держа́лся с досто́инством.
+          zh: 他举止很有尊严。
+
+- lemma: особенность
+  stress: осо́бенность
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 特点
+      en: feature, peculiarity
+      examples:
+        - ru: Э́то осо́бенность ру́сского языка́.
+          zh: 这是俄语的一个特点。
+
+- lemma: свойство
+  stress: сво́йство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 属性，性质
+      en: property, quality
+      examples:
+        - ru: У воды́ есть таки́е сво́йства.
+          zh: 水有这些性质。
+
+- lemma: признак
+  stress: при́знак
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 标志，征兆
+      en: sign, indication
+      examples:
+        - ru: Э́то пе́рвый при́знак боле́зни.
+          zh: 这是发病的第一个征兆。
+
+- lemma: черта
+  stress: черта́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 特征；线条
+      en: trait; line
+      examples:
+        - ru: Э́то её гла́вная черта́.
+          zh: 这是她最突出的特点。
+
+- lemma: тип
+  stress: тип
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 类型
+      en: type
+      examples:
+        - ru: Э́то друго́й тип зада́чи.
+          zh: 这是另一类题。
+
+- lemma: категория
+  stress: катего́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 类别，范畴
+      en: category
+      examples:
+        - ru: Э́то друга́я катего́рия.
+          zh: 这属于另一类。
+
+- lemma: сорт
+  stress: сорт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 品种，等级
+      en: sort, grade
+      examples:
+        - ru: Э́то лу́чший сорт ча́я.
+          zh: 这是最好的茶叶等级。
+
+- lemma: ряд
+  stress: ряд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 排，行；一系列
+      en: row; series
+      examples:
+        - ru: Мы сиде́ли в пе́рвом ряду́.
+          zh: 我们坐第一排。
+  notes: |
+    第六格有特殊形式 в ряду́（重音在词尾），和 в лесу́、на краю́ 同类。
+
+- lemma: серия
+  stress: се́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 系列；（剧的）集
+      en: series; episode
+      examples:
+        - ru: Я посмотре́л пе́рвую се́рию.
+          zh: 我看了第一集。
+
+- lemma: набор
+  stress: набо́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 一套；招收
+      en: set; intake
+      examples:
+        - ru: Он купи́л набо́р инструме́нтов.
+          zh: 他买了一套工具。
+
+- lemma: комплект
+  stress: компле́кт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 整套
+      en: complete set
+      examples:
+        - ru: В компле́кте есть заря́дка.
+          zh: 套装里带充电器。
+
+- lemma: штука
+  stress: шту́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 个，件（量词）；玩意儿
+      en: piece, item; thing
+      examples:
+        - ru: Да́йте три шту́ки.
+          zh: 请给三个。
+  notes: |
+    俄语没有汉语那样成体系的量词；数数东西时用 шту́ка 或者直接说数词加名词。
+
+- lemma: артист
+  stress: арти́ст
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 演员，艺人
+      en: performer, artist
+      examples:
+        - ru: Э́то изве́стный арти́ст.
+          zh: 这是位有名的演员。
+
+- lemma: режиссёр
+  stress: режиссёр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 导演
+      en: director (film, theatre)
+      examples:
+        - ru: Кто режиссёр э́того фи́льма?
+          zh: 这部电影谁导的？
+
+- lemma: музыкант
+  stress: музыка́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 音乐家
+      en: musician
+      examples:
+        - ru: Он профессиона́льный музыка́нт.
+          zh: 他是职业音乐人。
+
+- lemma: архитектор
+  stress: архите́ктор
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 建筑师
+      en: architect
+      examples:
+        - ru: Зда́ние постро́ил изве́стный архите́ктор.
+          zh: 这栋楼是位名建筑师设计的。
+
+- lemma: дизайнер
+  stress: диза́йнер
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 设计师
+      en: designer
+      examples:
+        - ru: Она́ рабо́тает диза́йнером.
+          zh: 她做设计师。
+
+- lemma: консультант
+  stress: консульта́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 顾问，咨询员
+      en: consultant, adviser
+      examples:
+        - ru: Спроси́те у консульта́нта в за́ле.
+          zh: 问一下厅里的导购。
+
+- lemma: менеджер
+  stress: ме́неджер
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 经理，主管
+      en: manager
+      examples:
+        - ru: Он ме́неджер по прода́жам.
+          zh: 他是销售经理。
+
+- lemma: заместитель
+  stress: замести́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 副职，代理人
+      en: deputy
+      examples:
+        - ru: Э́то замести́тель дире́ктора.
+          zh: 这是副经理。
+
+- lemma: помощник
+  stress: помо́щник
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 助手
+      en: assistant
+      examples:
+        - ru: Мне ну́жен помо́щник.
+          zh: 我需要个帮手。
+  notes: |
+    щ 前的 щн 读作 [шн]：[помо́шник]。
+
+- lemma: волонтёр
+  stress: волонтёр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 志愿者
+      en: volunteer
+      examples:
+        - ru: Он рабо́тал волонтёром.
+          zh: 他做过志愿者。
+
+- lemma: склад
+  stress: склад
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 仓库
+      en: warehouse
+      examples:
+        - ru: Това́р на скла́де.
+          zh: 货在仓库里。
+
+- lemma: лаборатория
+  stress: лаборато́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 实验室
+      en: laboratory
+      examples:
+        - ru: Он рабо́тает в лаборато́рии.
+          zh: 他在实验室工作。
+
+- lemma: салон
+  stress: сало́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 沙龙，店；车厢内部
+      en: salon; passenger compartment
+      examples:
+        - ru: Она́ пошла́ в сало́н красоты́.
+          zh: 她去美容院了。
+
+- lemma: киоск
+  stress: кио́ск
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 售货亭
+      en: kiosk
+      examples:
+        - ru: Газе́ты продаю́т в кио́ске.
+          zh: 报纸在报亭卖。
+
+- lemma: супермаркет
+  stress: суперма́ркет
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 超市
+      en: supermarket
+      examples:
+        - ru: Суперма́ркет рабо́тает кру́глые су́тки.
+          zh: 超市二十四小时营业。
+
+- lemma: парковка
+  stress: парко́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 停车场；停车
+      en: car park; parking
+      examples:
+        - ru: Парко́вка беспла́тная.
+          zh: 停车免费。
+
+- lemma: гараж
+  stress: гара́ж
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 车库
+      en: garage
+      examples:
+        - ru: Маши́на в гараже́.
+          zh: 车在车库里。
+
+- lemma: заправка
+  stress: запра́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 加油站
+      en: petrol station
+      examples:
+        - ru: Останови́сь на запра́вке.
+          zh: 在加油站停一下。
