@@ -76,3 +76,7 @@ class FormIndex:
 
     def __len__(self) -> int:
         return len(self._by_form)
+
+    def keys(self) -> list[str]:
+        """Every indexed surface form, as search keys."""
+        return list(self._by_form)

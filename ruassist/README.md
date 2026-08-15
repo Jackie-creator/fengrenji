@@ -24,7 +24,7 @@
   还辨义（за́мок 城堡 / замо́к 锁），并决定发音。**每一个词形都必须带重音标注。**
 - **输入**：中国用户没有西里尔键盘，虚拟键盘 + 拉丁转写输入（`privet` → привет）是刚需。
 
-## 当前状态：M1 形态引擎完成
+## 当前状态：M3 离线 PWA 可用
 
 | | |
 |---|---|
@@ -34,12 +34,16 @@
 | 生成词形索引 | 1,600+ 词形 → 词元 |
 | **与 OpenCorpora 一致率** | **1833/1833（100%）** |
 | 待交叉核对 | 8 条（`verify` 清单，原 43 条） |
-| 校验 / 测试 | 0 errors, 0 warnings ／ 134 passed |
+| 校验 / 测试 | 0 errors, 0 warnings ／ 161 passed |
+| 离线词包 | 227 KB（gzip 52 KB）／ SQLite 360 KB |
 
 ```bash
 python -m ruassist.cli стали --table   # 查词，接受任意词形与拉丁转写
 python -m ruassist.coverage            # 词表覆盖率
 python -m ruassist.crosscheck          # 生成词形 vs OpenCorpora
+python -m ruassist.build               # 编译离线词包
+
+cd frontend && npm install && npm run dev   # Web 前端（PWA）
 ```
 
 ### 形态引擎
@@ -56,6 +60,29 @@ python -m ruassist.crosscheck          # 生成词形 vs OpenCorpora
 
 > 目标词表 `data/wordlists/core_a1.yaml` 是**自建**高频表，按主题组织，
 > **不是官方考纲的照抄**。高考俄语考纲、ТРКИ 官方词表需另行获取后比对补齐。
+
+### 查询层
+
+四级匹配，前一级有结果就不往下走——只按编辑距离排序会让精确匹配被更短的邻词埋掉：
+
+| 级别 | 例 |
+|---|---|
+| 精确（含任意词形） | `книге` → книга，`стали` → стать + сталь |
+| 拉丁转写 | `gorod` → город |
+| 前缀 | `говор` → говорить |
+| 模糊（限定编辑距离） | `челавек` → человек |
+
+漏标重音和 ё 写成 е 在 `search_key` 阶段就被吸收，不占用编辑距离预算。
+
+### 离线前端（PWA）
+
+`frontend/` 是 Vite + React + TS，构建期把词包烤进静态站点，运行时零网络请求：
+
+- 查词界面、**西里尔虚拟键盘**、拉丁转写提示
+- 完整变格／变位表（名词 6 格×2 数、动词人称+过去时+命令式、形容词性数格）
+- **重音显示开关**——初学者要，进阶者不要
+- 体对／运动动词对可点击跳转
+- Service Worker 缓存优先：飞机上、教室里没信号也能查
 
 ### 撰写标准
 
@@ -79,9 +106,18 @@ pip install -e ".[dev]"
 
 python -m ruassist.validate data/lexicon   # 校验词库
 python -m pytest                           # 跑测试
+python -m ruassist.build                   # 编译离线词包
+
+cd frontend
+npm install
+npm run dev                                # 开发服务器
+npm run build                              # 产出纯静态 dist/
 ```
 
 `validate` 会打印统计摘要，并列出所有 `verify` 待核对项——发布前这份清单必须清空。
+
+前端读的 `frontend/public/dictionary.json` 是 `ruassist.build` 生成的，没有入库——
+避免它和 YAML 词库脱节。**跑前端之前先跑一次 build。**
 
 ## 目录
 
@@ -98,10 +134,14 @@ ruassist/
 │   ├── morphology/         # 形态引擎：范式 → 带重音的词形表
 │   ├── index.py            # 词形 → 词元索引（歧义全量返回）
 │   ├── translit.py         # 拉丁转写输入（privet → привет）
+│   ├── search.py           # 四级匹配（精确／转写／前缀／模糊）
+│   ├── build.py            # 编译离线词包（JSON + SQLite）
 │   ├── cli.py              # 查词 CLI
 │   ├── validate.py         # 校验 CLI
 │   ├── coverage.py         # 覆盖率 CLI
 │   └── crosscheck.py       # 与 OpenCorpora 比对
+├── frontend/               # Vite + React + TS 的离线 PWA
+│   └── src/dictionary.ts   # 前端查询，与 search.py 同一套分级逻辑
 └── tests/                  # 含针对词库本身的回归测试
 ```
 
@@ -110,8 +150,9 @@ ruassist/
 - ✅ **M0 数据地基**：schema 定稿、重音规范、校验器、50+ 词样例
 - ✅ **A1 核心词表**：216 词条，覆盖率工具
 - ✅ **M1 形态引擎**：范式展开、词形还原（含歧义候选）、CLI 查词、OpenCorpora 交叉核验
-- ⬜ **M2 词典查询层**：模糊查、拉丁转写输入、词条组装、发音
-- ⬜ **M3 Web 前端（PWA）**：查词界面、西里尔键盘、形态表、重音开关、离线词包
+- ✅ **M2 词典查询层**：四级模糊查、拉丁转写输入、词条组装、离线词包构建
+- ✅ **M3 Web 前端（PWA）**：查词界面、西里尔键盘、形态表、重音开关、Service Worker 离线
+- ⬜ **M2 余项**：发音（TTS + 真人音频）
 - ⬜ **M4 学习层**：生词本、间隔重复复习、词书（高考俄语／专四／ТРКИ）
 - ⬜ **M5 打磨**：历史收藏、每日一句、整句翻译、浏览器划词插件
 

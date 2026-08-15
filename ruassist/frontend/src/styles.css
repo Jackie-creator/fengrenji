@@ -1,0 +1,140 @@
+/* Dark-first, high contrast: this is a reading tool, often at night. */
+:root {
+  --bg: #14161a;
+  --panel: #1c1f26;
+  --panel-2: #232733;
+  --text: #e8eaf0;
+  --muted: #939aab;
+  --accent: #6ea8ff;
+  --warn: #ffb454;
+  --border: #2c313c;
+  --ru: #ffffff;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.app { max-width: 760px; margin: 0 auto; padding: 16px 16px 64px; }
+
+.top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 12px;
+}
+.top h1 { font-size: 20px; margin: 0; letter-spacing: 1px; }
+.controls { display: flex; gap: 8px; align-items: center; }
+.switch { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
+
+button {
+  font: inherit; cursor: pointer; color: var(--text);
+  background: var(--panel-2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 10px;
+}
+button:hover { border-color: var(--accent); }
+button.active { border-color: var(--accent); color: var(--accent); }
+
+.searchbar { position: relative; }
+.searchbar input {
+  width: 100%; padding: 14px 40px 14px 14px; font-size: 20px;
+  background: var(--panel); color: var(--text);
+  border: 1px solid var(--border); border-radius: 12px;
+}
+.searchbar input:focus { outline: none; border-color: var(--accent); }
+.clear {
+  position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: var(--muted); font-size: 18px;
+}
+
+.hint { color: var(--muted); font-size: 14px; margin: 10px 2px; }
+.hint.ambiguous { color: var(--warn); }
+.error { color: #ff7b72; }
+.empty { color: var(--muted); margin-top: 24px; }
+.muted { color: var(--muted); font-size: 14px; }
+
+.link {
+  background: none; border: none; color: var(--accent);
+  padding: 2px 6px; text-decoration: underline; border-radius: 4px;
+}
+
+/* --- keyboard ---------------------------------------------------------- */
+.keyboard { margin: 10px 0; display: grid; gap: 6px; }
+.keyboard-row { display: flex; gap: 4px; justify-content: center; flex-wrap: wrap; }
+.keyboard-row button {
+  min-width: 34px; padding: 8px 0; font-size: 16px; flex: 0 0 auto;
+}
+.keyboard-row button.wide { min-width: 90px; font-size: 13px; }
+
+/* --- entries ----------------------------------------------------------- */
+.entry {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 14px; padding: 16px; margin-top: 14px;
+}
+.entry header { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.entry h2 {
+  margin: 0; font-size: 26px; color: var(--ru); font-weight: 600;
+}
+.entry h2 sup { font-size: 13px; color: var(--muted); }
+
+.badges { display: flex; gap: 5px; flex-wrap: wrap; }
+.badge {
+  font-size: 12px; padding: 2px 7px; border-radius: 999px;
+  background: var(--panel-2); color: var(--muted); border: 1px solid var(--border);
+}
+.badge.level { color: var(--accent); }
+
+.via { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.via .tag {
+  margin-left: 8px; font-family: ui-monospace, monospace; font-size: 11px;
+  background: var(--panel-2); padding: 1px 6px; border-radius: 4px;
+}
+.pair { font-size: 14px; color: var(--muted); margin: 6px 0 0; }
+
+.senses { margin: 12px 0 0; padding-left: 20px; }
+.senses li { margin-bottom: 10px; }
+.gloss { font-size: 16px; }
+.label {
+  margin-left: 6px; font-size: 11px; color: var(--warn);
+  border: 1px solid var(--border); padding: 0 5px; border-radius: 4px;
+}
+.collocations { font-size: 14px; color: var(--muted); margin-top: 2px; }
+.example { margin-top: 6px; padding-left: 10px; border-left: 2px solid var(--border); }
+.example .ru { color: var(--ru); }
+.example .zh { color: var(--muted); font-size: 14px; }
+
+.note {
+  margin-top: 12px; padding: 10px 12px; border-radius: 8px;
+  background: var(--panel-2); font-size: 14px;
+}
+.note strong { display: block; margin-bottom: 4px; color: var(--accent); font-size: 13px; }
+.note.warn strong { color: var(--warn); }
+.note p { margin: 0; }
+
+.toggle { margin-top: 12px; font-size: 13px; }
+.toggle .index {
+  margin-left: 8px; color: var(--muted);
+  font-family: ui-monospace, monospace; font-size: 12px;
+}
+
+/* --- paradigm ---------------------------------------------------------- */
+.paradigm {
+  margin-top: 10px; width: 100%; border-collapse: collapse; font-size: 15px;
+}
+.paradigm th, .paradigm td {
+  padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left;
+}
+.paradigm thead th { color: var(--muted); font-size: 12px; font-weight: 500; }
+.paradigm tbody th { color: var(--muted); font-weight: 400; font-size: 13px; width: 78px; }
+.paradigm td { color: var(--ru); }
+
+@media (max-width: 480px) {
+  .entry h2 { font-size: 22px; }
+  .searchbar input { font-size: 17px; }
+  .paradigm { font-size: 14px; }
+}

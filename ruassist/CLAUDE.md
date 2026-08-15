@@ -20,8 +20,8 @@
 - ✅ M0 数据地基：schema 定稿、重音规范、校验器、55 词难样本样例
 - ✅ A1 核心词表批次：216 词条，自建 A1 词表覆盖 100%，覆盖率工具就位
 - ✅ M1 形态引擎：范式展开、词形还原（含歧义候选）、CLI 查词、OpenCorpora 交叉核验
-- ⬜ M2 词典查询层：模糊查、拉丁转写输入、词条组装、发音
-- ⬜ M3 Web 前端（PWA）：查词界面、西里尔键盘、形态表、重音开关、离线词包
+- ✅ M2 词典查询层：四级模糊查、拉丁转写输入、词条组装、离线词包构建（发音待做）
+- ✅ M3 Web 前端（PWA）：查词界面、西里尔键盘、形态表、重音开关、Service Worker 离线
 - ⬜ M4 学习层：生词本、间隔重复、词书（高考俄语／专四／ТРКИ）
 - ⬜ M5 打磨：历史收藏、每日一句、整句翻译、划词插件
 
@@ -41,6 +41,9 @@
 - **形容词软硬看拼写**（-ий 前是否软辅音），不看索引类型：хоро́ший／ру́сский 是硬变化。
 - 名词的性是固有的，形容词的性是一致关系——与 OpenCorpora 比对时名词必须去掉性标签。
 - pymorphy3 只是开发期工具，产品里不含分析器，只含展开好的词形表。
+- 前端查询逻辑（`dictionary.ts`）是 `search.py` 的镜像，两边分级规则必须一致。
+- Service Worker 用**缓存优先**：词包对同一次构建是不可变的，等网络回来才出结果比没有 app 更糟。
+- 词包体积有测试守着（< 2500 字节/词条），涨上去先查是不是注释写太满。
 
 ## 领域要点（改数据前先读）
 
@@ -79,7 +82,12 @@ python -m ruassist.validate data/lexicon   # 校验词库，列出待核对项
 python -m ruassist.coverage                # 词表覆盖率
 python -m ruassist.crosscheck              # 生成词形 vs OpenCorpora
 python -m ruassist.cli стали --table       # 查词（接受任意词形／拉丁转写）
+python -m ruassist.build                   # 编译离线词包（JSON + SQLite）
 python -m pytest                           # 全部测试
+
+cd frontend && npm install
+npm run dev                                # 开发服务器
+npm run build                              # 产出 dist/，纯静态、可离线
 ```
 
 ## 关键文件
@@ -91,3 +99,6 @@ python -m pytest                           # 全部测试
 - `src/ruassist/morphology/` — 形态引擎（zaliznyak 解析 / 名词 / 形容词 / 动词 / engine）
 - `src/ruassist/crosscheck.py` — 与 OpenCorpora 比对，`verify` 清单靠它清
 - `src/ruassist/index.py` — 词形→词元索引，歧义全量返回
+- `src/ruassist/search.py` — 四级匹配（精确／转写／前缀／模糊）
+- `src/ruassist/build.py` — 编译离线词包；bundle 的键名是与前端的契约
+- `frontend/src/dictionary.ts` — 前端查询，**与 search.py 是同一套分级逻辑，改一边要同步另一边**
