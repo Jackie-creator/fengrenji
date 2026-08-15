@@ -43,6 +43,11 @@ STRESS_ATTRACTING_PREPOSITIONS = frozenset(
 #: не, leaving the verb unstressed, so it belongs with the prepositions above.
 STRESS_ATTRACTING_PARTICLES = frozenset({"не", "ни"})
 
+#: Hyphenated postfixes that carry no stress of their own: кто́-нибудь,
+#: где́-либо. The rest of a hyphenated compound *is* stressed per part
+#: (кто́-то, из-за), so these are listed rather than guessed at.
+UNSTRESSED_POSTFIXES = frozenset({"нибудь", "либо"})
+
 #: Vocalised preposition variants, used before consonant clusters. They are
 #: proclitics with no stress of their own -- "обо мне́", "передо мно́й" -- so
 #: they are polysyllabic and legitimately unmarked wherever they appear.
@@ -135,6 +140,8 @@ def validate(text: str, *, field: str = "form") -> str:
             raise StressError(f"{field}: {marks} stress marks in one word {word!r}")
         if count_vowels(word) > 1 and stress_index(word) is None:
             if word.lower() in UNSTRESSED_PROCLITICS:
+                continue
+            if word.lower() in UNSTRESSED_POSTFIXES:
                 continue
             if i > 0 and _is_marked_proclitic(words[i - 1]):
                 continue

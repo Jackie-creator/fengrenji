@@ -519,6 +519,12 @@ def test_inserted_fleeting_vowel_before_ts_is_e():
     assert cells(entry, ("plur", "gent")) == ["полоте́нец"]
 
 
+def test_inserted_fleeting_vowel_replaces_j_like_a_soft_sign():
+    """лине́йка -> лине́ек: the й goes, exactly as the ь in письм- -> пи́сем."""
+    entry = noun("линейка", "лине́йка", "ж 3*a", "femn")
+    assert cells(entry, ("plur", "gent")) == ["лине́ек"]
+
+
 def test_inserted_fleeting_vowel_replaces_a_soft_sign():
     """судьб- -> суде́б, письм- -> пи́сем: the ь goes, it is not written through.
 

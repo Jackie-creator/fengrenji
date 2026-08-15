@@ -12,7 +12,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from ..schema import POS, LexEntry
-from ..stress import STRESS, count_vowels, normalize
+from ..stress import StressError
+from ..stress import validate as validate_stress
 from .adjectives import inflect_adjective
 from .forms import Form, canonical_tag, parse_tag
 from .nouns import inflect_noun
@@ -79,13 +80,20 @@ def inflect(entry: LexEntry) -> Paradigm:
 
 
 def _assert_stressed(entry: LexEntry, cells: dict[str, Form]) -> None:
-    """Rule 1 of the contract, enforced rather than trusted."""
+    """Rule 1 of the contract, enforced rather than trusted.
+
+    The check is per word, delegated to the same validator the lexicon uses, so
+    that a multi-word entry (то есть, в са́мом де́ле) is judged by the same rule
+    as the text an author writes: each word carries its own stress, and a
+    monosyllable carries none.
+    """
     for tag, form in cells.items():
-        text = normalize(form.text)
-        if count_vowels(text) > 1 and STRESS not in text and "ё" not in text:
+        try:
+            validate_stress(form.text, field=f"{entry.lemma} ({tag})")
+        except StressError as exc:
             raise ValueError(
-                f"{entry.lemma}: generated form {form.text!r} ({tag}) has no stress"
-            )
+                f"{entry.lemma}: generated form {form.text!r} ({tag}) is unstressed"
+            ) from exc
 
 
 __all__ = ["Paradigm", "inflect", "INFLECTED"]

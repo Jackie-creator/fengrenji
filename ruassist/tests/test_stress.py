@@ -79,6 +79,17 @@ class TestValidate:
     def test_marked_proclitic_excuses_next_word(self):
         assert st.validate("за́ руку")
 
+    def test_indefinite_postfix_carries_no_stress(self):
+        """кто́-нибудь has one stress; -нибудь and -либо are clitics.
+
+        The rest of a hyphenated compound really is stressed per part, so
+        кто́-то and из-за still have to be marked.
+        """
+        assert st.validate("Пойдём куда́-нибудь.")
+        assert st.validate("где́-либо")
+        with pytest.raises(st.StressError):
+            st.validate("кто-того")
+
     def test_negative_particle_takes_the_stress(self):
         """не́ был / не́ было: the particle really does carry the stress."""
         assert st.validate("У меня́ не́ было вы́бора.")

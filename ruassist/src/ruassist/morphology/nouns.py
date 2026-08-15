@@ -326,11 +326,13 @@ def _insert_fleeting(stem: str) -> str:
     before, after = stem[-2], stem[-1]
     if before in "аеёиоуыэюя" or after in "аеёиоуыэюя":
         return stem
-    if before == "ь":
+    if before in "ьй":
+        # The soft sign or й is *replaced* by the vowel, not written through:
+        # судьб- -> суде́б, письм- -> пи́сем, лине́йк- -> лине́ек.
         return stem[:-2] + "е" + after
     # е, not о, next to a soft or hushing consonant on either side:
     # полоте́нце -> полоте́нец, се́рдце -> серде́ц, ру́чка -> ру́чек.
-    vowel = "е" if before in HUSHING_OR_TS or before == "й" or after == "ц" else "о"
+    vowel = "е" if before in HUSHING_OR_TS or after == "ц" else "о"
     return stem[:-1] + vowel + after
 
 

@@ -1,0 +1,1139 @@
+# Culture and the arts, school and university, the sciences.
+#
+# The academic subject names are collected as a block for the same reason as
+# the months: a learner looking up химия cannot tell that биология is missing,
+# and half a set is worse than none.
+
+- lemma: литература
+  stress: литерату́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 文学
+      en: literature
+      examples:
+        - ru: Он изуча́ет ру́сскую литерату́ру.
+          zh: 他学俄罗斯文学。
+
+- lemma: поэзия
+  stress: поэ́зия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 诗歌
+      en: poetry
+      examples:
+        - ru: Она́ лю́бит поэ́зию.
+          zh: 她喜欢诗歌。
+
+- lemma: поэт
+  stress: поэ́т
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 诗人
+      en: poet
+      examples:
+        - ru: Пу́шкин — вели́кий поэ́т.
+          zh: 普希金是伟大的诗人。
+
+- lemma: роман
+  stress: рома́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 长篇小说
+      en: novel
+      examples:
+        - ru: Я чита́ю рома́н Толсто́го.
+          zh: 我在读托尔斯泰的长篇小说。
+
+- lemma: рассказ
+  stress: расска́з
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 短篇小说；讲述
+      en: short story; account
+      examples:
+        - ru: Э́то коро́ткий расска́з.
+          zh: 这是个短篇。
+
+- lemma: сказка
+  stress: ска́зка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 童话，故事
+      en: fairy tale
+      examples:
+        - ru: Ба́бушка расска́зывает ска́зку.
+          zh: 奶奶在讲故事。
+
+- lemma: стихотворение
+  stress: стихотворе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 诗（一首）
+      en: poem
+      examples:
+        - ru: Он вы́учил стихотворе́ние.
+          zh: 他把这首诗背下来了。
+
+- lemma: герой
+  stress: геро́й
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 6a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 英雄；（作品的）主人公
+      en: hero; character
+      examples:
+        - ru: Кто гла́вный геро́й кни́ги?
+          zh: 书的主人公是谁？
+
+- lemma: автор
+  stress: а́втор
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 作者
+      en: author
+      examples:
+        - ru: Кто а́втор э́той статьи́?
+          zh: 这篇文章是谁写的？
+
+- lemma: глава
+  stress: глава́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 章（书的）
+      en: chapter
+      examples:
+        - ru: Прочита́йте пе́рвую главу́.
+          zh: 请读第一章。
+
+- lemma: перевод
+  stress: перево́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 翻译（成品）；转账
+      en: translation; transfer
+      examples:
+        - ru: Э́то хоро́ший перево́д.
+          zh: 这个译本不错。
+
+- lemma: издание
+  stress: изда́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 版本；出版物
+      en: edition; publication
+      examples:
+        - ru: Э́то второ́е изда́ние.
+          zh: 这是第二版。
+
+- lemma: роль
+  stress: роль
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 角色；作用
+      en: role, part
+      collocations: [игра́ть роль]
+      examples:
+        - ru: Э́то не игра́ет ро́ли.
+          zh: 这不起作用。
+
+- lemma: сцена
+  stress: сце́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 舞台；场景
+      en: stage; scene
+      examples:
+        - ru: Актёр вы́шел на сце́ну.
+          zh: 演员登上了舞台。
+
+- lemma: спектакль
+  stress: спекта́кль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 戏，演出
+      en: play, performance
+      examples:
+        - ru: Мы идём на спекта́кль.
+          zh: 我们去看戏。
+
+- lemma: цирк
+  stress: цирк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 马戏团
+      en: circus
+      examples:
+        - ru: Де́ти хотя́т в цирк.
+          zh: 孩子们想去看马戏。
+
+- lemma: балет
+  stress: бале́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 芭蕾
+      en: ballet
+      examples:
+        - ru: Мы бы́ли на бале́те.
+          zh: 我们看了芭蕾。
+
+- lemma: опера
+  stress: о́пера
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 歌剧
+      en: opera
+      examples:
+        - ru: Э́то изве́стная о́пера.
+          zh: 这是部有名的歌剧。
+
+- lemma: танец
+  stress: та́нец
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 舞蹈
+      en: dance
+      examples:
+        - ru: Она́ хо́дит на та́нцы.
+          zh: 她去上舞蹈课。
+
+- lemma: оркестр
+  stress: орке́стр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 乐队，管弦乐团
+      en: orchestra
+      examples:
+        - ru: Орке́стр игра́л о́чень хорошо́.
+          zh: 乐队演奏得很好。
+
+- lemma: галерея
+  stress: галере́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 6a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 画廊，美术馆
+      en: gallery
+      examples:
+        - ru: Мы бы́ли в Третьяко́вской галере́е.
+          zh: 我们去了特列季亚科夫画廊。
+
+- lemma: скульптура
+  stress: скульпту́ра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 雕塑
+      en: sculpture
+      examples:
+        - ru: Э́то дре́вняя скульпту́ра.
+          zh: 这是件古代雕塑。
+
+- lemma: краска
+  stress: кра́ска
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 颜料，油漆
+      en: paint
+      examples:
+        - ru: Он рису́ет кра́сками.
+          zh: 他用颜料画画。
+
+- lemma: рисунок
+  stress: рису́нок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 图画，素描
+      en: drawing
+      examples:
+        - ru: Э́то де́тский рису́нок.
+          zh: 这是孩子的画。
+
+- lemma: творчество
+  stress: тво́рчество
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 创作，作品（总体）
+      en: creative work
+      examples:
+        - ru: Мы изуча́ем тво́рчество Че́хова.
+          zh: 我们在研究契诃夫的创作。
+
+- lemma: талант
+  stress: тала́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 天赋，才华
+      en: talent
+      examples:
+        - ru: У неё большо́й тала́нт.
+          zh: 她很有天分。
+
+- lemma: фантазия
+  stress: фанта́зия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 想象力；空想
+      en: imagination; fantasy
+      examples:
+        - ru: У ребёнка бога́тая фанта́зия.
+          zh: 这孩子想象力丰富。
+
+- lemma: воображение
+  stress: воображе́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 想象，想象力
+      en: imagination
+      examples:
+        - ru: Э́то плод воображе́ния.
+          zh: 这是想象出来的。
+
+- lemma: юмор
+  stress: ю́мор
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 幽默
+      en: humour
+      examples:
+        - ru: У него́ то́нкий ю́мор.
+          zh: 他的幽默很有分寸。
+
+- lemma: анекдот
+  stress: анекдо́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 笑话，段子
+      en: joke, anecdote
+      examples:
+        - ru: Он рассказа́л анекдо́т.
+          zh: 他讲了个笑话。
+
+- lemma: игрушка
+  stress: игру́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 玩具
+      en: toy
+      examples:
+        - ru: Убери́ игру́шки.
+          zh: 把玩具收起来。
+
+- lemma: кукла
+  stress: ку́кла
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 娃娃，玩偶
+      en: doll
+      examples:
+        - ru: Де́вочка игра́ет с ку́клой.
+          zh: 小女孩在玩娃娃。
+
+- lemma: мяч
+  stress: мяч
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 球
+      en: ball
+      examples:
+        - ru: Он бро́сил мяч.
+          zh: 他把球扔了出去。
+
+- lemma: хобби
+  stress: хо́бби
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 业余爱好
+      en: hobby
+      examples:
+        - ru: Како́е у вас хо́бби?
+          zh: 您有什么爱好？
+
+- lemma: коллекция
+  stress: колле́кция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 收藏，藏品
+      en: collection
+      examples:
+        - ru: У него́ колле́кция моне́т.
+          zh: 他收藏钱币。
+
+- lemma: монета
+  stress: моне́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 硬币
+      en: coin
+      examples:
+        - ru: Он бро́сил моне́ту в фонта́н.
+          zh: 他往喷泉里扔了枚硬币。
+
+- lemma: сувенир
+  stress: сувени́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 纪念品
+      en: souvenir
+      examples:
+        - ru: Я купи́л сувени́ры друзья́м.
+          zh: 我给朋友买了纪念品。
+
+- lemma: открытка
+  stress: откры́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 明信片；贺卡
+      en: postcard, greeting card
+      examples:
+        - ru: Он присла́л откры́тку.
+          zh: 他寄来一张明信片。
+
+- lemma: конверт
+  stress: конве́рт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 信封
+      en: envelope
+      examples:
+        - ru: Положи́ письмо́ в конве́рт.
+          zh: 把信装进信封。
+
+- lemma: посылка
+  stress: посы́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 包裹
+      en: parcel
+      examples:
+        - ru: Мне пришла́ посы́лка.
+          zh: 我收到个包裹。
+
+- lemma: бумага
+  stress: бума́га
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 纸
+      en: paper
+      examples:
+        - ru: Дай мне лист бума́ги.
+          zh: 给我张纸。
+
+- lemma: блокнот
+  stress: блокно́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 记事本
+      en: notebook, notepad
+      examples:
+        - ru: Он записа́л в блокно́т.
+          zh: 他记在本子上了。
+
+- lemma: линейка
+  stress: лине́йка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 尺子
+      en: ruler
+      examples:
+        - ru: Возьми́ лине́йку.
+          zh: 拿把尺子。
+
+- lemma: доска
+  stress: доска́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*d
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: до́ску
+  senses:
+    - zh: 黑板；木板
+      en: board; plank
+      examples:
+        - ru: Учи́тель пи́шет на доске́.
+          zh: 老师在黑板上写字。
+  notes: |
+    第四格单数重音回到词干：до́ску，和 рука́ → ру́ку 同一类。
+
+- lemma: парта
+  stress: па́рта
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 课桌
+      en: school desk
+      examples:
+        - ru: Он сиди́т за пе́рвой па́ртой.
+          zh: 他坐第一排。
+
+- lemma: перемена
+  stress: переме́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 课间休息；变化
+      en: break (between lessons); change
+      examples:
+        - ru: На переме́не мы игра́ем.
+          zh: 课间我们玩儿。
+
+- lemma: физика
+  stress: фи́зика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 物理
+      en: physics
+      examples:
+        - ru: Он лю́бит фи́зику.
+          zh: 他喜欢物理。
+
+- lemma: химия
+  stress: хи́мия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 化学
+      en: chemistry
+      examples:
+        - ru: За́втра контро́льная по хи́мии.
+          zh: 明天化学测验。
+
+- lemma: биология
+  stress: биоло́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 生物
+      en: biology
+      examples:
+        - ru: Биоло́гия — мой люби́мый предме́т.
+          zh: 生物是我最喜欢的科目。
+
+- lemma: математика
+  stress: матема́тика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 数学
+      en: mathematics
+      examples:
+        - ru: У меня́ пробле́мы с матема́тикой.
+          zh: 我数学不太行。
+
+- lemma: география
+  stress: геогра́фия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 地理
+      en: geography
+      examples:
+        - ru: На уро́ке геогра́фии мы смотре́ли ка́рту.
+          zh: 地理课上我们看了地图。
+
+- lemma: философия
+  stress: филосо́фия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 哲学
+      en: philosophy
+      examples:
+        - ru: Он изуча́ет филосо́фию.
+          zh: 他学哲学。
+
+- lemma: психология
+  stress: психоло́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 心理学
+      en: psychology
+      examples:
+        - ru: Она́ у́чится на психоло́гии.
+          zh: 她学心理学。
+
+- lemma: медицина
+  stress: медици́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 医学
+      en: medicine (the field)
+      examples:
+        - ru: Он рабо́тает в медици́не.
+          zh: 他在医疗行业工作。
+
+- lemma: теория
+  stress: тео́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 理论
+      en: theory
+      examples:
+        - ru: Тео́рия без пра́ктики бесполе́зна.
+          zh: 理论离开实践没用。
+  antonyms: [практика]
+
+- lemma: практика
+  stress: пра́ктика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 实践；实习
+      en: practice; internship
+      examples:
+        - ru: Ле́том у нас пра́ктика.
+          zh: 夏天我们实习。
+  antonyms: [теория]
+
+- lemma: эксперимент
+  stress: экспериме́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 实验
+      en: experiment
+      examples:
+        - ru: Они́ прове́ли экспериме́нт.
+          zh: 他们做了个实验。
+
+- lemma: исследование
+  stress: иссле́дование
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 研究
+      en: research, study
+      examples:
+        - ru: Э́то ва́жное иссле́дование.
+          zh: 这是项重要研究。
+
+- lemma: открытие
+  stress: откры́тие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 发现；开幕
+      en: discovery; opening
+      examples:
+        - ru: Э́то нау́чное откры́тие.
+          zh: 这是个科学发现。
+
+- lemma: изобретение
+  stress: изобрете́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 发明
+      en: invention
+      examples:
+        - ru: Колесо́ — дре́внее изобрете́ние.
+          zh: 轮子是古老的发明。
+
+- lemma: доклад
+  stress: докла́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 报告
+      en: report, talk
+      examples:
+        - ru: Он сде́лал докла́д на конфере́нции.
+          zh: 他在会上作了报告。
+
+- lemma: конференция
+  stress: конфере́нция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 会议，研讨会
+      en: conference
+      examples:
+        - ru: Конфере́нция начнётся в ма́е.
+          zh: 会议五月召开。
+
+- lemma: аспирант
+  stress: аспира́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 研究生（副博士阶段）
+      en: postgraduate student
+      examples:
+        - ru: Он аспира́нт второ́го го́да.
+          zh: 他读研二。
+
+- lemma: профессор
+  stress: профе́ссор
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1c(1)
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 教授
+      en: professor
+      examples:
+        - ru: Профессора́ собрали́сь на заседа́ние.
+          zh: 教授们开会去了。
+  notes: |
+    复数是 профессора́（重音在词尾），不是 *профе́ссоры。
+
+- lemma: факультет
+  stress: факульте́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 系，学院
+      en: faculty, department
+      examples:
+        - ru: Я учу́сь на филологи́ческом факульте́те.
+          zh: 我在语文系上学。
+  notes: |
+    "在某系上学"用 на + 第六格：на факульте́те。
+
+- lemma: кафедра
+  stress: ка́федра
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 教研室
+      en: department (academic)
+      examples:
+        - ru: Он рабо́тает на ка́федре ру́сского языка́.
+          zh: 他在俄语教研室工作。
+
+- lemma: аудитория
+  stress: аудито́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 教室（大学的）；听众
+      en: lecture room; audience
+      examples:
+        - ru: Ле́кция в тре́тьей аудито́рии.
+          zh: 讲课在三号教室。
+
+- lemma: семестр
+  stress: семе́стр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 学期
+      en: semester
+      examples:
+        - ru: Второ́й семе́стр начина́ется в феврале́.
+          zh: 第二学期二月开始。
+
+- lemma: сессия
+  stress: се́ссия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 考试期
+      en: examination period
+      examples:
+        - ru: У студе́нтов се́ссия.
+          zh: 学生在考试周。
+
+- lemma: зачёт
+  stress: зачёт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 考查（通过／不通过的考核）
+      en: pass/fail assessment
+      examples:
+        - ru: Я сдал зачёт по фи́зике.
+          zh: 我物理考查过了。
+  notes: |
+    俄式高校里 зачёт 只判"通过／不通过"，экза́мен 才打分。
+
+- lemma: стипендия
+  stress: стипе́ндия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 助学金，奖学金
+      en: stipend, scholarship
+      examples:
+        - ru: Он получа́ет стипе́ндию.
+          zh: 他领助学金。
+
+- lemma: том
+  stress: том
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 卷，册
+      en: volume
+      examples:
+        - ru: Э́то пе́рвый том словаря́.
+          zh: 这是词典第一卷。
+
+- lemma: обложка
+  stress: обло́жка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 封面
+      en: cover
+      examples:
+        - ru: На обло́жке нарисо́ван го́род.
+          zh: 封面上画着一座城市。
+
+- lemma: издательство
+  stress: изда́тельство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 出版社
+      en: publishing house
+      examples:
+        - ru: Кни́га вы́шла в моско́вском изда́тельстве.
+          zh: 书由莫斯科一家出版社出版。
+
+- lemma: кисть
+  stress: кисть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 画笔，刷子；手掌部
+      en: brush; hand (anatomy)
+      examples:
+        - ru: Он мо́ет ки́сти по́сле рабо́ты.
+          zh: 他画完洗笔。
+
+- lemma: мел
+  stress: мел
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 粉笔
+      en: chalk
+      examples:
+        - ru: Напиши́те ме́лом на доске́.
+          zh: 请用粉笔写在黑板上。
+
+- lemma: резинка
+  stress: рези́нка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 橡皮
+      en: rubber, eraser
+      examples:
+        - ru: Дай рези́нку, пожа́луйста.
+          zh: 请把橡皮给我。
+
+- lemma: клей
+  stress: клей
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 胶水
+      en: glue
+      examples:
+        - ru: Ну́жен клей для бума́ги.
+          zh: 需要粘纸的胶水。
+
+- lemma: марка
+  stress: ма́рка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 邮票；品牌
+      en: stamp; brand
+      examples:
+        - ru: Он собира́ет ма́рки.
+          zh: 他集邮。

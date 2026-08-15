@@ -1,0 +1,325 @@
+# Everyday household objects -- the last gap in the concrete vocabulary.
+#
+# These are the words a learner needs on day one of actually living somewhere,
+# and the ones a travel phrasebook always skips.
+
+- lemma: зонт
+  stress: зонт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 伞
+      en: umbrella
+      examples:
+        - ru: Возьми́ зонт, идёт дождь.
+          zh: 带把伞，下雨了。
+
+- lemma: кошелёк
+  stress: кошелёк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 钱包
+      en: purse, wallet
+      examples:
+        - ru: Я потеря́л кошелёк.
+          zh: 我钱包丢了。
+  notes: |
+    间接格里 ё 脱落、л 变软：кошелёк → кошелька́。
+
+- lemma: рюкзак
+  stress: рюкза́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 双肩包
+      en: backpack
+      examples:
+        - ru: Он но́сит кни́ги в рюкзаке́.
+          zh: 他用书包背书。
+
+- lemma: будильник
+  stress: буди́льник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 闹钟
+      en: alarm clock
+      examples:
+        - ru: Я поста́вил буди́льник на семь.
+          zh: 我把闹钟定在七点。
+
+- lemma: батарея
+  stress: батаре́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 6a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 电池；暖气片
+      en: battery; radiator
+      examples:
+        - ru: Батаре́я почти́ разряди́лась.
+          zh: 电池快没电了。
+
+- lemma: лампочка
+  stress: ла́мпочка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 灯泡
+      en: light bulb
+      examples:
+        - ru: Перегоре́ла ла́мпочка.
+          zh: 灯泡烧了。
+
+- lemma: розетка
+  stress: розе́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 插座
+      en: socket, outlet
+      examples:
+        - ru: Где здесь розе́тка?
+          zh: 插座在哪儿？
+
+- lemma: провод
+  stress: про́вод
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 电线
+      en: wire, cable
+      examples:
+        - ru: Не тро́гай провода́.
+          zh: 别碰电线。
+
+- lemma: пылесос
+  stress: пылесо́с
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 吸尘器
+      en: vacuum cleaner
+      examples:
+        - ru: Он убира́ет пылесо́сом.
+          zh: 他用吸尘器打扫。
+
+- lemma: утюг
+  stress: утю́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 熨斗
+      en: iron
+      examples:
+        - ru: Вы́ключи утю́г.
+          zh: 把熨斗关了。
+
+- lemma: чайник
+  stress: ча́йник
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 水壶，茶壶
+      en: kettle, teapot
+      examples:
+        - ru: Поста́вь ча́йник.
+          zh: 把水烧上。
+
+- lemma: крышка
+  stress: кры́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 盖子
+      en: lid
+      examples:
+        - ru: Закро́й кастрю́лю кры́шкой.
+          zh: 把锅盖上。
+
+- lemma: банка
+  stress: ба́нка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 罐子，瓶子（玻璃的）
+      en: jar, tin
+      examples:
+        - ru: Он откры́л ба́нку варе́нья.
+          zh: 他开了一罐果酱。
+  common_errors: |
+    ба́нка 是罐、瓶（玻璃或铁的），банк 是银行。差一个字母，意思差很远。
+
+- lemma: пакет
+  stress: паке́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 袋子；包裹
+      en: bag; packet
+      examples:
+        - ru: Вам ну́жен паке́т?
+          zh: 您需要袋子吗？
+
+- lemma: корзина
+  stress: корзи́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 篮子
+      en: basket
+      examples:
+        - ru: Положи́ фру́кты в корзи́ну.
+          zh: 把水果放篮子里。
+
+- lemma: тряпка
+  stress: тря́пка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 抹布
+      en: rag, cloth
+      examples:
+        - ru: Вы́три стол тря́пкой.
+          zh: 用抹布擦擦桌子。
+
+- lemma: порошок
+  stress: порошо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 粉末；洗衣粉
+      en: powder; washing powder
+      examples:
+        - ru: Ко́нчился стира́льный порошо́к.
+          zh: 洗衣粉用完了。
+
+- lemma: шампунь
+  stress: шампу́нь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 洗发水
+      en: shampoo
+      examples:
+        - ru: Купи́ шампу́нь, пожа́луйста.
+          zh: 帮我买瓶洗发水。
+  common_errors: |
+    是阳性：мой шампу́нь。以 -ь 结尾的词性别要一个个记，不能都当阴性。
+
+- lemma: крем
+  stress: крем
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 面霜，护肤霜；奶油
+      en: cream
+      examples:
+        - ru: Она́ ма́жет ру́ки кре́мом.
+          zh: 她往手上抹护手霜。
+
+- lemma: замок
+  stress: за́мок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 城堡
+      en: castle
+      examples:
+        - ru: На горе́ стои́т ста́рый за́мок.
+          zh: 山上有座老城堡。
+  common_errors: |
+    за́мок（重音在前）是城堡，замо́к（重音在后）是锁。
+    拼写一样，只靠重音区分——俄语里最有名的一对重音辨义词。
+
+- lemma: сковорода
+  stress: сковорода́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  form_overrides:
+    plur,nomn: ско́вороды
+    sing,accs: сковороду́
+  senses:
+    - zh: 平底锅
+      en: frying pan
+      examples:
+        - ru: Он жа́рит ры́бу на сковороде́.
+          zh: 他用平底锅煎鱼。
+
+- lemma: полотно
+  stress: полотно́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*d
+  level: [C1, ТРКИ-3]
+  senses:
+    - zh: 画布；亚麻布
+      en: canvas; linen
+      examples:
+        - ru: Э́то полотно́ Ре́пина.
+          zh: 这是列宾的一幅画。

@@ -1,0 +1,1120 @@
+# The last round: evaluative and character adjectives, plus the discourse
+# adverbs and particles that hold written Russian together (во-пе́рвых,
+# сле́довательно, впро́чем).
+#
+# Discourse markers are worth entries of their own: a learner who knows every
+# content word in a paragraph can still lose the thread without them.
+
+- lemma: художественный
+  stress: худо́жественный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 艺术的；文艺的
+      en: artistic; fiction (attr.)
+      collocations: [худо́жественный фильм]
+      examples:
+        - ru: Э́то худо́жественная литерату́ра.
+          zh: 这是文学作品。
+
+- lemma: творческий
+  stress: тво́рческий
+  pos: adj
+  zaliznyak: п 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 有创造性的
+      en: creative
+      examples:
+        - ru: Э́то тво́рческая рабо́та.
+          zh: 这是创造性的工作。
+
+- lemma: гениальный
+  stress: гениа́льный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 天才的，绝妙的
+      en: brilliant, of genius
+      examples:
+        - ru: Э́то гениа́льная иде́я.
+          zh: 这主意绝了。
+
+- lemma: знаменитый
+  stress: знамени́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 著名的
+      en: famous
+      examples:
+        - ru: Он знамени́тый писа́тель.
+          zh: 他是著名作家。
+  synonyms: [известный]
+
+- lemma: популярный
+  stress: популя́рный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 受欢迎的，流行的
+      en: popular
+      examples:
+        - ru: Э́то популя́рная пе́сня.
+          zh: 这是首流行歌。
+
+- lemma: модный
+  stress: мо́дный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 时髦的
+      en: fashionable
+      examples:
+        - ru: Она́ но́сит мо́дную оде́жду.
+          zh: 她穿得很时髦。
+
+- lemma: старинный
+  stress: стари́нный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 古老的，年代久的（物件）
+      en: old, antique
+      examples:
+        - ru: Э́то стари́нные часы́.
+          zh: 这是块老怀表。
+  notes: |
+    стари́нный 说物件（老家具、老钟表），дре́вний 说时代（远古）。
+
+- lemma: прочный
+  stress: про́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 结实的，牢固的
+      en: durable, solid
+      examples:
+        - ru: Э́то про́чный материа́л.
+          zh: 这材料结实。
+
+- lemma: крепкий
+  stress: кре́пкий
+  pos: adj
+  zaliznyak: п 3*a
+  comparative: кре́пче
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 结实的；浓的（茶、咖啡）
+      en: strong (tea, build)
+      examples:
+        - ru: Я пью кре́пкий чай.
+          zh: 我喝浓茶。
+
+- lemma: гибкий
+  stress: ги́бкий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 灵活的，柔韧的
+      en: flexible
+      examples:
+        - ru: У нас ги́бкий гра́фик.
+          zh: 我们工作时间灵活。
+
+- lemma: жёсткий
+  stress: жёсткий
+  pos: adj
+  zaliznyak: п 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 硬的；严厉的
+      en: hard, rigid; harsh
+      examples:
+        - ru: Э́то жёсткие усло́вия.
+          zh: 这条件很苛刻。
+
+- lemma: нежный
+  stress: не́жный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 温柔的；细嫩的
+      en: tender, gentle
+      examples:
+        - ru: У неё не́жный го́лос.
+          zh: 她声音很柔。
+
+- lemma: ласковый
+  stress: ла́сковый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 亲热的，和蔼的
+      en: affectionate
+      examples:
+        - ru: Э́то ла́сковый ко́тик.
+          zh: 这猫很黏人。
+
+- lemma: милый
+  stress: ми́лый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 可爱的，亲爱的
+      en: nice, dear
+      examples:
+        - ru: Кака́я ми́лая соба́ка!
+          zh: 多可爱的狗！
+
+- lemma: симпатичный
+  stress: симпати́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 讨人喜欢的，好看的
+      en: likeable, good-looking
+      examples:
+        - ru: Он симпати́чный па́рень.
+          zh: 他是个讨喜的小伙子。
+
+- lemma: щедрый
+  stress: ще́дрый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 大方的，慷慨的
+      en: generous
+      examples:
+        - ru: Он о́чень ще́дрый челове́к.
+          zh: 他很大方。
+  antonyms: [жадный]
+
+- lemma: жадный
+  stress: жа́дный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 贪心的，小气的
+      en: greedy, stingy
+      examples:
+        - ru: Не будь жа́дным.
+          zh: 别那么小气。
+  antonyms: [щедрый]
+
+- lemma: мудрый
+  stress: му́дрый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 睿智的
+      en: wise
+      examples:
+        - ru: Э́то му́дрое реше́ние.
+          zh: 这是明智的决定。
+
+- lemma: наивный
+  stress: наи́вный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 天真的
+      en: naive
+      examples:
+        - ru: Он сли́шком наи́вный.
+          zh: 他太天真了。
+
+- lemma: хитрый
+  stress: хи́трый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 狡猾的，机灵的
+      en: cunning, sly
+      examples:
+        - ru: Э́то хи́трый ход.
+          zh: 这一招挺鬼。
+
+- lemma: ясный
+  stress: я́сный
+  pos: adj
+  zaliznyak: п 1*a
+  comparative: ясне́е
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 晴朗的；清楚的
+      en: clear
+      examples:
+        - ru: Сего́дня я́сная пого́да.
+          zh: 今天天气晴朗。
+
+- lemma: понятный
+  stress: поня́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 好懂的，明白的
+      en: understandable, clear
+      examples:
+        - ru: Пра́вило поня́тное.
+          zh: 这条规则好懂。
+  antonyms: [непонятный]
+
+- lemma: непонятный
+  stress: непоня́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 难懂的，莫名其妙的
+      en: incomprehensible
+      examples:
+        - ru: Э́то непоня́тное сло́во.
+          zh: 这词看不懂。
+  antonyms: [понятный]
+
+- lemma: очевидный
+  stress: очеви́дный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 显而易见的
+      en: obvious
+      examples:
+        - ru: Э́то очеви́дный факт.
+          zh: 这是明摆着的事实。
+
+- lemma: сомнительный
+  stress: сомни́тельный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 可疑的，靠不住的
+      en: doubtful, dubious
+      examples:
+        - ru: Э́то сомни́тельный результа́т.
+          zh: 这结果靠不住。
+
+- lemma: вероятный
+  stress: вероя́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 可能的，很可能的
+      en: probable, likely
+      examples:
+        - ru: Э́то са́мый вероя́тный вариа́нт.
+          zh: 这是最有可能的情况。
+
+- lemma: решительный
+  stress: реши́тельный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 果断的，坚决的
+      en: decisive, resolute
+      examples:
+        - ru: Он реши́тельный челове́к.
+          zh: 他很果断。
+
+- lemma: пассивный
+  stress: пасси́вный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 被动的，消极的
+      en: passive
+      examples:
+        - ru: Он пасси́вный уча́стник.
+          zh: 他只是被动参与。
+  antonyms: [активный]
+
+- lemma: энергичный
+  stress: энерги́чный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 精力充沛的
+      en: energetic
+      examples:
+        - ru: Э́то энерги́чный молодо́й челове́к.
+          zh: 这是个精力充沛的年轻人。
+
+- lemma: бодрый
+  stress: бо́дрый
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 精神的，有劲头的
+      en: cheerful, brisk
+      examples:
+        - ru: Он вы́глядит бо́дрым.
+          zh: 他看着挺精神。
+
+- lemma: сонный
+  stress: со́нный
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 困倦的
+      en: sleepy
+      examples:
+        - ru: У́тром он всегда́ со́нный.
+          zh: 他早上总是没睡醒的样子。
+
+- lemma: сытый
+  stress: сы́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 吃饱的
+      en: full, well-fed
+      examples:
+        - ru: Спаси́бо, я сыт.
+          zh: 谢谢，我饱了。
+
+- lemma: жестокий
+  stress: жесто́кий
+  pos: adj
+  zaliznyak: п 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 残酷的
+      en: cruel
+      examples:
+        - ru: Э́то жесто́кий посту́пок.
+          zh: 这行为很残忍。
+
+- lemma: справедливый
+  stress: справедли́вый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 公正的
+      en: fair, just
+      examples:
+        - ru: Э́то справедли́вое реше́ние.
+          zh: 这个决定是公道的。
+
+- lemma: виноватый
+  stress: винова́тый
+  pos: adj
+  zaliznyak: п 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 有过错的
+      en: guilty, at fault
+      examples:
+        - ru: Я не винова́т.
+          zh: 不是我的错。
+  common_errors: |
+    "对不起"口语里常说 Винова́т!（男）／ Винова́та!（女），是短尾形式。
+
+- lemma: обиженный
+  stress: оби́женный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 受了委屈的，生闷气的
+      en: hurt, offended
+      examples:
+        - ru: Он ушёл оби́женный.
+          zh: 他憋着气走了。
+
+- lemma: довольный
+  stress: дово́льный
+  pos: adj
+  zaliznyak: п 1*a
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 心满意足的（神情）
+      en: contented (of a look)
+      examples:
+        - ru: У него́ дово́льное лицо́.
+          zh: 他一脸满足。
+  notes: |
+    这一条收"神情满意"的义项；"对某事满意"的 дово́лен чем 是另一条词条。
+
+- lemma: неприятный
+  stress: неприя́тный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 不愉快的，讨厌的
+      en: unpleasant
+      examples:
+        - ru: Э́то неприя́тный разгово́р.
+          zh: 这是场不愉快的谈话。
+  antonyms: [приятный]
+
+- lemma: обыкновенный
+  stress: обыкнове́нный
+  pos: adj
+  zaliznyak: п 1*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 普通的，平常的
+      en: ordinary
+      examples:
+        - ru: Э́то обыкнове́нный дом.
+          zh: 这就是栋普通房子。
+  synonyms: [обычный]
+
+- lemma: свободный
+  stress: свобо́дный
+  pos: adj
+  zaliznyak: п 1*a
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 宽松的（衣服）
+      en: loose (of clothes)
+      examples:
+        - ru: Он лю́бит свобо́дную оде́жду.
+          zh: 他喜欢宽松的衣服。
+  notes: |
+    这一条收"衣服宽松"的义项；"有空、自由"的 свобо́дный 是另一条词条。
+
+- lemma: во-первых
+  stress: во-пе́рвых
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 第一，首先
+      en: firstly
+      examples:
+        - ru: Во-пе́рвых, э́то до́рого.
+          zh: 第一，这太贵了。
+  notes: |
+    列举时成套使用：во-пе́рвых、во-вторы́х、в-тре́тьих，写作里非常好用。
+
+- lemma: во-вторых
+  stress: во-вторы́х
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 第二，其次
+      en: secondly
+      examples:
+        - ru: Во-вторы́х, у нас нет вре́мени.
+          zh: 第二，我们没时间。
+
+- lemma: итак
+  stress: ита́к
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 于是，那么（总结）
+      en: so, thus
+      examples:
+        - ru: Ита́к, начнём.
+          zh: 那么，我们开始。
+
+- lemma: следовательно
+  stress: сле́довательно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 因此，所以（书面）
+      en: consequently, therefore
+      examples:
+        - ru: Он не пришёл, сле́довательно, он за́нят.
+          zh: 他没来，可见他忙。
+
+- lemma: впрочем
+  stress: впро́чем
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 不过，话说回来
+      en: however, then again
+      examples:
+        - ru: Впро́чем, э́то нева́жно.
+          zh: 不过这不重要。
+
+- lemma: наверняка
+  stress: наверняка́
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 肯定，八成
+      en: for sure, certainly
+      examples:
+        - ru: Он наверняка́ уже́ до́ма.
+          zh: 他准到家了。
+
+- lemma: безусловно
+  stress: безусло́вно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 毫无疑问，当然
+      en: undoubtedly
+      examples:
+        - ru: Безусло́вно, вы пра́вы.
+          zh: 毫无疑问，您是对的。
+
+- lemma: разумеется
+  stress: разуме́ется
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 当然（插入语）
+      en: of course
+      examples:
+        - ru: Разуме́ется, я помогу́.
+          zh: 我当然帮忙。
+
+- lemma: вероятно
+  stress: вероя́тно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 大概，可能
+      en: probably
+      examples:
+        - ru: Он, вероя́тно, опозда́ет.
+          zh: 他大概要迟到。
+
+- lemma: очевидно
+  stress: очеви́дно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 显然
+      en: evidently, obviously
+      examples:
+        - ru: Очеви́дно, он не знал.
+          zh: 显然他不知道。
+
+- lemma: возможно
+  stress: возмо́жно
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 也许，可能
+      en: perhaps, possibly
+      examples:
+        - ru: Возмо́жно, за́втра бу́дет дождь.
+          zh: 明天可能下雨。
+
+- lemma: едва
+  stress: едва́
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 勉强，几乎不
+      en: barely, hardly
+      examples:
+        - ru: Он едва́ успе́л на по́езд.
+          zh: 他差点没赶上火车。
+
+- lemma: еле
+  stress: е́ле
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 好不容易，勉强（口语）
+      en: barely
+      labels: [разг.]
+      examples:
+        - ru: Я е́ле дошёл.
+          zh: 我好不容易才走到。
+
+- lemma: чуть
+  stress: чуть
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 稍微；差点儿
+      en: slightly; nearly
+      collocations: [чуть не]
+      examples:
+        - ru: Я чуть не упа́л.
+          zh: 我差点儿摔了。
+  common_errors: |
+    чуть не + 过去时 = "差点就……（但没有）"。这个 не 不表示否定，
+    «Я чуть не упа́л» 是"我差点摔倒"，不是"我没摔"。
+
+- lemma: вовсе
+  stress: во́все
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 完全（不），根本（不）
+      en: at all, not in the least
+      examples:
+        - ru: Э́то во́все не тру́дно.
+          zh: 这根本不难。
+
+- lemma: напрасно
+  stress: напра́сно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 白白地，徒劳
+      en: in vain
+      examples:
+        - ru: Он напра́сно ждал.
+          zh: 他白等了。
+  synonyms: [зря]
+
+- lemma: зря
+  stress: зря
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 白费劲，不该（口语）
+      en: for nothing, needlessly
+      labels: [разг.]
+      examples:
+        - ru: Ты зря волну́ешься.
+          zh: 你白操心了。
+  synonyms: [напрасно]
+
+- lemma: нарочно
+  stress: наро́чно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 故意地
+      en: on purpose
+      examples:
+        - ru: Он сде́лал э́то наро́чно.
+          zh: 他是故意的。
+  notes: |
+    чн 读作 [шн]：[наро́шно]，和 коне́чно、ску́чно 同一类。
+
+- lemma: вдвоём
+  stress: вдвоём
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 两个人一起
+      en: the two of us/them together
+      examples:
+        - ru: Мы бы́ли там вдвоём.
+          zh: 我们俩一起去的。
+
+- lemma: потихоньку
+  stress: потихо́ньку
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 慢慢地；悄悄地
+      en: slowly; quietly
+      labels: [разг.]
+      examples:
+        - ru: Де́ло идёт потихо́ньку.
+          zh: 事情慢慢在推进。
+
+- lemma: заранее
+  stress: зара́нее
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 事先，提前
+      en: in advance
+      examples:
+        - ru: Купи́ биле́ты зара́нее.
+          zh: 提前把票买了。
+
+- lemma: наконец-то
+  stress: наконе́ц-то
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 总算，可算是
+      en: at last, finally
+      examples:
+        - ru: Наконе́ц-то ты пришёл!
+          zh: 你可算来了！
+  notes: |
+    比 наконе́ц 多一层"等得不耐烦"的情绪，是口语里的常用形式。
+
+- lemma: пожалуй
+  stress: пожа́луй
+  pos: part
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 也许，我看是（表示斟酌后的判断）
+      en: perhaps, I'd say
+      examples:
+        - ru: Пожа́луй, ты прав.
+          zh: 我看你说得对。
+
+- lemma: вроде
+  stress: вро́де
+  pos: part
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 好像，似乎（口语）
+      en: sort of, seemingly
+      labels: [разг.]
+      examples:
+        - ru: Он вро́де согла́сен.
+          zh: 他好像是同意了。
+
+- lemma: обязательно
+  stress: обяза́тельно
+  pos: adv
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 未必（用于否定："не обяза́тельно"）
+      en: not necessarily (in negation)
+      examples:
+        - ru: Э́то не обяза́тельно так.
+          zh: 未必是这样。
+  notes: |
+    这一条收 не обяза́тельно = "未必"的用法；肯定的"一定"是另一条词条。
+
+- lemma: приблизительно
+  stress: приблизи́тельно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 大约，大致
+      en: approximately
+      examples:
+        - ru: Э́то приблизи́тельно сто ме́тров.
+          zh: 这大概一百米。
+  synonyms: [примерно]
+
+- lemma: целиком
+  stress: целико́м
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 整个地，全部
+      en: entirely, as a whole
+      examples:
+        - ru: Он проглоти́л я́блоко целико́м.
+          zh: 他把苹果整个吞了下去。
+
+- lemma: частично
+  stress: части́чно
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 部分地
+      en: partly
+      examples:
+        - ru: Он части́чно прав.
+          zh: 他说得有一部分对。
+
+- lemma: постепенно
+  stress: постепе́нно
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 逐渐地
+      en: gradually
+      examples:
+        - ru: Он постепе́нно привы́к.
+          zh: 他慢慢习惯了。
+
+- lemma: сразу же
+  stress: сра́зу же
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 立刻就
+      en: right away
+      examples:
+        - ru: Он сра́зу же отве́тил.
+          zh: 他立刻就回了。
+  notes: |
+    же 在这里只加强语气，本身不重读，也不能单独使用。
+
+- lemma: то есть
+  stress: то есть
+  pos: conj
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 也就是说
+      en: that is, i.e.
+      examples:
+        - ru: За́втра, то есть в сре́ду.
+          zh: 明天，也就是星期三。
+
+- lemma: например
+  stress: наприме́р
+  pos: adv
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 比方说（引出假设）
+      en: say, for instance
+      examples:
+        - ru: Возьми́ что́-нибудь, наприме́р, кни́гу.
+          zh: 随便拿点什么，比方说本书。
+  notes: |
+    这一条收"引出假设"的用法；举实例的 наприме́р 是另一条词条。
+
+- lemma: вообще-то
+  stress: вообще́-то
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 其实，说实话（口语）
+      en: actually, in fact
+      labels: [разг.]
+      examples:
+        - ru: Вообще́-то я за́нят.
+          zh: 其实我挺忙的。
+
+- lemma: тем не менее
+  stress: тем не ме́нее
+  pos: conj
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 尽管如此
+      en: nevertheless
+      examples:
+        - ru: Бы́ло тру́дно, тем не ме́нее мы спра́вились.
+          zh: 虽然难，我们还是做成了。
+
+- lemma: в самом деле
+  stress: в са́мом де́ле
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 的确，真的
+      en: indeed, really
+      examples:
+        - ru: Он в са́мом де́ле уе́хал.
+          zh: 他真的走了。
+
+- lemma: судя по
+  stress: су́дя по
+  pos: prep
+  government: чему
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 从……来看
+      en: judging by
+      examples:
+        - ru: Су́дя по пого́де, бу́дет дождь.
+          zh: 看天气要下雨。
+
+- lemma: несмотря на
+  stress: несмотря́ на
+  pos: prep
+  government: что
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 尽管，不顾
+      en: in spite of, despite
+      examples:
+        - ru: Он пришёл, несмотря́ на дождь.
+          zh: 尽管下雨他还是来了。
+  common_errors: |
+    несмотря́ на 带第四格；不要跟 не смотря́（副动词"没看"）混淆，
+    后者分写，意思完全不同。
+
+- lemma: по-моему
+  stress: по-мо́ему
+  pos: adv
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 我看，我认为
+      en: in my opinion
+      examples:
+        - ru: По-мо́ему, э́то хоро́шая иде́я.
+          zh: 我看这主意不错。
+  notes: |
+    同一套还有 по-тво́ему、по-ва́шему、по-его́ 不用（只能说 по его́ мне́нию）。
+
+- lemma: по-русски
+  stress: по-ру́сски
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 用俄语；按俄国方式
+      en: in Russian
+      examples:
+        - ru: Он говори́т по-ру́сски.
+          zh: 他说俄语。
+  common_errors: |
+    "说某种语言"用 по-ру́сски（副词），不用 на ру́сском языке́ 以外的形式；
+    但"用俄语写的书"是 кни́га на ру́сском языке́。
+
+- lemma: по-китайски
+  stress: по-кита́йски
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 用汉语
+      en: in Chinese
+      examples:
+        - ru: Как э́то бу́дет по-кита́йски?
+          zh: 这个用汉语怎么说？
+
+- lemma: по-английски
+  stress: по-англи́йски
+  pos: adv
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 用英语
+      en: in English
+      examples:
+        - ru: Она́ чита́ет по-англи́йски.
+          zh: 她能读英文。
+
+- lemma: по-другому
+  stress: по-друго́му
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 换个方式，另一种样子
+      en: differently
+      examples:
+        - ru: Тепе́рь всё по-друго́му.
+          zh: 现在什么都不一样了。
+
+- lemma: по-прежнему
+  stress: по-пре́жнему
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 依然，照旧
+      en: as before, still
+      examples:
+        - ru: Он по-пре́жнему рабо́тает здесь.
+          zh: 他还在这儿工作。
+
+- lemma: по-настоящему
+  stress: по-настоя́щему
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 真正地
+      en: really, properly
+      examples:
+        - ru: Он по-настоя́щему тала́нтлив.
+          zh: 他是真有才。
+
+- lemma: кое-что
+  stress: ко́е-что
+  pos: pron
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 一点儿东西，某些事
+      en: something, a thing or two
+      examples:
+        - ru: Я хочу́ тебе́ ко́е-что сказа́ть.
+          zh: 我有点事想跟你说。
+  notes: |
+    ко́е- 表示"说话人心里有数但不明说"，与 -то（不知道是什么）相对。
+
+- lemma: кое-кто
+  stress: ко́е-кто
+  pos: pron
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 某些人
+      en: certain people
+      examples:
+        - ru: Ко́е-кто уже́ зна́ет.
+          zh: 有些人已经知道了。
+
+- lemma: кое-где
+  stress: ко́е-где
+  pos: adv
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 有些地方
+      en: here and there
+      examples:
+        - ru: Ко́е-где ещё лежи́т снег.
+          zh: 有些地方还有雪。
+
+- lemma: где-нибудь
+  stress: где́-нибудь
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 随便哪儿，某个地方
+      en: anywhere, somewhere
+      examples:
+        - ru: Дава́й пообе́даем где́-нибудь.
+          zh: 咱们随便找个地方吃午饭。
+  common_errors: |
+    -то 用于已经发生、说话人不知道具体是哪儿：Он где́-то здесь。
+    -нибудь 用于还没确定、任选一个：Пойдём куда́-нибудь。
+
+- lemma: куда-нибудь
+  stress: куда́-нибудь
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 到随便哪儿
+      en: (to) anywhere
+      examples:
+        - ru: Пое́дем куда́-нибудь на выходны́е.
+          zh: 周末咱们出去转转吧。
+
+- lemma: когда-нибудь
+  stress: когда́-нибудь
+  pos: adv
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 什么时候，将来某时
+      en: some day, ever
+      examples:
+        - ru: Ты был когда́-нибудь в Москве́?
+          zh: 你去过莫斯科吗？
+
+- lemma: почему-то
+  stress: почему́-то
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不知怎么的
+      en: for some reason
+      examples:
+        - ru: Он почему́-то не пришёл.
+          zh: 他不知怎么没来。
+
+- lemma: как-то
+  stress: ка́к-то
+  pos: adv
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 不知怎么地；有一次
+      en: somehow; once
+      examples:
+        - ru: Мне ка́к-то нело́вко.
+          zh: 我总觉得有点别扭。

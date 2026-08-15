@@ -145,6 +145,8 @@
   animacy: inan
   zaliznyak: ж 1d
   level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: колба́сы
   senses:
     - zh: 香肠，灌肠
       en: sausage
