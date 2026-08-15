@@ -38,6 +38,11 @@ STRESS_ATTRACTING_PREPOSITIONS = frozenset(
     {"за", "на", "по", "под", "из", "без", "до", "об", "о", "от", "из-за"}
 )
 
+#: The negative particle does the same thing to a small closed set of verbs:
+#: "не́ был", "не́ было", "не́ дал", "не́ жил". The stress really does move onto
+#: не, leaving the verb unstressed, so it belongs with the prepositions above.
+STRESS_ATTRACTING_PARTICLES = frozenset({"не", "ни"})
+
 #: Vocalised preposition variants, used before consonant clusters. They are
 #: proclitics with no stress of their own -- "обо мне́", "передо мно́й" -- so
 #: they are polysyllabic and legitimately unmarked wherever they appear.
@@ -139,8 +144,8 @@ def validate(text: str, *, field: str = "form") -> str:
 
 
 def _is_marked_proclitic(word: str) -> bool:
-    return (
-        STRESS in word and strip_stress(word).lower() in STRESS_ATTRACTING_PREPOSITIONS
+    return STRESS in word and strip_stress(word).lower() in (
+        STRESS_ATTRACTING_PREPOSITIONS | STRESS_ATTRACTING_PARTICLES
     )
 
 

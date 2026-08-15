@@ -1,0 +1,761 @@
+# Food, drink and the kitchen.
+#
+# Mass nouns are marked number_only: sing so the index does not offer plurals
+# nobody says (*молоки, *мяса). Where a plural genuinely exists but means
+# something else -- сы́ры "kinds of cheese" -- the singular-only marking is
+# deliberately not used.
+
+- lemma: каша
+  stress: ка́ша
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 粥
+      en: porridge, kasha
+      examples:
+        - ru: На за́втрак у нас ка́ша.
+          zh: 我们早饭吃粥。
+
+- lemma: салат
+  stress: сала́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 沙拉；生菜
+      en: salad; lettuce
+      examples:
+        - ru: Я заказа́л овощно́й сала́т.
+          zh: 我点了个蔬菜沙拉。
+
+- lemma: конфета
+  stress: конфе́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 糖果
+      en: sweet, candy
+      examples:
+        - ru: Возьми́ конфе́ту.
+          zh: 拿块糖吧。
+
+- lemma: торт
+  stress: торт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 蛋糕
+      en: cake
+      examples:
+        - ru: Мы купи́ли торт на день рожде́ния.
+          zh: 我们买了个生日蛋糕。
+  notes: |
+    重音永远在词干：то́рта、то́рты。念成 торты́ 是常见的错读。
+
+- lemma: пирог
+  stress: пиро́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 大馅饼，派
+      en: pie
+      examples:
+        - ru: Ба́бушка испекла́ пиро́г.
+          zh: 奶奶烤了个馅饼。
+
+- lemma: пирожок
+  stress: пирожо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 小馅饼（手拿的）
+      en: small pie, pirozhok
+      examples:
+        - ru: Купи́ два пирожка́ с мя́сом.
+          zh: 买两个肉馅饼。
+
+- lemma: печенье
+  stress: пече́нье
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 6a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 饼干
+      en: biscuits, cookies
+      examples:
+        - ru: К ча́ю есть пече́нье.
+          zh: 有饼干配茶。
+
+- lemma: блин
+  stress: блин
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 薄煎饼（俄式）
+      en: pancake, blin
+      examples:
+        - ru: На Ма́сленицу пеку́т блины́.
+          zh: 谢肉节要摊薄饼。
+
+- lemma: яйцо
+  stress: яйцо́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 5*d
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: яи́ц
+  senses:
+    - zh: 蛋，鸡蛋
+      en: egg
+      examples:
+        - ru: Он съел два яйца́.
+          zh: 他吃了两个鸡蛋。
+  notes: |
+    复数第二格是 яи́ц（й 脱落），不是 *яйц。
+
+- lemma: колбаса
+  stress: колбаса́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 香肠，灌肠
+      en: sausage
+      examples:
+        - ru: Купи́ ко́лбасы к за́втраку.
+          zh: 买点香肠当早饭。
+
+- lemma: рис
+  stress: рис
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 米，米饭
+      en: rice
+      examples:
+        - ru: Мы ча́сто еди́м рис.
+          zh: 我们常吃米饭。
+
+- lemma: картошка
+  stress: карто́шка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 土豆（口语）
+      en: potato (colloquial)
+      labels: [разг.]
+      examples:
+        - ru: На у́жин была́ жа́реная карто́шка.
+          zh: 晚饭吃的是炒土豆。
+
+- lemma: помидор
+  stress: помидо́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 西红柿
+      en: tomato
+      examples:
+        - ru: Нареза́ть помидо́ры в сала́т.
+          zh: 把西红柿切进沙拉。
+
+- lemma: огурец
+  stress: огуре́ц
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5*b
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 黄瓜
+      en: cucumber
+      examples:
+        - ru: Я люблю́ солёные огурцы́.
+          zh: 我喜欢腌黄瓜。
+
+- lemma: лук
+  stress: лук
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 洋葱，葱
+      en: onion
+      examples:
+        - ru: Доба́вьте лук в суп.
+          zh: 往汤里加点洋葱。
+
+- lemma: морковь
+  stress: морко́вь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 胡萝卜
+      en: carrot
+      examples:
+        - ru: Мо́рковь поле́зна для глаз.
+          zh: 胡萝卜对眼睛好。
+
+- lemma: капуста
+  stress: капу́ста
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 白菜，卷心菜
+      en: cabbage
+      examples:
+        - ru: Она́ ва́рит щи из капу́сты.
+          zh: 她在用白菜煮菜汤。
+
+- lemma: груша
+  stress: гру́ша
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 梨
+      en: pear
+      examples:
+        - ru: Э́ти гру́ши о́чень сла́дкие.
+          zh: 这些梨很甜。
+
+- lemma: апельсин
+  stress: апельси́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 橙子
+      en: orange
+      examples:
+        - ru: Я вы́жал сок из апельси́нов.
+          zh: 我榨了橙汁。
+
+- lemma: банан
+  stress: бана́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 香蕉
+      en: banana
+      examples:
+        - ru: Он съел бана́н.
+          zh: 他吃了根香蕉。
+
+- lemma: виноград
+  stress: виногра́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 葡萄
+      en: grapes
+      examples:
+        - ru: На столе́ лежи́т виногра́д.
+          zh: 桌上放着葡萄。
+  common_errors: |
+    виногра́д 是集合名词，只有单数。"几串葡萄"不能说 *виногра́ды。
+
+- lemma: лимон
+  stress: лимо́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 柠檬
+      en: lemon
+      examples:
+        - ru: Чай с лимо́ном, пожа́луйста.
+          zh: 请来杯柠檬茶。
+
+- lemma: арбуз
+  stress: арбу́з
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 西瓜
+      en: watermelon
+      examples:
+        - ru: Ле́том мы е́ли арбу́з.
+          zh: 夏天我们吃西瓜。
+
+- lemma: орех
+  stress: оре́х
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 坚果
+      en: nut
+      examples:
+        - ru: Он лю́бит гре́цкие оре́хи.
+          zh: 他喜欢核桃。
+
+- lemma: мёд
+  stress: мёд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 蜂蜜
+      en: honey
+      examples:
+        - ru: Пей чай с мёдом.
+          zh: 喝加蜂蜜的茶。
+
+- lemma: варенье
+  stress: варе́нье
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 6a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 果酱（俄式煮的）
+      en: jam, preserves
+      examples:
+        - ru: К ча́ю пода́ли варе́нье.
+          zh: 配茶端上了果酱。
+
+- lemma: вино
+  stress: вино́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1c
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 葡萄酒
+      en: wine
+      examples:
+        - ru: Он заказа́л буты́лку вина́.
+          zh: 他点了一瓶葡萄酒。
+
+- lemma: пиво
+  stress: пи́во
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 啤酒
+      en: beer
+      examples:
+        - ru: Два пи́ва, пожа́луйста.
+          zh: 请来两杯啤酒。
+
+- lemma: напиток
+  stress: напи́ток
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 饮料
+      en: drink, beverage
+      examples:
+        - ru: Каки́е у вас есть напи́тки?
+          zh: 你们有什么饮料？
+
+- lemma: мука
+  stress: мука́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3b
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 面粉
+      en: flour
+      examples:
+        - ru: Ну́жен килогра́мм муки́.
+          zh: 需要一公斤面粉。
+
+- lemma: сметана
+  stress: смета́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 酸奶油
+      en: sour cream
+      examples:
+        - ru: Борщ едя́т со смета́ной.
+          zh: 红菜汤要配酸奶油吃。
+
+- lemma: творог
+  stress: творо́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 农家奶酪，凝乳
+      en: cottage cheese, tvorog
+      examples:
+        - ru: На за́втрак я ем творо́г.
+          zh: 我早饭吃奶渣。
+
+- lemma: кефир
+  stress: кефи́р
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 开菲尔（酸奶饮品）
+      en: kefir
+      examples:
+        - ru: Он пьёт кефи́р на ночь.
+          zh: 他睡前喝开菲尔。
+
+- lemma: перец
+  stress: пе́рец
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5*a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 胡椒；辣椒
+      en: pepper
+      examples:
+        - ru: Доба́вь со́ли и пе́рца.
+          zh: 加点盐和胡椒。
+
+- lemma: соус
+  stress: со́ус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 酱汁，调味汁
+      en: sauce
+      examples:
+        - ru: К мя́су подаю́т со́ус.
+          zh: 肉配着酱汁上。
+
+- lemma: борщ
+  stress: борщ
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 红菜汤
+      en: borscht
+      examples:
+        - ru: Ма́ма свари́ла борщ.
+          zh: 妈妈煮了红菜汤。
+
+- lemma: блюдо
+  stress: блю́до
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 菜肴，一道菜
+      en: dish
+      examples:
+        - ru: Э́то национа́льное блю́до.
+          zh: 这是道民族菜。
+
+- lemma: рецепт
+  stress: реце́пт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 菜谱；处方
+      en: recipe; prescription
+      examples:
+        - ru: Врач вы́писал реце́пт.
+          zh: 医生开了处方。
+
+- lemma: продукт
+  stress: проду́кт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 食品（多用复数）；产品
+      en: food product; product
+      examples:
+        - ru: Я иду́ за проду́ктами.
+          zh: 我去买菜。
+
+- lemma: закуска
+  stress: заку́ска
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 冷盘，下酒菜
+      en: appetiser, snack
+      examples:
+        - ru: На стол поста́вили заку́ски.
+          zh: 桌上摆了冷盘。
+
+- lemma: десерт
+  stress: десе́рт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 甜点
+      en: dessert
+      examples:
+        - ru: Что у вас на десе́рт?
+          zh: 你们甜点有什么？
+
+- lemma: булка
+  stress: бу́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 白面包，小圆面包
+      en: bun, white loaf
+      examples:
+        - ru: Купи́ бу́лку в бу́лочной.
+          zh: 去面包房买个白面包。
+
+- lemma: аппетит
+  stress: аппети́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 胃口，食欲
+      en: appetite
+      collocations: [прия́тного аппети́та]
+      examples:
+        - ru: Прия́тного аппети́та!
+          zh: 请慢用！
+  notes: |
+    Прия́тного аппети́та! 用第二格，是固定的祝愿句式，饭前必说。
+
+- lemma: посуда
+  stress: посу́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 餐具，器皿（总称）
+      en: dishes, tableware
+      examples:
+        - ru: Я мо́ю посу́ду.
+          zh: 我在洗碗。
+  common_errors: |
+    集合名词，只有单数。"洗碗"是 мыть посу́ду，不能说 *посу́ды。
+
+- lemma: кастрюля
+  stress: кастрю́ля
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 锅（煮汤的）
+      en: saucepan, pot
+      examples:
+        - ru: Суп вари́тся в кастрю́ле.
+          zh: 汤在锅里煮着。
+
+- lemma: вилка
+  stress: ви́лка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 叉子
+      en: fork
+      examples:
+        - ru: Дай мне ви́лку, пожа́луйста.
+          zh: 请给我把叉子。
+
+- lemma: плита
+  stress: плита́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 灶台，炉子
+      en: cooker, stove
+      examples:
+        - ru: Ча́йник стои́т на плите́.
+          zh: 水壶在炉子上。
+
+- lemma: официант
+  stress: официа́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 服务员
+      en: waiter
+      examples:
+        - ru: Официа́нт при́нял зака́з.
+          zh: 服务员点了单。
+
+- lemma: меню
+  stress: меню́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 菜单
+      en: menu
+      examples:
+        - ru: Принеси́те меню́, пожа́луйста.
+          zh: 请把菜单拿来。
+  common_errors: |
+    不变格的外来词，中性：вку́сное меню́、в меню́。不能说 *меню́в、*меню́ю。
+
+- lemma: заказ
+  stress: зака́з
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 订单，预订
+      en: order
+      examples:
+        - ru: Ваш зака́з гото́в.
+          zh: 您点的东西好了。
+
+- lemma: мороженое
+  stress: моро́женое
+  pos: noun
+  gender: neut
+  animacy: inan
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,nomn: моро́женое
+    sing,gent: моро́женого
+    sing,datv: моро́женому
+    sing,accs: моро́женое
+    sing,ablt: моро́женым
+    sing,loct: моро́женом
+  senses:
+    - zh: 冰淇淋
+      en: ice cream
+      examples:
+        - ru: Де́ти лю́бят моро́женое.
+          zh: 孩子们喜欢冰淇淋。
+  common_errors: |
+    这是形容词变来的名词，按形容词变格：моро́женого、моро́женым。
+    不能按 -ое 结尾的普通中性名词来变。

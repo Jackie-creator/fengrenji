@@ -324,8 +324,6 @@
   animacy: inan
   zaliznyak: с 1*d
   level: [A1, 高考, ТРКИ-1]
-  form_overrides:
-    plur,gent: пи́сем
   senses:
     - zh: 信
       en: letter

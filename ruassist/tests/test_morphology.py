@@ -481,3 +481,16 @@ def test_fleeting_vowel_after_l_leaves_a_soft_sign():
 def test_fleeting_vowel_elsewhere_leaves_nothing():
     entry = noun("отец", "оте́ц", "м 5*b", "masc", animacy="anim")
     assert cells(entry, ("sing", "gent")) == ["отца́"]
+
+
+def test_inserted_fleeting_vowel_replaces_a_soft_sign():
+    """судьб- -> суде́б, письм- -> пи́сем: the ь goes, it is not written through.
+
+    Both are ж/с 1*d, so the plural is stem-stressed: су́д-е-б with the stress
+    on the у it already had in су́дьбы, not on the vowel that just appeared.
+    """
+    entry = noun("судьба", "судьба́", "ж 1*d", "femn")
+    assert cells(entry, ("plur", "nomn"), ("plur", "gent")) == ["су́дьбы", "су́деб"]
+
+    entry = noun("письмо", "письмо́", "с 1*d", "neut")
+    assert cells(entry, ("plur", "gent")) == ["пи́сем"]

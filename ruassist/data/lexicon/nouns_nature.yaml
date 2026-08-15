@@ -1,0 +1,1007 @@
+# Nature: landscape, weather, plants, animals, points of the compass.
+#
+# Two entries carry hand-written plurals because the paradigm cannot reach
+# them: звезда́ -> звёзды (the ё is not derivable from the singular) and
+# живо́тное, which is an adjective pressed into service as a noun and declines
+# like one. Everything else is generated.
+
+- lemma: природа
+  stress: приро́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 大自然；本性
+      en: nature
+      examples:
+        - ru: Мы отдыха́ли на приро́де.
+          zh: 我们在郊外休息。
+  notes: |
+    на приро́де = 到野外、郊外（不是"在自然界"），是很日常的说法。
+
+- lemma: климат
+  stress: кли́мат
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 气候
+      en: climate
+      examples:
+        - ru: Здесь мя́гкий кли́мат.
+          zh: 这里气候温和。
+
+- lemma: гроза
+  stress: гроза́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 雷雨
+      en: thunderstorm
+      examples:
+        - ru: Ве́чером начала́сь гроза́.
+          zh: 晚上下起了雷雨。
+
+- lemma: туман
+  stress: тума́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 雾
+      en: fog, mist
+      examples:
+        - ru: У́тром был густо́й тума́н.
+          zh: 早上雾很浓。
+
+- lemma: облако
+  stress: о́блако
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 3c
+  level: [B1, ТРКИ-2]
+  form_overrides:
+    plur,gent: облако́в
+  senses:
+    - zh: 云
+      en: cloud
+      examples:
+        - ru: По не́бу плыву́т облака́.
+          zh: 云在天上飘。
+  notes: |
+    中性名词的复数第二格一般是零词尾，但 о́блако 例外，用 -ов：облако́в。
+
+- lemma: луна
+  stress: луна́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 月亮
+      en: moon
+      examples:
+        - ru: Сего́дня я́ркая луна́.
+          zh: 今晚月亮很亮。
+
+- lemma: звезда
+  stress: звезда́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: звёзды
+    plur,gent: звёзд
+    plur,datv: звёздам
+    plur,accs: звёзды
+    plur,ablt: звёздами
+    plur,loct: звёздах
+  senses:
+    - zh: 星星
+      en: star
+      examples:
+        - ru: На не́бе мно́го звёзд.
+          zh: 天上星星很多。
+    - zh: 明星
+      en: star (celebrity)
+      examples:
+        - ru: Он звезда́ кино́.
+          zh: 他是电影明星。
+  common_errors: |
+    复数把 е 换成 ё：звезда́ → звёзды。这个交替单数形式里看不出来，只能记住。
+
+- lemma: планета
+  stress: плане́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 行星，星球
+      en: planet
+      examples:
+        - ru: Земля́ — на́ша плане́та.
+          zh: 地球是我们的星球。
+
+- lemma: огонь
+  stress: ого́нь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 火
+      en: fire
+      examples:
+        - ru: В ками́не гори́т ого́нь.
+          zh: 壁炉里烧着火。
+
+- lemma: лёд
+  stress: лёд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1*b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 冰
+      en: ice
+      examples:
+        - ru: На реке́ то́лстый лёд.
+          zh: 河上结了厚冰。
+  notes: |
+    间接格里 ё 脱落、л 变软：лёд → льда、льду、льдом。
+
+- lemma: берег
+  stress: бе́рег
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3c(1)
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 岸，岸边
+      en: shore, bank
+      examples:
+        - ru: Мы гуля́ли по бе́регу реки́.
+          zh: 我们沿着河岸散步。
+
+- lemma: остров
+  stress: о́стров
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 岛
+      en: island
+      examples:
+        - ru: Они́ живу́т на о́строве.
+          zh: 他们住在岛上。
+
+- lemma: холм
+  stress: холм
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 小山，丘陵
+      en: hill
+      examples:
+        - ru: Дом стои́т на холме́.
+          zh: 房子建在小山上。
+
+- lemma: пустыня
+  stress: пусты́ня
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 沙漠
+      en: desert
+      examples:
+        - ru: В пусты́не о́чень жа́рко.
+          zh: 沙漠里非常热。
+
+- lemma: камень
+  stress: ка́мень
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*e
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 石头
+      en: stone
+      examples:
+        - ru: На берегу́ лежа́ли ка́мни.
+          zh: 岸边躺着一些石头。
+
+- lemma: песок
+  stress: песо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 沙子
+      en: sand
+      examples:
+        - ru: Де́ти игра́ют в песке́.
+          zh: 孩子们在沙子里玩。
+
+- lemma: растение
+  stress: расте́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 植物
+      en: plant
+      examples:
+        - ru: Э́то ко́мнатное расте́ние.
+          zh: 这是室内植物。
+
+- lemma: трава
+  stress: трава́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 草
+      en: grass
+      examples:
+        - ru: Мы сиде́ли на траве́.
+          zh: 我们坐在草地上。
+
+- lemma: лист
+  stress: лист
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 纸张，一页
+      en: sheet (of paper)
+      examples:
+        - ru: Возьми́те чи́стый лист.
+          zh: 拿一张白纸。
+    - zh: 树叶
+      en: leaf
+      examples:
+        - ru: О́сенью лист жёлтый.
+          zh: 秋天树叶是黄的。
+  common_errors: |
+    两个意思复数不同：纸张是 листы́，树叶是 ли́стья（第二格 ли́стьев）。
+    "秋天的落叶"要用 ли́стья，不能用 листы́。
+
+- lemma: корень
+  stress: ко́рень
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 根；词根
+      en: root
+      examples:
+        - ru: У э́тих слов оди́н ко́рень.
+          zh: 这些词是同一个词根。
+
+- lemma: ягода
+  stress: я́года
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 浆果（草莓、蓝莓一类）
+      en: berry
+      examples:
+        - ru: Ле́том мы собира́ем я́годы.
+          zh: 夏天我们采浆果。
+
+- lemma: гриб
+  stress: гриб
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 蘑菇
+      en: mushroom
+      collocations: [ходи́ть за гриба́ми]
+      examples:
+        - ru: Мы ходи́ли в лес за гриба́ми.
+          zh: 我们去林子里采蘑菇了。
+  notes: |
+    "去采蘑菇"是 идти́ за гриба́ми（第五格），за 表示"去取来"。
+
+- lemma: океан
+  stress: океа́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 大洋，海洋
+      en: ocean
+      examples:
+        - ru: Ти́хий океа́н — са́мый большо́й.
+          zh: 太平洋是最大的。
+
+- lemma: долина
+  stress: доли́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 山谷，谷地
+      en: valley
+      examples:
+        - ru: В доли́не течёт река́.
+          zh: 谷地里流着一条河。
+
+- lemma: жара
+  stress: жара́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 酷热，热天
+      en: heat, hot weather
+      examples:
+        - ru: Ле́том здесь стра́шная жара́.
+          zh: 夏天这儿热得吓人。
+
+- lemma: мороз
+  stress: моро́з
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 严寒，零下天气
+      en: frost, hard freeze
+      examples:
+        - ru: На у́лице си́льный моро́з.
+          zh: 外面冷得厉害。
+  common_errors: |
+    моро́з 特指零下的严寒，不是一般的"冷"。一般的冷说 хо́лодно。
+
+- lemma: буря
+  stress: бу́ря
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 暴风雨，风暴
+      en: storm
+      examples:
+        - ru: На мо́ре начала́сь бу́ря.
+          zh: 海上起了风暴。
+
+- lemma: молния
+  stress: мо́лния
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 闪电
+      en: lightning
+      examples:
+        - ru: Сверкну́ла мо́лния.
+          zh: 闪电划过。
+    - zh: 拉链
+      en: zip fastener
+      examples:
+        - ru: У ку́ртки слома́лась мо́лния.
+          zh: 夹克的拉链坏了。
+
+- lemma: гром
+  stress: гром
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 雷，雷声
+      en: thunder
+      examples:
+        - ru: Вдали́ греме́л гром.
+          zh: 远处响着雷。
+
+- lemma: радуга
+  stress: ра́дуга
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 彩虹
+      en: rainbow
+      examples:
+        - ru: По́сле дождя́ появи́лась ра́дуга.
+          zh: 雨后出了彩虹。
+
+- lemma: тень
+  stress: тень
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 影子；阴凉处
+      en: shadow, shade
+      examples:
+        - ru: Мы се́ли в тени́.
+          zh: 我们坐到阴凉处。
+  notes: |
+    "在阴凉里"用第六格特殊形式 в тени́（重音在词尾），不是 *в те́ни。
+
+- lemma: градус
+  stress: гра́дус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 度（温度）
+      en: degree
+      examples:
+        - ru: Сего́дня два́дцать гра́дусов тепла́.
+          zh: 今天零上二十度。
+  notes: |
+    零上是 гра́дусов тепла́，零下是 гра́дусов моро́за 或 ми́нус два́дцать。
+
+- lemma: животное
+  stress: живо́тное
+  pos: noun
+  gender: neut
+  animacy: anim
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    sing,nomn: живо́тное
+    sing,gent: живо́тного
+    sing,datv: живо́тному
+    sing,accs: живо́тное
+    sing,ablt: живо́тным
+    sing,loct: живо́тном
+    plur,nomn: живо́тные
+    plur,gent: живо́тных
+    plur,datv: живо́тным
+    plur,accs: живо́тных
+    plur,ablt: живо́тными
+    plur,loct: живо́тных
+  senses:
+    - zh: 动物
+      en: animal
+      examples:
+        - ru: Она́ лю́бит живо́тных.
+          zh: 她喜欢动物。
+  common_errors: |
+    живо́тное 是形容词变来的名词，按**形容词**变格：живо́тного、живо́тным。
+    虽然是动物名词，单数第四格仍与第一格同形（中性），只有复数才用第二格 живо́тных。
+
+- lemma: зверь
+  stress: зверь
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 野兽
+      en: wild animal, beast
+      examples:
+        - ru: В лесу́ живу́т ди́кие зве́ри.
+          zh: 森林里住着野兽。
+
+- lemma: волк
+  stress: волк
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3c
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 狼
+      en: wolf
+      examples:
+        - ru: Во́лки во́ют но́чью.
+          zh: 狼在夜里嚎叫。
+
+- lemma: лиса
+  stress: лиса́
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1d
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 狐狸
+      en: fox
+      examples:
+        - ru: Лиса́ убежа́ла в лес.
+          zh: 狐狸跑进林子里了。
+
+- lemma: курица
+  stress: ку́рица
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 5a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 母鸡；鸡肉
+      en: hen; chicken (meat)
+      examples:
+        - ru: На у́жин была́ ку́рица.
+          zh: 晚饭吃的是鸡。
+  notes: |
+    活鸡的复数常用 ку́ры，做菜时说 ку́рица（不可数）。
+
+- lemma: петух
+  stress: пету́х
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 公鸡
+      en: rooster
+      examples:
+        - ru: Пету́х разбуди́л всех.
+          zh: 公鸡把大家吵醒了。
+
+- lemma: тигр
+  stress: тигр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 老虎
+      en: tiger
+      examples:
+        - ru: В зоопа́рке мы ви́дели ти́гра.
+          zh: 我们在动物园看到了老虎。
+
+- lemma: лев
+  stress: лев
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1*b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 狮子
+      en: lion
+      examples:
+        - ru: Лев — царь звере́й.
+          zh: 狮子是百兽之王。
+  notes: |
+    间接格 е 脱落、л 变软：лев → льва、льву、льво́м。
+
+- lemma: слон
+  stress: слон
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1b
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 大象
+      en: elephant
+      examples:
+        - ru: Слоны́ живу́т в А́фрике.
+          zh: 大象生活在非洲。
+
+- lemma: обезьяна
+  stress: обезья́на
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 猴子
+      en: monkey
+      examples:
+        - ru: Обезья́ны о́чень у́мные.
+          zh: 猴子很聪明。
+
+- lemma: муха
+  stress: му́ха
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 苍蝇
+      en: fly
+      examples:
+        - ru: По ко́мнате лета́ла му́ха.
+          zh: 屋里飞着一只苍蝇。
+
+- lemma: комар
+  stress: кома́р
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 蚊子
+      en: mosquito
+      examples:
+        - ru: Ле́том здесь мно́го комаро́в.
+          zh: 夏天这儿蚊子很多。
+
+- lemma: бабочка
+  stress: ба́бочка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 蝴蝶
+      en: butterfly
+      examples:
+        - ru: На цвето́к се́ла ба́бочка.
+          zh: 一只蝴蝶落在花上。
+
+- lemma: хвост
+  stress: хвост
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 尾巴
+      en: tail
+      examples:
+        - ru: Соба́ка виля́ет хвосто́м.
+          zh: 狗摇着尾巴。
+
+- lemma: лапа
+  stress: ла́па
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: （动物的）爪子，腿
+      en: paw
+      examples:
+        - ru: Ко́шка вы́пустила ко́гти на ла́пах.
+          zh: 猫把爪子伸了出来。
+
+- lemma: пляж
+  stress: пляж
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 海滩，沙滩
+      en: beach
+      examples:
+        - ru: Мы весь день бы́ли на пля́же.
+          zh: 我们在沙滩上待了一整天。
+
+- lemma: урожай
+  stress: урожа́й
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 收成，庄稼
+      en: harvest, crop
+      examples:
+        - ru: В э́том году́ хоро́ший урожа́й.
+          zh: 今年收成不错。
+
+- lemma: огород
+  stress: огоро́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 菜园
+      en: vegetable garden
+      examples:
+        - ru: Ба́бушка рабо́тает в огоро́де.
+          zh: 奶奶在菜园里干活。
+  common_errors: |
+    сад 是果园、花园，огоро́д 是种菜的地。汉语都可以叫"园子"，俄语分开。
+
+- lemma: экология
+  stress: эколо́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 生态，环保
+      en: ecology, environment
+      examples:
+        - ru: Здесь плоха́я эколо́гия.
+          zh: 这里环境不好。
+
+- lemma: мусор
+  stress: му́сор
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 垃圾
+      en: rubbish, garbage
+      examples:
+        - ru: Вы́неси му́сор, пожа́луйста.
+          zh: 请把垃圾拿出去倒了。
+
+- lemma: энергия
+  stress: эне́ргия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 能量，精力
+      en: energy
+      examples:
+        - ru: У неё мно́го эне́ргии.
+          zh: 她精力充沛。
+
+- lemma: север
+  stress: се́вер
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 北方
+      en: north
+      examples:
+        - ru: Он живёт на се́вере.
+          zh: 他住在北方。
+  antonyms: [юг]
+  notes: |
+    方位词用 на：на се́вере（在北方）、на се́вер（往北）。
+
+- lemma: юг
+  stress: юг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 南方
+      en: south
+      examples:
+        - ru: Ле́том мы е́здим на юг.
+          zh: 夏天我们去南方。
+  antonyms: [север]
+
+- lemma: восток
+  stress: восто́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 东方
+      en: east
+      examples:
+        - ru: Со́лнце встаёт на восто́ке.
+          zh: 太阳从东边升起。
+  antonyms: [запад]
+
+- lemma: запад
+  stress: за́пад
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 西方
+      en: west
+      examples:
+        - ru: Го́род нахо́дится на за́паде страны́.
+          zh: 城市位于国家西部。
+  antonyms: [восток]
+
+- lemma: область
+  stress: о́бласть
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 州，地区（行政区划）
+      en: region, oblast
+      examples:
+        - ru: Он из Моско́вской о́бласти.
+          zh: 他来自莫斯科州。
+    - zh: 领域
+      en: field, area
+      examples:
+        - ru: Э́то не моя́ о́бласть.
+          zh: 这不是我的领域。
+
+- lemma: район
+  stress: райо́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 区，地段
+      en: district
+      examples:
+        - ru: Мы живём в ти́хом райо́не.
+          zh: 我们住在一个安静的城区。
+
+- lemma: граница
+  stress: грани́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 边界，国界
+      en: border
+      collocations: [за грани́цей, за грани́цу]
+      examples:
+        - ru: Он живёт за грани́цей.
+          zh: 他住在国外。
+  common_errors: |
+    за грани́цей = 在国外（第五格，回答 где），за грани́цу = 到国外（第四格，回答 куда）。
+    汉语都说"国外"，俄语靠格区分静态和动态。
+
+- lemma: территория
+  stress: террито́рия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 领土，地域
+      en: territory
+      examples:
+        - ru: Э́то террито́рия университе́та.
+          zh: 这是大学的地界。
+
+- lemma: пространство
+  stress: простра́нство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 空间
+      en: space
+      examples:
+        - ru: Здесь мно́го свобо́дного простра́нства.
+          zh: 这里空间很宽敞。
+
+- lemma: расстояние
+  stress: расстоя́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 距离
+      en: distance
+      examples:
+        - ru: Расстоя́ние ме́жду города́ми — сто киломе́тров.
+          zh: 两座城市之间相距一百公里。
+
+- lemma: направление
+  stress: направле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 方向
+      en: direction
+      examples:
+        - ru: Мы идём в ну́жном направле́нии.
+          zh: 我们方向没错。
+
+- lemma: скорость
+  stress: ско́рость
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 速度
+      en: speed
+      examples:
+        - ru: Он е́хал с большо́й ско́ростью.
+          zh: 他开得很快。

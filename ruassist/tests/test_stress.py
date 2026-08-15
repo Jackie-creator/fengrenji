@@ -79,6 +79,13 @@ class TestValidate:
     def test_marked_proclitic_excuses_next_word(self):
         assert st.validate("за́ руку")
 
+    def test_negative_particle_takes_the_stress(self):
+        """не́ был / не́ было: the particle really does carry the stress."""
+        assert st.validate("У меня́ не́ было вы́бора.")
+        # Unmarked не explains nothing -- the verb still has to be stressed.
+        with pytest.raises(st.StressError):
+            st.validate("не было")
+
     def test_non_cyrillic_ignored(self):
         assert st.validate("ГОСТ 7.79-2000")
 

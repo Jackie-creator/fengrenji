@@ -302,13 +302,20 @@ def _drop_fleeting(stem: str) -> str:
 
 
 def _insert_fleeting(stem: str) -> str:
-    """окн -> окон, ручк -> ручек: a vowel appears in the zero-ending genitive."""
+    """окн -> окон, ручк -> ручек: a vowel appears in the zero-ending genitive.
+
+    A soft sign in that slot is *replaced* by the vowel rather than kept:
+    судьб- -> суде́б, письм- -> пи́сем, свадьб- -> сва́деб. Writing the vowel in
+    after the ь would give *судьеб, which is why this case is separated out.
+    """
     if len(stem) < 2:
         return stem
     before, after = stem[-2], stem[-1]
     if before in "аеёиоуыэюя" or after in "аеёиоуыэюя":
         return stem
-    vowel = "е" if before in HUSHING_OR_TS or before in "ьй" else "о"
+    if before == "ь":
+        return stem[:-2] + "е" + after
+    vowel = "е" if before in HUSHING_OR_TS or before in "й" else "о"
     return stem[:-1] + vowel + after
 
 
