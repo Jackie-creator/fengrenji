@@ -23,6 +23,8 @@
 - ✅ M2 词典查询层：四级模糊查、拉丁转写输入、词条组装、离线词包构建（发音待做）
 - ✅ M3 Web 前端（PWA）：查词界面、西里尔键盘、形态表、重音开关、Service Worker 离线
 - ✅ M4 学习层：生词本、间隔重复（SM-2 变体）、三种题型、词书视图
+- ✅ 发音：Web Speech API（无俄语语音时按钮不显示）
+- ✅ A2/B1 批次：313 词条，A1+A2 自建词表均 100%
 - ⬜ M5 打磨：历史收藏、每日一句、整句翻译、划词插件
 
 明确后置：桌面屏幕取词、拍照 OCR、听力材料（版权）、云同步账号体系。
@@ -44,6 +46,12 @@
 - 前端查询逻辑（`dictionary.ts`）是 `search.py` 的镜像，两边分级规则必须一致。
 - Service Worker 用**缓存优先**：词包对同一次构建是不可变的，等网络回来才出结果比没有 app 更糟。
 - 词包体积有测试守着（< 2500 字节/词条），涨上去先查是不是注释写太满。
+- **crosscheck 只能校验拼写，校验不了重音**——OpenCorpora 完全没有重音数据。
+  重音类标错时，只有在它改变了拼写的情况下才会暴露（знакомиться 的命令式就是这么发现的）。
+  所以重音仍然要靠人核对，不能因为 crosscheck 100% 就以为重音都对。
+- **语法性 ≠ 变格型**：мужчи́на／па́па 是阳性但按阴性 -а 变格，见 `declension_gender()`。
+- 反身动词的做法是**先按去掉 -ся 的词干变位，再把后缀加回去**；
+  元音后加 -сь、辅音和 ь 后加 -ся。单音节词干加后缀后要补标重音（нравь → нра́вься）。
 - 复习算法：SM-2 变体 + 学习步骤。**遗忘不清零间隔只减半**——重学比冷启动快，
   清零等于惩罚用户来复习。
 - 生词本存 localStorage，没有服务器和账号，**这是用户进度的唯一副本**：
@@ -84,7 +92,7 @@
 cd ruassist
 pip install -e ".[dev]"
 python -m ruassist.validate data/lexicon   # 校验词库，列出待核对项
-python -m ruassist.coverage                # 词表覆盖率
+python -m ruassist.coverage                # 全部词表覆盖率（默认扫 data/wordlists/）
 python -m ruassist.crosscheck              # 生成词形 vs OpenCorpora
 python -m ruassist.cli стали --table       # 查词（接受任意词形／拉丁转写）
 python -m ruassist.build                   # 编译离线词包（JSON + SQLite）

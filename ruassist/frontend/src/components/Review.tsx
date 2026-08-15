@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import type { Entry } from "../dictionary";
 import { STRESS, searchKey, stripStress } from "../stress";
 import { describeInterval, type Card, type Grade } from "../srs";
+import { SpeakButton } from "./SpeakButton";
 
 /**
  * Three question types, each attacking a different failure mode:
@@ -113,7 +114,10 @@ export function Review({ question, card, onGrade, remaining }: Props) {
 
       {question.kind === "recall" && (
         <>
-          <p className="prompt ru-big">{entry.s}</p>
+          <p className="prompt ru-big">
+            {entry.s}
+            <SpeakButton text={entry.s} />
+          </p>
           {revealed ? <p className="answer">{glosses}</p> : null}
         </>
       )}

@@ -319,3 +319,75 @@ class TestEngineContract:
         assert not paradigm.generated
         assert "suppletive" in paradigm.reason
         assert paradigm.cells[ct({"past", "masc"})].text == "шёл"
+
+
+class TestReflexiveVerbs:
+    """-ся verbs are conjugated as their plain stem, then the postfix returns."""
+
+    def test_postfix_alternates_by_preceding_sound(self):
+        # -сь after a vowel, -ся after a consonant or soft sign.
+        entry = verb(
+            "заниматься", "занима́ться", "нсв 1a", "impf",
+            transitivity="intrans", reflexive=True,
+        )
+        assert cells(
+            entry,
+            ("pres", "1per", "sing"),   # vowel -> -сь
+            ("pres", "2per", "sing"),   # soft sign -> -ся
+            ("pres", "3per", "sing"),   # consonant -> -ся
+            ("pres", "2per", "plur"),   # vowel -> -сь
+        ) == ["занима́юсь", "занима́ешься", "занима́ется", "занима́етесь"]
+
+    def test_past_tense_takes_the_postfix_too(self):
+        entry = verb(
+            "заниматься", "занима́ться", "нсв 1a", "impf",
+            transitivity="intrans", reflexive=True,
+        )
+        assert cells(entry, ("past", "masc"), ("past", "femn")) == [
+            "занима́лся", "занима́лась",
+        ]
+
+    def test_infinitive_is_left_alone(self):
+        entry = verb(
+            "нравиться", "нра́виться", "нсв 4a", "impf",
+            transitivity="intrans", reflexive=True,
+        )
+        assert inflect(entry).cells[ct({"infn"})].text == "нра́виться"
+
+    def test_monosyllabic_base_gains_a_stress_mark(self):
+        """нравь carries no mark alone, but нра́вься is polysyllabic."""
+        entry = verb(
+            "нравиться", "нра́виться", "нсв 4a", "impf",
+            transitivity="intrans", reflexive=True,
+        )
+        assert cells(entry, ("impr", "sing")) == ["нра́вься"]
+
+    def test_first_person_alternation_still_applies(self):
+        entry = verb(
+            "находиться", "находи́ться", "нсв 4c", "impf",
+            transitivity="intrans", reflexive=True,
+        )
+        assert cells(entry, ("pres", "1per", "sing")) == ["нахожу́сь"]
+
+
+class TestDeclensionGender:
+    """Grammatical gender governs agreement; the ending shape governs declension."""
+
+    def test_masculine_noun_in_a_declines_like_a_feminine(self):
+        # мужчи́на is masculine -- "молодо́й мужчи́на" -- but declines in -а.
+        entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
+        assert cells(entry, ("sing", "nomn"), ("sing", "gent"), ("sing", "accs")) == [
+            "мужчи́на", "мужчи́ны", "мужчи́ну",
+        ]
+
+    def test_its_grammatical_gender_is_untouched(self):
+        entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
+        assert entry.gender.value == "masc"
+
+    def test_ordinary_masculine_is_unaffected(self):
+        entry = noun("стол", "стол", "м 1b", "masc")
+        assert cells(entry, ("sing", "gent")) == ["стола́"]
+
+    def test_animacy_still_drives_the_plural_accusative(self):
+        entry = noun("мужчина", "мужчи́на", "м 1a", "masc", animacy="anim")
+        assert cells(entry, ("plur", "accs")) == cells(entry, ("plur", "gent"))

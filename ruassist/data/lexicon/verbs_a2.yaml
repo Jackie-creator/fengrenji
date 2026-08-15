@@ -1,0 +1,581 @@
+# A2/B1 verbs.
+#
+# Weighted toward the government patterns Chinese learners get wrong: the
+# dative-subject construction (мне нра́вится), and the verbs that demand the
+# instrumental where Chinese marks nothing at all.
+
+- lemma: нравиться
+  stress: нра́виться
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: понравиться
+  transitivity: intrans
+  reflexive: true
+  government: кому
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 使……喜欢；（某人）喜欢
+      en: to please, to be liked by
+      examples:
+        - ru: Мне нра́вится э́та кни́га.
+          zh: 我喜欢这本书。
+        - ru: Ей нра́вятся ру́сские пе́сни.
+          zh: 她喜欢俄罗斯歌曲。
+  common_errors: |
+    这是俄语最反直觉的句型之一：**喜欢的人用第三格，被喜欢的东西才是主语**。
+    «Мне нра́вится кни́га» 字面是"书使我愉悦"，所以动词跟着 кни́га 变：
+    单数 нра́вится，复数 нра́вятся（«Мне нра́вятся кни́ги»）。
+    说 «Я нра́влюсь кни́гу» 是彻底错的。
+    与 люби́ть 分工：люби́ть 是持久的爱好，нра́виться 偏一时的好感。
+
+- lemma: понравиться
+  stress: понра́виться
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: нравиться
+  transitivity: intrans
+  reflexive: true
+  government: кому
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: （一下子）喜欢上
+      en: to take a liking to
+      examples:
+        - ru: Мне о́чень понра́вился э́тот фильм.
+          zh: 这部电影我很喜欢。
+
+- lemma: заниматься
+  stress: занима́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: чем
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 从事，做；学习（某科目）
+      en: to be occupied with, to study
+      collocations: [занима́ться спо́ртом, занима́ться му́зыкой]
+      examples:
+        - ru: Он занима́ется спо́ртом ка́ждый день.
+          zh: 他每天运动。
+  common_errors: |
+    后面一律接**第五格**：занима́ться спо́ртом / му́зыкой / ру́сским языко́м。
+    不能接第四格。这是"用某事占据自己"的逻辑，汉语完全没有对应标记。
+
+- lemma: интересоваться
+  stress: интересова́ться
+  pos: verb
+  zaliznyak: нсв 2a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: чем
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 对……感兴趣
+      en: to be interested in
+      examples:
+        - ru: Я интересу́юсь исто́рией.
+          zh: 我对历史感兴趣。
+  common_errors: |
+    同样接第五格。注意变位：-овать 型动词变位时 -ова- 变成 -у-：
+    интересу́юсь / интересу́ешься，不是 интересова́юсь。
+  verify: [zaliznyak]
+
+- lemma: становиться
+  stress: станови́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  aspect_pair: стать
+  transitivity: intrans
+  reflexive: true
+  government: кем-чем
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 成为，变得
+      en: to become
+      examples:
+        - ru: Дни стано́вятся коро́че.
+          zh: 白天变短了。
+  common_errors: |
+    与 стать 一样接第五格。第一人称单数有 л 插入音：становлю́сь。
+
+- lemma: казаться
+  stress: каза́ться
+  pos: verb
+  zaliznyak: нсв 6c
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: кому кем-чем
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 好像，似乎
+      en: to seem
+      examples:
+        - ru: Мне ка́жется, что он прав.
+          zh: 我觉得他说得对。
+  notes: |
+    «Мне ка́жется, что…» 是"我觉得／我看"的最常用说法，比 «Я ду́маю» 更委婉。
+
+- lemma: находиться
+  stress: находи́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: где
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 位于，坐落在
+      en: to be located
+      examples:
+        - ru: Музе́й нахо́дится в це́нтре го́рода.
+          zh: 博物馆在市中心。
+
+- lemma: получать
+  stress: получа́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: получить
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 收到，得到
+      en: to receive
+      examples:
+        - ru: Я ча́сто получа́ю пи́сьма от неё.
+          zh: 我常收到她的信。
+
+- lemma: получить
+  stress: получи́ть
+  pos: verb
+  zaliznyak: св 4c
+  aspect: perf
+  aspect_pair: получать
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 收到（完成体）
+      en: to receive
+      examples:
+        - ru: Вчера́ я получи́л твоё письмо́.
+          zh: 昨天我收到了你的信。
+
+- lemma: показывать
+  stress: пока́зывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: показать
+  transitivity: trans
+  government: что кому
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 出示，给……看
+      en: to show
+      examples:
+        - ru: Он пока́зывает нам фотогра́фии.
+          zh: 他给我们看照片。
+
+- lemma: показать
+  stress: показа́ть
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  aspect_pair: показывать
+  transitivity: trans
+  government: что кому
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 给……看（完成体）
+      en: to show
+      examples:
+        - ru: Покажи́те, пожа́луйста, э́ту кни́гу.
+          zh: 请把那本书给我看看。
+  common_errors: |
+    与 сказа́ть 同型：покажу́ / пока́жешь，з → ж 且重音前移。
+
+- lemma: рассказывать
+  stress: расска́зывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: рассказать
+  transitivity: trans
+  government: что кому о чём
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 讲述，讲
+      en: to tell, to narrate
+      examples:
+        - ru: Ба́бушка расска́зывает вну́кам ска́зки.
+          zh: 奶奶给孙子们讲故事。
+
+- lemma: рассказать
+  stress: рассказа́ть
+  pos: verb
+  zaliznyak: св 6c
+  aspect: perf
+  aspect_pair: рассказывать
+  transitivity: trans
+  government: что кому о чём
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 讲完，讲一遍
+      en: to tell
+      examples:
+        - ru: Расскажи́те о свое́й семье́.
+          zh: 请讲讲您的家庭。
+
+- lemma: объяснять
+  stress: объясня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: объяснить
+  transitivity: trans
+  government: что кому
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 解释，说明
+      en: to explain
+      examples:
+        - ru: Учи́тель объясня́ет но́вое пра́вило.
+          zh: 老师在讲新规则。
+
+- lemma: объяснить
+  stress: объясни́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: объяснять
+  transitivity: trans
+  government: что кому
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 解释清楚（完成体）
+      en: to explain
+      examples:
+        - ru: Объясни́те мне, пожа́луйста, э́то сло́во.
+          zh: 请给我解释一下这个词。
+
+- lemma: повторять
+  stress: повторя́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: повторить
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 重复；复习
+      en: to repeat, to revise
+      examples:
+        - ru: Мы повторя́ем но́вые слова́.
+          zh: 我们在复习生词。
+
+- lemma: повторить
+  stress: повтори́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: повторять
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 重复一遍
+      en: to repeat
+      examples:
+        - ru: Повтори́те, пожа́луйста.
+          zh: 请再说一遍。
+
+- lemma: забывать
+  stress: забыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: забыть
+  transitivity: trans
+  government: что / о чём
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 忘记
+      en: to forget
+      examples:
+        - ru: Я всегда́ забыва́ю его́ и́мя.
+          zh: 我老忘他的名字。
+
+- lemma: забыть
+  stress: забы́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: забывать
+  transitivity: trans
+  government: что / о чём
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: забу́ду
+    futr,2per,sing: забу́дешь
+    futr,3per,sing: забу́дет
+    futr,1per,plur: забу́дем
+    futr,2per,plur: забу́дете
+    futr,3per,plur: забу́дут
+    past,masc: забы́л
+    past,femn: забы́ла
+    past,neut: забы́ло
+    past,plur: забы́ли
+    impr,sing: забу́дь
+    impr,plur: забу́дьте
+  senses:
+    - zh: 忘了（完成体）
+      en: to forget
+      examples:
+        - ru: Я забы́л свой телефо́н до́ма.
+          zh: 我把手机忘家里了。
+  common_errors: |
+    将来时词干是 забуд-，与不定式差别大：забу́ду，不是 забы́ю。
+
+- lemma: помнить
+  stress: по́мнить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  transitivity: trans
+  government: что / о чём
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 记得
+      en: to remember
+      examples:
+        - ru: Я хорошо́ по́мню э́тот день.
+          zh: 那天我记得很清楚。
+  antonyms: [забывать]
+
+- lemma: думать
+  stress: ду́мать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  government: о ком-чём
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 想，认为
+      en: to think
+      examples:
+        - ru: О чём ты ду́маешь?
+          zh: 你在想什么？
+        - ru: Я ду́маю, что он прав.
+          zh: 我认为他是对的。
+  common_errors: |
+    "想着某人／某事"用 о + 第六格：ду́мать о рабо́те。
+    表示"打算做"要用 собира́ться，不是 ду́мать。
+
+- lemma: знакомиться
+  stress: знако́миться
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: познакомиться
+  transitivity: intrans
+  reflexive: true
+  government: с кем-чем
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 认识，结识
+      en: to get acquainted
+      examples:
+        - ru: Мы знако́мимся с но́выми студе́нтами.
+          zh: 我们在认识新同学。
+
+- lemma: познакомиться
+  stress: познако́миться
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: знакомиться
+  transitivity: intrans
+  reflexive: true
+  government: с кем-чем
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 认识了（完成体）
+      en: to make acquaintance
+      examples:
+        - ru: О́чень прия́тно познако́миться!
+          zh: 很高兴认识您！
+  common_errors: |
+    "和某人认识"用 с + 第五格：познако́миться с ним。
+    «О́чень прия́тно» 单说就是"幸会"，是初次见面的固定用语。
+
+- lemma: опаздывать
+  stress: опа́здывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: опоздать
+  transitivity: intrans
+  government: куда / на что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 迟到
+      en: to be late
+      examples:
+        - ru: Он ча́сто опа́здывает на уро́к.
+          zh: 他常上课迟到。
+
+- lemma: опоздать
+  stress: опозда́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: опаздывать
+  transitivity: intrans
+  government: куда / на что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 迟到了（完成体）
+      en: to be late
+      examples:
+        - ru: Извини́те, я опозда́л.
+          zh: 对不起，我迟到了。
+  common_errors: |
+    "赶不上某车／某活动"用 на + 第四格：опозда́ть на по́езд / на уро́к。
+
+- lemma: готовить
+  stress: гото́вить
+  pos: verb
+  zaliznyak: нсв 4a
+  aspect: impf
+  aspect_pair: приготовить
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 做（饭）；准备
+      en: to cook, to prepare
+      examples:
+        - ru: Ма́ма гото́вит у́жин.
+          zh: 妈妈在做晚饭。
+  common_errors: |
+    第一人称单数有 л 插入音：гото́влю。
+
+- lemma: приготовить
+  stress: пригото́вить
+  pos: verb
+  zaliznyak: св 4a
+  aspect: perf
+  aspect_pair: готовить
+  transitivity: trans
+  government: что
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 做好，准备好
+      en: to prepare
+      examples:
+        - ru: Я пригото́вил всё к уро́ку.
+          zh: 上课要用的我都准备好了。
+
+- lemma: открывать
+  stress: открыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: открыть
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 打开
+      en: to open
+      examples:
+        - ru: Магази́н открыва́ется в де́вять.
+          zh: 商店九点开门。
+  antonyms: [закрывать]
+
+- lemma: открыть
+  stress: откры́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: открывать
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: откро́ю
+    futr,2per,sing: откро́ешь
+    futr,3per,sing: откро́ет
+    futr,1per,plur: откро́ем
+    futr,2per,plur: откро́ете
+    futr,3per,plur: откро́ют
+    past,masc: откры́л
+    past,femn: откры́ла
+    past,neut: откры́ло
+    past,plur: откры́ли
+    impr,sing: откро́й
+    impr,plur: откро́йте
+  senses:
+    - zh: 打开（完成体）
+      en: to open
+      examples:
+        - ru: Откро́йте, пожа́луйста, окно́.
+          zh: 请把窗户打开。
+  common_errors: |
+    将来时词干是 откро-，不是 откры-：откро́ю。закры́ть 同理（закро́ю）。
+
+- lemma: закрывать
+  stress: закрыва́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: закрыть
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 关，关闭
+      en: to close
+      examples:
+        - ru: Магази́н закрыва́ется в де́сять.
+          zh: 商店十点关门。
+  antonyms: [открывать]
+
+- lemma: закрыть
+  stress: закры́ть
+  pos: verb
+  aspect: perf
+  aspect_pair: закрывать
+  transitivity: trans
+  government: что
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    futr,1per,sing: закро́ю
+    futr,2per,sing: закро́ешь
+    futr,3per,sing: закро́ет
+    futr,1per,plur: закро́ем
+    futr,2per,plur: закро́ете
+    futr,3per,plur: закро́ют
+    past,masc: закры́л
+    past,femn: закры́ла
+    past,neut: закры́ло
+    past,plur: закры́ли
+    impr,sing: закро́й
+    impr,plur: закро́йте
+  senses:
+    - zh: 关上（完成体）
+      en: to close
+      examples:
+        - ru: Закро́йте дверь, пожа́луйста.
+          zh: 请把门关上。

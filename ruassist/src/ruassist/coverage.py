@@ -49,18 +49,27 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Lexicon coverage report")
     parser.add_argument("--lexicon", type=Path, default=Path("data/lexicon"))
     parser.add_argument(
-        "--wordlist", type=Path, default=Path("data/wordlists/core_a1.yaml")
+        "--wordlist",
+        type=Path,
+        default=Path("data/wordlists"),
+        help="a wordlist file, or a directory of them (the default)",
     )
     parser.add_argument(
         "--missing", action="store_true", help="list only the missing lemmas"
     )
     args = parser.parse_args(argv)
 
-    if not args.wordlist.is_file():
+    if args.wordlist.is_dir():
+        paths = sorted(args.wordlist.glob("*.yaml"))
+    elif args.wordlist.is_file():
+        paths = [args.wordlist]
+    else:
         print(f"wordlist not found: {args.wordlist}", file=sys.stderr)
         return 2
+    if not paths:
+        print(f"no wordlists in {args.wordlist}", file=sys.stderr)
+        return 2
 
-    wordlist = load_wordlist(args.wordlist)
     lexicon, issues = load_dir(args.lexicon)
     if issues:
         print("lexicon has parse errors; run validate first", file=sys.stderr)
@@ -69,32 +78,37 @@ def main(argv: list[str] | None = None) -> int:
     have = {search_key(e.lemma) for e in lexicon.entries}
 
     if args.missing:
-        for lemma in wordlist.lemmas:
-            if search_key(lemma) not in have:
-                print(lemma)
+        for path in paths:
+            for lemma in load_wordlist(path).lemmas:
+                if search_key(lemma) not in have:
+                    print(lemma)
         return 0
+
+    for n, path in enumerate(paths):
+        if n:
+            print()
+        _report(load_wordlist(path), have, len(lexicon))
+    return 0
+
+
+def _report(wordlist, have: set[str], lexicon_size: int) -> None:
 
     print(f"目标词表：{wordlist.name}")
     if not wordlist.official:
         print("  ⚠ 自建词表，非官方考纲。拿到官方词表后需比对补齐。")
     print()
 
-    total_done = 0
     for theme, words in wordlist.themes.items():
         done = sum(1 for w in words if search_key(w) in have)
-        total_done += done
         bar = _bar(done, len(words))
         print(f"  {theme:<12} {bar} {done:>3}/{len(words)}")
 
     targets = wordlist.lemmas
     covered = sum(1 for w in targets if search_key(w) in have)
-    extra = len(lexicon) - covered
 
     print()
     print(f"  词表覆盖   {covered}/{len(targets)}  ({covered / len(targets):.0%})")
-    print(f"  词表外词条 {extra}")
-    print(f"  词库总数   {len(lexicon)}")
-    return 0
+    print(f"  词库总数   {lexicon_size}")
 
 
 def _bar(done: int, total: int, width: int = 20) -> str:

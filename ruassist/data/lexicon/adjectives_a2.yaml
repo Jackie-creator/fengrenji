@@ -1,0 +1,302 @@
+# A2/B1 adjectives and adverbs.
+
+- lemma: важный
+  stress: ва́жный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: важне́е
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 重要的
+      en: important
+      examples:
+        - ru: Э́то о́чень ва́жный вопро́с.
+          zh: 这是个很重要的问题。
+
+- lemma: нужный
+  stress: ну́жный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 需要的，必要的
+      en: necessary
+      examples:
+        - ru: Э́то ну́жная кни́га.
+          zh: 这是本用得上的书。
+  common_errors: |
+    短尾 ну́жен / нужна́ / ну́жно / нужны́ 用得比长尾多得多，而且句型特别：
+    «Мне нужна́ кни́га» 我需要一本书——需要的人用第三格，需要的东西是主语，
+    短尾要跟着它变性数。这与 нра́виться 是同一个逻辑。
+
+- lemma: свободный
+  stress: свобо́дный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 空闲的；自由的
+      en: free
+      examples:
+        - ru: Ты свобо́ден за́втра?
+          zh: 你明天有空吗？
+
+- lemma: занятый
+  stress: за́нятый
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 忙的；被占用的
+      en: busy, occupied
+      examples:
+        - ru: Извини́те, я сейча́с за́нят.
+          zh: 抱歉，我现在很忙。
+  common_errors: |
+    日常几乎只用短尾：за́нят / занята́ / за́нято / за́няты，阴性重音在词尾。
+  verify: [zaliznyak]
+
+- lemma: быстрый
+  stress: бы́стрый
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: быстре́е
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 快的
+      en: fast
+      examples:
+        - ru: Э́то са́мый бы́стрый по́езд.
+          zh: 这是最快的火车。
+  antonyms: [медленный]
+
+- lemma: медленный
+  stress: ме́дленный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: медле́ннее
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 慢的
+      en: slow
+      examples:
+        - ru: Э́то о́чень ме́дленный авто́бус.
+          zh: 这趟车很慢。
+  antonyms: [быстрый]
+
+- lemma: сильный
+  stress: си́льный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: сильне́е
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 强的，有力的；（雨雪）大的
+      en: strong
+      collocations: [си́льный дождь, си́льный ве́тер]
+      examples:
+        - ru: На у́лице си́льный ве́тер.
+          zh: 外面风很大。
+  common_errors: |
+    "雨大／风大"用 си́льный，不能照汉语说 большо́й дождь。
+  antonyms: [слабый]
+
+- lemma: слабый
+  stress: сла́бый
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: слабе́е
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 弱的
+      en: weak
+      examples:
+        - ru: У него́ сла́бое здоро́вье.
+          zh: 他身体不好。
+  antonyms: [сильный]
+
+- lemma: чистый
+  stress: чи́стый
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: чи́ще
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 干净的
+      en: clean
+      examples:
+        - ru: В ко́мнате чи́сто.
+          zh: 房间里很干净。
+  antonyms: [грязный]
+
+- lemma: грязный
+  stress: гря́зный
+  pos: adj
+  zaliznyak: п 1*a
+  short_form: true
+  comparative: грязне́е
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 脏的
+      en: dirty
+      examples:
+        - ru: У тебя́ гря́зные ру́ки.
+          zh: 你手脏了。
+  antonyms: [чистый]
+
+- lemma: тихий
+  stress: ти́хий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: ти́ше
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 安静的；轻的
+      en: quiet
+      examples:
+        - ru: Здесь о́чень ти́хо.
+          zh: 这儿很安静。
+  antonyms: [громкий]
+
+- lemma: громкий
+  stress: гро́мкий
+  pos: adj
+  zaliznyak: п 3a*
+  short_form: true
+  comparative: гро́мче
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 响的，大声的
+      en: loud
+      examples:
+        - ru: Не говори́ так гро́мко.
+          zh: 别说这么大声。
+  antonyms: [тихий]
+
+- lemma: теперь
+  stress: тепе́рь
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 现在（与过去对比）
+      en: now
+      examples:
+        - ru: Ра́ньше он жил в Москве́, тепе́рь — в Пеки́не.
+          zh: 他以前住莫斯科，现在住北京。
+  common_errors: |
+    与 сейча́с 分工：сейча́с 是"此刻"，тепе́рь 强调"与从前不同的现在"。
+
+- lemma: потом
+  stress: пото́м
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 然后，后来
+      en: then, later
+      examples:
+        - ru: Снача́ла пообе́даем, пото́м пойдём.
+          zh: 先吃饭，然后走。
+
+- lemma: сразу
+  stress: сра́зу
+  pos: adv
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 立刻，马上
+      en: at once
+      examples:
+        - ru: Он сра́зу по́нял.
+          zh: 他一下就明白了。
+
+- lemma: скоро
+  stress: ско́ро
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 很快，不久
+      en: soon
+      examples:
+        - ru: Ско́ро ле́то.
+          zh: 快到夏天了。
+
+- lemma: рано
+  stress: ра́но
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 早
+      en: early
+      examples:
+        - ru: Я встаю́ о́чень ра́но.
+          zh: 我起得很早。
+  antonyms: [поздно]
+
+- lemma: поздно
+  stress: по́здно
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 晚，迟
+      en: late
+      examples:
+        - ru: Уже́ по́здно, пора́ домо́й.
+          zh: 太晚了，该回家了。
+  common_errors: |
+    д 不发音，读作 [по́зна]。比较级是 по́зже。
+  antonyms: [рано]
+
+- lemma: долго
+  stress: до́лго
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 久，长时间
+      en: for a long time
+      examples:
+        - ru: Мы до́лго жда́ли.
+          zh: 我们等了很久。
+
+- lemma: вместе
+  stress: вме́сте
+  pos: adv
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 一起
+      en: together
+      examples:
+        - ru: Пойдём вме́сте.
+          zh: 咱们一起去。
+  notes: |
+    "和某人一起"用 вме́сте с + 第五格：вме́сте с дру́гом。
+
+- lemma: обязательно
+  stress: обяза́тельно
+  pos: adv
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 一定，务必
+      en: definitely
+      examples:
+        - ru: Я обяза́тельно приду́.
+          zh: 我一定来。
+
+- lemma: наверное
+  stress: наве́рное
+  pos: adv
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 大概，可能
+      en: probably
+      examples:
+        - ru: Он, наве́рное, уже́ ушёл.
+          zh: 他大概已经走了。

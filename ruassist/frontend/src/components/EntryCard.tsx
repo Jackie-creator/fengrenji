@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { Entry, Result } from "../dictionary";
 import { forDisplay } from "../stress";
 import { ParadigmTable } from "./ParadigmTable";
+import { SpeakButton } from "./SpeakButton";
 
 const POS_LABEL: Record<string, string> = {
   noun: "名词", verb: "动词", adj: "形容词", adv: "副词",
@@ -51,6 +52,7 @@ export function EntryCard({
           {forDisplay(entry.s, showStress)}
           {entry.hom ? <sup>{entry.hom}</sup> : null}
         </h2>
+        <SpeakButton text={entry.s} />
         <div className="badges">
           {badges(entry).map((b) => (
             <span className="badge" key={b}>{b}</span>
@@ -97,7 +99,10 @@ export function EntryCard({
             {sense.col && <div className="collocations">{sense.col.map((c) => forDisplay(c, showStress)).join(" · ")}</div>}
             {sense.ex?.map(([ru, zh], k) => (
               <div className="example" key={k}>
-                <div className="ru">{forDisplay(ru, showStress)}</div>
+                <div className="ru">
+                  {forDisplay(ru, showStress)}
+                  <SpeakButton text={ru} />
+                </div>
                 <div className="zh">{zh}</div>
               </div>
             ))}

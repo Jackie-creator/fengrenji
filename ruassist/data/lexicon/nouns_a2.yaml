@@ -1,0 +1,722 @@
+# A2/B1 nouns: seasons, people, places, nature.
+
+# --- Seasons and weather ----------------------------------------------------
+
+- lemma: погода
+  stress: пого́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 天气
+      en: weather
+      examples:
+        - ru: Кака́я сего́дня пого́да?
+          zh: 今天天气怎么样？
+
+- lemma: весна
+  stress: весна́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: вёсны
+    plur,gent: вёсен
+  senses:
+    - zh: 春天
+      en: spring
+      examples:
+        - ru: Весно́й здесь о́чень краси́во.
+          zh: 春天这儿很美。
+  notes: |
+    "在春天"用第五格 весно́й（副词化），不带前置词。
+    同组：ле́том 夏天、о́сенью 秋天、зимо́й 冬天——注意 о́сенью 重音在词干。
+
+- lemma: лето
+  stress: ле́то
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 夏天
+      en: summer
+      examples:
+        - ru: Ле́том мы е́здим на мо́ре.
+          zh: 夏天我们去海边。
+  notes: |
+    год 的复数第二格 лет 就是从这个词来的：пять лет。
+
+- lemma: осень
+  stress: о́сень
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 秋天
+      en: autumn
+      examples:
+        - ru: О́сенью ча́сто идёт дождь.
+          zh: 秋天常下雨。
+  common_errors: |
+    "在秋天"是 о́сенью，重音在词干；而 весно́й / зимо́й 重音在词尾。这组要分开记。
+
+- lemma: зима
+  stress: зима́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: зи́му
+    plur,nomn: зи́мы
+  senses:
+    - zh: 冬天
+      en: winter
+      examples:
+        - ru: Зимо́й в Москве́ о́чень хо́лодно.
+          zh: 冬天莫斯科很冷。
+
+# --- People -----------------------------------------------------------------
+
+- lemma: мужчина
+  stress: мужчи́на
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 男人
+      en: man
+      examples:
+        - ru: Э́тот мужчи́на — мой сосе́д.
+          zh: 这个男人是我邻居。
+  common_errors: |
+    **阳性名词，却按阴性第一变格法变格**：мужчи́ны / мужчи́не / мужчи́ну。
+    但修饰它的形容词仍用阳性：«молодо́й мужчи́на»，不是 молода́я。
+    同类的还有 па́па、де́душка、дя́дя、ю́ноша。
+    形式看着像阴性、语法性别是阳性——这是俄语最容易错的一类词。
+
+- lemma: женщина
+  stress: же́нщина
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 女人
+      en: woman
+      examples:
+        - ru: Э́та же́нщина рабо́тает врачо́м.
+          zh: 这位女士是医生。
+
+- lemma: девушка
+  stress: де́вушка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 姑娘，年轻女子；女朋友
+      en: girl, young woman
+      examples:
+        - ru: Э́то моя́ де́вушка.
+          zh: 这是我女朋友。
+  notes: |
+    也是招呼年轻女服务员的常用语，相当于"小姐／服务员"。
+    复数第二格有逃逸元音：де́вушек。
+
+- lemma: мальчик
+  stress: ма́льчик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 男孩
+      en: boy
+      examples:
+        - ru: Ма́льчик игра́ет во дворе́.
+          zh: 男孩在院子里玩。
+
+- lemma: врач
+  stress: врач
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 4b
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 医生
+      en: doctor
+      examples:
+        - ru: Мне ну́жно к врачу́.
+          zh: 我得去看医生。
+  notes: |
+    不分性别，女医生也叫 врач：«Она́ хоро́ший врач»（形容词用阳性）。
+
+- lemma: инженер
+  stress: инжене́р
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 工程师
+      en: engineer
+      examples:
+        - ru: Мой брат — инжене́р.
+          zh: 我哥哥是工程师。
+
+# --- Places -----------------------------------------------------------------
+
+- lemma: театр
+  stress: теа́тр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 剧院
+      en: theatre
+      examples:
+        - ru: Вчера́ мы бы́ли в теа́тре.
+          zh: 昨天我们去了剧院。
+
+- lemma: кино
+  stress: кино́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 电影；电影院
+      en: cinema, film
+      examples:
+        - ru: Пойдём в кино́!
+          zh: 咱们去看电影吧！
+  common_errors: |
+    不变格：в кино́ / из кино́ / о кино́ 形式都一样。与 метро́、пальто́ 同类。
+
+- lemma: музей
+  stress: музе́й
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 博物馆
+      en: museum
+      examples:
+        - ru: В го́роде мно́го музе́ев.
+          zh: 城里有很多博物馆。
+  verify: [zaliznyak]
+
+- lemma: парк
+  stress: парк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 公园
+      en: park
+      examples:
+        - ru: Мы гуля́ли в па́рке.
+          zh: 我们在公园散步。
+
+- lemma: больница
+  stress: больни́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 医院
+      en: hospital
+      examples:
+        - ru: Он рабо́тает в больни́це.
+          zh: 他在医院工作。
+
+- lemma: аптека
+  stress: апте́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 药店
+      en: pharmacy
+      examples:
+        - ru: Апте́ка нахо́дится ря́дом.
+          zh: 药店就在旁边。
+
+- lemma: гостиница
+  stress: гости́ница
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 旅馆，酒店
+      en: hotel
+      examples:
+        - ru: Мы живём в гости́нице.
+          zh: 我们住在酒店。
+
+- lemma: почта
+  stress: по́чта
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 邮局；邮件
+      en: post office, mail
+      examples:
+        - ru: Я иду́ на по́чту.
+          zh: 我去邮局。
+  common_errors: |
+    "去邮局／在邮局"用 на：на по́чту / на по́чте，不是 в。这类只能硬记。
+
+- lemma: банк
+  stress: банк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 银行
+      en: bank
+      examples:
+        - ru: Банк рабо́тает до шести́.
+          zh: 银行营业到六点。
+
+# --- Things -----------------------------------------------------------------
+
+- lemma: письмо
+  stress: письмо́
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1*d
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: пи́сем
+  senses:
+    - zh: 信
+      en: letter
+      examples:
+        - ru: Я написа́л ему́ письмо́.
+          zh: 我给他写了封信。
+  common_errors: |
+    复数第二格有逃逸元音且 ь 消失：пи́сем，不是 письм。
+
+- lemma: газета
+  stress: газе́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 报纸
+      en: newspaper
+      examples:
+        - ru: Он чита́ет газе́ту.
+          zh: 他在看报。
+
+- lemma: журнал
+  stress: журна́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 杂志
+      en: magazine
+      examples:
+        - ru: Э́то интере́сный журна́л.
+          zh: 这是本有意思的杂志。
+
+- lemma: фильм
+  stress: фильм
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 电影，影片
+      en: film
+      examples:
+        - ru: Мы посмотре́ли но́вый фильм.
+          zh: 我们看了部新电影。
+
+- lemma: песня
+  stress: пе́сня
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: пе́сен
+  senses:
+    - zh: 歌，歌曲
+      en: song
+      examples:
+        - ru: Мне нра́вится э́та пе́сня.
+          zh: 我喜欢这首歌。
+
+- lemma: музыка
+  stress: му́зыка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 音乐
+      en: music
+      examples:
+        - ru: Я слу́шаю му́зыку.
+          zh: 我在听音乐。
+
+- lemma: телефон
+  stress: телефо́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 电话；手机
+      en: telephone
+      examples:
+        - ru: Э́то мой но́мер телефо́на.
+          zh: 这是我的电话号码。
+
+- lemma: номер
+  stress: но́мер
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 号码；房间号
+      en: number, hotel room
+      examples:
+        - ru: Како́й у вас но́мер?
+          zh: 您住几号房？
+  common_errors: |
+    复数是 номера́（重音在词尾），与 го́род → города́ 同型。
+
+- lemma: адрес
+  stress: а́дрес
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 地址
+      en: address
+      examples:
+        - ru: Напиши́те ваш а́дрес.
+          zh: 请写下您的地址。
+
+- lemma: проблема
+  stress: пробле́ма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 问题，难题
+      en: problem
+      examples:
+        - ru: Э́то серьёзная пробле́ма.
+          zh: 这是个严重的问题。
+  notes: |
+    与 вопро́с 分工：вопро́с 是"提出来的问题"，пробле́ма 是"待解决的难题"。
+
+- lemma: ошибка
+  stress: оши́бка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: оши́бок
+  senses:
+    - zh: 错误
+      en: mistake
+      collocations: [де́лать оши́бки, исправля́ть оши́бки]
+      examples:
+        - ru: Он сде́лал две оши́бки.
+          zh: 他犯了两个错误。
+
+- lemma: правда
+  stress: пра́вда
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 真话，实情
+      en: truth
+      examples:
+        - ru: Э́то пра́вда.
+          zh: 这是真的。
+  notes: |
+    也常作插入语，相当于"是吧？／真的吗？"：«Пра́вда?» / «…, пра́вда?»
+
+- lemma: цена
+  stress: цена́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,accs: це́ну
+    plur,nomn: це́ны
+  senses:
+    - zh: 价格
+      en: price
+      examples:
+        - ru: Кака́я цена́?
+          zh: 多少钱？
+
+- lemma: рубль
+  stress: рубль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2b
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 卢布
+      en: rouble
+      examples:
+        - ru: Э́то сто рубле́й.
+          zh: 这是一百卢布。
+  common_errors: |
+    数词后形式：оди́н рубль / два рубля́ / пять рубле́й。重音全程在词尾。
+  verify: [zaliznyak]
+
+# --- Nature and animals -----------------------------------------------------
+
+- lemma: солнце
+  stress: со́лнце
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 5a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 太阳
+      en: sun
+      examples:
+        - ru: Сего́дня я́ркое со́лнце.
+          zh: 今天太阳很好。
+  common_errors: |
+    л 不发音，读作 [со́нце]。同类不发音的还有 здра́вствуйте [здра́ствуйте]、
+    что [што]。
+  verify: [zaliznyak]
+
+- lemma: небо
+  stress: не́бо
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [A2, ТРКИ-1]
+  senses:
+    - zh: 天，天空
+      en: sky
+      examples:
+        - ru: Не́бо сего́дня голубо́е.
+          zh: 今天天很蓝。
+  notes: |
+    "蓝天"用 голубо́е не́бо（浅蓝），不是 си́нее。参见 си́ний 的说明。
+
+- lemma: море
+  stress: мо́ре
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 2c
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 海
+      en: sea
+      examples:
+        - ru: Ле́том мы е́здим на мо́ре.
+          zh: 夏天我们去海边。
+  common_errors: |
+    "去海边／在海边"用 на：на мо́ре，不是 в。
+  verify: [zaliznyak]
+
+- lemma: река
+  stress: река́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3d
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,accs: ре́ку
+    plur,nomn: ре́ки
+  senses:
+    - zh: 河，江
+      en: river
+      examples:
+        - ru: Мы гуля́ли у реки́.
+          zh: 我们在河边散步。
+  notes: |
+    与 рука́ 同一重音型：单数词尾重音，宾格 ре́ку 例外。
+
+- lemma: гора
+  stress: гора́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1d
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    sing,accs: го́ру
+    plur,nomn: го́ры
+  senses:
+    - zh: 山
+      en: mountain
+      examples:
+        - ru: За го́родом высо́кие го́ры.
+          zh: 城外有高山。
+
+- lemma: лес
+  stress: лес
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1c(1)
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    sing,loc2: лесу́
+  senses:
+    - zh: 森林，树林
+      en: forest
+      examples:
+        - ru: Мы гуля́ли в лесу́.
+          zh: 我们在林子里散步。
+  common_errors: |
+    "在林子里"用处所格 в лесу́（重音在词尾），不是 в ле́се。
+    这类词还有 сад（в саду́）、год（в году́）、бе́рег（на берегу́）。
+
+- lemma: дерево
+  stress: де́рево
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [A2, 高考, ТРКИ-1]
+  form_overrides:
+    plur,nomn: дере́вья
+    plur,gent: дере́вьев
+    plur,datv: дере́вьям
+    plur,ablt: дере́вьями
+    plur,loct: дере́вьях
+  senses:
+    - zh: 树；木头
+      en: tree, wood
+      examples:
+        - ru: Э́ти дере́вья о́чень ста́рые.
+          zh: 这些树很老了。
+  common_errors: |
+    复数是 -ья 型：дере́вья / дере́вьев，与 брат → бра́тья、стул → сту́лья 同型。
+
+- lemma: цветок
+  stress: цвето́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [A2, ТРКИ-1]
+  form_overrides:
+    plur,nomn: цветы́
+    plur,gent: цвето́в
+    plur,datv: цвета́м
+    plur,accs: цветы́
+    plur,ablt: цвета́ми
+    plur,loct: цвета́х
+  senses:
+    - zh: 花
+      en: flower
+      examples:
+        - ru: Он подари́л ей цветы́.
+          zh: 他送了她花。
+  common_errors: |
+    复数换了词干：цвето́к → цветы́（不是 цветки́，那是"小花／花冠"的意思）。
+
+- lemma: собака
+  stress: соба́ка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 狗
+      en: dog
+      examples:
+        - ru: У них больша́я соба́ка.
+          zh: 他们有条大狗。
+  common_errors: |
+    动物名词，复数第四格与第二格同形：«Я ви́жу соба́к»。
+
+- lemma: кошка
+  stress: ко́шка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  form_overrides:
+    plur,gent: ко́шек
+  senses:
+    - zh: 猫
+      en: cat
+      examples:
+        - ru: На́ша ко́шка спит на дива́не.
+          zh: 我们家猫在沙发上睡觉。

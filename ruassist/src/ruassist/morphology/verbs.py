@@ -16,7 +16,13 @@ from __future__ import annotations
 
 from ..schema import Aspect, LexEntry
 from ..stress import count_vowels, strip_stress, stress_index
-from .forms import Form, canonical_tag, stress_on_ending, stress_on_stem
+from .forms import (
+    Form,
+    canonical_tag,
+    place_stress,
+    stress_on_ending,
+    stress_on_stem,
+)
 from .zaliznyak import ENDING, Index, UnsupportedIndex, parse, verb_present_stress
 
 HUSHING = frozenset("жшчщ")
@@ -66,6 +72,12 @@ def inflect_verb(entry: LexEntry) -> dict[str, Form]:
         )
 
     lemma = strip_stress(entry.lemma)
+    # Reflexives are conjugated as their plain stem, then the postfix goes back
+    # on: занима́ться -> занима́ю -> занима́юсь. Doing it the other way round
+    # would need every rule above to know about -ся.
+    reflexive = lemma.endswith(("ся", "сь"))
+    if reflexive:
+        lemma = lemma[:-2]
     if not lemma.endswith("ть"):
         raise UnsupportedIndex(f"{entry.lemma}: infinitive does not end in -ть")
 
@@ -76,7 +88,30 @@ def inflect_verb(entry: LexEntry) -> dict[str, Form]:
     cells |= _personal(entry, index, lemma, infinitive_ordinal)
     cells |= _past(entry, lemma, infinitive_ordinal)
     cells |= _imperative(entry, index, lemma)
+
+    if reflexive:
+        cells = {
+            tag: Form.make(_add_postfix(form.text), form.tags)
+            for tag, form in cells.items()
+            if tag != canonical_tag({"infn"})
+        } | {canonical_tag({"infn"}): Form.make(entry.stress, {"infn"})}
     return cells
+
+
+def _add_postfix(form: str) -> str:
+    """-сь after a vowel, -ся after a consonant or soft sign.
+
+    занима́юсь / занима́ешься / занима́ется / занима́емся / занима́етесь /
+    занима́ются -- the alternation is purely phonetic and exceptionless.
+
+    A monosyllabic base carries no stress mark by convention, but the postfix
+    makes it polysyllabic, so the mark has to be added: нравь -> нра́вься.
+    """
+    plain = strip_stress(form)
+    result = form + ("сь" if plain[-1] in VOWELS else "ся")
+    if count_vowels(plain) == 1 and "ё" not in plain:
+        return place_stress(result, 0)
+    return result
 
 
 # --- Personal forms ---------------------------------------------------------

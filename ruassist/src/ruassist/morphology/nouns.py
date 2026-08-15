@@ -77,14 +77,16 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
 
     index = parse(entry.zaliznyak)
     lemma = strip_stress(entry.lemma)
+    # Declension shape, which may differ from grammatical gender (мужчи́на).
+    gender = declension_gender(lemma, entry.gender)
     stem = _stem(lemma, entry.gender, index)
     stem_ordinal = _stem_stress_ordinal(entry, stem)
-    oblique_stem = _drop_fleeting(stem) if index.fleeting and entry.gender is Gender.MASC else stem
+    oblique_stem = _drop_fleeting(stem) if index.fleeting and gender is Gender.MASC else stem
 
     cells: dict[str, Form] = {}
     for number in ("sing", "plur"):
         for case in CASES:
-            ending = _ending(entry.gender, index, number, case)
+            ending = _ending(gender, index, number, case)
             if ending is None:
                 continue
             use_stem = stem if (number == "sing" and case == "nomn") else oblique_stem
@@ -105,8 +107,8 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
             cells[canonical_tag(tags)] = Form.make(text, tags)
 
         # Feminine -а/-я has its own accusative singular; everything else copies.
-        if number == "sing" and entry.gender is Gender.FEMN:
-            acc_ending = _ending(entry.gender, index, "sing", "accs")
+        if number == "sing" and gender is Gender.FEMN:
+            acc_ending = _ending(gender, index, "sing", "accs")
             if acc_ending is not None and acc_ending not in ("ь",):
                 text = _assemble(
                     entry.lemma, stem, acc_ending, index, "sing", "accs", stem_ordinal
@@ -136,8 +138,22 @@ def _indeclinable(entry: LexEntry) -> dict[str, Form]:
     return cells
 
 
+def declension_gender(lemma: str, gender: Gender) -> Gender:
+    """Which ending set to use, which is not always the grammatical gender.
+
+    мужчи́на, па́па and де́душка are masculine -- adjectives agree with them in
+    the masculine -- but they decline exactly like feminine -а nouns. Grammatical
+    gender governs agreement; the ending shape governs declension, and here the
+    two come apart.
+    """
+    if gender is Gender.MASC and lemma[-1] in "ая":
+        return Gender.FEMN
+    return gender
+
+
 def _stem(lemma: str, gender: Gender, index: Index) -> str:
     """Strip the nominative-singular ending to get the stem."""
+    gender = declension_gender(lemma, gender)
     if gender is Gender.MASC:
         return lemma[:-1] if lemma[-1] in "ьй" else lemma
     if gender is Gender.FEMN:

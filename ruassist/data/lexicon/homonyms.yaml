@@ -113,6 +113,7 @@
   stress: стать
   pos: verb
   aspect: perf
+  aspect_pair: становиться
   transitivity: intrans
   government: кем-чем
   level: [A1, 高考, ТРКИ-1]
