@@ -1,0 +1,1021 @@
+# Health and medicine; sport.
+#
+# Both are domains where a learner needs the words under pressure -- at a
+# clinic, or following a match -- and where the phrasebook layer runs out fast.
+# Case government is noted on the medical verbs' nouns because "болеть чем" vs.
+# "болеть за кого" is a live trap.
+
+- lemma: лечение
+  stress: лече́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 治疗
+      en: treatment
+      examples:
+        - ru: Лече́ние продолжа́ется ме́сяц.
+          zh: 治疗要持续一个月。
+
+- lemma: таблетка
+  stress: табле́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 药片
+      en: tablet, pill
+      examples:
+        - ru: Прими́ табле́тку от головы́.
+          zh: 吃片头疼药。
+
+- lemma: лекарство
+  stress: лека́рство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 药
+      en: medicine
+      government: от чего
+      examples:
+        - ru: Э́то лека́рство от ка́шля.
+          zh: 这是止咳药。
+  common_errors: |
+    "治什么病的药"用 от + 第二格：лека́рство от гри́ппа。
+    汉语说"治感冒的药"，俄语的 от 字面是"防、去"。
+
+- lemma: укол
+  stress: уко́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 打针
+      en: injection
+      examples:
+        - ru: Ему́ сде́лали уко́л.
+          zh: 给他打了一针。
+
+- lemma: операция
+  stress: опера́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 手术；行动
+      en: operation
+      examples:
+        - ru: Опера́ция прошла́ успе́шно.
+          zh: 手术很顺利。
+
+- lemma: диагноз
+  stress: диа́гноз
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 诊断
+      en: diagnosis
+      examples:
+        - ru: Врач поста́вил диа́гноз.
+          zh: 医生下了诊断。
+  notes: |
+    "下诊断"是 поста́вить диа́гноз，动词是"放置"，不是"做"。
+
+- lemma: симптом
+  stress: симпто́м
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 症状
+      en: symptom
+      examples:
+        - ru: Каки́е у вас симпто́мы?
+          zh: 您有什么症状？
+
+- lemma: давление
+  stress: давле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 血压；压力
+      en: blood pressure; pressure
+      examples:
+        - ru: У неё высо́кое давле́ние.
+          zh: 她血压高。
+
+- lemma: грипп
+  stress: грипп
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 流感
+      en: flu
+      examples:
+        - ru: Он боле́ет гри́ппом.
+          zh: 他得了流感。
+  common_errors: |
+    "得某病"用 боле́ть + 第五格：боле́ть гри́ппом。
+    боле́ть за кого 是"给谁加油"，完全另一回事。
+
+- lemma: насморк
+  stress: на́сморк
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 鼻塞，流鼻涕
+      en: runny nose, cold
+      examples:
+        - ru: У меня́ на́сморк.
+          zh: 我鼻子不通气。
+
+- lemma: аллергия
+  stress: аллерги́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 过敏
+      en: allergy
+      government: на что
+      examples:
+        - ru: У меня́ аллерги́я на оре́хи.
+          zh: 我对坚果过敏。
+
+- lemma: витамин
+  stress: витами́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 维生素
+      en: vitamin
+      examples:
+        - ru: Во фру́ктах мно́го витами́нов.
+          zh: 水果里维生素很多。
+
+- lemma: диета
+  stress: дие́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 饮食，节食
+      en: diet
+      examples:
+        - ru: Она́ сиди́т на дие́те.
+          zh: 她在节食。
+  notes: |
+    "在节食"是 сиде́ть на дие́те，动词用"坐"，是固定搭配。
+
+- lemma: режим
+  stress: режи́м
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 作息，制度
+      en: regime, routine
+      examples:
+        - ru: Ну́жно соблюда́ть режи́м дня.
+          zh: 得按作息来。
+
+- lemma: поликлиника
+  stress: поликли́ника
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 门诊部，社区医院
+      en: outpatient clinic
+      examples:
+        - ru: Я записа́лся в поликли́нику.
+          zh: 我在门诊挂了号。
+  notes: |
+    俄式医疗里 поликли́ника 是日常看门诊的地方，больни́ца 是住院的医院。
+
+- lemma: палата
+  stress: пала́та
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 病房
+      en: hospital ward
+      examples:
+        - ru: Он лежи́т в пала́те но́мер пять.
+          zh: 他住在五号病房。
+
+- lemma: анализ
+  stress: ана́лиз
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 化验；分析
+      en: test; analysis
+      examples:
+        - ru: Ну́жно сдать ана́лизы.
+          zh: 需要做化验。
+  notes: |
+    "做化验"是 сдать ана́лизы（把样本交上去），不是 *сде́лать。
+
+- lemma: прививка
+  stress: приви́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 疫苗接种
+      en: vaccination
+      government: от чего
+      examples:
+        - ru: Он сде́лал приви́вку от гри́ппа.
+          zh: 他打了流感疫苗。
+
+- lemma: бинт
+  stress: бинт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 绷带
+      en: bandage
+      examples:
+        - ru: Ру́ку перевяза́ли бинто́м.
+          zh: 手用绷带包上了。
+
+- lemma: пластырь
+  stress: пла́стырь
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 创可贴
+      en: sticking plaster
+      examples:
+        - ru: Дай мне пла́стырь.
+          zh: 给我个创可贴。
+
+- lemma: мазь
+  stress: мазь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 药膏
+      en: ointment
+      examples:
+        - ru: Врач вы́писал мазь.
+          zh: 医生开了药膏。
+
+- lemma: шприц
+  stress: шприц
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 注射器
+      en: syringe
+      examples:
+        - ru: Медсестра́ взяла́ шприц.
+          zh: 护士拿起了注射器。
+
+- lemma: термометр
+  stress: термо́метр
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 体温计，温度计
+      en: thermometer
+      examples:
+        - ru: Термо́метр пока́зывает три́дцать во́семь.
+          zh: 体温计显示三十八度。
+
+- lemma: пациент
+  stress: пацие́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 病人
+      en: patient
+      examples:
+        - ru: Врач при́нял пацие́нта.
+          zh: 医生接诊了病人。
+
+- lemma: хирург
+  stress: хиру́рг
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 外科医生
+      en: surgeon
+      examples:
+        - ru: Опери́ровал о́пытный хиру́рг.
+          zh: 主刀的是位有经验的外科医生。
+
+- lemma: стоматолог
+  stress: стомато́лог
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 牙医
+      en: dentist
+      examples:
+        - ru: Я иду́ к стомато́логу.
+          zh: 我去看牙医。
+
+- lemma: рана
+  stress: ра́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 伤口
+      en: wound
+      examples:
+        - ru: Ра́на бы́стро зажила́.
+          zh: 伤口很快就好了。
+
+- lemma: ожог
+  stress: ожо́г
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 烧伤，烫伤
+      en: burn
+      examples:
+        - ru: У него́ ожо́г на руке́.
+          zh: 他手上有烫伤。
+
+- lemma: перелом
+  stress: перело́м
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 骨折
+      en: fracture
+      examples:
+        - ru: У неё перело́м ноги́.
+          zh: 她腿骨折了。
+
+- lemma: синяк
+  stress: синя́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 淤青
+      en: bruise
+      examples:
+        - ru: На коле́не синя́к.
+          zh: 膝盖上有块淤青。
+
+- lemma: травма
+  stress: тра́вма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 外伤；创伤
+      en: injury, trauma
+      examples:
+        - ru: Он получи́л тра́вму на трениро́вке.
+          zh: 他训练时受了伤。
+
+- lemma: инфекция
+  stress: инфе́кция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 感染
+      en: infection
+      examples:
+        - ru: Э́то ви́русная инфе́кция.
+          zh: 这是病毒感染。
+
+- lemma: вирус
+  stress: ви́рус
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 病毒
+      en: virus
+      examples:
+        - ru: Ви́рус бы́стро распространя́ется.
+          zh: 病毒传播得很快。
+
+- lemma: иммунитет
+  stress: иммуните́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 免疫力
+      en: immunity
+      examples:
+        - ru: Ну́жно укрепля́ть иммуните́т.
+          zh: 得增强免疫力。
+
+- lemma: самочувствие
+  stress: самочу́вствие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 身体感觉，状态
+      en: how one feels
+      examples:
+        - ru: Как ва́ше самочу́вствие?
+          zh: 您感觉怎么样？
+
+- lemma: бессонница
+  stress: бессо́нница
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 失眠
+      en: insomnia
+      examples:
+        - ru: Он страда́ет бессо́нницей.
+          zh: 他有失眠的毛病。
+
+- lemma: стресс
+  stress: стресс
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 压力，紧张
+      en: stress
+      examples:
+        - ru: Он живёт в постоя́нном стре́ссе.
+          zh: 他一直处在压力里。
+
+- lemma: депрессия
+  stress: депре́ссия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 抑郁
+      en: depression
+      examples:
+        - ru: У него́ депре́ссия.
+          zh: 他有抑郁。
+
+- lemma: хоккей
+  stress: хокке́й
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 冰球
+      en: ice hockey
+      examples:
+        - ru: Он игра́ет в хокке́й.
+          zh: 他打冰球。
+  common_errors: |
+    "打某种球"用 игра́ть в + 第四格：игра́ть в футбо́л。
+    弹奏乐器才是 игра́ть на + 第六格：игра́ть на гита́ре。
+
+- lemma: теннис
+  stress: те́ннис
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 网球
+      en: tennis
+      examples:
+        - ru: Мы игра́ем в те́ннис по суббо́там.
+          zh: 我们每周六打网球。
+
+- lemma: баскетбол
+  stress: баскетбо́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 篮球
+      en: basketball
+      examples:
+        - ru: Он лю́бит баскетбо́л.
+          zh: 他喜欢篮球。
+
+- lemma: волейбол
+  stress: волейбо́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 排球
+      en: volleyball
+      examples:
+        - ru: На пля́же игра́ли в волейбо́л.
+          zh: 沙滩上有人在打排球。
+
+- lemma: плавание
+  stress: пла́вание
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 游泳
+      en: swimming
+      examples:
+        - ru: Он занима́ется пла́ванием.
+          zh: 他练游泳。
+
+- lemma: бег
+  stress: бег
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 跑步
+      en: running
+      examples:
+        - ru: У́тренний бег поле́зен.
+          zh: 晨跑有好处。
+
+- lemma: зарядка
+  stress: заря́дка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 早操，健身操
+      en: morning exercises
+      examples:
+        - ru: Он де́лает заря́дку ка́ждое у́тро.
+          zh: 他每天早上做操。
+
+- lemma: тренировка
+  stress: трениро́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 训练
+      en: training session
+      examples:
+        - ru: Трениро́вка начина́ется в шесть.
+          zh: 训练六点开始。
+
+- lemma: матч
+  stress: матч
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 4a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 比赛（一场）
+      en: match
+      examples:
+        - ru: Матч зако́нчился ничье́й.
+          zh: 比赛打平了。
+
+- lemma: гол
+  stress: гол
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 进球
+      en: goal
+      examples:
+        - ru: Он заби́л два го́ла.
+          zh: 他进了两个球。
+
+- lemma: чемпионат
+  stress: чемпиона́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 锦标赛
+      en: championship
+      examples:
+        - ru: Чемпиона́т ми́ра начнётся в ию́не.
+          zh: 世锦赛六月开始。
+
+- lemma: олимпиада
+  stress: олимпиа́да
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 奥运会；学科竞赛
+      en: Olympics; academic olympiad
+      examples:
+        - ru: Он вы́играл олимпиа́ду по фи́зике.
+          zh: 他拿了物理竞赛第一。
+
+- lemma: бассейн
+  stress: бассе́йн
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 游泳池
+      en: swimming pool
+      examples:
+        - ru: Я хожу́ в бассе́йн два ра́за в неде́лю.
+          zh: 我一周去两次游泳池。
+
+- lemma: спортзал
+  stress: спортза́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 健身房，体育馆
+      en: gym
+      examples:
+        - ru: По́сле рабо́ты он идёт в спортза́л.
+          zh: 他下班去健身房。
+
+- lemma: болельщик
+  stress: боле́льщик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 球迷
+      en: fan, supporter
+      examples:
+        - ru: Боле́льщики крича́ли весь матч.
+          zh: 球迷喊了整场。
+
+- lemma: ракетка
+  stress: раке́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 球拍
+      en: racket
+      examples:
+        - ru: Он купи́л но́вую раке́тку.
+          zh: 他买了新球拍。
+
+- lemma: финал
+  stress: фина́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 决赛；结局
+      en: final; ending
+      examples:
+        - ru: Кома́нда вы́шла в фина́л.
+          zh: 球队进了决赛。
+
+- lemma: рекорд
+  stress: реко́рд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 纪录
+      en: record
+      examples:
+        - ru: Он поста́вил но́вый реко́рд.
+          zh: 他创了新纪录。
+
+- lemma: прыжок
+  stress: прыжо́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 跳跃
+      en: jump
+      examples:
+        - ru: Э́то был краси́вый прыжо́к.
+          zh: 这一跳很漂亮。
+
+- lemma: ходьба
+  stress: ходьба́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 步行，竞走
+      en: walking
+      examples:
+        - ru: Ходьба́ поле́зна для здоро́вья.
+          zh: 走路对身体好。
+
+- lemma: секунда
+  stress: секу́нда
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 秒
+      en: second
+      examples:
+        - ru: Подожди́ секу́нду.
+          zh: 等一秒钟。
+
+- lemma: век
+  stress: век
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3c(1)
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 世纪；一辈子
+      en: century; age
+      examples:
+        - ru: Мы живём в двадца́ть пе́рвом ве́ке.
+          zh: 我们生活在二十一世纪。
+
+- lemma: кататься
+  stress: ката́ться
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: на чём
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 乘（滑）着玩，骑（车）
+      en: to ride (for pleasure), to skate
+      collocations: [ката́ться на конька́х, ката́ться на велосипе́де]
+      examples:
+        - ru: Зимо́й мы ката́емся на конька́х.
+          zh: 冬天我们去滑冰。
+  common_errors: |
+    交通工具用 на + 第六格：ката́ться на велосипе́де。
+    ката́ться 强调"以此为乐"，把它当交通手段时用 е́хать на чём。
+
+- lemma: выигрывать
+  stress: выи́грывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: выиграть
+  transitivity: trans
+  government: что / у кого
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 赢，获胜
+      en: to win
+      examples:
+        - ru: На́ша кома́нда ча́сто выи́грывает.
+          zh: 我们队常赢。
+  antonyms: [проигрывать]
+
+- lemma: выиграть
+  stress: вы́играть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: выигрывать
+  transitivity: trans
+  government: что / у кого
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 赢了，获胜
+      en: to win
+      examples:
+        - ru: Мы вы́играли матч.
+          zh: 我们赢了比赛。
+  common_errors: |
+    "赢了某人"用 у + 第二格：вы́играть у ни́х。
+    汉语"赢了他们"的宾语在俄语里是 у кого，不是第四格。
+
+- lemma: проигрывать
+  stress: прои́грывать
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: проиграть
+  transitivity: trans
+  government: что / кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 输
+      en: to lose (a game)
+      examples:
+        - ru: Они́ ре́дко прои́грывают.
+          zh: 他们很少输。
+  antonyms: [выигрывать]
+
+- lemma: проиграть
+  stress: проигра́ть
+  pos: verb
+  zaliznyak: св 1a
+  aspect: perf
+  aspect_pair: проигрывать
+  transitivity: trans
+  government: что / кому
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 输了
+      en: to lose (a game)
+      examples:
+        - ru: Мы проигра́ли со счётом два — три.
+          zh: 我们二比三输了。
+  notes: |
+    "输给某人"用第三格：проигра́ть сопе́рнику。
+
+- lemma: лечиться
+  stress: лечи́ться
+  pos: verb
+  zaliznyak: нсв 4c
+  aspect: impf
+  transitivity: intrans
+  reflexive: true
+  government: у кого / от чего
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 看病，接受治疗
+      en: to undergo treatment
+      examples:
+        - ru: Он ле́чится у хоро́шего врача́.
+          zh: 他在一位好医生那儿看病。
+
+- lemma: извинить
+  stress: извини́ть
+  pos: verb
+  zaliznyak: св 4b
+  aspect: perf
+  aspect_pair: извинять
+  transitivity: trans
+  government: кого за что
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 原谅
+      en: to excuse
+      collocations: [извини́те, пожа́луйста]
+      examples:
+        - ru: Извини́те за беспоко́йство.
+          zh: 打扰您了，不好意思。
+  common_errors: |
+    Извини́те 是最常用的道歉／搭话开场白，比 Прости́те 语气轻。
+    问路、插话一律可以用 Извини́те, …。
+
+- lemma: извинять
+  stress: извиня́ть
+  pos: verb
+  zaliznyak: нсв 1a
+  aspect: impf
+  aspect_pair: извинить
+  transitivity: trans
+  government: кого за что
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 原谅，谅解
+      en: to excuse
+      examples:
+        - ru: Она́ всё ему́ извиня́ет.
+          zh: 她什么都能原谅他。

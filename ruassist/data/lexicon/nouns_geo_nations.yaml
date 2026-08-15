@@ -1,0 +1,609 @@
+# Countries, cities, peoples and languages.
+#
+# Proper nouns earn dictionary entries here because a learner needs to decline
+# them (в Росси́и, из Кита́я, по Москве́) and Russian gives no help from the
+# Chinese transliteration. Nationality nouns and the matching adjective are
+# listed together: кита́ец / кита́йский is one thing to learn, not two.
+
+- lemma: Россия
+  stress: Росси́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 俄罗斯
+      en: Russia
+      examples:
+        - ru: Он живёт в Росси́и.
+          zh: 他住在俄罗斯。
+  notes: |
+    第六格是 в Росси́и（7 型，该用 -е 的地方用 -и），不是 *в Росси́е。
+
+- lemma: Китай
+  stress: Кита́й
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 6a
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 中国
+      en: China
+      examples:
+        - ru: Я прие́хал из Кита́я.
+          zh: 我从中国来。
+
+- lemma: Москва
+  stress: Москва́
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1b
+  number_only: sing
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 莫斯科
+      en: Moscow
+      examples:
+        - ru: Мы е́дем в Москву́.
+          zh: 我们去莫斯科。
+
+- lemma: Петербург
+  stress: Петербу́рг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 彼得堡（圣彼得堡）
+      en: Petersburg
+      examples:
+        - ru: Он у́чится в Петербу́рге.
+          zh: 他在彼得堡上学。
+
+- lemma: Сибирь
+  stress: Сиби́рь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 西伯利亚
+      en: Siberia
+      examples:
+        - ru: В Сиби́ри о́чень хо́лодно зимо́й.
+          zh: 西伯利亚冬天很冷。
+
+- lemma: Европа
+  stress: Евро́па
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 欧洲
+      en: Europe
+      examples:
+        - ru: Он путеше́ствовал по Евро́пе.
+          zh: 他在欧洲各地旅行过。
+
+- lemma: Азия
+  stress: А́зия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 亚洲
+      en: Asia
+      examples:
+        - ru: Кита́й нахо́дится в А́зии.
+          zh: 中国在亚洲。
+
+- lemma: Америка
+  stress: Аме́рика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 美洲；美国（口语）
+      en: America
+      examples:
+        - ru: Он уе́хал в Аме́рику.
+          zh: 他去美国了。
+
+- lemma: Африка
+  stress: А́фрика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 非洲
+      en: Africa
+      examples:
+        - ru: В А́фрике живу́т слоны́.
+          zh: 非洲有大象。
+
+- lemma: Германия
+  stress: Герма́ния
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 德国
+      en: Germany
+      examples:
+        - ru: Она́ рабо́тает в Герма́нии.
+          zh: 她在德国工作。
+
+- lemma: Франция
+  stress: Фра́нция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 法国
+      en: France
+      examples:
+        - ru: Мы бы́ли во Фра́нции.
+          zh: 我们去过法国。
+  notes: |
+    辅音丛前用 во：во Фра́нции，不是 *в Фра́нции。
+
+- lemma: Англия
+  stress: А́нглия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 英国，英格兰
+      en: England
+      examples:
+        - ru: Он верну́лся из А́нглии.
+          zh: 他从英国回来了。
+
+- lemma: Япония
+  stress: Япо́ния
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 日本
+      en: Japan
+      examples:
+        - ru: Он изуча́ет культу́ру Япо́нии.
+          zh: 他研究日本文化。
+
+- lemma: Корея
+  stress: Коре́я
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 6a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 朝鲜，韩国
+      en: Korea
+      examples:
+        - ru: Она́ прие́хала из Коре́и.
+          zh: 她从韩国来。
+
+- lemma: Индия
+  stress: И́ндия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 印度
+      en: India
+      examples:
+        - ru: И́ндия — больша́я страна́.
+          zh: 印度是个大国。
+
+- lemma: Испания
+  stress: Испа́ния
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 西班牙
+      en: Spain
+      examples:
+        - ru: Ле́том мы е́дем в Испа́нию.
+          zh: 夏天我们去西班牙。
+
+- lemma: Италия
+  stress: Ита́лия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 意大利
+      en: Italy
+      examples:
+        - ru: В Ита́лии вку́сная еда́.
+          zh: 意大利吃的好。
+
+- lemma: китаец
+  stress: кита́ец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 中国人（男）
+      en: Chinese man
+      examples:
+        - ru: Он кита́ец из Пеки́на.
+          zh: 他是北京来的中国人。
+  common_errors: |
+    间接格里 е 变成 й：кита́ец → кита́йца、кита́йцы。
+    女性是 китая́нка，不能用 кита́ец 指女性。
+
+- lemma: китаянка
+  stress: китая́нка
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 3*a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 中国人（女）
+      en: Chinese woman
+      examples:
+        - ru: Моя́ сосе́дка — китая́нка.
+          zh: 我邻居是中国人。
+
+- lemma: японец
+  stress: япо́нец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 日本人（男）
+      en: Japanese man
+      examples:
+        - ru: Э́тот япо́нец хорошо́ говори́т по-ру́сски.
+          zh: 这位日本人俄语说得好。
+
+- lemma: американец
+  stress: америка́нец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 美国人（男）
+      en: American man
+      examples:
+        - ru: Он америка́нец, но живёт в Москве́.
+          zh: 他是美国人，但住在莫斯科。
+
+- lemma: немец
+  stress: не́мец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 德国人（男）
+      en: German man
+      examples:
+        - ru: Наш преподава́тель — не́мец.
+          zh: 我们老师是德国人。
+
+- lemma: француз
+  stress: францу́з
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 法国人（男）
+      en: Frenchman
+      examples:
+        - ru: Он францу́з по происхожде́нию.
+          zh: 他祖籍法国。
+
+- lemma: кореец
+  stress: коре́ец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 朝鲜人，韩国人（男）
+      en: Korean man
+      examples:
+        - ru: Мой друг — коре́ец.
+          zh: 我朋友是韩国人。
+
+- lemma: иностранец
+  stress: иностра́нец
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 5*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 外国人
+      en: foreigner
+      examples:
+        - ru: Здесь мно́го иностра́нцев.
+          zh: 这里外国人很多。
+
+- lemma: англичанин
+  stress: англича́нин
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  form_overrides:
+    plur,nomn: англича́не
+    plur,gent: англича́н
+    plur,datv: англича́нам
+    plur,accs: англича́н
+    plur,ablt: англича́нами
+    plur,loct: англича́нах
+  senses:
+    - zh: 英国人（男）
+      en: Englishman
+      examples:
+        - ru: Э́ти англича́не прие́хали вчера́.
+          zh: 这几个英国人昨天到的。
+  notes: |
+    -анин 类名词复数换成 -ане，并且丢掉 -ин：
+    гражда́нин → гра́ждане，англича́нин → англича́не。
+
+- lemma: английский
+  stress: англи́йский
+  pos: adj
+  zaliznyak: п 3a
+  level: [A1, 高考, ТРКИ-1]
+  senses:
+    - zh: 英国的；英语的
+      en: English
+      examples:
+        - ru: Он изуча́ет англи́йский язы́к.
+          zh: 他学英语。
+
+- lemma: французский
+  stress: францу́зский
+  pos: adj
+  zaliznyak: п 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 法国的；法语的
+      en: French
+      examples:
+        - ru: Она́ говори́т по-францу́зски.
+          zh: 她说法语。
+
+- lemma: немецкий
+  stress: неме́цкий
+  pos: adj
+  zaliznyak: п 3a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 德国的；德语的
+      en: German
+      examples:
+        - ru: Э́то неме́цкая маши́на.
+          zh: 这是德国车。
+
+- lemma: испанский
+  stress: испа́нский
+  pos: adj
+  zaliznyak: п 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 西班牙的；西班牙语的
+      en: Spanish
+      examples:
+        - ru: Он у́чит испа́нский.
+          zh: 他在学西班牙语。
+
+- lemma: японский
+  stress: япо́нский
+  pos: adj
+  zaliznyak: п 3a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 日本的；日语的
+      en: Japanese
+      examples:
+        - ru: Э́то япо́нская маши́на.
+          zh: 这是日本车。
+
+- lemma: итальянский
+  stress: италья́нский
+  pos: adj
+  zaliznyak: п 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 意大利的；意大利语的
+      en: Italian
+      examples:
+        - ru: Мы бы́ли в италья́нском рестора́не.
+          zh: 我们去了家意大利餐厅。
+
+- lemma: корейский
+  stress: коре́йский
+  pos: adj
+  zaliznyak: п 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 朝鲜的，韩国的；朝鲜语的
+      en: Korean
+      examples:
+        - ru: Он лю́бит коре́йскую ку́хню.
+          zh: 他喜欢韩国菜。
+
+- lemma: арабский
+  stress: ара́бский
+  pos: adj
+  zaliznyak: п 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 阿拉伯的；阿拉伯语的
+      en: Arabic
+      examples:
+        - ru: Ара́бский язы́к о́чень тру́дный.
+          zh: 阿拉伯语很难。
+
+- lemma: столица
+  stress: столи́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: （某领域的）中心，之都
+      en: capital (figurative)
+      labels: [перен.]
+      examples:
+        - ru: Пари́ж — столи́ца мо́ды.
+          zh: 巴黎是时尚之都。
+  notes: |
+    这一条收转义用法；"首都"的 столи́ца 是另一条词条。
+
+- lemma: континент
+  stress: контине́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 大陆，洲
+      en: continent
+      examples:
+        - ru: На э́том контине́нте жа́рко.
+          zh: 这个洲很热。
+
+- lemma: нация
+  stress: на́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 民族，国族
+      en: nation
+      examples:
+        - ru: Э́то пра́здник всей на́ции.
+          zh: 这是全民族的节日。
+
+- lemma: житель
+  stress: жи́тель
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 2a
+  homonym_id: 2
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 常住者，本地人（对比外来者）
+      en: resident (as opposed to a visitor)
+      examples:
+        - ru: Ски́дка то́лько для жи́телей го́рода.
+          zh: 只有本市居民有折扣。
+  notes: |
+    这一条收"与外来者相对的常住居民"；泛指"居民"的 жи́тель 是另一条词条。
+
+- lemma: посольство
+  stress: посо́льство
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 大使馆
+      en: embassy
+      examples:
+        - ru: Ви́зу де́лают в посо́льстве.
+          zh: 签证在大使馆办。
+
+- lemma: флаг
+  stress: флаг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 旗，国旗
+      en: flag
+      examples:
+        - ru: Над зда́нием ви́сит флаг.
+          zh: 楼上挂着旗子。
+
+- lemma: карта
+  stress: ка́рта
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  homonym_id: 2
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 地图
+      en: map
+      examples:
+        - ru: Посмотри́ на ка́рте.
+          zh: 在地图上看一下。
+  notes: |
+    这一条收"地图"；银行卡、扑克牌的 ка́рта 是另一条词条。
+

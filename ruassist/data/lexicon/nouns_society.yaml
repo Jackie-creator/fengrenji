@@ -360,8 +360,6 @@
   animacy: inan
   zaliznyak: ж 2*a
   level: [A2, 高考, ТРКИ-1]
-  form_overrides:
-    plur,gent: дереве́нь
   senses:
     - zh: 农村，村庄
       en: village, countryside

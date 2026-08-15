@@ -118,7 +118,15 @@ def inflect_noun(entry: LexEntry) -> dict[str, Form]:
                 and index.fleeting
                 and count_vowels(ending) == 0
             ):
-                use_stem = _insert_fleeting(stem)
+                use_stem = _insert_fleeting(
+                    stem,
+                    soft=_is_soft(gender, index) and lemma not in _HARD_FLEETING_VOWEL,
+                )
+                if ending == "ь" and not _keeps_soft_sign(lemma, stem):
+                    # A -ня stem ending in a consonant has no ь in the genitive
+                    # plural: пе́сня -> пе́сен, ба́шня -> ба́шен, тамо́жня ->
+                    # тамо́жен. After a vowel the ь stays (пусты́ня -> пусты́нь).
+                    ending = ""
             elif ending == "ий" and use_stem.endswith("ь"):
                 # здоро́вь- + -ий is written здоро́вий: ь is not kept before и.
                 use_stem = use_stem[:-1]
@@ -245,6 +253,27 @@ def _ending(
     return _NEUT_O_SG.get(case)
 
 
+#: ку́хня takes о where every comparable soft stem takes е (ку́хонь, not
+#: *ку́хень). Zaliznyak lists it as an individual irregularity too.
+_HARD_FLEETING_VOWEL = frozenset({"кухня"})
+
+#: The -ня nouns that keep the soft sign against the rule below. A short,
+#: closed list -- Zaliznyak names them individually too.
+_SOFT_SIGN_EXCEPTIONS = frozenset({"кухня", "деревня", "барышня"})
+
+
+def _keeps_soft_sign(lemma: str, stem: str) -> bool:
+    """Whether a -ня noun writes ь in its zero-ending genitive plural.
+
+    The rule keys on what precedes the н: a consonant drops the ь (пе́сня ->
+    пе́сен), a vowel keeps it (пусты́ня -> пусты́нь, я́блоня -> я́блонь). Only
+    -ня behaves this way; -ля and -ря keep the ь throughout (неде́ль, бурь).
+    """
+    if not lemma.endswith("ня") or lemma in _SOFT_SIGN_EXCEPTIONS:
+        return True
+    return len(stem) < 2 or stem[-2] in "аеёиоуыэюя"
+
+
 def _is_soft(gender: Gender, index: Index) -> bool:
     """Soft stems take я/ю/и endings in the plural rather than а/у/ы."""
     if gender is Gender.MASC:
@@ -308,13 +337,17 @@ def _drop_fleeting(stem: str) -> str:
     -> переу́лка and у́гол -> угла́ keep the л hard.
     """
     for i in range(len(stem) - 1, -1, -1):
-        if stem[i] in "оеё" and i == len(stem) - 2:
+        if stem[i] in "оеёя" and i == len(stem) - 2:
+            if i > 0 and stem[i - 1] in "аеёиоуыэюя":
+                # After a vowel the fleeting е is spelled й rather than
+                # vanishing: кита́ец -> кита́йца, за́яц -> за́йца, бое́ц -> бойца́.
+                return stem[:i] + "й" + stem[i + 1 :]
             soft_l = i > 0 and stem[i - 1] == "л" and stem[i] in "её"
             return stem[:i] + ("ь" if soft_l else "") + stem[i + 1 :]
     return stem
 
 
-def _insert_fleeting(stem: str) -> str:
+def _insert_fleeting(stem: str, *, soft: bool = False) -> str:
     """окн -> окон, ручк -> ручек: a vowel appears in the zero-ending genitive.
 
     A soft sign in that slot is *replaced* by the vowel rather than kept:
@@ -331,8 +364,10 @@ def _insert_fleeting(stem: str) -> str:
         # судьб- -> суде́б, письм- -> пи́сем, лине́йк- -> лине́ек.
         return stem[:-2] + "е" + after
     # е, not о, next to a soft or hushing consonant on either side:
-    # полоте́нце -> полоте́нец, се́рдце -> серде́ц, ру́чка -> ру́чек.
-    vowel = "е" if before in HUSHING_OR_TS or after == "ц" else "о"
+    # полоте́нце -> полоте́нец, се́рдце -> серде́ц, ру́чка -> ру́чек. A soft stem
+    # takes е as well -- пе́сня -> пе́сен, земля́ -> земе́ль -- while the hard
+    # stems around them keep о (доска́ -> досо́к, окно́ -> о́кон).
+    vowel = "е" if soft or before in HUSHING_OR_TS or after == "ц" else "о"
     return stem[:-1] + vowel + after
 
 

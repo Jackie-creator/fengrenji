@@ -519,6 +519,31 @@ def test_inserted_fleeting_vowel_before_ts_is_e():
     assert cells(entry, ("plur", "gent")) == ["полоте́нец"]
 
 
+def test_soft_nya_stem_drops_the_soft_sign_and_takes_e():
+    """пе́сня -> пе́сен: a -ня stem after a consonant loses the ь, and the
+    fleeting vowel is е rather than the о a hard stem would take.
+
+    After a vowel the ь stays (пусты́ня -> пусты́нь), and ку́хня is the listed
+    irregular that keeps both the ь and the о.
+    """
+    песня = noun("песня", "пе́сня", "ж 2*a", "femn")
+    пустыня = noun("пустыня", "пусты́ня", "ж 2a", "femn")
+    кухня = noun("кухня", "ку́хня", "ж 2*a", "femn")
+    доска = noun("доска", "доска́", "ж 3*d", "femn",
+                 form_overrides={"sing,accs": "до́ску"})
+    assert cells(песня, ("plur", "gent")) == ["пе́сен"]
+    assert cells(пустыня, ("plur", "gent")) == ["пусты́нь"]
+    assert cells(кухня, ("plur", "gent")) == ["ку́хонь"]
+    # A hard stem next door is untouched and keeps its о.
+    assert cells(доска, ("plur", "gent")) == ["до́сок"]
+
+
+def test_fleeting_vowel_after_a_vowel_becomes_j():
+    """кита́ец -> кита́йца, за́яц -> за́йца: after a vowel the е is spelled й."""
+    entry = noun("китаец", "кита́ец", "м 5*a", "masc", animacy="anim")
+    assert cells(entry, ("sing", "gent"), ("plur", "nomn")) == ["кита́йца", "кита́йцы"]
+
+
 def test_inserted_fleeting_vowel_replaces_j_like_a_soft_sign():
     """лине́йка -> лине́ек: the й goes, exactly as the ь in письм- -> пи́сем."""
     entry = noun("линейка", "лине́йка", "ж 3*a", "femn")

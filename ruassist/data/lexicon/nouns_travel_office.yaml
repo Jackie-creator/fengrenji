@@ -1,0 +1,1237 @@
+# Travel and paperwork; the office and money.
+#
+# The vocabulary of getting somewhere and of getting something done -- tickets,
+# customs, contracts, invoices. Mostly loanwords with regular paradigms, so the
+# entries stay short and the notes go where Russian and Chinese diverge.
+
+- lemma: вагон
+  stress: ваго́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 车厢
+      en: carriage, coach
+      examples:
+        - ru: Наш ваго́н — восьмо́й.
+          zh: 我们是八号车厢。
+
+- lemma: купе
+  stress: купе́
+  pos: noun
+  gender: neut
+  animacy: inan
+  indeclinable: true
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 包厢，卧铺间
+      en: compartment
+      examples:
+        - ru: В купе́ четы́ре ме́ста.
+          zh: 包厢里有四个铺位。
+
+- lemma: платформа
+  stress: платфо́рма
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 站台
+      en: platform
+      examples:
+        - ru: По́езд прибыва́ет на вто́рую платфо́рму.
+          zh: 火车到二站台。
+
+- lemma: посадка
+  stress: поса́дка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 登机（车）；降落
+      en: boarding; landing
+      examples:
+        - ru: Поса́дка начина́ется че́рез час.
+          zh: 一小时后开始登机。
+
+- lemma: взлёт
+  stress: взлёт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 起飞
+      en: take-off
+      examples:
+        - ru: Взлёт задержа́ли на час.
+          zh: 起飞推迟了一小时。
+
+- lemma: стюардесса
+  stress: стюарде́сса
+  pos: noun
+  gender: femn
+  animacy: anim
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 空姐
+      en: stewardess
+      examples:
+        - ru: Стюарде́сса принесла́ во́ду.
+          zh: 空姐送来了水。
+
+- lemma: бронь
+  stress: бронь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 预订
+      en: reservation, booking
+      examples:
+        - ru: У меня́ есть бронь на две но́чи.
+          zh: 我订了两晚。
+
+- lemma: администратор
+  stress: администра́тор
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 前台，管理员
+      en: receptionist, administrator
+      examples:
+        - ru: Спроси́те у администра́тора.
+          zh: 问一下前台。
+
+- lemma: таможня
+  stress: тамо́жня
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 2*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 海关
+      en: customs
+      examples:
+        - ru: Мы прошли́ тамо́жню бы́стро.
+          zh: 我们过海关很快。
+
+- lemma: декларация
+  stress: деклара́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 申报单
+      en: declaration form
+      examples:
+        - ru: Запо́лните деклара́цию.
+          zh: 请填写申报单。
+
+- lemma: экскурсия
+  stress: экску́рсия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 参观，游览
+      en: excursion, guided tour
+      examples:
+        - ru: Мы пое́хали на экску́рсию.
+          zh: 我们去参观了。
+
+- lemma: гид
+  stress: гид
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 导游
+      en: guide
+      examples:
+        - ru: Гид расска́зывал об исто́рии го́рода.
+          zh: 导游讲了城市的历史。
+
+- lemma: тур
+  stress: тур
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 旅游团；一轮
+      en: tour; round
+      examples:
+        - ru: Они́ купи́ли тур в Ита́лию.
+          zh: 他们买了意大利的旅游团。
+
+- lemma: отель
+  stress: оте́ль
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 酒店
+      en: hotel
+      examples:
+        - ru: Оте́ль нахо́дится в це́нтре.
+          zh: 酒店在市中心。
+  synonyms: [гостиница]
+
+- lemma: пересадка
+  stress: переса́дка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 换乘；转机
+      en: change (of transport), transfer
+      examples:
+        - ru: Ну́жно де́лать переса́дку в Москве́.
+          zh: 得在莫斯科转车。
+
+- lemma: путеводитель
+  stress: путеводи́тель
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 旅游指南
+      en: guidebook
+      examples:
+        - ru: Он купи́л путеводи́тель по го́роду.
+          zh: 他买了本本市旅游指南。
+
+- lemma: палатка
+  stress: пала́тка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 帐篷
+      en: tent
+      examples:
+        - ru: Мы ночева́ли в пала́тке.
+          zh: 我们在帐篷里过的夜。
+
+- lemma: поход
+  stress: похо́д
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 徒步旅行，远足
+      en: hike, trek
+      examples:
+        - ru: Ле́том мы идём в похо́д.
+          zh: 夏天我们去徒步。
+
+- lemma: талон
+  stress: тало́н
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 票券，号码条
+      en: coupon, ticket slip
+      examples:
+        - ru: Возьми́те тало́н в о́чередь.
+          zh: 取个排队号。
+
+- lemma: квитанция
+  stress: квита́нция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 收据
+      en: receipt
+      examples:
+        - ru: Сохрани́те квита́нцию.
+          zh: 请把收据留好。
+
+- lemma: чек
+  stress: чек
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 小票，收银条
+      en: till receipt
+      examples:
+        - ru: Вам чек ну́жен?
+          zh: 您要小票吗？
+
+- lemma: сдача
+  stress: сда́ча
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  number_only: sing
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 找的零钱
+      en: change (money)
+      examples:
+        - ru: Возьми́те сда́чу.
+          zh: 请拿好找零。
+
+- lemma: банкомат
+  stress: банкома́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 取款机
+      en: cash machine, ATM
+      examples:
+        - ru: Где здесь банкома́т?
+          zh: 这附近哪儿有取款机？
+
+- lemma: вклад
+  stress: вклад
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 存款；贡献
+      en: deposit; contribution
+      examples:
+        - ru: Он внёс большо́й вклад в нау́ку.
+          zh: 他对科学贡献很大。
+
+- lemma: ипотека
+  stress: ипоте́ка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 房贷
+      en: mortgage
+      examples:
+        - ru: Они́ взя́ли ипоте́ку на два́дцать лет.
+          zh: 他们贷了二十年房贷。
+
+- lemma: аренда
+  stress: аре́нда
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 租赁
+      en: rent, lease
+      examples:
+        - ru: Аре́нда сто́ит два́дцать ты́сяч.
+          zh: 租金两万。
+
+- lemma: долг
+  stress: долг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3c
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 债；责任
+      en: debt; duty
+      examples:
+        - ru: Он верну́л все долги́.
+          zh: 他把债都还了。
+
+- lemma: убыток
+  stress: убы́ток
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 亏损
+      en: loss
+      examples:
+        - ru: Фи́рма рабо́тает в убы́ток.
+          zh: 公司在亏本经营。
+  antonyms: [прибыль]
+
+- lemma: кризис
+  stress: кри́зис
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 危机
+      en: crisis
+      examples:
+        - ru: Э́то был экономи́ческий кри́зис.
+          zh: 那是场经济危机。
+
+- lemma: инфляция
+  stress: инфля́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 通货膨胀
+      en: inflation
+      examples:
+        - ru: Инфля́ция вы́росла.
+          zh: 通胀上去了。
+
+- lemma: акция
+  stress: а́кция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 股票；促销活动
+      en: share; promotion
+      examples:
+        - ru: В магази́не сейча́с а́кция.
+          zh: 商店现在在搞活动。
+
+- lemma: отчёт
+  stress: отчёт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 报表，汇报
+      en: report
+      examples:
+        - ru: Я сдал отчёт во́время.
+          zh: 我按时交了报告。
+
+- lemma: презентация
+  stress: презента́ция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 演示，发布会
+      en: presentation
+      examples:
+        - ru: За́втра у нас презента́ция.
+          zh: 我们明天有个演示。
+
+- lemma: контракт
+  stress: контра́кт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 合同
+      en: contract
+      examples:
+        - ru: Контра́кт де́йствует год.
+          zh: 合同有效期一年。
+  synonyms: [договор]
+
+- lemma: партнёр
+  stress: партнёр
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 合作伙伴
+      en: partner
+      examples:
+        - ru: Э́то наш ста́рый партнёр.
+          zh: 这是我们的老伙伴。
+
+- lemma: поставщик
+  stress: поставщи́к
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 供应商
+      en: supplier
+      examples:
+        - ru: Мы смени́ли поставщика́.
+          zh: 我们换了供应商。
+
+- lemma: заказчик
+  stress: зака́зчик
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 订货方，甲方
+      en: customer, client (commissioning)
+      examples:
+        - ru: Зака́зчик утверди́л прое́кт.
+          zh: 甲方批了这个方案。
+
+- lemma: бюджет
+  stress: бюдже́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 预算
+      en: budget
+      examples:
+        - ru: Бюдже́т ограни́чен.
+          zh: 预算有限。
+
+- lemma: спрос
+  stress: спрос
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 需求
+      en: demand
+      government: на что
+      examples:
+        - ru: На э́тот това́р большо́й спрос.
+          zh: 这商品需求量大。
+
+- lemma: конкуренция
+  stress: конкуре́нция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 竞争
+      en: competition (market)
+      examples:
+        - ru: Здесь высо́кая конкуре́нция.
+          zh: 这行竞争激烈。
+
+- lemma: конкурент
+  stress: конкуре́нт
+  pos: noun
+  gender: masc
+  animacy: anim
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 竞争对手
+      en: competitor
+      examples:
+        - ru: У нас си́льные конкуре́нты.
+          zh: 我们的对手很强。
+
+- lemma: бренд
+  stress: бренд
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 品牌
+      en: brand
+      examples:
+        - ru: Э́то изве́стный бренд.
+          zh: 这是个知名品牌。
+
+- lemma: стратегия
+  stress: страте́гия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 战略
+      en: strategy
+      examples:
+        - ru: Нам нужна́ но́вая страте́гия.
+          zh: 我们需要新战略。
+
+- lemma: показатель
+  stress: показа́тель
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 指标
+      en: indicator, figure
+      examples:
+        - ru: Показа́тели улу́чшились.
+          zh: 指标好转了。
+
+- lemma: статистика
+  stress: стати́стика
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3a
+  number_only: sing
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 统计（数据）
+      en: statistics
+      examples:
+        - ru: Стати́стика говори́т об обра́тном.
+          zh: 数据说的正相反。
+
+- lemma: таблица
+  stress: табли́ца
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 5a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 表格
+      en: table (of data)
+      examples:
+        - ru: Да́нные в табли́це.
+          zh: 数据在表里。
+
+- lemma: график
+  stress: гра́фик
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 图表；日程表
+      en: graph; schedule
+      examples:
+        - ru: У меня́ пло́тный гра́фик.
+          zh: 我日程很满。
+
+- lemma: список
+  stress: спи́сок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 名单，清单
+      en: list
+      examples:
+        - ru: Он в спи́ске уча́стников.
+          zh: 他在参加者名单里。
+
+- lemma: пункт
+  stress: пункт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 条款，项；站点
+      en: item, point; station
+      examples:
+        - ru: Прочита́йте пе́рвый пункт.
+          zh: 请看第一条。
+
+- lemma: абзац
+  stress: абза́ц
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 段落
+      en: paragraph
+      examples:
+        - ru: Прочита́йте второ́й абза́ц.
+          zh: 请读第二段。
+
+- lemma: заголовок
+  stress: заголо́вок
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 标题
+      en: headline, title
+      examples:
+        - ru: Заголо́вок сли́шком дли́нный.
+          zh: 标题太长了。
+
+- lemma: черновик
+  stress: чернови́к
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 草稿
+      en: draft
+      examples:
+        - ru: Э́то то́лько чернови́к.
+          zh: 这只是草稿。
+
+- lemma: копия
+  stress: ко́пия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 副本，复印件
+      en: copy
+      examples:
+        - ru: Сде́лайте ко́пию па́спорта.
+          zh: 请复印一份护照。
+
+- lemma: оригинал
+  stress: оригина́л
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 原件，原作
+      en: original
+      examples:
+        - ru: Принеси́те оригина́л докуме́нта.
+          zh: 请带原件来。
+
+- lemma: образец
+  stress: образе́ц
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 5*b
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 样品，范例
+      en: sample, model
+      examples:
+        - ru: Запо́лните по образцу́.
+          zh: 照样本填写。
+
+- lemma: вариант
+  stress: вариа́нт
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 方案，选项
+      en: option, variant
+      examples:
+        - ru: Есть друго́й вариа́нт?
+          zh: 还有别的方案吗？
+
+- lemma: версия
+  stress: ве́рсия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 版本；说法
+      en: version
+      examples:
+        - ru: Э́то но́вая ве́рсия програ́ммы.
+          zh: 这是程序的新版本。
+
+- lemma: уборка
+  stress: убо́рка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-1]
+  senses:
+    - zh: 打扫
+      en: cleaning, tidying
+      examples:
+        - ru: По суббо́там у нас убо́рка.
+          zh: 我们周六大扫除。
+
+- lemma: стирка
+  stress: сти́рка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 洗衣
+      en: laundry (the washing)
+      examples:
+        - ru: Сти́рка займёт час.
+          zh: 洗衣服要一小时。
+
+- lemma: продажа
+  stress: прода́жа
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 4a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 出售，销售
+      en: sale
+      examples:
+        - ru: Кварти́ра в прода́же.
+          zh: 房子在售。
+
+- lemma: доставка
+  stress: доста́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B1, ТРКИ-2]
+  senses:
+    - zh: 配送
+      en: delivery
+      examples:
+        - ru: Доста́вка беспла́тная.
+          zh: 免费配送。
+
+- lemma: возврат
+  stress: возвра́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 退货，退还
+      en: return, refund
+      examples:
+        - ru: Возвра́т това́ра в тече́ние неде́ли.
+          zh: 一周内可以退货。
+
+- lemma: гарантия
+  stress: гара́нтия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保修，保证
+      en: guarantee, warranty
+      examples:
+        - ru: На телефо́н год гара́нтии.
+          zh: 手机保修一年。
+
+- lemma: жалоба
+  stress: жа́лоба
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 投诉，抱怨
+      en: complaint
+      examples:
+        - ru: Он написа́л жа́лобу.
+          zh: 他写了投诉。
+
+- lemma: отзыв
+  stress: о́тзыв
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 评价，评论
+      en: review, feedback
+      examples:
+        - ru: У рестора́на хоро́шие о́тзывы.
+          zh: 这家餐厅评价不错。
+
+- lemma: рейтинг
+  stress: рейти́нг
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 排名，评分
+      en: rating
+      examples:
+        - ru: У фи́льма высо́кий рейти́нг.
+          zh: 这部电影评分很高。
+
+- lemma: опрос
+  stress: опро́с
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 问卷调查
+      en: survey, poll
+      examples:
+        - ru: Мы провели́ опро́с.
+          zh: 我们做了个调查。
+
+- lemma: голосование
+  stress: голосова́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 投票
+      en: voting
+      examples:
+        - ru: Голосова́ние зако́нчилось.
+          zh: 投票结束了。
+
+- lemma: перерыв
+  stress: переры́в
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [A2, 高考, ТРКИ-1]
+  senses:
+    - zh: 休息时间，中场
+      en: break, interval
+      examples:
+        - ru: Обе́денный переры́в с ча́су до двух.
+          zh: 午休一点到两点。
+
+- lemma: смена
+  stress: сме́на
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 班次；更替
+      en: shift; change
+      examples:
+        - ru: Он рабо́тает в ночну́ю сме́ну.
+          zh: 他上夜班。
+
+- lemma: пенсия
+  stress: пе́нсия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 退休金；退休
+      en: pension
+      examples:
+        - ru: Он вы́шел на пе́нсию.
+          zh: 他退休了。
+  notes: |
+    "退休"是 вы́йти на пе́нсию，"已退休"是 быть на пе́нсии。
+
+- lemma: пособие
+  stress: посо́бие
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 补助金；教材
+      en: benefit, allowance; textbook
+      examples:
+        - ru: Она́ получа́ет посо́бие на ребёнка.
+          zh: 她领育儿补贴。
+
+- lemma: страховка
+  stress: страхо́вка
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 3*a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 保险
+      en: insurance
+      examples:
+        - ru: Ну́жно оформи́ть страхо́вку.
+          zh: 得办个保险。
+
+- lemma: зрение
+  stress: зре́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 视力
+      en: eyesight
+      collocations: [то́чка зре́ния]
+      examples:
+        - ru: У него́ плохо́е зре́ние.
+          zh: 他视力不好。
+  notes: |
+    то́чка зре́ния = 观点，是写作里的高频固定组合。
+
+- lemma: ощущение
+  stress: ощуще́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 感觉，觉察
+      en: sensation, feeling
+      examples:
+        - ru: У меня́ стра́нное ощуще́ние.
+          zh: 我有种奇怪的感觉。
+
+- lemma: впечатление
+  stress: впечатле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 印象
+      en: impression
+      collocations: [производи́ть впечатле́ние]
+      examples:
+        - ru: Он произвёл хоро́шее впечатле́ние.
+          zh: 他给人印象不错。
+
+- lemma: представление
+  stress: представле́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 概念，了解
+      en: idea, notion
+      examples:
+        - ru: Я не име́ю представле́ния об э́том.
+          zh: 我对这个一无所知。
+    - zh: 演出
+      en: performance
+      examples:
+        - ru: Представле́ние начина́ется в семь.
+          zh: 演出七点开始。
+
+- lemma: рассвет
+  stress: рассве́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 黎明
+      en: dawn
+      examples:
+        - ru: Мы вы́ехали на рассве́те.
+          zh: 我们黎明出发的。
+  antonyms: [закат]
+
+- lemma: закат
+  stress: зака́т
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 日落
+      en: sunset
+      examples:
+        - ru: Мы смотре́ли на зака́т.
+          zh: 我们看了日落。
+  antonyms: [рассвет]
+
+- lemma: полдень
+  stress: по́лдень
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 2*a
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 正午
+      en: midday, noon
+      examples:
+        - ru: Встре́тимся в по́лдень.
+          zh: 我们中午见。
+  antonyms: [полночь]
+
+- lemma: полночь
+  stress: по́лночь
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 8e
+  number_only: sing
+  level: [B2, ТРКИ-2]
+  senses:
+    - zh: 午夜
+      en: midnight
+      examples:
+        - ru: Он верну́лся по́сле по́лночи.
+          zh: 他半夜之后才回来。
+  antonyms: [полдень]
+
+- lemma: совпадение
+  stress: совпаде́ние
+  pos: noun
+  gender: neut
+  animacy: inan
+  zaliznyak: с 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 巧合
+      en: coincidence
+      examples:
+        - ru: Э́то просто́е совпаде́ние.
+          zh: 这只是个巧合。
+
+- lemma: тенденция
+  stress: тенде́нция
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 趋势
+      en: trend, tendency
+      examples:
+        - ru: Наблюда́ется положи́тельная тенде́нция.
+          zh: 看得出是向好的趋势。
+
+- lemma: спад
+  stress: спад
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 1a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 下降，衰退
+      en: decline, downturn
+      examples:
+        - ru: В экономи́ке спад.
+          zh: 经济在下行。
+
+- lemma: счётчик
+  stress: счётчик
+  pos: noun
+  gender: masc
+  animacy: inan
+  zaliznyak: м 3a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 计量表
+      en: meter
+      examples:
+        - ru: Ну́жно переда́ть показа́ния счётчика.
+          zh: 得报一下水电表读数。
+
+- lemma: комиссия
+  stress: коми́ссия
+  pos: noun
+  gender: femn
+  animacy: inan
+  zaliznyak: ж 7a
+  level: [B2, ТРКИ-3]
+  senses:
+    - zh: 手续费；委员会
+      en: commission (fee, board)
+      examples:
+        - ru: Банк берёт коми́ссию.
+          zh: 银行要收手续费。

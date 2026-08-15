@@ -382,8 +382,6 @@
   animacy: inan
   zaliznyak: ж 2*a
   level: [A1, 高考, ТРКИ-1]
-  form_overrides:
-    plur,gent: пе́сен
   senses:
     - zh: 歌，歌曲
       en: song
