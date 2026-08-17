@@ -6,12 +6,28 @@ import { Review, buildQuestion } from "./components/Review";
 import { WordBooks } from "./components/WordBooks";
 import { Dictionary, loadBundle, type Bundle, type Result } from "./dictionary";
 import { dueCards, newCard, schedule, stats, type Card, type Grade } from "./srs";
-import { loadCards, loadSettings, saveCards, saveSettings } from "./storage";
+import {
+  loadCards, loadSettings, saveCards, saveSettings,
+  loadHistory, pushHistory, clearHistory, type HistoryItem,
+} from "./storage";
+import { forDisplay } from "./stress";
 import { isLatin, toCyrillic } from "./translit";
 
 const BUNDLE_URL = "./dictionary.json";
 
 type Tab = "search" | "notebook" | "books";
+
+function timeAgo(ts: number): string {
+  const diff = Date.now() - ts;
+  const min = Math.floor(diff / 60000);
+  if (min < 1) return "刚刚";
+  if (min < 60) return `${min}分钟前`;
+  const hr = Math.floor(min / 60);
+  if (hr < 24) return `${hr}小时前`;
+  const day = Math.floor(hr / 24);
+  if (day < 7) return `${day}天前`;
+  return new Date(ts).toLocaleDateString("zh-CN");
+}
 
 export function App() {
   const [bundle, setBundle] = useState<Bundle | null>(null);
@@ -22,7 +38,10 @@ export function App() {
   const [cards, setCards] = useState<Card[]>(() => loadCards());
   const [settings, setSettings] = useState(() => loadSettings());
   const [session, setSession] = useState<number[] | null>(null);
+  const [history, setHistory] = useState<HistoryItem[]>(() => loadHistory());
+  const [showAllHistory, setShowAllHistory] = useState(false);
   const input = useRef<HTMLInputElement>(null);
+  const lastRecorded = useRef<number | null>(null);
 
   useEffect(() => {
     loadBundle(BUNDLE_URL).then(setBundle).catch((e) => setError(String(e)));
@@ -41,6 +60,22 @@ export function App() {
 
   const inNotebook = useMemo(() => new Set(cards.map((c) => c.entryId)), [cards]);
   const due = useMemo(() => stats(cards).due, [cards]);
+
+  useEffect(() => {
+    if (results.length > 0 && results[0].kind === "exact") {
+      const entry = results[0].entry;
+      if (entry.i !== lastRecorded.current) {
+        lastRecorded.current = entry.i;
+        pushHistory({
+          entryId: entry.i,
+          lemma: entry.l,
+          stress: entry.s,
+          gloss: entry.sen[0]?.zh ?? "",
+        });
+        setHistory(loadHistory());
+      }
+    }
+  }, [results]);
 
   const navigate = useCallback((lemma: string) => {
     setTab("search");
@@ -168,15 +203,48 @@ export function App() {
           )}
 
           {!query.trim() && (
-            <div className="empty">
-              <p>词库 {bundle.stats.entries} 条词条 · {bundle.stats.forms} 个词形 · 完全离线</p>
-              <p className="muted">
-                可以直接输入任意变格变位形式：
-                {["стали", "руку", "шёл", "людей", "городах"].map((w) => (
-                  <button key={w} type="button" className="link" onClick={() => navigate(w)}>{w}</button>
-                ))}
-              </p>
-            </div>
+            <>
+              {history.length > 0 && (
+                <div className="recent">
+                  <div className="row-between">
+                    <h3 className="recent-title">最近查询</h3>
+                    <div className="recent-actions">
+                      {history.length > 5 && (
+                        <button type="button" className="small" onClick={() => setShowAllHistory(!showAllHistory)}>
+                          {showAllHistory ? "收起" : `全部 ${history.length} 条`}
+                        </button>
+                      )}
+                      <button type="button" className="small" onClick={() => { clearHistory(); setHistory([]); setShowAllHistory(false); }}>
+                        清空
+                      </button>
+                    </div>
+                  </div>
+                  <div className="recent-list">
+                    {(showAllHistory ? history : history.slice(0, 5)).map((h) => (
+                      <button
+                        key={h.entryId}
+                        type="button"
+                        className="recent-item"
+                        onClick={() => navigate(h.lemma)}
+                      >
+                        <span className="recent-word">{forDisplay(h.stress, showStress)}</span>
+                        <span className="recent-gloss">{h.gloss}</span>
+                        <span className="recent-time">{timeAgo(h.ts)}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <div className="empty">
+                <p>词库 {bundle.stats.entries} 条词条 · {bundle.stats.forms} 个词形 · 完全离线</p>
+                <p className="muted">
+                  可以直接输入任意变格变位形式：
+                  {["стали", "руку", "шёл", "людей", "городах"].map((w) => (
+                    <button key={w} type="button" className="link" onClick={() => navigate(w)}>{w}</button>
+                  ))}
+                </p>
+              </div>
+            </>
           )}
 
           {query.trim() && results.length === 0 && <p className="empty">没有找到「{query}」。</p>}

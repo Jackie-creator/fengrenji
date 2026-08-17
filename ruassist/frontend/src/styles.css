@@ -234,3 +234,20 @@ button.wide { width: 100%; }
 }
 .speak:hover { opacity: 1; border: none; }
 .entry header .speak { font-size: 18px; }
+
+/* --- recent queries --------------------------------------------------- */
+.recent { margin-top: 16px; }
+.recent-title { font-size: 14px; color: var(--muted); margin: 0; font-weight: 500; }
+.recent-actions { display: flex; gap: 6px; }
+.recent-list { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+.recent-item {
+  display: flex; align-items: center; gap: 10px;
+  width: 100%; text-align: left;
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 14px;
+}
+.recent-item:hover { border-color: var(--accent); }
+.recent-item:active { background: var(--panel-2); }
+.recent-word { color: var(--ru); font-size: 17px; font-weight: 500; min-width: 80px; }
+.recent-gloss { flex: 1; color: var(--muted); font-size: 14px; }
+.recent-time { font-size: 12px; color: var(--muted); white-space: nowrap; opacity: .6; }

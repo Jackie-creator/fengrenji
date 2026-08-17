@@ -14,6 +14,8 @@ import type { Card } from "./srs";
 
 const KEY = "ruassist.notebook.v1";
 const SETTINGS_KEY = "ruassist.settings.v1";
+const HISTORY_KEY = "ruassist.history.v1";
+const MAX_HISTORY = 20;
 
 export interface Settings {
   showStress: boolean;
@@ -68,6 +70,56 @@ function isCard(value: unknown): value is Card {
     typeof c.ease === "number" &&
     typeof c.interval === "number" &&
     typeof c.due === "number"
+  );
+}
+
+export interface HistoryItem {
+  entryId: number;
+  lemma: string;
+  stress: string;
+  gloss: string;
+  ts: number;
+}
+
+export function loadHistory(): HistoryItem[] {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter(isHistoryItem);
+  } catch {
+    return [];
+  }
+}
+
+export function pushHistory(item: Omit<HistoryItem, "ts">): void {
+  try {
+    const list = loadHistory().filter((h) => h.entryId !== item.entryId);
+    list.unshift({ ...item, ts: Date.now() });
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(list.slice(0, MAX_HISTORY)));
+  } catch {
+    /* ignore */
+  }
+}
+
+export function clearHistory(): void {
+  try {
+    localStorage.removeItem(HISTORY_KEY);
+  } catch {
+    /* ignore */
+  }
+}
+
+function isHistoryItem(v: unknown): v is HistoryItem {
+  if (typeof v !== "object" || v === null) return false;
+  const h = v as Partial<HistoryItem>;
+  return (
+    typeof h.entryId === "number" &&
+    typeof h.lemma === "string" &&
+    typeof h.stress === "string" &&
+    typeof h.gloss === "string" &&
+    typeof h.ts === "number"
   );
 }
 
